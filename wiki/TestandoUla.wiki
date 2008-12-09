@@ -1,8 +1,3 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-
 Pessoas,
 
 Esse é o arquivo de saída para o código que está em testeUla.java. Eu havia feito alguns testes individuais antes, e todos estavam OK. Resolvi então gerar uma quantidade razoável de casos de teste pra ela, e conferir quantos fossem possíveis.
@@ -23,9 +18,3 @@ Preciso de ajuda para conferência: Ver se os sinais bate com a operação (acho
 Espero um retorno de vcs, estou conferindo de baixo pra cima.
 
 Abraço, xico.
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
