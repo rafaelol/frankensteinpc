@@ -1,12 +1,21 @@
+= Introduction =
+O que vcs pracisam saber sobre o arquivo testeUla.txt
+
+= Details =
 Pessoas,
 
-Esse é o arquivo de saída para o código que está em testeUla.java. Eu havia feito alguns testes individuais antes, e todos estavam OK. Resolvi então gerar uma quantidade razoável de casos de teste pra ela, e conferir quantos fossem possíveis.
+Eu havia feito alguns testes individuais antes, e todos estavam OK. Resolvi então gerar uma quantidade razoável de casos de teste pra ela, e conferir quantos fossem possíveis.
 
 A estrutura é a seguinte:
+
    - Nome da operação
+
    - representação binária para s (para conferir a paridade)
+
    - a, b (operandos) e s (saída).
+
    - Flags
+
    - Sinais de controle.
 
 Lembrando que os comandos da ula neg e not não mostram a representação binária pq não alteram flags da ula.
