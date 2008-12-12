@@ -27,7 +27,7 @@ public class Multiplex5E {
 	/** Recebe valores de PC */
 	public short e;
 	/** Saida */
-	public short s;
+	public static short s;
 	
 	/** Sinais de controle */
 	public Bit[] sinais = new Bit[QTD_SINAIS];
@@ -64,7 +64,7 @@ public class Multiplex5E {
 	 * 
 	 * @param v Vetor de short com uma configuração válida para os sinais de controle.
 	 */
-	public void setSinal(short[] v) {
+	public void setSinais(short[] v) {
 		this.sinais[O].setValor(v[O]);
 		this.sinais[P].setValor(v[P]);
 		this.sinais[Q].setValor(v[Q]);
@@ -160,30 +160,20 @@ public class Multiplex5E {
 		this.e = e;
 	}
 
-	/**********************************
-	 * Getter para o atributo 's'.
-	 * 
-	 * @return Valor de 's'.
-	 */
-	public short getS() {
-		return s;
-	}
-
-	/**********************************
-	 * Setter para o atributo 's'.
-	 * 
-	 * @param a Valor que será atribuido a 's'. 
-	 */
-	public void setS(short s) {
-		this.s = s;
-	} 
-
+	
 	/**************** Funções do Multiplex ****************
 	 ******************************************************
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera(){
+	public void opera(short[] v) {
+		this.a = Registrador.r2;
+		this.b = Registrador.r3;
+		this.c = Registrador.r4;
+		this.d = Registrador.ry;
+		this.e = Registrador.pc;
+		this.setSinais(v);
+		
 		if (compara(PASSAR2)) s = a;
 		if (compara(PASSAR3)) s = b;
 		if (compara(PASSAR4)) s = c;

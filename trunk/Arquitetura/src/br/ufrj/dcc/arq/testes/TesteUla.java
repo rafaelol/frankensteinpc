@@ -22,68 +22,55 @@ public class TesteUla {
 			ula.setB(y);
 			
 			System.out.println("ADD\n");
-			ula.setSinais(Ula.ADD);
-			ula.opera();
+			ula.opera(Ula.ADD);
 			ula.imprimeUla();
 	
 			System.out.println("SUBAB\n");
-			ula.setSinais(Ula.SUBAB);
-			ula.opera();
+			ula.opera(Ula.SUBAB);
 			ula.imprimeUla();
 	
 			System.out.println("SUBBA\n");
-			ula.setSinais(Ula.SUBBA);
-			ula.opera();
+			ula.opera(Ula.SUBBA);
 			ula.imprimeUla();
 	
 			System.out.println("NOTA\n");
-			ula.setSinais(Ula.NOTA);
-			ula.opera();
+			ula.opera(Ula.NOTA);
 			ula.imprimeUla();
 	
 			System.out.println("NOTB\n");
-			ula.setSinais(Ula.NOTB);
-			ula.opera();
+			ula.opera(Ula.NOTB);
 			ula.imprimeUla();
 	
 			System.out.println("NEGA\n");
-			ula.setSinais(Ula.NEGA);
-			ula.opera();
+			ula.opera(Ula.NEGA);
 			ula.imprimeUla();
 	
 			System.out.println("NEGB\n");
-			ula.setSinais(Ula.NEGB);
-			ula.opera();
+			ula.opera(Ula.NEGB);
 			ula.imprimeUla();
 	
 			System.out.println("SHLA\n");
-			ula.setSinais(Ula.SHLA);
-			ula.opera();
+			ula.opera(Ula.SHLA);
 			ula.imprimeUla();
 	
 			System.out.println("SHLB\n");
-			ula.setSinais(Ula.SHLB);
-			ula.opera();
+			ula.opera(Ula.SHLB);
 			ula.imprimeUla();
 	
 			System.out.println("SHRA\n");
-			ula.setSinais(Ula.SHRA);
-			ula.opera();
+			ula.opera(Ula.SHRA);
 			ula.imprimeUla();
 	
 			System.out.println("SHRB\n");
-			ula.setSinais(Ula.SHRB);
-			ula.opera();
+			ula.opera(Ula.SHRB);
 			ula.imprimeUla();
 	
 			System.out.println("AND\n");
-			ula.setSinais(Ula.AND);
-			ula.opera();
+			ula.opera(Ula.AND);
 			ula.imprimeUla();
 	
 			System.out.println("OR\n");		
-			ula.setSinais(Ula.OR);
-			ula.opera();
+			ula.opera(Ula.OR);
 			ula.imprimeUla();
 		}
 

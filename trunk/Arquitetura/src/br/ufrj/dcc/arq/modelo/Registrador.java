@@ -1,16 +1,24 @@
 package br.ufrj.dcc.arq.modelo;
 
 public class Registrador {
-	
-	public static final int PALAVRA_DADOS = 16;
+	public static short r0;
+	public static short r1;
+	public static short r2;
+	public static short r3;
+	public static short r4;
+	public static short rx;
+	public static short ry;
+	public static short pc;
+	public static short rdados;
+	public static short rend;
+	public static short renduc;
+	public static short ri;
 
 	private int id;
-	private short dado;
 	private Bit sinal;
 	
 	public Registrador(int c) {
 		this.id = c;
-		this.dado = 0;
 		this.sinal = new Bit((short)0);
 	}
 	
@@ -28,14 +36,6 @@ public class Registrador {
 	
 	public void setId(int id) {
 		this.id = id;
-	}
-	
-	public short getDado() {
-		return this.dado;
-	}
-	
-	public void setDado(short dado) {
-		this.dado = dado;
 	}
 			
 }

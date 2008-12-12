@@ -24,7 +24,7 @@ public class Multiplex2E {
 	/** Recebe valores da saída da ULA. */ 
 	public short b;
 	/** Saída. */
-	public short s;
+	public static short s;
 	
 	/** Sinais de controle */
 	public Bit[] sinal = new Bit[QTD_SINAIS];
@@ -98,31 +98,17 @@ public class Multiplex2E {
 		this.b = b;
 	}
 
-	/**********************************
-	 * Getter para o atributo 's'.
-	 * 
-	 * @return Valor de 's'.
-	 */
-	public short getS() {
-		return s;
-	}
-
-	/**********************************
-	 * Setter para o atributo 's'
-	 * 
-	 * @param a Valor que será atribuido a 's' 
-	 */
-	public void setS(short s) {
-		this.s = s;
-	} 
-
 	
 	/**************** Funções do Multiplex ****************
 	 ******************************************************
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera(){
+	public void opera(short[] v){
+		a = Memoria.dadoLido;
+		b = Ula.s;
+		this.setSinal(v);
+		
 		if (sinal[L].getValor() == 0) s = a;
 		else s = b;
 	}

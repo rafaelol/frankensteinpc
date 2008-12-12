@@ -5,9 +5,12 @@ public class Memoria {
 	public static final int LEIT = 0;
 	public static final int ESC  = 0;
 	
+	public static short dadoLido;
+	
 	private short mem[];
 	private int id;
 	private Bit sinal;
+	
 	
 	public Memoria() {
 		mem = new short[TAM_MEM];
