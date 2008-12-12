@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Instrucao {
 	
 	private int id;
-	private MicroInstrucao[] cabecalho; /* Será definido estaticamente aqui*/
-	private ArrayList<MicroInstrucao> microInstrucoes;
+	private MicroInstrucoes[] cabecalho; /* Será definido estaticamente aqui*/
+	private ArrayList<MicroInstrucoes> microInstrucoes;
 	
 	
 	public int getId() {
@@ -17,19 +17,19 @@ public class Instrucao {
 		this.id = id;
 	}
 	
-	public ArrayList<MicroInstrucao> getMicroInstrucoes() {
+	public ArrayList<MicroInstrucoes> getMicroInstrucoes() {
 		return microInstrucoes;
 	}
 	
-	public void setMicroInstrucoes(ArrayList<MicroInstrucao> microInstrucoes) {
+	public void setMicroInstrucoes(ArrayList<MicroInstrucoes> microInstrucoes) {
 		this.microInstrucoes = microInstrucoes;
 	}
 
-	public MicroInstrucao[] getCabecalho() {
+	public MicroInstrucoes[] getCabecalho() {
 		return cabecalho;
 	}
 
-	public void setCabecalho(MicroInstrucao[] cabecalho) {
+	public void setCabecalho(MicroInstrucoes[] cabecalho) {
 		this.cabecalho = cabecalho;
 	}
 	
