@@ -582,7 +582,11 @@ public class Ula {
 	 * Decide, de acordo com os sinais de controle da ULA, qual será a operação a
 	 * ser realizada sobre os operadores A e B, chamando o método correspondente.
 	 */
-	public void opera() {
+	public void opera(short[] op) {
+		this.setSinais(op);
+		this.a = Multiplex4E.s;
+		this.b = Multiplex5E.s;
+		
 		if(comparaSinais(PASSAA) == true) passaA();
 		else if(comparaSinais(PASSAB) == true) passaB();
 		else if(comparaSinais(ADD)    == true) add();

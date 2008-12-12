@@ -30,7 +30,7 @@ public class Multiplex4E {
 	/** Recebe valores de RX */
 	public short d;
 	/** Saída */
-	public short s;
+	public static short s;
 	
 	/** Sinais de Controle */
 	public Bit[] sinais = new Bit[QTD_SINAIS];
@@ -142,24 +142,6 @@ public class Multiplex4E {
 	public void setD(short d) {
 		this.d = d;
 	}
-
-	/**********************************
-	 * Getter para o atributo 's'.
-	 * 
-	 * @return Valor de 's'.
-	 */
-	public short getS() {
-		return s;
-	}
-
-	/**********************************
-	 * Setter para o atributo 's'.
-	 * 
-	 * @param a Valor que será atribuido a 's'. 
-	 */
-	public void setS(short s) {
-		this.s = s;
-	} 
 	
 	
 	/**************** Funções do Multiplex ****************
@@ -167,7 +149,13 @@ public class Multiplex4E {
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera(){
+	public void opera(short[] v){
+		this.a = Registrador.rdados;
+		this.b = Registrador.r0;
+		this.c = Registrador.r1;
+		this.d = Registrador.rx;
+		this.setSinais(v);
+		
 		if (compara(PASSARDADOS)) s = a;
 		if (compara(PASSAR0))     s = b;
 		if (compara(PASSAR1))     s = c;
