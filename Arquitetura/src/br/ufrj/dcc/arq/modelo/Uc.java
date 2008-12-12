@@ -28,13 +28,13 @@ public class Uc {
 	
 	private int rendUC;
 	private MemoriaControle memCtrl;
-	private Bit sinais[] = new Bit[MicroInstrucao.TAM_CTRL];
+	private Bit sinais[] = new Bit[MicroInstrucoes.TAM_CTRL];
 
 	/****************************************************/
 	/****************************************************/
 	
 	public Uc() {
-		for(int i=0; i < MicroInstrucao.TAM_CTRL; i++) {
+		for(int i=0; i < MicroInstrucoes.TAM_CTRL; i++) {
 			sinais[A+i] = new Bit((short)0);
 		}
 		

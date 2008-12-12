@@ -60,7 +60,7 @@ public class Ula {
 	/** Segundo operando da ULA */
 	private short b;
 	/** Resultado da operação sore A e/ou B - Saida da ULA*/
-	private short s; 
+	public static short s; 
 	
 	/** String de sinais de controle */
 	private Bit sinais[] = new Bit[QTD_SINAIS];
@@ -83,7 +83,7 @@ public class Ula {
 			this.sinais[i] = new Bit((short)0);
 		}
 		
-		this.a = this.b = this.s = 0;
+		this.a = this.b = s = 0;
 	}
 
 	
@@ -183,24 +183,6 @@ public class Ula {
 		this.b = b;
 	}
 
-	/**********************************
-	 * Get para o atributo 'S'
-	 * 
-	 * @return Valor atual do atributo S
-	 */
-	public short getS() {
-		return this.s;
-	}
-
-	/**********************************
-	 * Set para o atributo 'S'.
-	 * 
-	 * @Param Um valor para ser atribuido ao atributo S.
-	 */
-	public void setS(short v) {
-		this.s = v;
-	}
-	
 	
 	/****************** Funções da ULA ******************
 	 ****************************************************
