@@ -1,4 +1,7 @@
 package br.ufrj.dcc.parse;
+/* O que deve retornar é o vetor Vet_Codigos. 
+ * Ele possuirá os valores das instruções que serão jogados na memória.
+ */
 
 public class Parser {
 	String Vet_Linhas[];
@@ -10,6 +13,7 @@ public class Parser {
 		
 	// Magicamente, o texto de um arquivo é passado para o Vet_Linhas... por enquanto ;D 
 	// Ao fazer essa passagem, recebemos um "tam_max" que é a quantidade de instruções
+	// Item 1 do meu e-mail de 08/01/2008
 	
 	
 	/* Primeira parte. Remove as declarações de label e coloca num map */
@@ -17,10 +21,12 @@ public class Parser {
 		label = new String();
 		label = Trata_Linha_Para_Label(Vet_Linhas[i]);
 		if (label != null) {
-			//Insere Label na Map, junto com o valor de i
+			// Insere Label na Map, junto com o valor de i
+			// Item 2 do meu e-mail de 08/01/2008
 		}
 	}
 	
+	/* Segunda parte. Pega cada declaração já sem label e a codifica */
 	for (i = 0; i < tam_max; i++) {
 		label = label2 = label3 = new String();
 		Separa_Linha(Vet_Linhas[i], label, label2, label3);
@@ -349,6 +355,7 @@ public class Parser {
 					Vet_Codigos[qnt_codigo] = 110;
 				}
 			}
+			// Item 3 do meu e-mail de 08/01/2008
 			else {
 				if (label3 == "R0") {
 					Vet_Codigos[qnt_codigo] = 1;
@@ -723,6 +730,7 @@ public class Parser {
 					Vet_Codigos[qnt_codigo] = 220;
 				}
 			}
+			// Item 3 do meu e-mail de 08/01/2008
 			else {
 				if (label3 == "R0") {
 					Vet_Codigos[qnt_codigo] = 111;
