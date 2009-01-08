@@ -27,10 +27,93 @@ public class Parser {
 		
 		if (label == "halt") {
 			Vet_Codigos[qnt_codigo] = 0;
-			qnt_codigo++;
 		}
 		else if (label == "add") {
-			
+			if (label2 == "R0") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 11;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 12;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 13;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 14;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 15;
+				}
+			}
+			if (label2 == "R1") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 16;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 17;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 18;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 19;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 20;
+				}
+			}
+			if (label2 == "R2") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 21;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 22;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 23;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 24;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 25;
+				}
+			}
+			if (label2 == "R3") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 26;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 27;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 28;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 29;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 30;
+				}
+			}
+			if (label2 == "R4") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 31;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 32;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 33;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 34;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 35;
+				}
+			}
 		}
 		else if (label == "sub") {
 			
@@ -83,6 +166,8 @@ public class Parser {
 		else if (label == "jmp") {
 			
 		}
+		
+		qnt_codigo++;
 	}
 	
 }
@@ -117,14 +202,14 @@ void Separa_Linha(String linha, String label1, String label2, String label3) {
 	j = i;
 
 	for (i = j; i < linha.length(); i++) {
-		if (linha.charAt(i) != ' ') break;
+		if (linha.charAt(i) == '<') break;
 	}
 	
 	j = i;
 	
 	//Pegando segunda label
 	for (i = j; i < linha.length(); i++) {
-		if (linha.charAt(i) == ' ') break;
+		if (linha.charAt(i) == ',') break;
 	}
 
 	label2 = linha.substring(j, i);
@@ -138,7 +223,7 @@ void Separa_Linha(String linha, String label1, String label2, String label3) {
 	
 	//Pegando terceira label
 	for (i = j; i < linha.length(); i++) {
-		if (linha.charAt(i) == ' ') break;
+		if (linha.charAt(i) == '>') break;
 	}
 
 	label3 = linha.substring(j, i);
