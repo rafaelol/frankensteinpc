@@ -2,9 +2,11 @@ package br.ufrj.dcc.parse;
 
 public class Parser {
 	String Vet_Linhas[];
+	int Vet_Codigos[];
 	String label, label2, label3;
 	int i;
 	int tam_max;
+	int qnt_codigo = 0;
 		
 	// Magicamente, o texto de um arquivo é passado para o Vet_Linhas... por enquanto ;D 
 	// Ao fazer essa passagem, recebemos um "tam_max" que é a quantidade de instruções
@@ -23,10 +25,62 @@ public class Parser {
 		label = label2 = label3 = new String();
 		Separa_Linha(Vet_Linhas[i], label, label2, label3);
 		
-		if (label == "add") {
+		if (label == "halt") {
+			Vet_Codigos[qnt_codigo] = 0;
+			qnt_codigo++;
+		}
+		else if (label == "add") {
 			
 		}
 		else if (label == "sub") {
+			
+		}
+		else if (label == "mov") {
+			
+		}
+		else if (label == "cmp") {
+			
+		}
+		else if (label == "and") {
+			
+		}
+		else if (label == "or") {
+			
+		}
+		else if (label == "not") {
+			
+		}
+		else if (label == "neg") {
+			
+		}
+		else if (label == "clr") {
+			
+		}
+		else if (label == "shl") {
+			
+		}
+		else if (label == "shr") {
+			
+		}
+		else if (label == "brz") {
+			
+		}
+		else if (label == "brn") {
+			
+		}
+		else if (label == "bre") {
+			
+		}
+		else if (label == "brl") {
+			
+		}
+		else if (label == "brg") {
+			
+		}
+		else if (label == "brc") {
+			
+		}
+		else if (label == "jmp") {
 			
 		}
 	}
