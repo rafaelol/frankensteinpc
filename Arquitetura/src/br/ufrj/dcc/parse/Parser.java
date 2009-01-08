@@ -403,7 +403,379 @@ public class Parser {
 			}
 		}
 		else if (label == "sub") {
-			
+			if (label2 == "R0") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 121;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 122;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 123;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 124;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 125;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 146;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 147;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 148;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 149;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 150;
+				}
+			}
+			else if (label2 == "R1") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 126;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 127;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 128;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 129;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 130;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 151;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 152;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 153;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 154;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 155;
+				}
+			}
+			else if (label2 == "R2") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 131;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 132;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 133;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 134;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 135;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 156;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 157;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 158;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 159;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 160;
+				}
+			}
+			else if (label2 == "R3") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 136;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 137;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 138;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 139;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 140;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 161;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 162;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 163;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 164;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 165;
+				}
+			}
+			else if (label2 == "R4") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 141;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 142;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 143;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 144;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 145;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 166;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 167;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 168;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 169;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 170;
+				}
+			}
+			else if (label2 == "(R0)") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 171;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 172;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 173;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 174;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 175;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 196;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 197;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 198;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 199;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 200;
+				}
+			}
+			else if (label2 == "(R1)") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 176;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 177;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 178;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 179;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 180;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 201;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 202;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 203;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 204;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 205;
+				}
+			}
+			else if (label2 == "(R2)") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 181;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 182;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 183;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 184;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 185;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 206;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 207;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 208;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 209;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 210;
+				}
+			}
+			else if (label2 == "(R3)") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 186;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 187;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 188;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 189;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 190;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 211;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 212;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 213;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 214;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 215;
+				}
+			}
+			else if (label2 == "(R4)") {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 191;
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 192;
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 193;
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 194;
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 195;
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 216;
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 217;
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 218;
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 219;
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 220;
+				}
+			}
+			else {
+				if (label3 == "R0") {
+					Vet_Codigos[qnt_codigo] = 111;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "R1") {
+					Vet_Codigos[qnt_codigo] = 112;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "R2") {
+					Vet_Codigos[qnt_codigo] = 113;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "R3") {
+					Vet_Codigos[qnt_codigo] = 114;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "R4") {
+					Vet_Codigos[qnt_codigo] = 115;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 116;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 117;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 118;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 119;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+				else if (label3 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 120;
+					qnt_codigo++;
+					Vet_Codigos[qnt_codigo] = // passar label2 pra int. Como faz isso mesmo? =P
+				}
+			}
+
 		}
 		else if (label == "mov") {
 			
