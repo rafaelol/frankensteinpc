@@ -1,6 +1,35 @@
 package br.ufrj.dcc.parse;
 
 public class Parser {
+	String Vet_Linhas[];
+	String label, label2, label3;
+	int i;
+	int tam_max;
+		
+	// Magicamente, o texto de um arquivo é passado para o Vet_Linhas... por enquanto ;D 
+	// Ao fazer essa passagem, recebemos um "tam_max" que é a quantidade de instruções
+	
+	
+	/* Primeira parte. Remove as declarações de label e coloca num map */
+	for (i = 0; i < tam_max; i++) {
+		label = new String();
+		label = Trata_Linha_Para_Label(Vet_Linhas[i]);
+		if (label != null) {
+			//Insere Label na Map, junto com o valor de i
+		}
+	}
+	
+	for (i = 0; i < tam_max; i++) {
+		label = label2 = label3 = new String();
+		Separa_Linha(Vet_Linhas[i], label, label2, label3);
+		
+		if (label == "add") {
+			
+		}
+		else if (label == "sub") {
+			
+		}
+	}
 	
 }
 
@@ -11,7 +40,7 @@ String Trata_Linha_Para_Label(String linha) {
 	for (i = 0; i < linha.length(); i++) {
 		if (linha.charAt(i) == ':') {
 				System.out.println("achei!");
-				label = linha.substring(0, i - 1);
+				label = linha.substring(0, i);
 				for (j = i + 1; j < linha.length(); j++) {
 					if (linha.charAt(j) != ' ') break;
 				}
@@ -21,6 +50,47 @@ String Trata_Linha_Para_Label(String linha) {
 	
 	return label;
 }
+
+void Separa_Linha(String linha, String label1, String label2, String label3) {
+	int i, j;
+	
+	//Pegando primeira label
+	for (i = 0; i < linha.length(); i++) {
+		if (linha.charAt(i) == ' ') break;
+	}
+
+	label1 = linha.substring(0, i);
+	j = i;
+
+	for (i = j; i < linha.length(); i++) {
+		if (linha.charAt(i) != ' ') break;
+	}
+	
+	j = i;
+	
+	//Pegando segunda label
+	for (i = j; i < linha.length(); i++) {
+		if (linha.charAt(i) == ' ') break;
+	}
+
+	label2 = linha.substring(j, i);
+	j = i;
+	
+	for (i = j; i < linha.length(); i++) {
+		if (linha.charAt(i) != ' ') break;
+	}
+	
+	j = i;
+	
+	//Pegando terceira label
+	for (i = j; i < linha.length(); i++) {
+		if (linha.charAt(i) == ' ') break;
+	}
+
+	label3 = linha.substring(j, i);
+	j = i;
+}
+
 
 /*
 Procura na string um ':'
