@@ -2325,7 +2325,36 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "not") {
-				
+				if (label2 == "R0") {
+					Vet_Codigos[qnt_codigo] = 661;
+				}
+				else if (label2 == "R1") {
+					Vet_Codigos[qnt_codigo] = 662;
+				}
+				else if (label2 == "R2") {
+					Vet_Codigos[qnt_codigo] = 663;
+				}
+				else if (label2 == "R3") {
+					Vet_Codigos[qnt_codigo] = 664;
+				}
+				else if (label2 == "R4") {
+					Vet_Codigos[qnt_codigo] = 665;
+				}
+				else if (label2 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 666;
+				}
+				else if (label2 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 667;
+				}
+				else if (label2 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 668;
+				}
+				else if (label2 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 669;
+				}
+				else if (label2 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 670;
+				}
 			}
 			/*
 			 * ***************
@@ -2333,7 +2362,36 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "neg") {
-				
+				if (label2 == "R0") {
+					Vet_Codigos[qnt_codigo] = 671;
+				}
+				else if (label2 == "R1") {
+					Vet_Codigos[qnt_codigo] = 672;
+				}
+				else if (label2 == "R2") {
+					Vet_Codigos[qnt_codigo] = 673;
+				}
+				else if (label2 == "R3") {
+					Vet_Codigos[qnt_codigo] = 674;
+				}
+				else if (label2 == "R4") {
+					Vet_Codigos[qnt_codigo] = 675;
+				}
+				else if (label2 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 676;
+				}
+				else if (label2 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 677;
+				}
+				else if (label2 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 678;
+				}
+				else if (label2 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 679;
+				}
+				else if (label2 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 680;
+				}
 			}
 			/*
 			 * ***************
@@ -2341,7 +2399,36 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "clr") {
-				
+				if (label2 == "R0") {
+					Vet_Codigos[qnt_codigo] = 681;
+				}
+				else if (label2 == "R1") {
+					Vet_Codigos[qnt_codigo] = 682;
+				}
+				else if (label2 == "R2") {
+					Vet_Codigos[qnt_codigo] = 683;
+				}
+				else if (label2 == "R3") {
+					Vet_Codigos[qnt_codigo] = 684;
+				}
+				else if (label2 == "R4") {
+					Vet_Codigos[qnt_codigo] = 685;
+				}
+				else if (label2 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 686;
+				}
+				else if (label2 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 687;
+				}
+				else if (label2 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 688;
+				}
+				else if (label2 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 689;
+				}
+				else if (label2 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 690;
+				}
 			}
 			/*
 			 * ***************
@@ -2349,7 +2436,36 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "shl") {
-				
+				if (label2 == "R0") {
+					Vet_Codigos[qnt_codigo] = 691;
+				}
+				else if (label2 == "R1") {
+					Vet_Codigos[qnt_codigo] = 692;
+				}
+				else if (label2 == "R2") {
+					Vet_Codigos[qnt_codigo] = 693;
+				}
+				else if (label2 == "R3") {
+					Vet_Codigos[qnt_codigo] = 694;
+				}
+				else if (label2 == "R4") {
+					Vet_Codigos[qnt_codigo] = 695;
+				}
+				else if (label2 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 696;
+				}
+				else if (label2 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 697;
+				}
+				else if (label2 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 698;
+				}
+				else if (label2 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 699;
+				}
+				else if (label2 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 700;
+				}
 			}
 			/*
 			 * ***************
@@ -2357,7 +2473,36 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "shr") {
-				
+				if (label2 == "R0") {
+					Vet_Codigos[qnt_codigo] = 701;
+				}
+				else if (label2 == "R1") {
+					Vet_Codigos[qnt_codigo] = 702;
+				}
+				else if (label2 == "R2") {
+					Vet_Codigos[qnt_codigo] = 703;
+				}
+				else if (label2 == "R3") {
+					Vet_Codigos[qnt_codigo] = 704;
+				}
+				else if (label2 == "R4") {
+					Vet_Codigos[qnt_codigo] = 705;
+				}
+				else if (label2 == "(R0)") {
+					Vet_Codigos[qnt_codigo] = 706;
+				}
+				else if (label2 == "(R1)") {
+					Vet_Codigos[qnt_codigo] = 707;
+				}
+				else if (label2 == "(R2)") {
+					Vet_Codigos[qnt_codigo] = 708;
+				}
+				else if (label2 == "(R3)") {
+					Vet_Codigos[qnt_codigo] = 709;
+				}
+				else if (label2 == "(R4)") {
+					Vet_Codigos[qnt_codigo] = 710;
+				}
 			}
 			/*
 			 * ***************
@@ -2365,7 +2510,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brz") {
-				
+				/* Pesquisa na map o endereço da label, que está em label2 */
+				Vet_Codigos[qnt_codigo] = 711;
+				qnt_codigo++;
+				//Vet_Codigos[qnt_codigo] = endereço da label;			
 			}
 			/*
 			 * ***************
@@ -2373,7 +2521,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brn") {
-				
+				/* Pesquisa na map o endereço da label, que está em label2 */
+				Vet_Codigos[qnt_codigo] = 712;
+				qnt_codigo++;
+				//Vet_Codigos[qnt_codigo] = endereço da label;	
 			}
 			/*
 			 * ***************
@@ -2381,7 +2532,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "bre") {
-				
+				/* Pesquisa na map o endereço da label, que está em label2 */
+				Vet_Codigos[qnt_codigo] = 713;
+				qnt_codigo++;
+				//Vet_Codigos[qnt_codigo] = endereço da label;	
 			}
 			/*
 			 * ***************
@@ -2389,7 +2543,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brl") {
-				
+				/* Pesquisa na map o endereço da label, que está em label2 */
+				Vet_Codigos[qnt_codigo] = 714;
+				qnt_codigo++;
+				//Vet_Codigos[qnt_codigo] = endereço da label;	
 			}
 			/*
 			 * ***************
@@ -2397,7 +2554,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brg") {
-				
+				/* Pesquisa na map o endereço da label, que está em label2 */
+				Vet_Codigos[qnt_codigo] = 715;
+				qnt_codigo++;
+				//Vet_Codigos[qnt_codigo] = endereço da label;	
 			}
 			/*
 			 * ***************
@@ -2405,7 +2565,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brc") {
-				
+				/* Pesquisa na map o endereço da label, que está em label2 */
+				Vet_Codigos[qnt_codigo] = 716;
+				qnt_codigo++;
+				//Vet_Codigos[qnt_codigo] = endereço da label;	
 			}
 			/*
 			 * ***************
@@ -2413,7 +2576,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "jmp") {
-				
+				/* Pesquisa na map o endereço da label, que está em label2 */
+				Vet_Codigos[qnt_codigo] = 717;
+				qnt_codigo++;
+				//Vet_Codigos[qnt_codigo] = endereço da label;	
 			}
 			qnt_codigo++;
 		}
