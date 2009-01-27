@@ -16,7 +16,6 @@ public class Parser {
 	 * Item 1 do meu e-mail de 08/01/2008 
 	 */
 	
-
 	/* Primeira parte. Remove as declarações de label e coloca num map */	
 	void RemoveLabels() {
 		for (i = 0; i < tam_max; i++) {
@@ -2585,6 +2584,12 @@ public class Parser {
 		}
 	}
 
+	/* 
+	 * ******************
+	 * Métodos auxiliares
+	 * ******************
+	 */
+	
 	String Trata_Linha_Para_Label(String linha) {
 		int i, j;
 		String label = new String();
