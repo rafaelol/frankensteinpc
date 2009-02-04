@@ -16,7 +16,7 @@ public class TesteParser {
 		codigoPrograma[4] = "jmp <TESTE>";
 		codigoPrograma[5] = "halt";
 		
-		Parser parser = new Parser(codigoPrograma, 5);
+		Parser parser = new Parser(codigoPrograma, 6);
 		
 	}
 

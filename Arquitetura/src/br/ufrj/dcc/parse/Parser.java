@@ -26,9 +26,6 @@ public class Parser {
 		PassaPraMaiuscula();
 		ImprimeLabels();
 		RemoveLabels();
-		System.out.println();
-		System.out.println("passei de RemoveLabels");
-		System.out.println();
 		ImprimeLabels();
 		Codifica();
 		Imprime();
@@ -45,14 +42,12 @@ public class Parser {
 		for (i = 0; i < tam_max; i++) {
 			label = new String();
 			label = Trata_Linha_Para_Label(i);
-			System.out.println(Vet_Linhas[i]);
-			if (label != null) {
-				System.out.println("Label != null. Label = " + label);
+			if (!(label.isEmpty())) {
+				//System.out.println("Label != null. Label = " + label);
 				mapLabels.put(i, label);
 			}
 		}
 	}
-	
 	
 	/* Segunda parte. Pega cada declaração já sem label e a codifica */
 	void Codifica() {
@@ -62,8 +57,9 @@ public class Parser {
 			System.out.println("Label = " + label);
 			System.out.println("Label2 = " + label2);
 			System.out.println("Label3 = " + label3);
+			System.out.println("");
 			
-			if (label == "HALT") {
+			if (label.equals("HALT")) {
 				Vet_Codigos[qnt_codigo] = 0;
 			}
 			/*
@@ -2623,6 +2619,7 @@ public class Parser {
 		int qnt_linhas;
 		
 		while (itMap.hasNext()) {
+			System.out.println("passei aqui");
 			Map.Entry javaFDP = (Map.Entry) itMap.next();
 			if (label.equals(javaFDP.getValue())) {
 				qnt_linhas = Integer.parseInt((String) javaFDP.getKey()) - linha;
