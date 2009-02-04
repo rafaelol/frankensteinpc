@@ -1,9 +1,14 @@
 package br.ufrj.dcc.parse;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 /* O que deve retornar é o vetor Vet_Codigos. 
  * Ele possuirá os valores das instruções que serão jogados na memória.
  */
 
 public class Parser {
+	Map<Integer, String> mapLabels =  new HashMap<Integer, String>();
 	String Vet_Linhas[];
 	int Vet_Codigos[];
 	String label, label2, label3;
@@ -22,8 +27,7 @@ public class Parser {
 			label = new String();
 			label = Trata_Linha_Para_Label(Vet_Linhas[i]);
 			if (label != null) {
-				// Insere Label na Map, junto com o valor de i
-				// Item 2 do meu e-mail de 08/01/2008
+				mapLabels.put(i, label);
 			}
 		}
 	}
@@ -2509,10 +2513,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brz") {
-				/* Pesquisa na map o endereço da label, que está em label2 */
+				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 711;
 				qnt_codigo++;
-				//Vet_Codigos[qnt_codigo] = endereço da label;			
+				Vet_Codigos[qnt_codigo] = valor;			
 			}
 			/*
 			 * ***************
@@ -2520,10 +2524,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brn") {
-				/* Pesquisa na map o endereço da label, que está em label2 */
+				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 712;
 				qnt_codigo++;
-				//Vet_Codigos[qnt_codigo] = endereço da label;	
+				Vet_Codigos[qnt_codigo] = valor;	
 			}
 			/*
 			 * ***************
@@ -2531,10 +2535,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "bre") {
-				/* Pesquisa na map o endereço da label, que está em label2 */
+				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 713;
 				qnt_codigo++;
-				//Vet_Codigos[qnt_codigo] = endereço da label;	
+				Vet_Codigos[qnt_codigo] = valor;	
 			}
 			/*
 			 * ***************
@@ -2542,10 +2546,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brl") {
-				/* Pesquisa na map o endereço da label, que está em label2 */
+				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 714;
 				qnt_codigo++;
-				//Vet_Codigos[qnt_codigo] = endereço da label;	
+				Vet_Codigos[qnt_codigo] = valor;	
 			}
 			/*
 			 * ***************
@@ -2553,10 +2557,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brg") {
-				/* Pesquisa na map o endereço da label, que está em label2 */
+				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 715;
 				qnt_codigo++;
-				//Vet_Codigos[qnt_codigo] = endereço da label;	
+				Vet_Codigos[qnt_codigo] = valor;	
 			}
 			/*
 			 * ***************
@@ -2564,10 +2568,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "brc") {
-				/* Pesquisa na map o endereço da label, que está em label2 */
+				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 716;
 				qnt_codigo++;
-				//Vet_Codigos[qnt_codigo] = endereço da label;	
+				Vet_Codigos[qnt_codigo] = valor;	
 			}
 			/*
 			 * ***************
@@ -2575,10 +2579,10 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label == "jmp") {
-				/* Pesquisa na map o endereço da label, que está em label2 */
+				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 717;
 				qnt_codigo++;
-				//Vet_Codigos[qnt_codigo] = endereço da label;	
+				Vet_Codigos[qnt_codigo] = valor;	
 			}
 			qnt_codigo++;
 		}
@@ -2589,6 +2593,20 @@ public class Parser {
 	 * Métodos auxiliares
 	 * ******************
 	 */
+	
+	int Verifica_Na_Label(String label, int linha) {
+		Iterator itMap = mapLabels.keySet().iterator();
+		int qnt_linhas;
+		
+		while (itMap.hasNext()) {
+			Map.Entry javaFDP = (Map.Entry) itMap.next();
+			if (label.equals(javaFDP.getValue())) {
+				qnt_linhas = Integer.parseInt((String) javaFDP.getKey()) - linha;
+				return qnt_linhas;				
+			}
+		}
+		return -1;
+	}
 	
 	String Trata_Linha_Para_Label(String linha) {
 		int i, j;
@@ -2649,51 +2667,3 @@ public class Parser {
 	}
 	
 }
-
-
-/*
-Procura na string um ':'
-Se tiver
-               copia o texto anterior para primeira_parte - ok
-               copia o valor de i - ok
-               insere na map o primeira_parte e a linha
-               remove tudo ate o primeiro caractere nao espaco depois do ':' - ok
-
-
-Algoritmo para codificar:
-
-Pega a primeira parte da String
-if (prim_parte == "add")
-{
-               Pega a segunda parte da String
-               if (seg_parte == "R1")
-               {
-                       Faz a mesma coisa da segunda parte para a terceira... sendo que faz
-o return nessa parte
-               }
-               else if (seg_parte == "R2")
-               {
-                       Faz a mesma coisa da segunda parte para a terceira... sendo que
-faz o return nessa parte
-               }
-               (e por ai vai)
-               else -> nao achou registrado, é um numero ou um rótulo
-               {
-                       procura seg_parte na map
-                       se achou
-                       {
-                               valor2 = i - numero_na_map (ou numero_na_map - i)
-                               -> Isso é o jump relativo ;)
-                               Faz a mesma coisa da segunda parte para a terceira... sendo que
-faz o return nessa parte
-                       }
-                       senao
-                       {
-                               valor2 = converte a string para int
-                               Faz a mesma coisa da segunda parte para a terceira... sendo que
-faz o return nessa parte
-                       }
-               }
-}
-(e por ai vai com as outras instrucoes)
-*/
