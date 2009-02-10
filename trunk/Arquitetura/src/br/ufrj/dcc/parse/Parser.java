@@ -15,6 +15,7 @@ public class Parser {
 	int i;
 	int tam_max;
 	int qnt_codigo = 0;
+	private static Object dadosDoMap;
 	
 	public Parser(String nomeArq) {
 		
@@ -2620,11 +2621,14 @@ public class Parser {
 		
 		while (itMap.hasNext()) {
 			System.out.println("passei aqui");
-			Map.Entry javaFDP = (Map.Entry) itMap.next();
-			if (label.equals(javaFDP.getValue())) {
-				qnt_linhas = Integer.parseInt((String) javaFDP.getKey()) - linha;
+			dadosDoMap = itMap.next();
+			
+			System.out.println(dadosDoMap.toString());
+			
+			if (label.equals(mapLabels.get(dadosDoMap) )) {
+				qnt_linhas = Integer.parseInt(dadosDoMap.toString()) - linha;
 				return qnt_linhas;				
-			}
+			} 
 		}
 		return -1;
 	}
