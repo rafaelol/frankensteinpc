@@ -2623,8 +2623,6 @@ public class Parser {
 			System.out.println("passei aqui");
 			dadosDoMap = itMap.next();
 			
-			System.out.println(dadosDoMap.toString());
-			
 			if (label.equals(mapLabels.get(dadosDoMap) )) {
 				qnt_linhas = Integer.parseInt(dadosDoMap.toString()) - linha;
 				return qnt_linhas;				
