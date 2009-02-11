@@ -1,0 +1,6 @@
+TESTE: mov <10,R0>
+mov <20,(R1)>
+add <R0,R1>
+neg <R1>
+jmp <TESTE>
+halt
