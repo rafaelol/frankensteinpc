@@ -18,7 +18,13 @@ public class Parser {
 	private static Object dadosDoMap;
 	
 	public Parser(String nomeArq) {
-		
+		tam_max = Trata_Arquivo(nomeArq);
+		PassaPraMaiuscula();
+		ImprimeLabels();
+		RemoveLabels();
+		ImprimeLabels();
+		Codifica();
+		Imprime();
 	}
 	
 	public Parser(String vetProg[], int tamanho) {
@@ -32,11 +38,13 @@ public class Parser {
 		Imprime();
 	}
 	
-	
-	/* Magicamente, o texto de um arquivo ï¿½ passado para o Vet_Linhas... por enquanto ;D 
-	 * Ao fazer essa passagem, recebemos um "tam_max" que ï¿½ a quantidade de instruï¿½ï¿½es
-	 * Item 1 do meu e-mail de 08/01/2008 
-	 */
+	int Trata_Arquivo(String arquivo) {
+		// Aqui vai ficar a parte de transformar o texto do arquivo em um vetor de String.
+		// Seu return é a quantidade de linhas
+		// E o vetor que vai receber o vetor de String é o Vet_Linhas
+		
+		return 0;
+	}
 	
 	/* Primeira parte. Remove as declaraï¿½ï¿½es de label e coloca num map */	
 	void RemoveLabels() {
