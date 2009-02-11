@@ -103,7 +103,7 @@ public class BarraDeMenu implements ActionListener {
 	 * Cria o menu Ajuda na barra de menu.
 	 */
 	private JMenu getMenuAjuda() {
-		menuAjuda.setMnemonic('A');
+		menuAjuda.setMnemonic('j');
 		menuAjuda.setText("Ajuda");
 		menuAjuda.add(getSubMenuInstrucoes());
 		menuAjuda.addSeparator();
