@@ -6,9 +6,9 @@ import java.util.List;
 
 public class LerArquivo{
 
-	public static ArquivoTexto arqParser;
+	public ArquivoTexto arqParser;
 
-	public static List<String> qtdParser = new ArrayList<String>();
+	public List<String> qtdParser = new ArrayList<String>();
 
 	public LerArquivo(){
 		

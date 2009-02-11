@@ -42,10 +42,10 @@ public class Parser {
 	int Trata_Arquivo(String arquivo) {
 		LerArquivo arquivoParser = new LerArquivo(arquivo);
 
-		Vet_Linhas = new String[LerArquivo.qtdParser.size()];
-		Vet_Linhas = LerArquivo.qtdParser.toArray(new String[LerArquivo.qtdParser.size()]);
+		Vet_Linhas = new String[arquivoParser.qtdParser.size()];
+		Vet_Linhas = arquivoParser.qtdParser.toArray(new String[arquivoParser.qtdParser.size()]);
 
-		return LerArquivo.qtdParser.size();
+		return arquivoParser.qtdParser.size();
 	}
 
 	/* Primeira parte. Remove as declaracoes de label e coloca num map, depois tira os comentarios */	
