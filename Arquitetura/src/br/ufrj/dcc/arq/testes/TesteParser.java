@@ -1,7 +1,5 @@
 package br.ufrj.dcc.arq.testes;
 
-import java.util.List;
-
 import br.ufrj.dcc.parse.LerArquivo;
 import br.ufrj.dcc.parse.Parser;
 
