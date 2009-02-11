@@ -21,8 +21,8 @@ public class JanelaPrincipal extends JFrame {
 	Dimension tamanhoPrograma = new Dimension(ProgramaLargura, ProgramaAltura);
 
 	/**
-	 * Construtor da Classe. Nela sao definidas todos os parâmetros que a janela
-	 * do programa terá.
+	 * Construtor da Classe. Nela sao definidas todos os parï¿½metros que a janela
+	 * do programa terï¿½.
 	 * 
 	 */
 	public JanelaPrincipal() {
@@ -34,6 +34,5 @@ public class JanelaPrincipal extends JFrame {
 		setResizable(false);
 		setLocation((screenSize.width - ProgramaLargura) / 2,
 				(screenSize.height - ProgramaAltura) / 2);
-
 	}
 }
