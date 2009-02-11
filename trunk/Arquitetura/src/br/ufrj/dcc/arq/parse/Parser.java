@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class Parser {
 	Map<Integer, String> mapLabels =  new HashMap<Integer, String>();
-	String Vet_Linhas[] = new String[1000];
-	int Vet_Codigos[] = new int[1000];
+	String Vet_Linhas[] = null;
+	int Vet_Codigos[] = null;
 	String label, label2, label3;
 	int i;
 	int tam_max;
@@ -20,6 +20,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		ImprimeLabels();
+		Vet_Codigos = new int[2 * tam_max];
 		Codifica();
 		Imprime();
 	}
@@ -31,6 +32,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		ImprimeLabels();
+		Vet_Codigos = new int[2 * tam_max];
 		Codifica();
 		Imprime();
 	}
@@ -42,6 +44,7 @@ public class Parser {
 		
 		LerArquivo arquivoParser = new LerArquivo(arquivo);
 
+		Vet_Linhas = new String[LerArquivo.qtdParser.size()];
 		Vet_Linhas = LerArquivo.qtdParser.toArray(new String[LerArquivo.qtdParser.size()]);
 		
 		
