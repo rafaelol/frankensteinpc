@@ -2631,7 +2631,6 @@ public class Parser {
 		int qnt_linhas;
 		
 		while (itMap.hasNext()) {
-			System.out.println("passei aqui");
 			dadosDoMap = itMap.next();
 			
 			if (label.equals(mapLabels.get(dadosDoMap) )) {
