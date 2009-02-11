@@ -12,7 +12,7 @@ public class TesteParser{
 
 /*A variavel teste somente esta testando se o LerArquivo esta funcionando.
  * Ja a variavel parser testa o parser propriamente dito*/		
-/*		LerArquivo teste = new LerArquivo();
+/*		LerArquivo teste = new LerArquivo("./arquivo/programa.txt");
 
 		String[] codigoPrograma = qtdParser.toArray(new String[qtdParser.size()]);
 		
