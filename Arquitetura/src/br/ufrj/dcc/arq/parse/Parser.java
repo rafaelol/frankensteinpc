@@ -13,58 +13,64 @@ public class Parser {
 	int tam_max;
 	int qnt_codigo = 0;
 	private static Object dadosDoMap;
-	
+
 	public Parser(String nomeArq) {
 		tam_max = Trata_Arquivo(nomeArq);
 		PassaPraMaiuscula();
 		ImprimeLabels();
 		RemoveLabels();
+		Tira_Comentario();
 		ImprimeLabels();
 		Vet_Codigos = new int[2 * tam_max];
 		Codifica();
 		Imprime();
 	}
-	
+
 	public Parser(String vetProg[], int tamanho) {
 		tam_max = tamanho;
 		Vet_Linhas = vetProg;
 		PassaPraMaiuscula();
 		ImprimeLabels();
 		RemoveLabels();
+		Tira_Comentario();
 		ImprimeLabels();
 		Vet_Codigos = new int[2 * tam_max];
 		Codifica();
 		Imprime();
 	}
-	
+
 	int Trata_Arquivo(String arquivo) {
-		// Aqui vai ficar a parte de transformar o texto do arquivo em um vetor de String.
-		// Seu return � a quantidade de linhas
-		// E o vetor que vai receber o vetor de String � o Vet_Linhas
-		
 		LerArquivo arquivoParser = new LerArquivo(arquivo);
 
 		Vet_Linhas = new String[LerArquivo.qtdParser.size()];
 		Vet_Linhas = LerArquivo.qtdParser.toArray(new String[LerArquivo.qtdParser.size()]);
-		
-		
-		
+
 		return LerArquivo.qtdParser.size();
 	}
-	
-	/* Primeira parte. Remove as declara��es de label e coloca num map */	
+
+	/* Primeira parte. Remove as declaracoes de label e coloca num map, depois tira os comentarios */	
 	void RemoveLabels() {
 		for (i = 0; i < tam_max; i++) {
 			label = new String();
 			label = Trata_Linha_Para_Label(i);
 			if (!(label.isEmpty())) {
-				//System.out.println("Label != null. Label = " + label);
 				mapLabels.put(i, label);
 			}
 		}
 	}
-	
-	/* Segunda parte. Pega cada declara��o j� sem label e a codifica */
+
+	void Tira_Comentario() {
+		for (int j = 0; j < tam_max; j++) {
+			for (int i = 0; i < Vet_Linhas[j].length(); i++) {
+				if (Vet_Linhas[j].charAt(i) == ';') {
+					Vet_Linhas[j] = Vet_Linhas[j].substring(0, i);
+				}
+			}
+		}
+
+	}
+
+	/* Segunda parte. Pega cada declaracao ja sem label e comentario e a codifica */
 	void Codifica() {
 		for (i = 0; i < tam_max; i++) {
 			label = label2 = label3 = new String();
@@ -73,7 +79,7 @@ public class Parser {
 			System.out.println("Label2 = " + label2);
 			System.out.println("Label3 = " + label3);
 			System.out.println("");
-			
+
 			if (label.equals("HALT")) {
 				Vet_Codigos[qnt_codigo] = 0;
 			}
@@ -2628,14 +2634,14 @@ public class Parser {
 	 * M�todos auxiliares
 	 * ******************
 	 */
-	
+
 	int Verifica_Na_Label(String label, int linha) {
 		Iterator itMap = mapLabels.keySet().iterator();
 		int qnt_linhas;
-		
+
 		while (itMap.hasNext()) {
 			dadosDoMap = itMap.next();
-			
+
 			if (label.equals(mapLabels.get(dadosDoMap) )) {
 				qnt_linhas = Integer.parseInt(dadosDoMap.toString()) - linha;
 				return qnt_linhas;				
@@ -2643,83 +2649,90 @@ public class Parser {
 		}
 		return -1;
 	}
-	
+
 	String Trata_Linha_Para_Label(int linha) {
 		int j;
 		String label = new String();
-		
+
 		for (int i = 0; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == ':') {
-					label = Vet_Linhas[linha].substring(0, i);
-					//System.out.println("Vet_Linhas[linha].substring(0, i) = " + label);
-					for (j = i + 1; j < Vet_Linhas[linha].length(); j++) {
-						if (Vet_Linhas[linha].charAt(j) != ' ') break;
-					}
-					Vet_Linhas[linha] = Vet_Linhas[linha].substring(j, Vet_Linhas[linha].length());
-					//System.out.println("Vet_Linhas[linha].substring(j, Vet_Linhas[linha].length()) = " + Vet_Linhas[linha]);
+				label = Vet_Linhas[linha].substring(0, i);
+				for (j = i + 1; j < Vet_Linhas[linha].length(); j++) {
+					if (Vet_Linhas[linha].charAt(j) != ' ') break;
+				}
+				Vet_Linhas[linha] = Vet_Linhas[linha].substring(j, Vet_Linhas[linha].length());
 			}
 		}
-		
+
 		return label;
 	}
 
+
+
 	void Separa_Linha(int linha) {
 		int i, j;
-		
-		//Pegando primeira label
+
+		//Pegando primeira parte da instrucao
 		for (i = 0; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == ' ') break;
 		}
-	
+
 		label = Vet_Linhas[linha].substring(0, i);
 		j = i;
-	
+
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) == '<') break;
-		}
-		
-		j = i;
-		
-		//Pegando segunda label
-		for (i = j; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) == ',' || Vet_Linhas[linha].charAt(i) == '>') break;
+			if (Vet_Linhas[linha].charAt(i) == '<' ) break;
 		}
 
-		if (j != i) {
-			label2 = Vet_Linhas[linha].substring(j + 1, i);	
-		}
 		j = i;
-		
+
+		//Pegando segunda parte da instrucao
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) != ' ') break;
 		}
-		
+
 		j = i;
-		
-		//Pegando terceira label
+
+		for (i = j; i < Vet_Linhas[linha].length(); i++) {
+			if (Vet_Linhas[linha].charAt(i) == ',' || Vet_Linhas[linha].charAt(i) == '>') break;
+		}
+		if (j != i) {
+			label2 = Vet_Linhas[linha].substring(j + 1, i);	
+			label2 = label2.trim();
+		}
+		j = i;
+
+		for (i = j; i < Vet_Linhas[linha].length(); i++) {
+			if (Vet_Linhas[linha].charAt(i) != ' ') break;
+		}
+
+		j = i;
+
+		//Pegando terceira parte da instrucao
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == '>') break;
 		}
 
 		if (j != i) {
 			label3 = Vet_Linhas[linha].substring(j + 1, i);
+			label3 = label3.trim();
 		}
-		
-		j = i;
+
+		j = i;	
 	}
-	
+
 	public void Imprime() {
 		for (int i = 0; i < 2 * tam_max; i++) {
 			System.out.print(Vet_Codigos[i] + " ");
 		}
 	}
-	
+
 	void PassaPraMaiuscula() {
 		for (int i = 0; i < Vet_Linhas.length; i++) {
 			Vet_Linhas[i] = Vet_Linhas[i].toUpperCase();
 		}
 	}
-	
+
 	public void ImprimeLabels() {
 		System.out.println();
 		for (int i = 0; i < Vet_Linhas.length; i++) {
@@ -2727,6 +2740,6 @@ public class Parser {
 		}
 		System.out.println();
 	}
-	                             
-	            
+
+
 }
