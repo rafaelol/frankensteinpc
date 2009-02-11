@@ -1,9 +1,8 @@
 package br.ufrj.dcc.arq.testes;
 
-import br.ufrj.dcc.arq.parse.LerArquivo;
 import br.ufrj.dcc.arq.parse.Parser;
 
-public class TesteParser extends LerArquivo{
+public class TesteParser{
 
 	/**
 	 * @param args
