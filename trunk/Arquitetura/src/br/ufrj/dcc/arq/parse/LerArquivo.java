@@ -26,7 +26,7 @@ public class LerArquivo{
 				}
 			}
 			
-			System.out.println("Quatindade de Linhas do Arquivo: " + qtdParser.size());
+			System.out.println("Quantidade de Linhas Lidas do Arquivo: " + qtdParser.size());
 
 		} catch (Exception e) {
 			System.out.println("Erro no metodo LerArquivo!");
