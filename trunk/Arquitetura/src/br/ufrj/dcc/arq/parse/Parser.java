@@ -7,7 +7,7 @@ import java.util.Map;
  * Ele possuirï¿½ os valores das instruï¿½ï¿½es que serï¿½o jogados na memï¿½ria.
  */
 
-public class Parser {
+public class Parser extends LerArquivo {
 	Map<Integer, String> mapLabels =  new HashMap<Integer, String>();
 	String Vet_Linhas[] = new String[1000];
 	int Vet_Codigos[] = new int[1000];
@@ -40,10 +40,16 @@ public class Parser {
 	
 	int Trata_Arquivo(String arquivo) {
 		// Aqui vai ficar a parte de transformar o texto do arquivo em um vetor de String.
-		// Seu return é a quantidade de linhas
-		// E o vetor que vai receber o vetor de String é o Vet_Linhas
+		// Seu return ï¿½ a quantidade de linhas
+		// E o vetor que vai receber o vetor de String ï¿½ o Vet_Linhas
 		
-		return 0;
+		LerArquivo arquivoParser = new LerArquivo(arquivo);
+
+		String[] codigoPrograma = qtdParser.toArray(new String[qtdParser.size()]);
+		
+		Vet_Linhas = codigoPrograma;
+		
+		return qtdParser.size();
 	}
 	
 	/* Primeira parte. Remove as declaraï¿½ï¿½es de label e coloca num map */	
