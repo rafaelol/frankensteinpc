@@ -13,12 +13,13 @@ public class TesteParser extends LerArquivo{
 
 /*A variavel teste somente esta testando se o LerArquivo esta funcionando.
  * Ja a variavel parser testa o parser propriamente dito*/		
-		LerArquivo teste = new LerArquivo();
+/*		LerArquivo teste = new LerArquivo();
 
 		String[] codigoPrograma = qtdParser.toArray(new String[qtdParser.size()]);
 		
 		Parser parser = new Parser(codigoPrograma, qtdParser.size());
-		
+*/
+		Parser parser = new Parser("./arquivo/programa.txt");
 		/*
 		 * String codigoPrograma[] = new String[6];
                 
