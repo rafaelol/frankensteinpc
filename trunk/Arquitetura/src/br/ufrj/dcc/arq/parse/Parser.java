@@ -42,9 +42,9 @@ public class Parser {
 		
 		LerArquivo arquivoParser = new LerArquivo(arquivo);
 
-		String[] codigoPrograma = LerArquivo.qtdParser.toArray(new String[LerArquivo.qtdParser.size()]);
+		Vet_Linhas = LerArquivo.qtdParser.toArray(new String[LerArquivo.qtdParser.size()]);
 		
-		Vet_Linhas = codigoPrograma;
+		
 		
 		return LerArquivo.qtdParser.size();
 	}
