@@ -3,11 +3,8 @@ package br.ufrj.dcc.arq.parse;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-/* O que deve retornar � o vetor Vet_Codigos. 
- * Ele possuir� os valores das instru��es que ser�o jogados na mem�ria.
- */
 
-public class Parser extends LerArquivo {
+public class Parser {
 	Map<Integer, String> mapLabels =  new HashMap<Integer, String>();
 	String Vet_Linhas[] = new String[1000];
 	int Vet_Codigos[] = new int[1000];
@@ -45,11 +42,11 @@ public class Parser extends LerArquivo {
 		
 		LerArquivo arquivoParser = new LerArquivo(arquivo);
 
-		String[] codigoPrograma = qtdParser.toArray(new String[qtdParser.size()]);
+		String[] codigoPrograma = LerArquivo.qtdParser.toArray(new String[LerArquivo.qtdParser.size()]);
 		
 		Vet_Linhas = codigoPrograma;
 		
-		return qtdParser.size();
+		return LerArquivo.qtdParser.size();
 	}
 	
 	/* Primeira parte. Remove as declara��es de label e coloca num map */	
