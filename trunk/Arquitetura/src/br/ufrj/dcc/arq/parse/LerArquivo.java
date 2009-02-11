@@ -19,7 +19,11 @@ public class LerArquivo{
 			arqParser = new ArquivoTexto(nome_do_arquivo);
 
 			while (arqParser.maisLinhas()) {
-				qtdParser.add(arqParser.getLinha());
+				
+				/*Nao pega linha vazia*/
+				if (!(arqParser.getLinha().equals(""))){
+					qtdParser.add(arqParser.getLinha());
+				}
 			}
 			
 			System.out.println("Quatindade de Linhas do Arquivo: " + qtdParser.size());
