@@ -27,8 +27,8 @@ public class Uc {
 	public static final int X = 23;
 	
 	private int rendUC;
-	private MemoriaControle memCtrl;
-	private Bit sinais[] = new Bit[MicroInstrucoes.TAM_CTRL];
+	public static MemoriaControle memCtrl;
+	public static Bit sinais[] = new Bit[MicroInstrucoes.TAM_CTRL];
 
 	/****************************************************/
 	/****************************************************/
