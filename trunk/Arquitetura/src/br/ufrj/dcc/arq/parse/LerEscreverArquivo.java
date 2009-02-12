@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.ufrj.dcc.arq.vista.CriaPrograma;
+import javax.swing.JTextArea;
 
 
-public class LerEscreverArquivo extends CriaPrograma{
+public class LerEscreverArquivo{
 
 	/**
 	 * 
@@ -37,10 +37,10 @@ public class LerEscreverArquivo extends CriaPrograma{
 		}
 	}
 	
-	public LerEscreverArquivo() throws IOException {
+	public LerEscreverArquivo(String gravacao, String teste) throws IOException {
 		ArquivoTexto novoArquivo = new ArquivoTexto();
 		try{
-			novoArquivo.gravarLinha(areaTexto.getText());
+			novoArquivo.gravarLinha(gravacao);
 		}
 		catch(Exception e){
 			System.out.println("Erro ao gravar arquivo.");

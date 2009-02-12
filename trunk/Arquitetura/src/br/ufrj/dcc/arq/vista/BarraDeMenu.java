@@ -15,9 +15,12 @@ public class BarraDeMenu implements ActionListener {
 	/**
 	 * 
 	 */
+	
 	private static final long serialVersionUID = 1L;
 
 	private JMenuBar barraMenu = new JMenuBar();
+	
+	public static CriaPrograma clicaNovoPrograma = null;
 
 	// MENU PROGRAMA
 
@@ -55,7 +58,7 @@ public class BarraDeMenu implements ActionListener {
 			Parser parser = new Parser(escolhePrograma.getSelectedFile().toString());
 		}
 		else if (source == menuFazerPrograma) {
-			new CriaPrograma();
+			clicaNovoPrograma = new CriaPrograma();
 		}
 		else if (source == menuSair) {
 			System.exit(0);
