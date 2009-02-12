@@ -15,8 +15,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import br.ufrj.dcc.arq.parse.LerEscreverArquivo;
+import br.ufrj.dcc.arq.parse.Parser;
 
-public class CriaPrograma extends JFrame implements WindowListener, ActionListener{
+public class CriaPrograma extends JFrame implements ActionListener{
 
 	/**
 	 * 
@@ -38,7 +39,9 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	
 	private JScrollPane scrollTextArea;
 	
-	private JButton botaoCarrega;
+	public static JButton botaoCarrega;
+	
+	private LerEscreverArquivo teste;
 
 	public CriaPrograma (){
 		
@@ -79,6 +82,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		setLocation((screenSize.width - ProgramaLargura) / 2,
 				(screenSize.height - ProgramaAltura) / 2);
 		setTitle("Cria Programa");
+		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setVisible(true);
 		
 		
@@ -101,54 +105,20 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	}
 	
 	public void actionPerformed(ActionEvent evt) {
+		// TODO Auto-generated method stub
 		Object source = evt.getSource();
 
 		if (source == botaoCarrega) {
 			System.out.println(areaTexto.getText());
 			try{
-				LerEscreverArquivo teste = new LerEscreverArquivo();
+				teste = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
+				BarraDeMenu.clicaNovoPrograma = null;
+				Parser parser = new Parser("./arquivo/programa.txt");
+				setVisible(false);
 			}
 			catch(Exception e){
 				System.out.println("Erro na gravacao do Arquivo - Clique do botao.");
-			}
-			
-			
+			}		
 		}
 	}
-	
-	public void windowActivated(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void windowClosed(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void windowClosing(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void windowDeactivated(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void windowDeiconified(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void windowIconified(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void windowOpened(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
