@@ -40,7 +40,7 @@ public class Parser {
 	}
 
 	int Trata_Arquivo(String arquivo) {
-		LerArquivo arquivoParser = new LerArquivo(arquivo);
+		LerEscreverArquivo arquivoParser = new LerEscreverArquivo(arquivo);
 
 		Vet_Linhas = new String[arquivoParser.qtdParser.size()];
 		Vet_Linhas = arquivoParser.qtdParser.toArray(new String[arquivoParser.qtdParser.size()]);

@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class LerArquivo{
+public class LerEscreverArquivo{
 
 	public ArquivoTexto arqParser;
 
 	public List<String> qtdParser = new ArrayList<String>();
 
-	public LerArquivo(){
+	public LerEscreverArquivo(){
 		
 	}
 	
-	public LerArquivo(String nome_do_arquivo){
+	public LerEscreverArquivo(String nome_do_arquivo){
 		try {
 			arqParser = new ArquivoTexto(nome_do_arquivo);
 
