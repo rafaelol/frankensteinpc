@@ -76,7 +76,7 @@ public class ArquivoTexto {
 	 *            String a ser gravada no arquivo.
 	 */
 
-	public void gravarArquivo(String gravacao) {
+	public void gravarLinha(String gravacao) {
 		try {
 			bw.write(gravacao, 0, gravacao.length());
 			bw.newLine();

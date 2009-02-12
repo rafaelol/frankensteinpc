@@ -1,11 +1,1 @@
-TESTE1: mov <10,R0> ; teste
-mov <20,(R1)> ; teste 
-add <R0,R1> ; teste
-neg <R1> ; teste
-jmp <TESTE2> ; teste
-
-
-
-TESTE2: mov < R1 , R2 > ; teste
-halt;teste
-jmp <teste1>
+Digite aqui...
