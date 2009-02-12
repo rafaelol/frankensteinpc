@@ -3,9 +3,12 @@ package br.ufrj.dcc.arq.vista;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.JFileChooser;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+
+import br.ufrj.dcc.arq.parse.Parser;
 
 public class BarraDeMenu implements ActionListener {
 
@@ -16,11 +19,13 @@ public class BarraDeMenu implements ActionListener {
 
 	private JMenuBar barraMenu = new JMenuBar();
 
-	// MENU JOGO
+	// MENU PROGRAMA
 
 	private JMenu menuPrograma = new JMenu();
 
 	private JMenuItem menuNovoPrograma = new JMenuItem();
+	
+	private JMenuItem menuFazerPrograma = new JMenuItem();
 	
 	private JMenuItem menuSair = new JMenuItem();
 	
@@ -40,13 +45,23 @@ public class BarraDeMenu implements ActionListener {
 		Object source = evt.getSource();
 
 		if (source == menuNovoPrograma) {
-			System.out.println("Novo Programa");
+			
+			JFileChooser escolhePrograma = new JFileChooser();  
+			escolhePrograma.setFileFilter(new ExtensionFileFilter("Arquivos de texto", "txt", "log", "html", "htm", "css"));  
+			if (escolhePrograma.showOpenDialog(escolhePrograma) != JFileChooser.APPROVE_OPTION)   
+			   return;  
+			   
+			System.out.println("Arquivo selecionado: " + escolhePrograma.getSelectedFile().toString());
+			Parser parser = new Parser(escolhePrograma.getSelectedFile().toString());
+		}
+		else if (source == menuFazerPrograma) {
+			new CriaPrograma();
 		}
 		else if (source == menuSair) {
 			System.exit(0);
 		}
 		else if (source == menuInstrucoes) {
-			System.out.println("Instrucoes");
+			new Instrucoes();
 		}
 		else if (source == menuSobre) {
 			System.out.println("Sobre");
@@ -69,7 +84,8 @@ public class BarraDeMenu implements ActionListener {
 	private JMenu getMenuPrograma() {
 		menuPrograma.setMnemonic('A');
 		menuPrograma.setText("Arquivo");
-		menuPrograma.add(getSubMenuNovoJogo());
+		menuPrograma.add(getSubMenuCarregarPrograma());
+		menuPrograma.add(getSubMenuNovoPrograma());
 		menuPrograma.addSeparator();
 		menuPrograma.add(getSubMenuSair());
 
@@ -77,14 +93,25 @@ public class BarraDeMenu implements ActionListener {
 	}
 
 	/**
-	 * Cria o submenu Novo Jogo.
+	 * Cria o submenu Carregar Programa.
 	 */
-	private JMenuItem getSubMenuNovoJogo() {
-		menuNovoPrograma.setMnemonic('N');
-		menuNovoPrograma.setText("Novo Programa");
+	private JMenuItem getSubMenuCarregarPrograma() {
+		menuNovoPrograma.setMnemonic('C');
+		menuNovoPrograma.setText("Carregar Programa");
 		menuNovoPrograma.addActionListener(this);
 
 		return menuNovoPrograma;
+	}
+	
+	/**
+	 * Cria o submenu Criar Programa.
+	 */
+	private JMenuItem getSubMenuNovoPrograma() {
+		menuFazerPrograma.setMnemonic('P');
+		menuFazerPrograma.setText("Criar Programa");
+		menuFazerPrograma.addActionListener(this);
+
+		return menuFazerPrograma;
 	}
 
 
