@@ -14,6 +14,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
+import br.ufrj.dcc.arq.parse.LerEscreverArquivo;
+
 public class CriaPrograma extends JFrame implements WindowListener, ActionListener{
 
 	/**
@@ -22,6 +24,8 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	
 	private static final long serialVersionUID = 1L;
 	
+	public static JTextArea areaTexto;
+	
 	private final int ProgramaLargura = 450;
 
 	private final int ProgramaAltura = 450;
@@ -29,8 +33,6 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	public JanelaPrincipal janela = null;
 	
 	private JLabel titulo;
-	
-	private JTextArea areaTexto;
 
 	private JPanel painel;
 	
@@ -102,7 +104,15 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		Object source = evt.getSource();
 
 		if (source == botaoCarrega) {
-			System.out.println("Testando o novo programa...");
+			System.out.println(areaTexto.getText());
+			try{
+				LerEscreverArquivo teste = new LerEscreverArquivo();
+			}
+			catch(Exception e){
+				System.out.println("Erro na gravacao do Arquivo - Clique do botao.");
+			}
+			
+			
 		}
 	}
 	
