@@ -17,7 +17,7 @@ import javax.swing.JTextArea;
 import br.ufrj.dcc.arq.parse.LerEscreverArquivo;
 import br.ufrj.dcc.arq.parse.Parser;
 
-public class CriaPrograma extends JFrame implements ActionListener{
+public class CriaPrograma extends JFrame implements WindowListener, ActionListener{
 
 	/**
 	 * 
@@ -82,7 +82,6 @@ public class CriaPrograma extends JFrame implements ActionListener{
 		setLocation((screenSize.width - ProgramaLargura) / 2,
 				(screenSize.height - ProgramaAltura) / 2);
 		setTitle("Cria Programa");
-		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setVisible(true);
 		
 		
@@ -120,5 +119,40 @@ public class CriaPrograma extends JFrame implements ActionListener{
 				System.out.println("Erro na gravacao do Arquivo - Clique do botao.");
 			}		
 		}
+	}
+
+	public void windowActivated(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void windowClosed(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void windowClosing(WindowEvent e) {
+		// TODO Auto-generated method stub
+		this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+	}
+
+	public void windowDeactivated(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void windowDeiconified(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void windowIconified(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void windowOpened(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
 }
