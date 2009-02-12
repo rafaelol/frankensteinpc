@@ -2,6 +2,7 @@ package br.ufrj.dcc.arq.vista;
 
 import java.awt.Button;
 import java.awt.Container;
+import java.awt.TextArea;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -22,10 +23,14 @@ public class Comecar extends JFrame implements ActionListener{
 	private JPanel painelBotoes = new JPanel();
 	Button botao1 = new Button("Botao 1");
 	Button botao2 = new Button("Botao 2");
+	TextArea area = new TextArea("Arquitetura");
 	
 	/**
 	 * Construtor da Classe. Cria uma nova janela e coloca o Menu e a imagem do
 	 * Menu.
+	 */
+	/**
+	 * 
 	 */
 	public Comecar() {
 		
@@ -56,6 +61,9 @@ public class Comecar extends JFrame implements ActionListener{
 		botao2.setBounds(200,200,100,20);
 		botao2.addActionListener(this);
 		cp.add(botao2);		
+		
+		area.setBounds(810,367,156,140);
+		cp.add(area);
 		
 		painelBotoes.add(cp);
 		painelBotoes.setBounds(0, 0, cp.WIDTH, cp.HEIGHT);

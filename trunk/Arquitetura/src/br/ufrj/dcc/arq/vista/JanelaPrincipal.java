@@ -27,7 +27,7 @@ public class JanelaPrincipal extends JFrame {
 	 */
 	public JanelaPrincipal() {
 
-		icone.setImagem("./imagens/iconePrograma.png");
+		icone.setImagem("./imagens/icone.png");
 		setIconImage(icone.getImagem());
 		setTitle("Trabalho de Arquitetura");
 		setSize(tamanhoPrograma);
