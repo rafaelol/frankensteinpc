@@ -34,7 +34,7 @@ public class Sobre extends JFrame implements WindowListener{
 		
 		titulo = new JLabel("Trabalho de Arquitetura");
 		
-		desenvolvedores = new JLabel("Desenvolvido por: Diogo Borges, Francisco Vianna, Jonas Areas e Rafael de Oliveira");
+		desenvolvedores = new JLabel("Desenvolvido por: Diogo Borges, Francisco Vianna, Jonas Areas e Rafael Lopes");
 		
 		professor = new JLabel("Professor: Ageu - Período: 2008/2");
 		
