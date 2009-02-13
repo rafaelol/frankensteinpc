@@ -1,1 +1,5 @@
-Digite aqui...
+TESTE: mov <R0,R1>
+add <10,r1>
+sub <20,r0>
+jmp <teste>
+halt

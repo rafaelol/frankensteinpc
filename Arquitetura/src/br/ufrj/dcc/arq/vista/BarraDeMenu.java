@@ -31,7 +31,16 @@ public class BarraDeMenu implements ActionListener {
 	private JMenuItem menuFazerPrograma = new JMenuItem();
 	
 	private JMenuItem menuSair = new JMenuItem();
+
+	//MENU EXECUTAR
 	
+	private JMenu menuExecutar = new JMenu();
+	
+	private JMenuItem menuExecutaPrograma = new JMenuItem();
+	
+	private JMenuItem menuExecutaInstrucao = new JMenuItem();
+	
+	private JMenuItem menuExecutaMicroInstrucao = new JMenuItem();
 
 	// MENU AJUDA
 
@@ -40,6 +49,7 @@ public class BarraDeMenu implements ActionListener {
 	private JMenuItem menuInstrucoes = new JMenuItem();
 
 	private JMenuItem menuSobre = new JMenuItem();
+
 
 	/**
 	 * Executa as funcoes para cada parte do Menu.
@@ -50,7 +60,7 @@ public class BarraDeMenu implements ActionListener {
 		if (source == menuNovoPrograma) {
 			
 			JFileChooser escolhePrograma = new JFileChooser();  
-			escolhePrograma.setFileFilter(new ExtensionFileFilter("Arquivos de texto", "txt", "log", "html", "htm", "css"));  
+			escolhePrograma.setFileFilter(new ExtensionFileFilter("Arquivos texto", "txt"));  
 			if (escolhePrograma.showOpenDialog(escolhePrograma) != JFileChooser.APPROVE_OPTION)   
 			   return;  
 			   
@@ -67,7 +77,16 @@ public class BarraDeMenu implements ActionListener {
 			new Instrucoes();
 		}
 		else if (source == menuSobre) {
-			System.out.println("Sobre");
+			new Sobre();
+		}
+		else if (source == menuExecutaPrograma) {
+			System.out.println("Executa Programa Inteiro.");
+		}
+		else if (source == menuExecutaInstrucao) {
+			System.out.println("Executa Instrucao do Programa.");
+		}
+		else if (source == menuExecutaMicroInstrucao) {
+			System.out.println("Executa MicroInstrucao do Programa.");
 		}
 	}
 
@@ -76,13 +95,14 @@ public class BarraDeMenu implements ActionListener {
 	 */
 	protected JMenuBar getBarraMenu() {
 		barraMenu.add(getMenuPrograma());
+		barraMenu.add(getMenuExecutar());
 		barraMenu.add(getMenuAjuda());
 
 		return barraMenu;
 	}
 
 	/**
-	 * Cria o menu Jogo na barra de menu.
+	 * Cria o menu Arquivo na barra de menu.
 	 */
 	private JMenu getMenuPrograma() {
 		menuPrograma.setMnemonic('A');
@@ -116,8 +136,7 @@ public class BarraDeMenu implements ActionListener {
 
 		return menuFazerPrograma;
 	}
-
-
+	
 	/**
 	 * Cria o submenu Sair.
 	 */
@@ -127,6 +146,52 @@ public class BarraDeMenu implements ActionListener {
 		menuSair.addActionListener(this);
 
 		return menuSair;
+	}
+	
+	/**
+	 * Cria o menu Executar na barra de menu.
+	 */
+	private JMenu getMenuExecutar() {
+		menuExecutar.setMnemonic('E');
+		menuExecutar.setText("Executar");
+		menuExecutar.add(getSubMenuExecutaPrograma());
+		menuExecutar.add(getSubMenuExecutaInstrucao());
+		menuExecutar.add(getSubMenuExecutaMicroInstrucao());
+		
+		return menuExecutar;
+	}
+	
+	/**
+	 * Cria o submenu Executa Programa.
+	 */
+	private JMenuItem getSubMenuExecutaPrograma() {
+		menuExecutaPrograma.setMnemonic('P');
+		menuExecutaPrograma.setText("Executar Programa");
+		menuExecutaPrograma.addActionListener(this);
+
+		return menuExecutaPrograma;
+	}
+	
+	/**
+	 * Cria o submenu Executa Programa Por Instrucao.
+	 */
+	private JMenuItem getSubMenuExecutaInstrucao() {
+		menuExecutaInstrucao.setMnemonic('I');
+		menuExecutaInstrucao.setText("Executar Instrucao");
+		menuExecutaInstrucao.addActionListener(this);
+
+		return menuExecutaInstrucao;
+	}
+	
+	/**
+	 * Cria o submenu Executa Programa Por MicroInstrucao.
+	 */
+	private JMenuItem getSubMenuExecutaMicroInstrucao() {
+		menuExecutaMicroInstrucao.setMnemonic('M');
+		menuExecutaMicroInstrucao.setText("Executar MicroInstrucao");
+		menuExecutaMicroInstrucao.addActionListener(this);
+
+		return menuExecutaMicroInstrucao;
 	}
 
 	/**
