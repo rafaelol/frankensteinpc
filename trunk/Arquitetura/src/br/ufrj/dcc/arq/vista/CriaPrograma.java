@@ -20,7 +20,7 @@ import br.ufrj.dcc.arq.parse.Parser;
 public class CriaPrograma extends JFrame implements WindowListener, ActionListener{
 
 	/**
-	 * 
+	 * Janela do Cria Programa
 	 */
 	
 	private static final long serialVersionUID = 1L;
@@ -30,8 +30,6 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	private final int ProgramaLargura = 450;
 
 	private final int ProgramaAltura = 450;
-
-	public JanelaPrincipal janela = null;
 	
 	private JLabel titulo;
 
@@ -41,7 +39,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	
 	public static JButton botaoCarrega;
 	
-	private LerEscreverArquivo teste;
+	private LerEscreverArquivo arquivoLido;
 
 	public CriaPrograma (){
 		
@@ -67,7 +65,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		painel.add(titulo);
 		
 		areaTexto.setLineWrap(true);
-		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		scrollTextArea.setBounds(48,40,350,300);
 		painel.add(scrollTextArea);
 		
@@ -79,28 +77,10 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		add(painel);
 		setSize(tamanhoPrograma);
 		setResizable(false);
-		setLocation((screenSize.width - ProgramaLargura) / 2,
-				(screenSize.height - ProgramaAltura) / 2);
+		setLocation((screenSize.width - ProgramaLargura) / 2,(screenSize.height - ProgramaAltura) / 2);
 		setTitle("Cria Programa");
 		setVisible(true);
 		
-		
-		
-		
-		/*
-		JanelaPrincipal.ProgramaLargura = 350;
-		JanelaPrincipal.ProgramaAltura = 410;
-
-		if (janela == null) {
-			janela = new JanelaPrincipal();
-		}
-
-		janela.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-		janela.addWindowListener(this);
-		janela.add(painel);
-		janela.setVisible(true);
-		
-		*/
 	}
 	
 	public void actionPerformed(ActionEvent evt) {
@@ -110,7 +90,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		if (source == botaoCarrega) {
 			System.out.println(areaTexto.getText());
 			try{
-				teste = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
+				arquivoLido = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
 				BarraDeMenu.clicaNovoPrograma = null;
 				Parser parser = new Parser("./arquivo/programa.txt");
 				setVisible(false);
