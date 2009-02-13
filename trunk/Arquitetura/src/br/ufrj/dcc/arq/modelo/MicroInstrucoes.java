@@ -10,6 +10,16 @@ public class MicroInstrucoes {
 	 * rec => recebe
 	 */
 	
+	/* Instrucoes Le e Escreve */
+	
+	public static void Le() {
+		
+	}
+	
+	public static void Escreve() {
+		
+	}
+	
 	/* Instrucoes PC recebe algo */
 	
 	public static void PC_rec_PCmais1() {
@@ -847,7 +857,7 @@ public class MicroInstrucoes {
 
 	/* Instrucoes PC recebe algo */
 	
-	public static short Get_EnderecoPC_rec_PCmais1() {
+	public static short Get_Endereco_PC_rec_PCmais1() {
 		return 205;
 	}
 	
