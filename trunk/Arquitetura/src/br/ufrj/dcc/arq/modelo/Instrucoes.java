@@ -2,7 +2,7 @@ package br.ufrj.dcc.arq.modelo;
 
 public class Instrucoes {
 	
-	private static void cabecalho(boolean executa_por_micro){
+	public static void Cabecalho(boolean executa_por_micro){
 		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
 		MicroInstrucoes.REnd_rec_PC();
 		if (executa_por_micro) {
@@ -35,8 +35,6 @@ public class Instrucoes {
 	/* ==================== Instrucoes ADD ==================== */
 	
 	public static void addImedR0(boolean executa_por_micro) {
-		cabecalho(executa_por_micro);
-		
 		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
 		MicroInstrucoes.REnd_rec_PC();
 		if (executa_por_micro) {
