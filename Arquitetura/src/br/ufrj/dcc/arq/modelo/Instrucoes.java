@@ -2,11 +2,30 @@ package br.ufrj.dcc.arq.modelo;
 
 public class Instrucoes {
 	
-	private void cabecalho(){
+	private static void cabecalho(boolean executa_por_micro){
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
 		MicroInstrucoes.REnd_rec_PC();
+		if (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
 		MicroInstrucoes.RDados_rec_Inflida();
+		if (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_IR_rec_RDados();
 		MicroInstrucoes.IR_rec_RDados();
+		if (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
 		MicroInstrucoes.PC_rec_PCmais1();
+		if (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void halt() {
@@ -16,6 +35,8 @@ public class Instrucoes {
 	/* ==================== Instrucoes ADD ==================== */
 	
 	public static void addImedR0(boolean executa_por_micro) {
+		cabecalho(executa_por_micro);
+		
 		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
 		MicroInstrucoes.REnd_rec_PC();
 		if (executa_por_micro) {
