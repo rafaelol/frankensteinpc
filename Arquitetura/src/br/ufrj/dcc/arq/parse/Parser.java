@@ -2674,14 +2674,14 @@ public class Parser {
 
 		//Pegando primeira parte da instrucao
 		for (i = 0; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) == ' ') break;
+			if (Vet_Linhas[linha].charAt(i) == ' ' || Vet_Linhas[linha].charAt(i) == '<') break;
 		}
 
 		label = Vet_Linhas[linha].substring(0, i);
 		j = i;
 
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) == '<' ) break;
+			if (Vet_Linhas[linha].charAt(i) == '<') break;
 		}
 
 		j = i;
