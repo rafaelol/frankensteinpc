@@ -228,11 +228,11 @@ public class MicroInstrucoes {
 		
 	}
 	
-	public static void RDados_rec_shl() {
+	public static void RDados_rec_shlRDados() {
 		
 	}
 	
-	public static void RDados_rec_shr() {
+	public static void RDados_rec_shrRDados() {
 		
 	}
 	
@@ -333,11 +333,11 @@ public class MicroInstrucoes {
 		
 	}
 	
-	public static void R0_rec_shl() {
+	public static void R0_rec_shlR0() {
 		
 	}
 	
-	public static void R0_rec_shr() {
+	public static void R0_rec_shrR0() {
 		
 	}
 	
@@ -441,11 +441,11 @@ public class MicroInstrucoes {
 		
 	}
 	
-	public static void R1_rec_shl() {
+	public static void R1_rec_shlR1() {
 		
 	}
 	
-	public static void R1_rec_shr() {
+	public static void R1_rec_shrR1() {
 		
 	}
 	
@@ -548,11 +548,11 @@ public class MicroInstrucoes {
 		
 	}
 	
-	public static void R2_rec_shl() {
+	public static void R2_rec_shlR2() {
 		
 	}
 	
-	public static void R2_rec_shr() {
+	public static void R2_rec_shrR2() {
 		
 	}
 	
@@ -654,11 +654,11 @@ public class MicroInstrucoes {
 		
 	}
 	
-	public static void R3_rec_shl() {
+	public static void R3_rec_shlR3() {
 		
 	}
 	
-	public static void R3_rec_shr() {
+	public static void R3_rec_shrR3() {
 		
 	}
 	
@@ -760,11 +760,11 @@ public class MicroInstrucoes {
 		
 	}
 	
-	public static void R4_rec_shl() {
+	public static void R4_rec_shlR4() {
 		
 	}
 	
-	public static void R4_rec_shr() {
+	public static void R4_rec_shrR4() {
 		
 	}
 
@@ -1063,11 +1063,11 @@ public class MicroInstrucoes {
 		return 45;
 	}
 	
-	public static short Get_Endereco_RDados_rec_shl() {
+	public static short Get_Endereco_RDados_rec_shlRDados() {
 		return 46;
 	}
 	
-	public static short Get_Endereco_RDados_rec_shr() {
+	public static short Get_Endereco_RDados_rec_shrRDados() {
 		return 47;
 	}
 	
@@ -1169,11 +1169,11 @@ public class MicroInstrucoes {
 		return 78;
 	}
 	
-	public static short Get_Endereco_R0_rec_shl() {
+	public static short Get_Endereco_R0_rec_shlR0() {
 		return 79;
 	}
 	
-	public static short Get_Endereco_R0_rec_shr() {
+	public static short Get_Endereco_R0_rec_shrR0() {
 		return 80;	
 	}
 	
@@ -1276,11 +1276,11 @@ public class MicroInstrucoes {
 		return 104;
 	}
 	
-	public static short Get_Endereco_R1_rec_shl() {
+	public static short Get_Endereco_R1_rec_shlR1() {
 		return 105;
 	}
 	
-	public static short Get_Endereco_R1_rec_shr() {
+	public static short Get_Endereco_R1_rec_shrR1() {
 		return 106;
 	}
 	
@@ -1382,11 +1382,11 @@ public class MicroInstrucoes {
 		return 130;	
 	}
 	
-	public static short Get_Endereco_R2_rec_shl() {
+	public static short Get_Endereco_R2_rec_shlR2() {
 		return 131;
 	}
 	
-	public static short Get_Endereco_R2_rec_shr() {
+	public static short Get_Endereco_R2_rec_shrR2() {
 		return 132;
 	}
 	
@@ -1488,11 +1488,11 @@ public class MicroInstrucoes {
 		return 156;
 	}
 	
-	public static short Get_Endereco_R3_rec_shl() {
+	public static short Get_Endereco_R3_rec_shlR3() {
 		return 157;
 	}
 	
-	public static short Get_Endereco_R3_rec_shr() {
+	public static short Get_Endereco_R3_rec_shrR3() {
 		return 158;
 	}
 	
@@ -1594,11 +1594,11 @@ public class MicroInstrucoes {
 		return 182;
 	}
 	
-	public static short Get_Endereco_R4_rec_shl() {
+	public static short Get_Endereco_R4_rec_shlR4() {
 		return 183;
 	}
 	
-	public static short Get_Endereco_R4_rec_shr() {
+	public static short Get_Endereco_R4_rec_shrR4() {
 		return 184;
 	}
 
