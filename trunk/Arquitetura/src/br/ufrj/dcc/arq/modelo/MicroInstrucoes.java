@@ -851,6 +851,30 @@ public class MicroInstrucoes {
 		
 	}
 
+	public static void RYmenosRDados() {
+		
+	}
+
+	public static void R0menosRY() {
+		
+	}
+	
+	public static void R1menosRY() {
+		
+	}
+
+	public static void R2menosRX() {
+		
+	}
+
+	public static void R3menosRX() {
+		
+	}
+
+	public static void R4menosRX() {
+		
+	}
+
 	/*****************
 	 * Instruções GET 
 	 *****************/
@@ -858,13 +882,13 @@ public class MicroInstrucoes {
 	/* Instrucoes PC recebe algo */
 	
 	public static short Get_Endereco_PC_rec_PCmais1() {
-		return 205;
+		return 211;
 	}
 	
 	/* Instrucoes IR recebe algo */
 	
 	public static short Get_Endereco_IR_rec_RDados() {
-		return 206;
+		return 212;
 	}
 	
 	/* Instrucoes REnd recebe algo */
@@ -1682,6 +1706,30 @@ public class MicroInstrucoes {
 
 	public static short Get_Endereco_R1menosR4() {
 		return 204;
+	}
+	
+	public static short Get_Endereco_RYmenosRDados() {
+		return 205;
+	}
+
+	public static short Get_Endereco_R0menosRY() {
+		return 206;
+	}
+	
+	public static short Get_Endereco_R1menosRY() {
+		return 207;
+	}
+
+	public static short Get_Endereco_R2menosRX() {
+		return 208;
+	}
+
+	public static short Get_Endereco_R3menosRX() {
+		return 209;
+	}
+
+	public static short Get_Endereco_R4menosRX() {
+		return 210;
 	}
 
 	
