@@ -4204,447 +4204,4174 @@ public class Instrucoes {
 	}
 
 	/* ==================== Instruções SUB ==================== */
-	
 	public static void subImedR0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedR1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedR2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2_rec_RDadosmenosR2();
+		MicroInstrucoes.R2_rec_RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedR3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3_rec_RDadosmenosR3();
+		MicroInstrucoes.R3_rec_RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedR4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4_rec_RDadosmenosR4();
+		MicroInstrucoes.R4_rec_RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void subImedER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subImedER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR0R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R0();
+		MicroInstrucoes.RY_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void subR0R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R0();
+		MicroInstrucoes.RY_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void subR0R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R2_rec_R0menosR2();
+		MicroInstrucoes.R2_rec_R0menosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR0R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R3_rec_R0menosR3();
+		MicroInstrucoes.R3_rec_R0menosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR0R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R4_rec_R0menosR4();
+		MicroInstrucoes.R4_rec_R0menosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void subR1R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R1();
+		MicroInstrucoes.RY_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 		
 	}
 	
 	public static void subR1R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R1();
+		MicroInstrucoes.RY_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void subR1R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R2_rec_R1menosR2();
+		MicroInstrucoes.R2_rec_R1menosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
 	}
 	
 	public static void subR1R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R3_rec_R1menosR3();
+		MicroInstrucoes.R3_rec_R1menosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR1R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R4_rec_R1menosR4();
+		MicroInstrucoes.R4_rec_R1menosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR2R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R0_rec_R2menosR0();
+		MicroInstrucoes.R0_rec_R2menosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR2R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R1_rec_R2menosR1();
+		MicroInstrucoes.R1_rec_R2menosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR2R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R2();
+		MicroInstrucoes.RX_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R2_rec_RXmenosR2();
+		MicroInstrucoes.R2_rec_RXmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}				
 	}
 	
 	public static void subR2R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R2();
+		MicroInstrucoes.RX_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R3_rec_RXmenosR3();
+		MicroInstrucoes.R3_rec_RXmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void subR2R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R2();
+		MicroInstrucoes.RX_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R4_rec_RXmenosR4();
+		MicroInstrucoes.R4_rec_RXmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR3R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R0_rec_R3menosR0();
+		MicroInstrucoes.R0_rec_R3menosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR3R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R1_rec_R3menosR1();
+		MicroInstrucoes.R1_rec_R3menosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR3R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R3();
+		MicroInstrucoes.RX_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R2_rec_RXmenosR2();
+		MicroInstrucoes.R2_rec_RXmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void subR3R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R3();
+		MicroInstrucoes.RX_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R3_rec_RXmenosR3();
+		MicroInstrucoes.R3_rec_RXmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR3R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R3();
+		MicroInstrucoes.RX_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R4_rec_RXmenosR4();
+		MicroInstrucoes.R4_rec_RXmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR4R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R0_rec_R4menosR0();
+		MicroInstrucoes.R0_rec_R4menosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR4R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R1_rec_R4menosR1();
+		MicroInstrucoes.R1_rec_R4menosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR4R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R4();
+		MicroInstrucoes.RX_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R2_rec_RXmenosR2();
+		MicroInstrucoes.R2_rec_RXmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR4R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R4();
+		MicroInstrucoes.RX_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R3_rec_RXmenosR3();
+		MicroInstrucoes.R3_rec_RXmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subR4R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R4();
+		MicroInstrucoes.RX_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_R4_rec_RXmenosR4();
+		MicroInstrucoes.R4_rec_RXmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR0ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R0menosRY();
+		MicroInstrucoes.RDados_rec_R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR0ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R0menosRY();
+		MicroInstrucoes.RDados_rec_R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR0ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R0menosRY();
+		MicroInstrucoes.RDados_rec_R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR0ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R0menosRY();
+		MicroInstrucoes.RDados_rec_R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR0ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R0menosRY();
+		MicroInstrucoes.RDados_rec_R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR1ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R1menosRY();
+		MicroInstrucoes.RDados_rec_R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR1ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R1menosRY();
+		MicroInstrucoes.RDados_rec_R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR1ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R1menosRY();
+		MicroInstrucoes.RDados_rec_R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR1ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R1menosRY();
+		MicroInstrucoes.RDados_rec_R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR1ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R1menosRY();
+		MicroInstrucoes.RDados_rec_R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR2ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R2menosRX();
+		MicroInstrucoes.RDados_rec_R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR2ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R2menosRX();
+		MicroInstrucoes.RDados_rec_R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR2ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R2menosRX();
+		MicroInstrucoes.RDados_rec_R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR2ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R2menosRX();
+		MicroInstrucoes.RDados_rec_R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR2ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R2menosRX();
+		MicroInstrucoes.RDados_rec_R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR3ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R3menosRX();
+		MicroInstrucoes.RDados_rec_R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR3ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R3menosRX();
+		MicroInstrucoes.RDados_rec_R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR3ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R3menosRX();
+		MicroInstrucoes.RDados_rec_R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR3ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R3menosRX();
+		MicroInstrucoes.RDados_rec_R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR3ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R3menosRX();
+		MicroInstrucoes.RDados_rec_R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR4ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R4menosRX();
+		MicroInstrucoes.RDados_rec_R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR4ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R4menosRX();
+		MicroInstrucoes.RDados_rec_R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR4ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R4menosRX();
+		MicroInstrucoes.RDados_rec_R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR4ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R4menosRX();
+		MicroInstrucoes.RDados_rec_R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subR4ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_R4menosRX();
+		MicroInstrucoes.RDados_rec_R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER0R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER0R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER0R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2_rec_RDadosmenosR2();
+		MicroInstrucoes.R2_rec_RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER0R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3_rec_RDadosmenosR3();
+		MicroInstrucoes.R3_rec_RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER0R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4_rec_RDadosmenosR4();
+		MicroInstrucoes.R4_rec_RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2_rec_RDadosmenosR2();
+		MicroInstrucoes.R2_rec_RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3_rec_RDadosmenosR3();
+		MicroInstrucoes.R3_rec_RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4_rec_RDadosmenosR4();
+		MicroInstrucoes.R4_rec_RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2_rec_RDadosmenosR2();
+		MicroInstrucoes.R2_rec_RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3_rec_RDadosmenosR3();
+		MicroInstrucoes.R3_rec_RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4_rec_RDadosmenosR4();
+		MicroInstrucoes.R4_rec_RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2_rec_RDadosmenosR2();
+		MicroInstrucoes.R2_rec_RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3_rec_RDadosmenosR3();
+		MicroInstrucoes.R3_rec_RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4_rec_RDadosmenosR4();
+		MicroInstrucoes.R4_rec_RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0_rec_RYmenosR0();
+		MicroInstrucoes.R0_rec_RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1_rec_RYmenosR1();
+		MicroInstrucoes.R1_rec_RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2_rec_RDadosmenosR2();
+		MicroInstrucoes.R2_rec_RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3_rec_RDadosmenosR3();
+		MicroInstrucoes.R3_rec_RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4_rec_RDadosmenosR4();
+		MicroInstrucoes.R4_rec_RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void subER0ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
 	}
 
 	public static void subER0ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
 	}
 
 	public static void subER0ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER0ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER0ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER1ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER2ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER3ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void subER4ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
-	}
-	
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_RYmenosRDados();
+		MicroInstrucoes.RDados_rec_RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+	}	
 	/* ==================== Instruções MOV ==================== */
 	
 	public static void movImedR0(boolean executa_por_micro) {
@@ -7588,445 +11315,4173 @@ public class Instrucoes {
 	/* ==================== Instruções CMP ==================== */
 	
 	public static void cmpImedR0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedR1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedR2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR2();
+		MicroInstrucoes.RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedR3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR3();
+		MicroInstrucoes.RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedR4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR4();
+		MicroInstrucoes.RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void cmpImedER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpImedER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_PC();
+		MicroInstrucoes.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+			
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR0R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R0();
+		MicroInstrucoes.RY_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void cmpR0R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R0();
+		MicroInstrucoes.RY_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void cmpR0R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R0menosR2();
+		MicroInstrucoes.R0menosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR0R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R0menosR3();
+		MicroInstrucoes.R0menosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR0R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R0menosR4();
+		MicroInstrucoes.R0menosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void cmpR1R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R1();
+		MicroInstrucoes.RY_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 		
 	}
 	
 	public static void cmpR1R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RY_rec_R1();
+		MicroInstrucoes.RY_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void cmpR1R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R1menosR2();
+		MicroInstrucoes.R1menosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
 	}
 	
 	public static void cmpR1R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R1menosR3();
+		MicroInstrucoes.R1menosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR1R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R1menosR4();
+		MicroInstrucoes.R1menosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR2R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R2menosR0();
+		MicroInstrucoes.R2menosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR2R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R2menosR1();
+		MicroInstrucoes.R2menosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR2R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R2();
+		MicroInstrucoes.RX_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR2();
+		MicroInstrucoes.RXmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}				
 	}
 	
 	public static void cmpR2R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R2();
+		MicroInstrucoes.RX_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR3();
+		MicroInstrucoes.RXmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void cmpR2R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R2();
+		MicroInstrucoes.RX_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR4();
+		MicroInstrucoes.RXmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR3R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R3menosR0();
+		MicroInstrucoes.R3menosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR3R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R3menosR1();
+		MicroInstrucoes.R3menosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR3R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R3();
+		MicroInstrucoes.RX_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR2();
+		MicroInstrucoes.RXmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}		
 	}
 	
 	public static void cmpR3R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R3();
+		MicroInstrucoes.RX_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR3();
+		MicroInstrucoes.RXmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR3R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R3();
+		MicroInstrucoes.RX_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR4();
+		MicroInstrucoes.RXmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR4R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R4menosR0();
+		MicroInstrucoes.R4menosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR4R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_R4menosR1();
+		MicroInstrucoes.R4menosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR4R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R4();
+		MicroInstrucoes.RX_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR2();
+		MicroInstrucoes.RXmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR4R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R4();
+		MicroInstrucoes.RX_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR3();
+		MicroInstrucoes.RXmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpR4R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_RX_rec_R4();
+		MicroInstrucoes.RX_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Get_Endereco_RXmenosR4();
+		MicroInstrucoes.RXmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR0ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0menosRY();
+		MicroInstrucoes.R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR0ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0menosRY();
+		MicroInstrucoes.R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR0ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0menosRY();
+		MicroInstrucoes.R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR0ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0menosRY();
+		MicroInstrucoes.R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR0ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R0menosRY();
+		MicroInstrucoes.R0menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR1ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1menosRY();
+		MicroInstrucoes.R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR1ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1menosRY();
+		MicroInstrucoes.R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR1ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1menosRY();
+		MicroInstrucoes.R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR1ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1menosRY();
+		MicroInstrucoes.R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR1ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R1menosRY();
+		MicroInstrucoes.R1menosRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR2ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2menosRX();
+		MicroInstrucoes.R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR2ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2menosRX();
+		MicroInstrucoes.R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR2ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2menosRX();
+		MicroInstrucoes.R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR2ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2menosRX();
+		MicroInstrucoes.R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR2ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R2menosRX();
+		MicroInstrucoes.R2menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR3ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3menosRX();
+		MicroInstrucoes.R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR3ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3menosRX();
+		MicroInstrucoes.R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR3ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3menosRX();
+		MicroInstrucoes.R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR3ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3menosRX();
+		MicroInstrucoes.R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR3ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R3menosRX();
+		MicroInstrucoes.R3menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR4ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4menosRX();
+		MicroInstrucoes.R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR4ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4menosRX();
+		MicroInstrucoes.R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR4ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4menosRX();
+		MicroInstrucoes.R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR4ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4menosRX();
+		MicroInstrucoes.R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpR4ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RX_rec_RDados();
+		MicroInstrucoes.RX_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_R4menosRX();
+		MicroInstrucoes.R4menosRX();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER0R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER0R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER0R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR2();
+		MicroInstrucoes.RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER0R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR3();
+		MicroInstrucoes.RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER0R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR4();
+		MicroInstrucoes.RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR2();
+		MicroInstrucoes.RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR3();
+		MicroInstrucoes.RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR4();
+		MicroInstrucoes.RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR2();
+		MicroInstrucoes.RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR3();
+		MicroInstrucoes.RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR4();
+		MicroInstrucoes.RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR2();
+		MicroInstrucoes.RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR3();
+		MicroInstrucoes.RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR4();
+		MicroInstrucoes.RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4R0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR0();
+		MicroInstrucoes.RYmenosR0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4R1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();	
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosR1();
+		MicroInstrucoes.RYmenosR1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4R2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR2();
+		MicroInstrucoes.RDadosmenosR2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4R3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR3();
+		MicroInstrucoes.RDadosmenosR3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4R4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDadosmenosR4();
+		MicroInstrucoes.RDadosmenosR4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 	
 	public static void cmpER0ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
 	}
 
 	public static void cmpER0ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
 	}
 
 	public static void cmpER0ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER0ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER0ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER1ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER2ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER3ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4ER0(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R0();
+		MicroInstrucoes.REnd_rec_R0();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4ER1(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R1();
+		MicroInstrucoes.REnd_rec_R1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4ER2(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R2();
+		MicroInstrucoes.REnd_rec_R2();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4ER3(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_REnd_rec_R3();
+		MicroInstrucoes.REnd_rec_R3();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 
 	public static void cmpER4ER4(boolean executa_por_micro) {
+		MicroInstrucoes.Get_Endereco_REnd_rec_R4();
+		MicroInstrucoes.REnd_rec_R4();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MicroInstrucoes.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RDados_rec_Inflida();
+		MicroInstrucoes.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RY_rec_RDados();
+		MicroInstrucoes.RY_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_RYmenosRDados();
+		MicroInstrucoes.RYmenosRDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Escreve();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MicroInstrucoes.Get_Endereco_PC_rec_PCmais1();
+		MicroInstrucoes.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
-
 	/* ==================== Instruções AND ==================== */
 	
 	public static void andImedR0(boolean executa_por_micro) {
