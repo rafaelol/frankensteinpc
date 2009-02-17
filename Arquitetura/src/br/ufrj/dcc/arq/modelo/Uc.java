@@ -88,409 +88,728 @@ public class Uc {
 	
 /* ========================== Operar ======================== */
 	
-	public void ExecutaInstrucao(short cod) {
+	public void DecodificaEChamaInstrucao() {
+		int cod = Registrador.ri;
+			
 		switch (cod) {
-			case 0: 
-			case 1:
-			case 2:
-			case 3:
-			case 4:
-			case 5:
-			case 6:
-			case 7:
-			case 8:
-			case 9:
-			case 10:
-			case 11:
-			case 12:
-			case 13:
-			case 14:
-			case 15:
-			case 16:
-			case 17:
-			case 18:
-			case 19:
-			case 20:
-			case 21:
-			case 22:
-			case 23:
-			case 24:
-			case 25:
-			case 26:
-			case 27:
-			case 28:
-			case 29:
-			case 30:
-			case 31:
-			case 32:
-			case 33:
-			case 34:
-			case 35:
-			case 36:
-			case 37:
-			case 38:
-			case 39:
-			case 40:
-			case 41:
-			case 42:
-			case 43:
-			case 44:
-			case 45:
-			case 46:
-			case 47:
-			case 48:
-			case 49:
-			case 50:
-			case 51:
-			case 52:
-			case 53:
-			case 54:
-			case 55:
-			case 56:
-			case 57:
-			case 58:
-			case 59:
-			case 60:
-			case 61:
-			case 62:
-			case 63:
-			case 64:
-			case 65:
-			case 66:
-			case 67:
-			case 68:
-			case 69:	
-			case 70:
-			case 71:
-			case 72:
-			case 73:
-			case 74:
-			case 75:
-			case 76:
-			case 77:
-			case 78:
-			case 79:
-			case 80:
-			case 81:
-			case 82:
-			case 83:
-			case 84:
-			case 85:
-			case 86:
-			case 87:
-			case 88:
-			case 89:
-			case 90:
-			case 91:
-			case 92:
-			case 93:
-			case 94:
-			case 95:
-			case 96:
-			case 97:
-			case 98:
-			case 99:
-			case 100:
-			case 101:
-			case 102:
-			case 103:
-			case 104:
-			case 105:
-			case 106:
-			case 107:
-			case 108:
-			case 109:
-			case 110:
-			case 111:
-			case 112:
-			case 113:
-			case 114:
-			case 115:
-			case 116:
-			case 117:
-			case 118:
-			case 119:
-			case 120:
-			case 121:
-			case 122:
-			case 123:
-			case 124:
-			case 125:
-			case 126:
-			case 127:
-			case 128:
-			case 129:
-			case 130:
-			case 131:
-			case 132:
-			case 133:
-			case 134:
-			case 135:
-			case 136:
-			case 137:
-			case 138:
-			case 139:
-			case 140:
-			case 141:
-			case 142:
-			case 143:
-			case 144:
-			case 145:
-			case 146:
-			case 147:
-			case 148:
-			case 149:
-			case 150:
-			case 151:
-			case 152:
-			case 153:
-			case 154:
-			case 155:
-			case 156:
-			case 157:
-			case 158:
-			case 159:
-			case 160:
-			case 161:
-			case 162:
-			case 163:
-			case 164:
-			case 165:
-			case 166:
-			case 167:
-			case 168:
-			case 169:
-			case 170:
-			case 171:
-			case 172:
-			case 173:
-			case 174:
-			case 175:
-			case 176:
-			case 177:
-			case 178:
-			case 179:
-			case 180:
-			case 181:
-			case 182:
-			case 183:
-			case 184:
-			case 185:
-			case 186:
-			case 187:
-			case 188:
-			case 189:
-			case 190:
-			case 191:
-			case 192:
-			case 193:
-			case 194:
-			case 195:
-			case 196:
-			case 197:
-			case 198:
-			case 199:
-			case 200:
-			case 201:
-			case 202:
-			case 203:
-			case 204:
-			case 205:
-			case 206:
-			case 207:
-			case 208:
-			case 209:
-			case 210:
-			case 211:
-			case 212:
-			case 213:
-			case 214:
-			case 215:
-			case 216:
-			case 217:
-			case 218:
-			case 219:
-			case 220:
-			case 221:
-			case 222:
-			case 223:
-			case 224:
-			case 225:
-			case 226:
-			case 227:
-			case 228:
-			case 229:
-			case 230:
-			case 231:
-			case 232:
-			case 233:
-			case 234:
-			case 235:
-			case 236:
-			case 237:
-			case 238:
-			case 239:
-			case 240:
-			case 241:
-			case 242:
-			case 243:
-			case 244:
-			case 245:
-			case 246:
-			case 247:
-			case 248:
-			case 249:
-			case 250:
-			case 251:
-			case 252:
-			case 253:
-			case 254:
-			case 255:
-			case 256:
-			case 257:
-			case 258:
-			case 259:
-			case 260:
-			case 261:
-			case 262:
-			case 263:
-			case 264:
-			case 265:
-			case 266:
-			case 267:
-			case 268:
-			case 269:
-			case 270:
-			case 271:
-			case 272:
-			case 273:
-			case 274:
-			case 275:
-			case 276:
-			case 277:
-			case 278:
-			case 279:
-			case 280:
-			case 281:
-			case 282:
-			case 283:
-			case 284:
-			case 285:
-			case 286:
-			case 287:
-			case 288:
-			case 289:
-			case 290:
-			case 291:
-			case 292:
-			case 293:
-			case 294:
-			case 295:
-			case 296:
-			case 297:
-			case 298:
-			case 299:
-			case 300:
-			case 301:
-			case 302:
-			case 303:
-			case 304:
-			case 305:
-			case 306:
-			case 307:
-			case 308:
-			case 309:
-			case 310:
-			case 311:
-			case 312:
-			case 313:
-			case 314:
-			case 315:
-			case 316:
-			case 317:
-			case 318:
-			case 319:
-			case 320:
-			case 321:
-			case 322:
-			case 323:
-			case 324:
-			case 325:
-			case 326:
-			case 327:
-			case 328:
-			case 329:
-			case 330:
-			case 331:
-			case 332:
-			case 333:
-			case 334:
-			case 335:
-			case 336:
-			case 337:
-			case 338:
-			case 339:
-			case 340:
-			case 341:
-			case 342:
-			case 343:
-			case 344:
-			case 345:
-			case 346:
-			case 347:
-			case 348:
-			case 349:
-			case 350:
-			case 351:
-			case 352:
-			case 353:
-			case 354:
-			case 355:
-			case 356:
-			case 357:
-			case 358:
-			case 359:
-			case 360:
-			case 361:
-			case 362:
-			case 363:
-			case 364:
-			case 365:
-			case 366:
-			case 367:
-			case 368:
-			case 369:	
-			case 370:
-			case 371:
-			case 372:
-			case 373:
-			case 374:
-			case 375:
-			case 376:
-			case 377:
-			case 378:
-			case 379:
-			case 380:
-			case 381:
-			case 382:
-			case 383:
-			case 384:
-			case 385:
-			case 386:
-			case 387:
-			case 388:
-			case 389:
-			case 390:
-			case 391:
-			case 392:
-			case 393:
-			case 394:
-			case 395:
-			case 396:
-			case 397:
-			case 398:
-			case 399:
-			case 400:				
+			case 0:   Instrucoes.halt();
+			case 1:   Instrucoes.addImedR0(true);
+			case 2:   Instrucoes.addImedR1(true);
+			case 3:   Instrucoes.addImedR2(true);
+			case 4:   Instrucoes.addImedR3(true);
+			case 5:   Instrucoes.addImedR4(true);
+			case 6:   Instrucoes.addImedER0(true);
+			case 7:   Instrucoes.addImedER1(true);
+			case 8:   Instrucoes.addImedER2(true);
+			case 9:   Instrucoes.addImedER3(true);
+			case 10:  Instrucoes.addImedER4(true);
+			case 11:  Instrucoes.addR0R0(true);
+			case 12:  Instrucoes.addR0R1(true);
+			case 13:  Instrucoes.addR0R2(true);
+			case 14:  Instrucoes.addR0R3(true);
+			case 15:  Instrucoes.addR0R4(true);
+			case 16:  Instrucoes.addR1R0(true);
+			case 17:  Instrucoes.addR1R1(true);
+			case 18:  Instrucoes.addR1R2(true);
+			case 19:  Instrucoes.addR1R3(true);
+			case 20:  Instrucoes.addR1R4(true);
+			case 21:  Instrucoes.addR2R0(true);
+			case 22:  Instrucoes.addR2R1(true);
+			case 23:  Instrucoes.addR2R2(true);
+			case 24:  Instrucoes.addR2R3(true);
+			case 25:  Instrucoes.addR2R4(true);
+			case 26:  Instrucoes.addR3R0(true);
+			case 27:  Instrucoes.addR3R1(true);
+			case 28:  Instrucoes.addR3R2(true);
+			case 29:  Instrucoes.addR3R3(true);
+			case 30:  Instrucoes.addR3R4(true);
+			case 31:  Instrucoes.addR4R0(true);
+			case 32:  Instrucoes.addR4R1(true);
+			case 33:  Instrucoes.addR4R2(true);
+			case 34:  Instrucoes.addR4R3(true);
+			case 35:  Instrucoes.addR4R4(true);
+			case 36:  Instrucoes.addR0ER0(true);
+			case 37:  Instrucoes.addR0ER1(true);
+			case 38:  Instrucoes.addR0ER2(true);
+			case 39:  Instrucoes.addR0ER3(true);
+			case 40:  Instrucoes.addR0ER4(true);
+			case 41:  Instrucoes.addR1ER0(true);
+			case 42:  Instrucoes.addR1ER1(true);
+			case 43:  Instrucoes.addR1ER2(true);
+			case 44:  Instrucoes.addR1ER3(true);
+			case 45:  Instrucoes.addR1ER4(true);
+			case 46:  Instrucoes.addR2ER0(true);
+			case 47:  Instrucoes.addR2ER1(true);
+			case 48:  Instrucoes.addR2ER2(true);
+			case 49:  Instrucoes.addR2ER3(true);
+			case 50:  Instrucoes.addR2ER4(true);
+			case 51:  Instrucoes.addR3ER0(true);
+			case 52:  Instrucoes.addR3ER1(true);
+			case 53:  Instrucoes.addR3ER2(true);
+			case 54:  Instrucoes.addR3ER3(true);
+			case 55:  Instrucoes.addR3ER4(true);
+			case 56:  Instrucoes.addR4ER0(true);
+			case 57:  Instrucoes.addR4ER1(true);
+			case 58:  Instrucoes.addR4ER2(true);
+			case 59:  Instrucoes.addR4ER3(true);
+			case 60:  Instrucoes.addR4ER4(true);
+			case 61:  Instrucoes.addER0R0(true);
+			case 62:  Instrucoes.addER0R1(true);
+			case 63:  Instrucoes.addER0R2(true);
+			case 64:  Instrucoes.addER0R3(true);
+			case 65:  Instrucoes.addER0R4(true);
+			case 66:  Instrucoes.addER1R0(true);
+			case 67:  Instrucoes.addER1R1(true);
+			case 68:  Instrucoes.addER1R2(true);
+			case 69:  Instrucoes.addER1R3(true);
+			case 70:  Instrucoes.addER1R4(true);
+			case 71:  Instrucoes.addER2R0(true);
+			case 72:  Instrucoes.addER2R1(true);
+			case 73:  Instrucoes.addER2R2(true);
+			case 74:  Instrucoes.addER2R3(true);
+			case 75:  Instrucoes.addER2R4(true);
+			case 76:  Instrucoes.addER3R0(true);
+			case 77:  Instrucoes.addER3R1(true);
+			case 78:  Instrucoes.addER3R2(true);
+			case 79:  Instrucoes.addER3R3(true);
+			case 80:  Instrucoes.addER3R4(true);
+			case 81:  Instrucoes.addER4R0(true);
+			case 82:  Instrucoes.addER4R1(true);
+			case 83:  Instrucoes.addER4R2(true);
+			case 84:  Instrucoes.addER4R3(true);
+			case 85:  Instrucoes.addER4R4(true);
+			case 86:  Instrucoes.addER0ER0(true);
+			case 87:  Instrucoes.addER0ER1(true);
+			case 88:  Instrucoes.addER0ER2(true);
+			case 89:  Instrucoes.addER0ER3(true);
+			case 90:  Instrucoes.addER0ER4(true);
+			case 91:  Instrucoes.addER1ER0(true);
+			case 92:  Instrucoes.addER1ER1(true);
+			case 93:  Instrucoes.addER1ER2(true);
+			case 94:  Instrucoes.addER1ER3(true);
+			case 95:  Instrucoes.addER1ER4(true);
+			case 96:  Instrucoes.addER2ER0(true);
+			case 97:  Instrucoes.addER2ER1(true);
+			case 98:  Instrucoes.addER2ER2(true);
+			case 99:  Instrucoes.addER2ER3(true);
+			case 100: Instrucoes.addER2ER4(true);
+			case 101: Instrucoes.addER3ER0(true);
+			case 102: Instrucoes.addER3ER1(true);
+			case 103: Instrucoes.addER3ER2(true);
+			case 104: Instrucoes.addER3ER3(true);
+			case 105: Instrucoes.addER3ER4(true);
+			case 106: Instrucoes.addER4ER0(true);
+			case 107: Instrucoes.addER4ER1(true);
+			case 108: Instrucoes.addER4ER2(true);
+			case 109: Instrucoes.addER4ER3(true);
+			case 110: Instrucoes.addER4ER4(true);
+			case 111: Instrucoes.subImedR0(true);
+			case 112: Instrucoes.subImedR1(true);
+			case 113: Instrucoes.subImedR2(true);
+			case 114: Instrucoes.subImedR3(true);
+			case 115: Instrucoes.subImedR4(true);
+			case 116: Instrucoes.subImedER0(true);
+			case 117: Instrucoes.subImedER1(true);
+			case 118: Instrucoes.subImedER2(true);
+			case 119: Instrucoes.subImedER3(true);
+			case 120: Instrucoes.subImedER4(true);
+			case 121: Instrucoes.subR0R0(true);
+			case 122: Instrucoes.subR0R1(true);
+			case 123: Instrucoes.subR0R2(true);
+			case 124: Instrucoes.subR0R3(true);
+			case 125: Instrucoes.subR0R4(true);
+			case 126: Instrucoes.subR1R0(true);
+			case 127: Instrucoes.subR1R1(true);
+			case 128: Instrucoes.subR1R2(true);
+			case 129: Instrucoes.subR1R3(true);
+			case 130: Instrucoes.subR1R4(true);
+			case 131: Instrucoes.subR2R0(true);
+			case 132: Instrucoes.subR2R1(true);
+			case 133: Instrucoes.subR2R2(true);
+			case 134: Instrucoes.subR2R3(true);
+			case 135: Instrucoes.subR2R4(true);
+			case 136: Instrucoes.subR3R0(true);
+			case 137: Instrucoes.subR3R1(true);
+			case 138: Instrucoes.subR3R2(true);
+			case 139: Instrucoes.subR3R3(true);
+			case 140: Instrucoes.subR3R4(true);
+			case 141: Instrucoes.subR4R0(true);
+			case 142: Instrucoes.subR4R1(true);
+			case 143: Instrucoes.subR4R2(true);
+			case 144: Instrucoes.subR4R3(true);
+			case 145: Instrucoes.subR4R4(true);
+			case 146: Instrucoes.subR0ER0(true);
+			case 147: Instrucoes.subR0ER1(true);
+			case 148: Instrucoes.subR0ER2(true);
+			case 149: Instrucoes.subR0ER3(true);
+			case 150: Instrucoes.subR0ER4(true);
+			case 151: Instrucoes.subR1ER0(true);
+			case 152: Instrucoes.subR1ER1(true);
+			case 153: Instrucoes.subR1ER2(true);
+			case 154: Instrucoes.subR1ER3(true);
+			case 155: Instrucoes.subR1ER4(true);
+			case 156: Instrucoes.subR2ER0(true);
+			case 157: Instrucoes.subR2ER1(true);
+			case 158: Instrucoes.subR2ER2(true);
+			case 159: Instrucoes.subR2ER3(true);
+			case 160: Instrucoes.subR2ER4(true);
+			case 161: Instrucoes.subR3ER0(true);
+			case 162: Instrucoes.subR3ER1(true);
+			case 163: Instrucoes.subR3ER2(true);
+			case 164: Instrucoes.subR3ER3(true);
+			case 165: Instrucoes.subR3ER4(true);
+			case 166: Instrucoes.subR4ER0(true);
+			case 167: Instrucoes.subR4ER1(true);
+			case 168: Instrucoes.subR4ER2(true);
+			case 169: Instrucoes.subR4ER3(true);
+			case 170: Instrucoes.subR4ER4(true);
+			case 171: Instrucoes.subER0R0(true);
+			case 172: Instrucoes.subER0R1(true);
+			case 173: Instrucoes.subER0R2(true);
+			case 174: Instrucoes.subER0R3(true);
+			case 175: Instrucoes.subER0R4(true);
+			case 176: Instrucoes.subER1R0(true);
+			case 177: Instrucoes.subER1R1(true);
+			case 178: Instrucoes.subER1R2(true);
+			case 179: Instrucoes.subER1R3(true);
+			case 180: Instrucoes.subER1R4(true);
+			case 181: Instrucoes.subER2R0(true);
+			case 182: Instrucoes.subER2R1(true);
+			case 183: Instrucoes.subER2R2(true);
+			case 184: Instrucoes.subER2R3(true);
+			case 185: Instrucoes.subER2R4(true);
+			case 186: Instrucoes.subER3R0(true);
+			case 187: Instrucoes.subER3R1(true);
+			case 188: Instrucoes.subER3R2(true);
+			case 189: Instrucoes.subER3R3(true);
+			case 190: Instrucoes.subER3R4(true);
+			case 191: Instrucoes.subER4R0(true);
+			case 192: Instrucoes.subER4R1(true);
+			case 193: Instrucoes.subER4R2(true);
+			case 194: Instrucoes.subER4R3(true);
+			case 195: Instrucoes.subER4R4(true);
+			case 196: Instrucoes.subER0ER0(true);
+			case 197: Instrucoes.subER0ER1(true);
+			case 198: Instrucoes.subER0ER2(true);
+			case 199: Instrucoes.subER0ER3(true);
+			case 200: Instrucoes.subER0ER4(true);
+			case 201: Instrucoes.subER1ER0(true);
+			case 202: Instrucoes.subER1ER1(true);
+			case 203: Instrucoes.subER1ER2(true);
+			case 204: Instrucoes.subER1ER3(true);
+			case 205: Instrucoes.subER1ER4(true);
+			case 206: Instrucoes.subER2ER0(true);
+			case 207: Instrucoes.subER2ER1(true);
+			case 208: Instrucoes.subER2ER2(true);
+			case 209: Instrucoes.subER2ER3(true);
+			case 210: Instrucoes.subER2ER4(true);
+			case 211: Instrucoes.subER3ER0(true);
+			case 212: Instrucoes.subER3ER1(true);
+			case 213: Instrucoes.subER3ER2(true);
+			case 214: Instrucoes.subER3ER3(true);
+			case 215: Instrucoes.subER3ER4(true);
+			case 216: Instrucoes.subER4ER0(true);
+			case 217: Instrucoes.subER4ER1(true);
+			case 218: Instrucoes.subER4ER2(true);
+			case 219: Instrucoes.subER4ER3(true);
+			case 220: Instrucoes.subER4ER4(true);
+			case 221: Instrucoes.movImedR0(true);
+			case 222: Instrucoes.movImedR1(true);
+			case 223: Instrucoes.movImedR2(true);
+			case 224: Instrucoes.movImedR3(true);
+			case 225: Instrucoes.movImedR4(true);
+			case 226: Instrucoes.movImedER0(true);
+			case 227: Instrucoes.movImedER1(true);
+			case 228: Instrucoes.movImedER2(true);
+			case 229: Instrucoes.movImedER3(true);
+			case 230: Instrucoes.movImedER4(true);
+			case 231: Instrucoes.movR0R0(true);
+			case 232: Instrucoes.movR0R1(true);
+			case 233: Instrucoes.movR0R2(true);
+			case 234: Instrucoes.movR0R3(true);
+			case 235: Instrucoes.movR0R4(true);
+			case 236: Instrucoes.movR1R0(true);
+			case 237: Instrucoes.movR1R1(true);
+			case 238: Instrucoes.movR1R2(true);
+			case 239: Instrucoes.movR1R3(true);
+			case 240: Instrucoes.movR1R4(true);
+			case 241: Instrucoes.movR2R0(true);
+			case 242: Instrucoes.movR2R1(true);
+			case 243: Instrucoes.movR2R2(true);
+			case 244: Instrucoes.movR2R3(true);
+			case 245: Instrucoes.movR2R4(true);
+			case 246: Instrucoes.movR3R0(true);
+			case 247: Instrucoes.movR3R1(true);
+			case 248: Instrucoes.movR3R2(true);
+			case 249: Instrucoes.movR3R3(true);
+			case 250: Instrucoes.movR3R4(true);
+			case 251: Instrucoes.movR4R0(true);
+			case 252: Instrucoes.movR4R1(true);
+			case 253: Instrucoes.movR4R2(true);
+			case 254: Instrucoes.movR4R3(true);
+			case 255: Instrucoes.movR4R4(true);
+			case 256: Instrucoes.movR0ER0(true);
+			case 257: Instrucoes.movR0ER1(true);
+			case 258: Instrucoes.movR0ER2(true);
+			case 259: Instrucoes.movR0ER3(true);
+			case 260: Instrucoes.movR0ER4(true);
+			case 261: Instrucoes.movR1ER0(true);
+			case 262: Instrucoes.movR1ER1(true);
+			case 263: Instrucoes.movR1ER2(true);
+			case 264: Instrucoes.movR1ER3(true);
+			case 265: Instrucoes.movR1ER4(true);
+			case 266: Instrucoes.movR2ER0(true);
+			case 267: Instrucoes.movR2ER1(true);
+			case 268: Instrucoes.movR2ER2(true);
+			case 269: Instrucoes.movR2ER3(true);
+			case 270: Instrucoes.movR2ER4(true);
+			case 271: Instrucoes.movR3ER0(true);
+			case 272: Instrucoes.movR3ER1(true);
+			case 273: Instrucoes.movR3ER2(true);
+			case 274: Instrucoes.movR3ER3(true);
+			case 275: Instrucoes.movR3ER4(true);
+			case 276: Instrucoes.movR4ER0(true);
+			case 277: Instrucoes.movR4ER1(true);
+			case 278: Instrucoes.movR4ER2(true);
+			case 279: Instrucoes.movR4ER3(true);
+			case 280: Instrucoes.movR4ER4(true);
+			case 281: Instrucoes.movER0R0(true);
+			case 282: Instrucoes.movER0R1(true);
+			case 283: Instrucoes.movER0R2(true);
+			case 284: Instrucoes.movER0R3(true);
+			case 285: Instrucoes.movER0R4(true);
+			case 286: Instrucoes.movER1R0(true);
+			case 287: Instrucoes.movER1R1(true);
+			case 288: Instrucoes.movER1R2(true);
+			case 289: Instrucoes.movER1R3(true);
+			case 290: Instrucoes.movER1R4(true);
+			case 291: Instrucoes.movER2R0(true);
+			case 292: Instrucoes.movER2R1(true);
+			case 293: Instrucoes.movER2R2(true);
+			case 294: Instrucoes.movER2R3(true);
+			case 295: Instrucoes.movER2R4(true);
+			case 296: Instrucoes.movER3R0(true);
+			case 297: Instrucoes.movER3R1(true);
+			case 298: Instrucoes.movER3R2(true);
+			case 299: Instrucoes.movER3R3(true);
+			case 300: Instrucoes.movER3R4(true);
+			case 301: Instrucoes.movER4R0(true);
+			case 302: Instrucoes.movER4R1(true);
+			case 303: Instrucoes.movER4R2(true);
+			case 304: Instrucoes.movER4R3(true);
+			case 305: Instrucoes.movER4R4(true);
+			case 306: Instrucoes.movER0ER0(true);
+			case 307: Instrucoes.movER0ER1(true);
+			case 308: Instrucoes.movER0ER2(true);
+			case 309: Instrucoes.movER0ER3(true);
+			case 310: Instrucoes.movER0ER4(true);
+			case 311: Instrucoes.movER1ER0(true);
+			case 312: Instrucoes.movER1ER1(true);
+			case 313: Instrucoes.movER1ER2(true);
+			case 314: Instrucoes.movER1ER3(true);
+			case 315: Instrucoes.movER1ER4(true);
+			case 316: Instrucoes.movER2ER0(true);
+			case 317: Instrucoes.movER2ER1(true);
+			case 318: Instrucoes.movER2ER2(true);
+			case 319: Instrucoes.movER2ER3(true);
+			case 320: Instrucoes.movER2ER4(true);
+			case 321: Instrucoes.movER3ER0(true);
+			case 322: Instrucoes.movER3ER1(true);
+			case 323: Instrucoes.movER3ER2(true);
+			case 324: Instrucoes.movER3ER3(true);
+			case 325: Instrucoes.movER3ER4(true);
+			case 326: Instrucoes.movER4ER0(true);
+			case 327: Instrucoes.movER4ER1(true);
+			case 328: Instrucoes.movER4ER2(true);
+			case 329: Instrucoes.movER4ER3(true);
+			case 330: Instrucoes.movER4ER4(true);
+			case 331: Instrucoes.cmpImedR0(true);
+			case 332: Instrucoes.cmpImedR1(true);
+			case 333: Instrucoes.cmpImedR2(true);
+			case 334: Instrucoes.cmpImedR3(true);
+			case 335: Instrucoes.cmpImedR4(true);
+			case 336: Instrucoes.cmpImedER0(true);
+			case 337: Instrucoes.cmpImedER1(true);
+			case 338: Instrucoes.cmpImedER2(true);
+			case 339: Instrucoes.cmpImedER3(true);
+			case 340: Instrucoes.cmpImedER4(true);
+			case 341: Instrucoes.cmpR0R0(true);
+			case 342: Instrucoes.cmpR0R1(true);
+			case 343: Instrucoes.cmpR0R2(true);
+			case 344: Instrucoes.cmpR0R3(true);
+			case 345: Instrucoes.cmpR0R4(true);
+			case 346: Instrucoes.cmpR1R0(true);
+			case 347: Instrucoes.cmpR1R1(true);
+			case 348: Instrucoes.cmpR1R2(true);
+			case 349: Instrucoes.cmpR1R3(true);
+			case 350: Instrucoes.cmpR1R4(true);
+			case 351: Instrucoes.cmpR2R0(true);
+			case 352: Instrucoes.cmpR2R1(true);
+			case 353: Instrucoes.cmpR2R2(true);
+			case 354: Instrucoes.cmpR2R3(true);
+			case 355: Instrucoes.cmpR2R4(true);
+			case 356: Instrucoes.cmpR3R0(true);
+			case 357: Instrucoes.cmpR3R1(true);
+			case 358: Instrucoes.cmpR3R2(true);
+			case 359: Instrucoes.cmpR3R3(true);
+			case 360: Instrucoes.cmpR3R4(true);
+			case 361: Instrucoes.cmpR4R0(true);
+			case 362: Instrucoes.cmpR4R1(true);
+			case 363: Instrucoes.cmpR4R2(true);
+			case 364: Instrucoes.cmpR4R3(true);
+			case 365: Instrucoes.cmpR4R4(true);
+			case 366: Instrucoes.cmpR0ER0(true);
+			case 367: Instrucoes.cmpR0ER1(true);
+			case 368: Instrucoes.cmpR0ER2(true);
+			case 369: Instrucoes.cmpR0ER3(true);
+			case 370: Instrucoes.cmpR0ER4(true);
+			case 371: Instrucoes.cmpR1ER0(true);
+			case 372: Instrucoes.cmpR1ER1(true);
+			case 373: Instrucoes.cmpR1ER2(true);
+			case 374: Instrucoes.cmpR1ER3(true);
+			case 375: Instrucoes.cmpR1ER4(true);
+			case 376: Instrucoes.cmpR2ER0(true);
+			case 377: Instrucoes.cmpR2ER1(true);
+			case 378: Instrucoes.cmpR2ER2(true);
+			case 379: Instrucoes.cmpR2ER3(true);
+			case 380: Instrucoes.cmpR2ER4(true);
+			case 381: Instrucoes.cmpR3ER0(true);
+			case 382: Instrucoes.cmpR3ER1(true);
+			case 383: Instrucoes.cmpR3ER2(true);
+			case 384: Instrucoes.cmpR3ER3(true);
+			case 385: Instrucoes.cmpR3ER4(true);
+			case 386: Instrucoes.cmpR4ER0(true);
+			case 387: Instrucoes.cmpR4ER1(true);
+			case 388: Instrucoes.cmpR4ER2(true);
+			case 389: Instrucoes.cmpR4ER3(true);
+			case 390: Instrucoes.cmpR4ER4(true);
+			case 391: Instrucoes.cmpER0R0(true);
+			case 392: Instrucoes.cmpER0R1(true);
+			case 393: Instrucoes.cmpER0R2(true);
+			case 394: Instrucoes.cmpER0R3(true);
+			case 395: Instrucoes.cmpER0R4(true);
+			case 396: Instrucoes.cmpER1R0(true);
+			case 397: Instrucoes.cmpER1R1(true);
+			case 398: Instrucoes.cmpER1R2(true);
+			case 399: Instrucoes.cmpER1R3(true);
+			case 400: Instrucoes.cmpER1R4(true);
+			case 401: Instrucoes.cmpER2R0(true);
+			case 402: Instrucoes.cmpER2R1(true);
+			case 403: Instrucoes.cmpER2R2(true);
+			case 404: Instrucoes.cmpER2R3(true);
+			case 405: Instrucoes.cmpER2R4(true);
+			case 406: Instrucoes.cmpER3R0(true);
+			case 407: Instrucoes.cmpER3R1(true);
+			case 408: Instrucoes.cmpER3R2(true);
+			case 409: Instrucoes.cmpER3R3(true);
+			case 410: Instrucoes.cmpER3R4(true);
+			case 411: Instrucoes.cmpER4R0(true);
+			case 412: Instrucoes.cmpER4R1(true);
+			case 413: Instrucoes.cmpER4R2(true);
+			case 414: Instrucoes.cmpER4R3(true);
+			case 415: Instrucoes.cmpER4R4(true);
+			case 416: Instrucoes.cmpER0ER0(true);
+			case 417: Instrucoes.cmpER0ER1(true);
+			case 418: Instrucoes.cmpER0ER2(true);
+			case 419: Instrucoes.cmpER0ER3(true);
+			case 420: Instrucoes.cmpER0ER4(true);
+			case 421: Instrucoes.cmpER1ER0(true);
+			case 422: Instrucoes.cmpER1ER1(true);
+			case 423: Instrucoes.cmpER1ER2(true);
+			case 424: Instrucoes.cmpER1ER3(true);
+			case 425: Instrucoes.cmpER1ER4(true);
+			case 426: Instrucoes.cmpER2ER0(true);
+			case 427: Instrucoes.cmpER2ER1(true);
+			case 428: Instrucoes.cmpER2ER2(true);
+			case 429: Instrucoes.cmpER2ER3(true);
+			case 430: Instrucoes.cmpER2ER4(true);
+			case 431: Instrucoes.cmpER3ER0(true);
+			case 432: Instrucoes.cmpER3ER1(true);
+			case 433: Instrucoes.cmpER3ER2(true);
+			case 434: Instrucoes.cmpER3ER3(true);
+			case 435: Instrucoes.cmpER3ER4(true);
+			case 436: Instrucoes.cmpER4ER0(true);
+			case 437: Instrucoes.cmpER4ER1(true);
+			case 438: Instrucoes.cmpER4ER2(true);
+			case 439: Instrucoes.cmpER4ER3(true);
+			case 440: Instrucoes.cmpER4ER4(true);
+			case 441: Instrucoes.andImedR0(true);
+			case 442: Instrucoes.andImedR1(true);
+			case 443: Instrucoes.andImedR2(true);
+			case 444: Instrucoes.andImedR3(true);
+			case 445: Instrucoes.andImedR4(true);
+			case 446: Instrucoes.andImedER0(true);
+			case 447: Instrucoes.andImedER1(true);
+			case 448: Instrucoes.andImedER2(true);
+			case 449: Instrucoes.andImedER3(true);
+			case 450: Instrucoes.andImedER4(true);
+			case 451: Instrucoes.andR0R0(true);
+			case 452: Instrucoes.andR0R1(true);
+			case 453: Instrucoes.andR0R2(true);
+			case 454: Instrucoes.andR0R3(true);
+			case 455: Instrucoes.andR0R4(true);
+			case 456: Instrucoes.andR1R0(true);
+			case 457: Instrucoes.andR1R1(true);
+			case 458: Instrucoes.andR1R2(true);
+			case 459: Instrucoes.andR1R3(true);
+			case 460: Instrucoes.andR1R4(true);
+			case 461: Instrucoes.andR2R0(true);
+			case 462: Instrucoes.andR2R1(true);
+			case 463: Instrucoes.andR2R2(true);
+			case 464: Instrucoes.andR2R3(true);
+			case 465: Instrucoes.andR2R4(true);
+			case 466: Instrucoes.andR3R0(true);
+			case 467: Instrucoes.andR3R1(true);
+			case 468: Instrucoes.andR3R2(true);
+			case 469: Instrucoes.andR3R3(true);
+			case 470: Instrucoes.andR3R4(true);
+			case 471: Instrucoes.andR4R0(true);
+			case 472: Instrucoes.andR4R1(true);
+			case 473: Instrucoes.andR4R2(true);
+			case 474: Instrucoes.andR4R3(true);
+			case 475: Instrucoes.andR4R4(true);
+			case 476: Instrucoes.andR0ER0(true);
+			case 477: Instrucoes.andR0ER1(true);
+			case 478: Instrucoes.andR0ER2(true);
+			case 479: Instrucoes.andR0ER3(true);
+			case 480: Instrucoes.andR0ER4(true);
+			case 481: Instrucoes.andR1ER0(true);
+			case 482: Instrucoes.andR1ER1(true);
+			case 483: Instrucoes.andR1ER2(true);
+			case 484: Instrucoes.andR1ER3(true);
+			case 485: Instrucoes.andR1ER4(true);
+			case 486: Instrucoes.andR2ER0(true);
+			case 487: Instrucoes.andR2ER1(true);
+			case 488: Instrucoes.andR2ER2(true);
+			case 489: Instrucoes.andR2ER3(true);
+			case 490: Instrucoes.andR2ER4(true);
+			case 491: Instrucoes.andR3ER0(true);
+			case 492: Instrucoes.andR3ER1(true);
+			case 493: Instrucoes.andR3ER2(true);
+			case 494: Instrucoes.andR3ER3(true);
+			case 495: Instrucoes.andR3ER4(true);
+			case 496: Instrucoes.andR4ER0(true);
+			case 497: Instrucoes.andR4ER1(true);
+			case 498: Instrucoes.andR4ER2(true);
+			case 499: Instrucoes.andR4ER3(true);
+			case 500: Instrucoes.andR4ER4(true);
+			case 501: Instrucoes.andER0R0(true);
+			case 502: Instrucoes.andER0R1(true);
+			case 503: Instrucoes.andER0R2(true);
+			case 504: Instrucoes.andER0R3(true);
+			case 505: Instrucoes.andER0R4(true);
+			case 506: Instrucoes.andER1R0(true);
+			case 507: Instrucoes.andER1R1(true);
+			case 508: Instrucoes.andER1R2(true);
+			case 509: Instrucoes.andER1R3(true);
+			case 510: Instrucoes.andER1R4(true);
+			case 511: Instrucoes.andER2R0(true);
+			case 512: Instrucoes.andER2R1(true);
+			case 513: Instrucoes.andER2R2(true);
+			case 514: Instrucoes.andER2R3(true);
+			case 515: Instrucoes.andER2R4(true);
+			case 516: Instrucoes.andER3R0(true);
+			case 517: Instrucoes.andER3R1(true);
+			case 518: Instrucoes.andER3R2(true);
+			case 519: Instrucoes.andER3R3(true);
+			case 520: Instrucoes.andER3R4(true);
+			case 521: Instrucoes.andER4R0(true);
+			case 522: Instrucoes.andER4R1(true);
+			case 523: Instrucoes.andER4R2(true);
+			case 524: Instrucoes.andER4R3(true);
+			case 525: Instrucoes.andER4R4(true);
+			case 526: Instrucoes.andER0ER0(true);
+			case 527: Instrucoes.andER0ER1(true);
+			case 528: Instrucoes.andER0ER2(true);
+			case 529: Instrucoes.andER0ER3(true);
+			case 530: Instrucoes.andER0ER4(true);
+			case 531: Instrucoes.andER1ER0(true);
+			case 532: Instrucoes.andER1ER1(true);
+			case 533: Instrucoes.andER1ER2(true);
+			case 534: Instrucoes.andER1ER3(true);
+			case 535: Instrucoes.andER1ER4(true);
+			case 536: Instrucoes.andER2ER0(true);
+			case 537: Instrucoes.andER2ER1(true);
+			case 538: Instrucoes.andER2ER2(true);
+			case 539: Instrucoes.andER2ER3(true);
+			case 540: Instrucoes.andER2ER4(true);
+			case 541: Instrucoes.andER3ER0(true);
+			case 542: Instrucoes.andER3ER1(true);
+			case 543: Instrucoes.andER3ER2(true);
+			case 544: Instrucoes.andER3ER3(true);
+			case 545: Instrucoes.andER3ER4(true);
+			case 546: Instrucoes.andER4ER0(true);
+			case 547: Instrucoes.andER4ER1(true);
+			case 548: Instrucoes.andER4ER2(true);
+			case 549: Instrucoes.andER4ER3(true);
+			case 550: Instrucoes.andER4ER4(true);
+			case 551: Instrucoes.orImedR0(true);
+			case 552: Instrucoes.orImedR1(true);
+			case 553: Instrucoes.orImedR2(true);
+			case 554: Instrucoes.orImedR3(true);
+			case 555: Instrucoes.orImedR4(true);
+			case 556: Instrucoes.orImedER0(true);
+			case 557: Instrucoes.orImedER1(true);
+			case 558: Instrucoes.orImedER2(true);
+			case 559: Instrucoes.orImedER3(true);
+			case 560: Instrucoes.orImedER4(true);
+			case 561: Instrucoes.orR0R0(true);
+			case 562: Instrucoes.orR0R1(true);
+			case 563: Instrucoes.orR0R2(true);
+			case 564: Instrucoes.orR0R3(true);
+			case 565: Instrucoes.orR0R4(true);
+			case 566: Instrucoes.orR1R0(true);
+			case 567: Instrucoes.orR1R1(true);
+			case 568: Instrucoes.orR1R2(true);
+			case 569: Instrucoes.orR1R3(true);
+			case 570: Instrucoes.orR1R4(true);
+			case 571: Instrucoes.orR2R0(true);
+			case 572: Instrucoes.orR2R1(true);
+			case 573: Instrucoes.orR2R2(true);
+			case 574: Instrucoes.orR2R3(true);
+			case 575: Instrucoes.orR2R4(true);
+			case 576: Instrucoes.orR3R0(true);
+			case 577: Instrucoes.orR3R1(true);
+			case 578: Instrucoes.orR3R2(true);
+			case 579: Instrucoes.orR3R3(true);
+			case 580: Instrucoes.orR3R4(true);
+			case 581: Instrucoes.orR4R0(true);
+			case 582: Instrucoes.orR4R1(true);
+			case 583: Instrucoes.orR4R2(true);
+			case 584: Instrucoes.orR4R3(true);
+			case 585: Instrucoes.orR4R4(true);
+			case 586: Instrucoes.orR0ER0(true);
+			case 587: Instrucoes.orR0ER1(true);
+			case 588: Instrucoes.orR0ER2(true);
+			case 589: Instrucoes.orR0ER3(true);
+			case 590: Instrucoes.orR0ER4(true);
+			case 591: Instrucoes.orR1ER0(true);
+			case 592: Instrucoes.orR1ER1(true);
+			case 593: Instrucoes.orR1ER2(true);
+			case 594: Instrucoes.orR1ER3(true);
+			case 595: Instrucoes.orR1ER4(true);
+			case 596: Instrucoes.orR2ER0(true);
+			case 597: Instrucoes.orR2ER1(true);
+			case 598: Instrucoes.orR2ER2(true);
+			case 599: Instrucoes.orR2ER3(true);
+			case 600: Instrucoes.orR2ER4(true);
+			case 601: Instrucoes.orR3ER0(true);
+			case 602: Instrucoes.orR3ER1(true);
+			case 603: Instrucoes.orR3ER2(true);
+			case 604: Instrucoes.orR3ER3(true);
+			case 605: Instrucoes.orR3ER4(true);
+			case 606: Instrucoes.orR4ER0(true);
+			case 607: Instrucoes.orR4ER1(true);
+			case 608: Instrucoes.orR4ER2(true);
+			case 609: Instrucoes.orR4ER3(true);
+			case 610: Instrucoes.orR4ER4(true);
+			case 611: Instrucoes.orER0R0(true);
+			case 612: Instrucoes.orER0R1(true);
+			case 613: Instrucoes.orER0R2(true);
+			case 614: Instrucoes.orER0R3(true);
+			case 615: Instrucoes.orER0R4(true);
+			case 616: Instrucoes.orER1R0(true);
+			case 617: Instrucoes.orER1R1(true);
+			case 618: Instrucoes.orER1R2(true);
+			case 619: Instrucoes.orER1R3(true);
+			case 620: Instrucoes.orER1R4(true);
+			case 621: Instrucoes.orER2R0(true);
+			case 622: Instrucoes.orER2R1(true);
+			case 623: Instrucoes.orER2R2(true);
+			case 624: Instrucoes.orER2R3(true);
+			case 625: Instrucoes.orER2R4(true);
+			case 626: Instrucoes.orER3R0(true);
+			case 627: Instrucoes.orER3R1(true);
+			case 628: Instrucoes.orER3R2(true);
+			case 629: Instrucoes.orER3R3(true);
+			case 630: Instrucoes.orER3R4(true);
+			case 631: Instrucoes.orER4R0(true);
+			case 632: Instrucoes.orER4R1(true);
+			case 633: Instrucoes.orER4R2(true);
+			case 634: Instrucoes.orER4R3(true);
+			case 635: Instrucoes.orER4R4(true);
+			case 636: Instrucoes.orER0ER0(true);
+			case 637: Instrucoes.orER0ER1(true);
+			case 638: Instrucoes.orER0ER2(true);
+			case 639: Instrucoes.orER0ER3(true);
+			case 640: Instrucoes.orER0ER4(true);
+			case 641: Instrucoes.orER1ER0(true);
+			case 642: Instrucoes.orER1ER1(true);
+			case 643: Instrucoes.orER1ER2(true);
+			case 644: Instrucoes.orER1ER3(true);
+			case 645: Instrucoes.orER1ER4(true);
+			case 646: Instrucoes.orER2ER0(true);
+			case 647: Instrucoes.orER2ER1(true);
+			case 648: Instrucoes.orER2ER2(true);
+			case 649: Instrucoes.orER2ER3(true);
+			case 650: Instrucoes.orER2ER4(true);
+			case 651: Instrucoes.orER3ER0(true);
+			case 652: Instrucoes.orER3ER1(true);
+			case 653: Instrucoes.orER3ER2(true);
+			case 654: Instrucoes.orER3ER3(true);
+			case 655: Instrucoes.orER3ER4(true);
+			case 656: Instrucoes.orER4ER0(true);
+			case 657: Instrucoes.orER4ER1(true);
+			case 658: Instrucoes.orER4ER2(true);
+			case 659: Instrucoes.orER4ER3(true);
+			case 660: Instrucoes.orER4ER4(true);
+			case 661: Instrucoes.notR0(true);
+			case 662: Instrucoes.notR1(true);
+			case 663: Instrucoes.notR2(true);
+			case 664: Instrucoes.notR3(true);
+			case 665: Instrucoes.notR4(true);
+			case 666: Instrucoes.notER0(true);
+			case 667: Instrucoes.notER1(true);
+			case 668: Instrucoes.notER2(true);
+			case 669: Instrucoes.notER3(true);
+			case 670: Instrucoes.notER4(true);
+			case 671: Instrucoes.negR0(true);
+			case 672: Instrucoes.negR1(true);
+			case 673: Instrucoes.negR2(true);
+			case 674: Instrucoes.negR3(true);
+			case 675: Instrucoes.negR4(true);
+			case 676: Instrucoes.negER0(true);
+			case 677: Instrucoes.negER1(true);
+			case 678: Instrucoes.negER2(true);
+			case 679: Instrucoes.negER3(true);
+			case 680: Instrucoes.negER4(true);
+			case 681: Instrucoes.clrR0(true);
+			case 682: Instrucoes.clrR1(true);
+			case 683: Instrucoes.clrR2(true);
+			case 684: Instrucoes.clrR3(true);
+			case 685: Instrucoes.clrR4(true);
+			case 686: Instrucoes.clrER0(true);
+			case 687: Instrucoes.clrER1(true);
+			case 688: Instrucoes.clrER2(true);
+			case 689: Instrucoes.clrER3(true);
+			case 690: Instrucoes.clrER4(true);
+			case 691: Instrucoes.shlR0(true);
+			case 692: Instrucoes.shlR1(true);
+			case 693: Instrucoes.shlR2(true);
+			case 694: Instrucoes.shlR3(true);
+			case 695: Instrucoes.shlR4(true);
+			case 696: Instrucoes.shlER0(true);
+			case 697: Instrucoes.shlER1(true);
+			case 698: Instrucoes.shlER2(true);
+			case 699: Instrucoes.shlER3(true);
+			case 700: Instrucoes.shlER4(true);
+			case 701: Instrucoes.shrR0(true);
+			case 702: Instrucoes.shrR1(true);
+			case 703: Instrucoes.shrR2(true);
+			case 704: Instrucoes.shrR3(true);
+			case 705: Instrucoes.shrR4(true);
+			case 706: Instrucoes.shrER0(true);
+			case 707: Instrucoes.shrER1(true);
+			case 708: Instrucoes.shrER2(true);
+			case 709: Instrucoes.shrER3(true);
+			case 710: Instrucoes.shrER4(true);
+			case 711: Instrucoes.brz(true);
+			case 712: Instrucoes.brn(true);
+			case 713: Instrucoes.bre(true);
+			case 714: Instrucoes.brl(true);
+			case 715: Instrucoes.brg(true);
+			case 716: Instrucoes.brc(true);
+			case 717: Instrucoes.jmp(true);
 		}
 	}
 	
