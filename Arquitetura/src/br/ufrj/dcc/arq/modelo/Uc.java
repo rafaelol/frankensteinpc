@@ -26,8 +26,7 @@ public class Uc {
 	public static final int W = 22;
 	public static final int X = 23;
 	
-	private int rendUC;
-	public static MemoriaControle memCtrl;
+	public static int renduc;
 	public static Bit sinais[] = new Bit[MemoriaControle.TAM_CTRL];
 
 	/****************************************************/
@@ -35,55 +34,40 @@ public class Uc {
 	
 	public Uc() {
 		for(int i=0; i < MemoriaControle.TAM_CTRL; i++) {
-			sinais[A+i] = new Bit((short)0);
+			sinais[i] = new Bit((short)0);
 		}
-		
-		rendUC = 0;
-		
-		memCtrl = new MemoriaControle();
+				
+		renduc = 0;
 	}
 	
 	/****************************************************/
 	/****************************************************/
 	
-	public void setRendUC(int rendUC) {
-		this.rendUC = rendUC;
-	}
-	
-	public int getRendUC() {
-		return rendUC;
-	}
-	
-	/**********************************/
-	
-	public Bit[] getSinais() {
-		return sinais;
-	}
-
-	public void setSinais(Bit[] sinais) {
-		this.sinais = sinais;
-	}
-	
-	/**********************************/
-	
-	public void setMemCtrl(MemoriaControle memCtrl) {
-		this.memCtrl = memCtrl;
+	public static short[] getSinais() {
+		short vet[] =  {sinais[A].getValor(), sinais[B].getValor(),	sinais[C].getValor(),
+			    		sinais[D].getValor(), sinais[E].getValor(), sinais[F].getValor(),
+			    		sinais[G].getValor(), sinais[H].getValor(), sinais[I].getValor(),
+			    		sinais[J].getValor(), sinais[K].getValor(), sinais[L].getValor(),
+			    		sinais[M].getValor(), sinais[N].getValor(), sinais[O].getValor(),
+			    		sinais[P].getValor(), sinais[Q].getValor(), sinais[R].getValor(),
+			    		sinais[S].getValor(), sinais[T].getValor(), sinais[U].getValor(),
+			    		sinais[V].getValor(), sinais[W].getValor(), sinais[X].getValor(),
+					   };
+		
+		return vet;
 	}
 
-	public MemoriaControle getMemCtrl() {
-		return memCtrl;
+	public static void setSinais(short[] v) {
+		sinais[A].setValor(v[A]); sinais[B].setValor(v[B]); sinais[C].setValor(v[C]);
+		sinais[D].setValor(v[D]); sinais[E].setValor(v[E]); sinais[F].setValor(v[F]);
+		sinais[G].setValor(v[G]); sinais[H].setValor(v[H]); sinais[I].setValor(v[I]);
+		sinais[J].setValor(v[J]); sinais[K].setValor(v[K]); sinais[L].setValor(v[L]);
+		sinais[M].setValor(v[M]); sinais[N].setValor(v[N]); sinais[O].setValor(v[O]);
+		sinais[P].setValor(v[P]); sinais[Q].setValor(v[Q]); sinais[R].setValor(v[R]);
+		sinais[S].setValor(v[S]); sinais[T].setValor(v[T]); sinais[U].setValor(v[U]);
+		sinais[V].setValor(v[V]); sinais[W].setValor(v[W]); sinais[X].setValor(v[X]);
+		
 	}
-
-	/**********************************/
-	
-	public Bit getSinal(int c) {
-		return sinais[c];
-	}
-
-	public void setSinal(int c, Bit b) {
-		this.sinais[c] = b;
-	}
-
 	
 	
 /* ========================== Operar ======================== */

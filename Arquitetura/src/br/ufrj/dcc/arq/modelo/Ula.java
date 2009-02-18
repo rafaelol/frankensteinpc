@@ -582,8 +582,17 @@ public class Ula {
 	 * Decide, de acordo com os sinais de controle da ULA, qual será a operação a
 	 * ser realizada sobre os operadores A e B, chamando o método correspondente.
 	 */
-	public void opera(short[] op) {
-		this.setSinais(op);
+	public void opera() {
+		short vet[] = {
+						Uc.sinais[Uc.R].getValor(),
+						Uc.sinais[Uc.S].getValor(),
+						Uc.sinais[Uc.T].getValor(),
+						Uc.sinais[Uc.U].getValor(),
+						Uc.sinais[Uc.V].getValor(),
+						Uc.sinais[Uc.W].getValor(),
+				      };
+				
+		this.setSinais(vet);
 		this.a = Multiplex4E.s;
 		this.b = Multiplex5E.s;
 		
