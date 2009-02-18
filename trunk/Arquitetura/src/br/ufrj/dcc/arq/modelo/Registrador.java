@@ -11,7 +11,6 @@ public class Registrador {
 	public static short pc;
 	public static short rdados;
 	public static short rend;
-	public static short renduc;
 	public static short ri;
 
 	private int id;

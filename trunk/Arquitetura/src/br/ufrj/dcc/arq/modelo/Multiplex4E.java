@@ -154,7 +154,12 @@ public class Multiplex4E {
 		this.b = Registrador.r0;
 		this.c = Registrador.r1;
 		this.d = Registrador.rx;
-		this.setSinais(v);
+		
+		short vet[] = {Uc.sinais[Uc.M].getValor(),
+				       Uc.sinais[Uc.N].getValor()
+					  };
+
+		this.setSinais(vet);
 		
 		if (compara(PASSARDADOS)) s = a;
 		if (compara(PASSAR0))     s = b;

@@ -172,7 +172,13 @@ public class Multiplex5E {
 		this.c = Registrador.r4;
 		this.d = Registrador.ry;
 		this.e = Registrador.pc;
-		this.setSinais(v);
+		
+		short vet[] = {Uc.sinais[Uc.O].getValor(),
+			           Uc.sinais[Uc.P].getValor(),
+			           Uc.sinais[Uc.Q].getValor()
+				  };
+		
+		this.setSinais(vet);
 		
 		if (compara(PASSAR2)) s = a;
 		if (compara(PASSAR3)) s = b;
