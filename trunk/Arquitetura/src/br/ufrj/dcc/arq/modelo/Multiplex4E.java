@@ -149,7 +149,7 @@ public class Multiplex4E {
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera(short[] v){
+	public void opera(){
 		this.a = Registrador.rdados;
 		this.b = Registrador.r0;
 		this.c = Registrador.r1;

@@ -166,7 +166,7 @@ public class Multiplex5E {
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera(short[] v) {
+	public void opera() {
 		this.a = Registrador.r2;
 		this.b = Registrador.r3;
 		this.c = Registrador.r4;
