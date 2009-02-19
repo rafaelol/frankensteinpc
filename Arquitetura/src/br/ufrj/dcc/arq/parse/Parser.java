@@ -5,14 +5,15 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class Parser {
+	public int Vet_Codigos[] = null;
+	public int qnt_codigo = 0;
+
+	private static Object dadosDoMap;
 	Map<Integer, String> mapLabels =  new HashMap<Integer, String>();
 	String Vet_Linhas[] = null;
-	int Vet_Codigos[] = null;
 	String label, label2, label3;
-	int i;
 	int tam_max;
-	int qnt_codigo = 0;
-	private static Object dadosDoMap;
+	int i;
 
 	public Parser(String nomeArq) {
 		tam_max = Trata_Arquivo(nomeArq);
