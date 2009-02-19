@@ -51,6 +51,8 @@ public class Ula {
 	public static final short[] SHRB   = {0,0,1,1,0,0};
 	public static final short[] AND    = {0,0,1,1,0,1};
 	public static final short[] OR     = {0,0,1,1,1,0}; 
+	public static final short[] INCA   = {0,0,1,1,1,1};
+	public static final short[] INCB   = {0,1,0,0,0,0};
 	
 	/** Caso seja ncessário setar o vetor de sinais da Uc. */
 	public static final int ID = Uc.R;

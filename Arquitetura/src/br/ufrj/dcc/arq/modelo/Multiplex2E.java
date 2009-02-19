@@ -16,8 +16,8 @@ public class Multiplex2E {
 	public static final int L = 0;
 	
 	/**  Configurações dos sinais do multiplex e as operações correspondentes */
-	public static final int[] PASSAMEM  = {0};
-	public static final int[] PASSASULA = {1};
+	public static final short[] PASSAMEM  = {0};
+	public static final short[] PASSASULA = {1};
 	
 	/** Recebe valores Lidos da memória. */
 	public short a;
