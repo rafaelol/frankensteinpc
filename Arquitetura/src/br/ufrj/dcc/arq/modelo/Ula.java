@@ -16,6 +16,11 @@ package br.ufrj.dcc.arq.modelo;
  * @author Francisco Viégas Vianna
  * 
  */
+
+/* Bola em 20/2/2009:
+ * Aviso: Criei o PASSAZERO. Ele far� com que a sa�da(s) receba 0. Faltou esse na ULA. =P
+ * Mas so fiz a parte das constantes, falta fazer o resto.
+ *  */
 public class Ula {
 	public static final int QTD_FLAGS  = 5;
 	public static final int QTD_SINAIS = 6;
@@ -36,23 +41,24 @@ public class Ula {
 	public static final int W = 5; // Menos Significativo	
 	
 	/**  Configurações dos sinais da ULA e as operações correspondentes */
-	public static final short[] PASSAA = {0,0,0,0,0,0};
-	public static final short[] PASSAB = {0,0,0,0,0,1};
-	public static final short[] ADD    = {0,0,0,0,1,0};
-	public static final short[] SUBAB  = {0,0,0,0,1,1};
-	public static final short[] SUBBA  = {0,0,0,1,0,0};
-	public static final short[] NOTA   = {0,0,0,1,0,1};
-	public static final short[] NOTB   = {0,0,0,1,1,0};
-	public static final short[] NEGA   = {0,0,0,1,1,1};
-	public static final short[] NEGB   = {0,0,1,0,0,0};
-	public static final short[] SHLA   = {0,0,1,0,0,1};
-	public static final short[] SHLB   = {0,0,1,0,1,0};
-	public static final short[] SHRA   = {0,0,1,0,1,1};
-	public static final short[] SHRB   = {0,0,1,1,0,0};
-	public static final short[] AND    = {0,0,1,1,0,1};
-	public static final short[] OR     = {0,0,1,1,1,0}; 
-	public static final short[] INCA   = {0,0,1,1,1,1};
-	public static final short[] INCB   = {0,1,0,0,0,0};
+	public static final short[] PASSAA 		= {0,0,0,0,0,0};
+	public static final short[] PASSAB 		= {0,0,0,0,0,1};
+	public static final short[] ADD    		= {0,0,0,0,1,0};
+	public static final short[] SUBAB 	 	= {0,0,0,0,1,1};
+	public static final short[] SUBBA  		= {0,0,0,1,0,0};
+	public static final short[] NOTA   		= {0,0,0,1,0,1};
+	public static final short[] NOTB   		= {0,0,0,1,1,0};
+	public static final short[] NEGA   		= {0,0,0,1,1,1};
+	public static final short[] NEGB	   	= {0,0,1,0,0,0};
+	public static final short[] SHLA   		= {0,0,1,0,0,1};
+	public static final short[] SHLB   		= {0,0,1,0,1,0};
+	public static final short[] SHRA   		= {0,0,1,0,1,1};
+	public static final short[] SHRB   		= {0,0,1,1,0,0};
+	public static final short[] AND    		= {0,0,1,1,0,1};
+	public static final short[] OR     		= {0,0,1,1,1,0}; 
+	public static final short[] INCA   		= {0,0,1,1,1,1};
+	public static final short[] INCB   		= {0,1,0,0,0,0};
+	public static final short[] PASSAZERO   = {0,1,0,0,0,1};
 	
 	/** Caso seja ncessário setar o vetor de sinais da Uc. */
 	public static final int ID = Uc.R;
