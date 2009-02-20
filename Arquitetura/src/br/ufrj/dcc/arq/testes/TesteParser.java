@@ -1,5 +1,6 @@
 package br.ufrj.dcc.arq.testes;
 
+import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.parse.Parser;
 
 public class TesteParser{
@@ -20,8 +21,8 @@ public class TesteParser{
 		Parser parser = new Parser(codigoPrograma, qtdParser.size());
 		 */
 
-		Parser parser = new Parser("./arquivo/programa.txt");
-
+		//Parser parser = new Parser("./arquivo/programa.txt");
+		Controlador controlador = new Controlador("./arquivo/programa.txt");
 		/*
 		codigoPrograma[0] = "TESTE: mov <10,R0>";
 		codigoPrograma[1] = "mov <20,(R1)>";
