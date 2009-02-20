@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class Parser {
-	public int Vet_Codigos[] = null;
+	public short Vet_Codigos[] = null;
 	public int qnt_codigo = 0;
 
 	private static Object dadosDoMap;
@@ -22,7 +22,7 @@ public class Parser {
 		RemoveLabels();
 		Tira_Comentario();
 		ImprimeLabels();
-		Vet_Codigos = new int[2 * tam_max];
+		Vet_Codigos = new short[2 * tam_max];
 		Codifica();
 		Imprime();
 	}
@@ -35,7 +35,7 @@ public class Parser {
 		RemoveLabels();
 		Tira_Comentario();
 		ImprimeLabels();
-		Vet_Codigos = new int[2 * tam_max];
+		Vet_Codigos = new short[2 * tam_max];
 		Codifica();
 		Imprime();
 	}
@@ -415,52 +415,52 @@ public class Parser {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 1;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short)Integer.parseInt(label2);
 					}
 					else if (label3.equals("R1")) {
 						Vet_Codigos[qnt_codigo] = 2;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R2")) {
 						Vet_Codigos[qnt_codigo] = 3;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R3")) {
 						Vet_Codigos[qnt_codigo] = 4;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R4")) {
 						Vet_Codigos[qnt_codigo] = 5;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 6;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R1)")) {
 						Vet_Codigos[qnt_codigo] = 7;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R2)")) {
 						Vet_Codigos[qnt_codigo] = 8;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R3)")) {
 						Vet_Codigos[qnt_codigo] = 9;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R4)")) {
 						Vet_Codigos[qnt_codigo] = 10;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 				}
 			}
@@ -795,52 +795,52 @@ public class Parser {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 111;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R1")) {
 						Vet_Codigos[qnt_codigo] = 112;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R2")) {
 						Vet_Codigos[qnt_codigo] = 113;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R3")) {
 						Vet_Codigos[qnt_codigo] = 114;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R4")) {
 						Vet_Codigos[qnt_codigo] = 115;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 116;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R1)")) {
 						Vet_Codigos[qnt_codigo] = 117;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R2)")) {
 						Vet_Codigos[qnt_codigo] = 118;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R3)")) {
 						Vet_Codigos[qnt_codigo] = 119;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R4)")) {
 						Vet_Codigos[qnt_codigo] = 120;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 				}
 			}
@@ -1175,52 +1175,52 @@ public class Parser {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 221;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R1")) {
 						Vet_Codigos[qnt_codigo] = 222;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R2")) {
 						Vet_Codigos[qnt_codigo] = 223;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R3")) {
 						Vet_Codigos[qnt_codigo] = 224;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R4")) {
 						Vet_Codigos[qnt_codigo] = 225;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 226;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R1)")) {
 						Vet_Codigos[qnt_codigo] = 227;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R2)")) {
 						Vet_Codigos[qnt_codigo] = 228;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R3)")) {
 						Vet_Codigos[qnt_codigo] = 229;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R4)")) {
 						Vet_Codigos[qnt_codigo] = 230;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 				}
 			}
@@ -1555,52 +1555,52 @@ public class Parser {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 331;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R1")) {
 						Vet_Codigos[qnt_codigo] = 332;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R2")) {
 						Vet_Codigos[qnt_codigo] = 333;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R3")) {
 						Vet_Codigos[qnt_codigo] = 334;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R4")) {
 						Vet_Codigos[qnt_codigo] = 335;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 336;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R1)")) {
 						Vet_Codigos[qnt_codigo] = 337;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R2)")) {
 						Vet_Codigos[qnt_codigo] = 338;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R3)")) {
 						Vet_Codigos[qnt_codigo] = 339;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R4)")) {
 						Vet_Codigos[qnt_codigo] = 340;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 				}
 			}
@@ -1935,52 +1935,52 @@ public class Parser {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 441;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R1")) {
 						Vet_Codigos[qnt_codigo] = 442;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R2")) {
 						Vet_Codigos[qnt_codigo] = 443;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R3")) {
 						Vet_Codigos[qnt_codigo] = 444;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R4")) {
 						Vet_Codigos[qnt_codigo] = 445;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 446;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R1)")) {
 						Vet_Codigos[qnt_codigo] = 447;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R2)")) {
 						Vet_Codigos[qnt_codigo] = 448;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R3)")) {
 						Vet_Codigos[qnt_codigo] = 449;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R4)")) {
 						Vet_Codigos[qnt_codigo] = 450;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 				}
 			}
@@ -2315,52 +2315,52 @@ public class Parser {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 551;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R1")) {
 						Vet_Codigos[qnt_codigo] = 552;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R2")) {
 						Vet_Codigos[qnt_codigo] = 553;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R3")) {
 						Vet_Codigos[qnt_codigo] = 554;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("R4")) {
 						Vet_Codigos[qnt_codigo] = 555;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 556;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R1)")) {
 						Vet_Codigos[qnt_codigo] = 557;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R2)")) {
 						Vet_Codigos[qnt_codigo] = 558;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R3)")) {
 						Vet_Codigos[qnt_codigo] = 559;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 					else if (label3.equals("(R4)")) {
 						Vet_Codigos[qnt_codigo] = 560;
 						qnt_codigo++;
-						Vet_Codigos[qnt_codigo] = Integer.parseInt(label2);
+						Vet_Codigos[qnt_codigo] = (short) Integer.parseInt(label2);
 					}
 				}
 			}
@@ -2558,7 +2558,7 @@ public class Parser {
 				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 711;
 				qnt_codigo++;
-				Vet_Codigos[qnt_codigo] = valor;			
+				Vet_Codigos[qnt_codigo] = (short) valor;			
 			}
 			/*
 			 * ***************
@@ -2569,7 +2569,7 @@ public class Parser {
 				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 712;
 				qnt_codigo++;
-				Vet_Codigos[qnt_codigo] = valor;	
+				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
 			/*
 			 * ***************
@@ -2580,7 +2580,7 @@ public class Parser {
 				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 713;
 				qnt_codigo++;
-				Vet_Codigos[qnt_codigo] = valor;	
+				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
 			/*
 			 * ***************
@@ -2591,7 +2591,7 @@ public class Parser {
 				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 714;
 				qnt_codigo++;
-				Vet_Codigos[qnt_codigo] = valor;	
+				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
 			/*
 			 * ***************
@@ -2602,7 +2602,7 @@ public class Parser {
 				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 715;
 				qnt_codigo++;
-				Vet_Codigos[qnt_codigo] = valor;	
+				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
 			/*
 			 * ***************
@@ -2613,7 +2613,7 @@ public class Parser {
 				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 716;
 				qnt_codigo++;
-				Vet_Codigos[qnt_codigo] = valor;	
+				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
 			/*
 			 * ***************
@@ -2624,7 +2624,7 @@ public class Parser {
 				int valor = Verifica_Na_Label(label2, i);
 				Vet_Codigos[qnt_codigo] = 717;
 				qnt_codigo++;
-				Vet_Codigos[qnt_codigo] = valor;	
+				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
 			qnt_codigo++;
 		}
@@ -2644,7 +2644,7 @@ public class Parser {
 			dadosDoMap = itMap.next();
 
 			if (label.equals(mapLabels.get(dadosDoMap) )) {
-				qnt_linhas = Integer.parseInt(dadosDoMap.toString()) - linha;
+				qnt_linhas = (short) Integer.parseInt(dadosDoMap.toString()) - linha;
 				return qnt_linhas;				
 			} 
 		}
@@ -2742,5 +2742,8 @@ public class Parser {
 		System.out.println();
 	}
 
+	public short[] getVetorParser(){
+		return Vet_Codigos;
+	}
 
 }
