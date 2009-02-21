@@ -72,7 +72,7 @@ public class Uc {
 	
 /* ========================== Operar ======================== */
 	
-	public void decodificaEChama(int cod, boolean executa_por_micro) {
+	public static void decodificaEChama(int cod, boolean executa_por_micro) {
 		switch(cod) {
 			case   0: { Instrucoes.halt(); break; }
 
@@ -854,5 +854,4 @@ public class Uc {
 			case 717: { Instrucoes.jmp(executa_por_micro); break; }
 		}
 	}
-	
 }

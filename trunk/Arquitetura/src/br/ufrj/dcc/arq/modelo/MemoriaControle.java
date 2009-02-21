@@ -229,9 +229,17 @@ public class MemoriaControle {
 	 */
 	/* Instrucoes Le e Escreve */
 	public static void Le() {
+	
 	}
 	public static void Escreve() {
+	
 	}
+	
+	/* Primeira MicroInstrucao */
+	public static void UC_rec_IR(boolean executa_por_micro) {
+		Uc.decodificaEChama(Registrador.ri, executa_por_micro);
+	}
+	
 	/* Instrucoes PC recebe algo */
 	public static void PC_rec_PCmais1() {
 		Uc.setSinais(PC_REC_PCMAIS1);
@@ -1934,6 +1942,12 @@ public class MemoriaControle {
 			vetor[rdest] = 1;
 		}
 		
+		/*
+		for (int i = 0; i < TAM_CTRL; i++) {
+		 
+			System.out.println("Vetor[" + i + "] = " + vetor[i]);
+		}
+		*/
 		return vetor;
 	}
 	

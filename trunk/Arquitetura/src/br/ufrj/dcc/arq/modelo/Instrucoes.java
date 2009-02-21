@@ -21,6 +21,8 @@ public class Instrucoes {
 			//espera proximo clique
 		}
 		
+		MemoriaControle.UC_rec_IR(executa_por_micro);
+		
 		MemoriaControle.Get_Endereco_PC_rec_PCmais1();
 		MemoriaControle.PC_rec_PCmais1();
 		while (executa_por_micro) {
