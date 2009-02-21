@@ -22,7 +22,9 @@ public class TesteParser{
 		 */
 
 		//Parser parser = new Parser("./arquivo/programa.txt");
-		Controlador controlador = new Controlador("./arquivo/programa.txt", true);
+		Controlador.executa_por_micro = true;
+		Controlador.executa_por_instrucao = false;
+		Controlador controlador = new Controlador("./arquivo/programa.txt");
 		/*
 		codigoPrograma[0] = "TESTE: mov <10,R0>";
 		codigoPrograma[1] = "mov <20,(R1)>";

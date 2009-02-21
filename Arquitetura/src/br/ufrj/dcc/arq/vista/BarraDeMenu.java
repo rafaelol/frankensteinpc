@@ -8,6 +8,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
+import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.parse.Parser;
 
 public class BarraDeMenu implements ActionListener {
@@ -65,7 +66,8 @@ public class BarraDeMenu implements ActionListener {
 			   return;  
 			   
 			System.out.println("Arquivo selecionado: " + escolhePrograma.getSelectedFile().toString());
-			Parser parser = new Parser(escolhePrograma.getSelectedFile().toString());
+			Controlador controlador = new Controlador(escolhePrograma.getSelectedFile().toString());
+			//Parser parser = new Parser(escolhePrograma.getSelectedFile().toString());
 		}
 		else if (source == menuFazerPrograma) {
 			clicaNovoPrograma = new CriaPrograma();
@@ -80,12 +82,17 @@ public class BarraDeMenu implements ActionListener {
 			new Sobre();
 		}
 		else if (source == menuExecutaPrograma) {
+			Controlador.executa_por_instrucao = Controlador.executa_por_micro = false;
 			System.out.println("Executa Programa Inteiro.");
 		}
 		else if (source == menuExecutaInstrucao) {
+			Controlador.executa_por_instrucao = true;
+			Controlador.executa_por_micro = false;
 			System.out.println("Executa Instrucao do Programa.");
 		}
 		else if (source == menuExecutaMicroInstrucao) {
+			Controlador.executa_por_instrucao = false;
+			Controlador.executa_por_micro = true;
 			System.out.println("Executa MicroInstrucao do Programa.");
 		}
 	}

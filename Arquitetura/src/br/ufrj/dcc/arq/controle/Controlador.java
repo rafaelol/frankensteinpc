@@ -7,7 +7,10 @@ import br.ufrj.dcc.arq.parse.Parser;
 
 public class Controlador extends Parser{
 
-	public Controlador(String nomeArq, boolean executa_por_micro) {
+	public static boolean executa_por_micro;
+	public static boolean executa_por_instrucao;
+	
+	public Controlador(String nomeArq) {
 		super(nomeArq);
 		// TODO Auto-generated constructor stub
 		

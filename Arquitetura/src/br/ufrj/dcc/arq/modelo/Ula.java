@@ -1,26 +1,22 @@
 package br.ufrj.dcc.arq.modelo;
 
 /**
- * Determina o comportamento de uma Unidade Lógica e Aritimética simples.
+ * Determina o comportamento de uma Unidade Logica e Aritimetica simples.
  * 
  * Trabalha com dados de 16 bits, e opera somente sobre as suas propriedades.
- * Possui um conjunto de sinais de controle que determinam a operação a ser 
- * realizada e um conjunto de flags que provê informações sobre a última operação
+ * Possui um conjunto de sinais de controle que determinam a operacao a ser 
+ * realizada e um conjunto de flags que prove informacoes sobre a ultima operacao
  * realizada.
  *  
- * Foi utilizada como fonte de Consulta sobre as condições sob as quais
- * as flags da ULA são alteradas a página do professor Nelson Quilula Vasconcelos:
+ * Foi utilizada como fonte de Consulta sobre as condicoes sob as quais
+ * as flags da ULA sao alteradas a pagina do professor Nelson Quilula Vasconcelos:
  * 
  * http://www.dcc.ufrj.br/~cp/maq2002/3INDICAD.HTM
  *     
- * @author Francisco Viégas Vianna
+ * @author Francisco Viegas Vianna
  * 
  */
 
-/* Bola em 20/2/2009:
- * Aviso: Criei o PASSAZERO. Ele far� com que a sa�da(s) receba 0. Faltou esse na ULA. =P
- * Mas so fiz a parte das constantes, falta fazer o resto.
- *  */
 public class Ula {
 	public static final int QTD_FLAGS  = 5;
 	public static final int QTD_SINAIS = 6;
@@ -40,7 +36,7 @@ public class Ula {
 	public static final int V = 4;	
 	public static final int W = 5; // Menos Significativo	
 	
-	/**  Configurações dos sinais da ULA e as operações correspondentes */
+	/**  Configuracoes dos sinais da ULA e as operacoes correspondentes */
 	public static final short[] PASSAA 		= {0,0,0,0,0,0};
 	public static final short[] PASSAB 		= {0,0,0,0,0,1};
 	public static final short[] ADD    		= {0,0,0,0,1,0};
@@ -60,14 +56,14 @@ public class Ula {
 	public static final short[] INCB   		= {0,1,0,0,0,0};
 	public static final short[] PASSAZERO   = {0,1,0,0,0,1};
 	
-	/** Caso seja ncessário setar o vetor de sinais da Uc. */
+	/** Caso seja necessario setar o vetor de sinais da Uc. */
 	public static final int ID = Uc.R;
 	
 	/** Primeiro operando da ULA */
 	private short a;
 	/** Segundo operando da ULA */
 	private short b;
-	/** Resultado da operação sore A e/ou B - Saida da ULA*/
+	/** Resultado da operacao sobre A e/ou B - Saida da ULA*/
 	public static short s; 
 	
 	/** String de sinais de controle */
@@ -145,7 +141,7 @@ public class Ula {
 	/**********************************
 	 * Set para o atributo 'flags'.
 	 * 
-	 * @param Vetor de Bits com uma configuração para as flags de status da ULA.
+	 * @param Vetor de Bits com uma configuracao para as flags de status da ULA.
 	 */
 	public void setFlags(short[] v) {
 		this.flags[SINAL].setValor(v[SINAL]);
@@ -192,9 +188,9 @@ public class Ula {
 	}
 
 	
-	/****************** Funções da ULA ******************
+	/****************** Funcoes da ULA ******************
 	 ****************************************************
-	 * Soma os dois operandos A B e atribui esse valor à saida.
+	 * Soma os dois operandos A B e atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
@@ -219,7 +215,7 @@ public class Ula {
 	}
 
 	/**********************************
-	 * Subtrai do operando B o operando A (B-A) e atribui esse valor à saida.
+	 * Subtrai do operando B o operando A (B-A) e atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
@@ -259,12 +255,12 @@ public class Ula {
 	}
 	
 	/**********************************
-	 * Subtrai do operando A o operando B (A-B) e atribui esse valor à saida.
+	 * Subtrai do operando A o operando B (A-B) e atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 *    Overflow se operandos de sinal diferente e resultado de sinal diferente do minuendo(A).
-	 *    Carry se modulo do minuendo(A) for menor que o modulo do subtrendo(B).
+	 *    Carry se modulo do minuendo(A) for menor que o modulo do subtraendo(B).
 	 */	
 	public void subBA() {
 		int op1, op2;
@@ -299,62 +295,62 @@ public class Ula {
 	}
 
 	/**********************************
-	 * Copia o operando A para a saída.
+	 * Copia o operando A para a saida.
 	 */
 	public void passaA() {
 		s = a;
 	}
 	
 	/**********************************
-	 * Copia o operando B para a saída.
+	 * Copia o operando B para a saida.
 	 */	
 	public void passaB() {
 		s = b;
 	}
 
 	/**********************************
-	 * Faz a negação lógica do operando A e atribui esse valor à saida.
+	 * Faz a negacao logica do operando A e atribui esse valor a saida.
 	 * 
-	 * Não Altera nenhuma das flags.
+	 * Nao Altera nenhuma das flags.
 	 */
 	public void notA() {	
 		s = (short)(~ (short)a);
 	}
 
 	/**********************************
-	 * Faz a negação lógica do operando B e atribui esse valor à saida.
+	 * Faz a negacao logica do operando B e atribui esse valor a saida.
 	 * 
-	 * Não Altera nenhuma das flags.
+	 * Nao Altera nenhuma das flags.
 	 */
 	public void notB() {	
 		s = (short)(~ (int)b);
 	}
 
 	/**********************************
-	 * Faz a negação aritmética do operando A e atribui esse valor à saida.
+	 * Faz a negacao aritmetica do operando A e atribui esse valor a saida.
 	 * 
-	 * Não Altera nenhuma das flags.
+	 * Nao Altera nenhuma das flags.
 	 */
 	public void negA() {
 		s = (short)((short)-1 * a);
 	}
 
 	/**********************************
-	 * Faz a negação aritmética do operando B e atribui esse valor à saida.
+	 * Faz a negacao aritmetica do operando B e atribui esse valor a saida.
 	 * 
-	 * Não Altera nenhuma das flags.
+	 * Nao Altera nenhuma das flags.
 	 */
 	public void negB() {
 		s = (short)((short)-1 * b);
 	}
 
 	/**********************************
-	 * Realiza uma operação de deslocamento a esquerda com o operando A e 
-	 * atribui esse valor à saida.
+	 * Realiza uma operacao de deslocamento a esquerda com o operando A e 
+	 * atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Overflow se muda o sinal do operando.
-	 *    Carry recebe o bit que sobrou após o deslocamento.
+	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */
 	public void shlA() {
@@ -381,12 +377,12 @@ public class Ula {
 	}
 
 	/**********************************
-	 * Realiza uma operação de deslocamento a esquerda com o operando B e 
-	 * atribui esse valor à saida.
+	 * Realiza uma operacao de deslocamento a esquerda com o operando B e 
+	 * atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Overflow se muda o sinal do operando.
-	 *    Carry recebe o bit que sobrou após o deslocamento.
+	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */
 	public void shlB() {
@@ -413,12 +409,12 @@ public class Ula {
 	}
 
 	/**********************************
-	 * Realiza uma operação de deslocamento a direita com o operando A e 
-	 * atribui esse valor à saida.
+	 * Realiza uma operacao de deslocamento a direita com o operando A e 
+	 * atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Overflow se muda o sinal do operando.
-	 *    Carry recebe o bit que sobrou após o deslocamento.
+	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */	
 	public void shrA(){
@@ -445,12 +441,12 @@ public class Ula {
 	}
 	
 	/**********************************
-	 * Realiza uma operação de deslocamento a direita com o operando B e 
-	 * atribui esse valor à saida.
+	 * Realiza uma operacao de deslocamento a direita com o operando B e 
+	 * atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Overflow se muda o sinal do operando.
-	 *    Carry recebe o bit que sobrou após o deslocamento.
+	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */
 	public void shrB(){
@@ -477,7 +473,7 @@ public class Ula {
 	}
 
 	/**********************************
-	 * Realiza o 'e' lógico dos operandos A e B e atribui esse valor à saida.
+	 * Realiza o 'e' logico dos operandos A e B e atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Zera Flags Carry e Overflow.
@@ -493,7 +489,7 @@ public class Ula {
 	}
 
 	/**********************************
-	 *  Realiza o 'ou' lógico dos operandos A e B e atribui esse valor à saida.
+	 *  Realiza o 'ou' logico dos operandos A e B e atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *   Zera Flags Carry e Overflow.
@@ -507,13 +503,24 @@ public class Ula {
 		
 		setarFlagsSinalZeroParidade(s);
 	}
+	
+	/**********************************
+	 *  Realiza a instrucao Passa Zero. Com isso, a saida da Ula sair� com o valor 0.
+	 * 
+	 * Altera a Zero-Flag, setando com o valor 1.
+	 */
+	public void passaZero() {
+		s = (short) 0;
+		
+		setarFlagsSinalZeroParidade(s);
+	}
 
-	/************** Métodos Auxiliares *****************
+	/************** MEtodos Auxiliares *****************
 	 ***************************************************
 	 * Seta as flags de sinal e zero, de acordo com valor especificado.
 	 *
-	 * @param Valor utilzado como referência para a atribuição de valores das flags.
-	 *        Tipicamente o resultado de uma das operações da ULA.  
+	 * @param Valor utilzado como referencia para a atribuicao de valores das flags.
+	 *        Tipicamente o resultado de uma das operacoes da ULA.  
 	 */
 	public void setarFlagsSinalZeroParidade(short a) {
 
@@ -537,7 +544,7 @@ public class Ula {
 	}
 	
 	/**********************************
-	 * Verifica se o numero de bits com valor 1 no atributo S é par.
+	 * Verifica se o numero de bits com valor 1 no atributo S eh par.
 	 * Seta a flag de de paridade, caso seja.
 	 */
 	public void verificaParidade() {
@@ -587,8 +594,8 @@ public class Ula {
 	}
 	
 	/**********************************
-	 * Decide, de acordo com os sinais de controle da ULA, qual será a operação a
-	 * ser realizada sobre os operadores A e B, chamando o método correspondente.
+	 * Decide, de acordo com os sinais de controle da ULA, qual sera a operacao a
+	 * ser realizada sobre os operadores A e B, chamando o metodo correspondente.
 	 */
 	public void opera() {
 		short vet[] = {
@@ -604,28 +611,29 @@ public class Ula {
 		this.a = Multiplex4E.s;
 		this.b = Multiplex5E.s;
 		
-		if(comparaSinais(PASSAA) == true) passaA();
-		else if(comparaSinais(PASSAB) == true) passaB();
-		else if(comparaSinais(ADD)    == true) add();
-		else if(comparaSinais(SUBAB)  == true) subAB();
-		else if(comparaSinais(SUBBA)  == true) subBA();
-		else if(comparaSinais(NOTA)   == true) notA();
-		else if(comparaSinais(NOTB)   == true) notB();
-		else if(comparaSinais(NEGA)   == true) negA();
-		else if(comparaSinais(NEGB)   == true) negB();
-		else if(comparaSinais(SHLA)   == true) shlA();
-		else if(comparaSinais(SHLB)   == true) shlB();
-		else if(comparaSinais(SHRA)   == true) shrA();
-		else if(comparaSinais(SHRB)   == true) shrB();
-		else if(comparaSinais(AND)    == true) and();
-		else if(comparaSinais(OR)     == true) or();
+		if     (comparaSinais(PASSAA)    == true) passaA();
+		else if(comparaSinais(PASSAB) 	 == true) passaB();
+		else if(comparaSinais(ADD)    	 == true) add();
+		else if(comparaSinais(SUBAB)  	 == true) subAB();
+		else if(comparaSinais(SUBBA)  	 == true) subBA();
+		else if(comparaSinais(NOTA) 	 == true) notA();
+		else if(comparaSinais(NOTB)   	 == true) notB();
+		else if(comparaSinais(NEGA)   	 == true) negA();
+		else if(comparaSinais(NEGB)  	 == true) negB();
+		else if(comparaSinais(SHLA)   	 == true) shlA();
+		else if(comparaSinais(SHLB)   	 == true) shlB();
+		else if(comparaSinais(SHRA)      == true) shrA();
+		else if(comparaSinais(SHRB)    	 == true) shrB();
+		else if(comparaSinais(AND)    	 == true) and();
+		else if(comparaSinais(OR)     	 == true) or();
+		else if(comparaSinais(PASSAZERO) == true) passaZero();
 	}
 
 	/**********************************
-	 * Compara os sinais da ULA com uma configuração dada, referente a uma de suas operações.
+	 * Compara os sinais da ULA com uma configuracao dada, referente a uma de suas operacoes.
 	 * 
-	 * @return true, caso seja igual a configuração testada.
-	 * @retun  false, caso contrário.
+	 * @return true, caso seja igual a configuracao testada.
+	 * @retun  false, caso contrario.
 	 */
 	public boolean comparaSinais(short[] p) {
 		boolean ret = true;

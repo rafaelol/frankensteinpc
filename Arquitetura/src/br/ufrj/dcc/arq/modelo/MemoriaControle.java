@@ -8,6 +8,9 @@ public class MemoriaControle {
 	
 	/* ORDEM: MUX2, MUX4, MUX5, ULA, OP1, OP2, RDEST */
 	
+	public static final short LE[]							= cria_Vetor(Multiplex2E.PASSAMEM, NULOV, NULOV, NULOV, Uc.J, Uc.X, Uc.B);
+	public static final short ESCREVE[]						= cria_Vetor(NULOV, NULOV, NULOV, NULOV, Uc.B, Uc.J, Uc.X);
+	
 	public static final short PC_REC_PCMAIS1[] 				= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAPC, Ula.INCB, NULO, Uc.A, Uc.A);
 	public static final short IR_REC_RDADOS[] 				= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, NULOV, Ula.PASSAA, Uc.B, NULO , Uc.K);
 	public static final short REND_REC_PC[] 				= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAPC, Ula.PASSAB, Uc.A, NULO, Uc.J);
@@ -229,10 +232,12 @@ public class MemoriaControle {
 	 */
 	/* Instrucoes Le e Escreve */
 	public static void Le() {
-	
+		Uc.setSinais(LE);
+		Operar(); //Acredito que o que vem de Mem do multiplex2E já pega direitinho a posicao da memoria. Se não for, tem que fazer aqui.
 	}
 	public static void Escreve() {
-	
+		Uc.setSinais(ESCREVE);
+		// Chama memoria com Memoria.setMemPos(Registrador.rend, Registrador.rdados);
 	}
 	
 	/* Primeira MicroInstrucao */

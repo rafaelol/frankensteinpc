@@ -14,6 +14,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
+import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.parse.LerEscreverArquivo;
 import br.ufrj.dcc.arq.parse.Parser;
 
@@ -92,7 +93,8 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 			try{
 				arquivoLido = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
 				BarraDeMenu.clicaNovoPrograma = null;
-				Parser parser = new Parser("./arquivo/programa.txt");
+				Controlador controlador = new Controlador("./arquivo/programa.txt");
+				//Parser parser = new Parser("./arquivo/programa.txt");
 				setVisible(false);
 			}
 			catch(Exception e){
