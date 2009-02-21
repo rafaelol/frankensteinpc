@@ -7,7 +7,7 @@ import br.ufrj.dcc.arq.parse.Parser;
 
 public class Controlador extends Parser{
 
-	public Controlador(String nomeArq) {
+	public Controlador(String nomeArq, boolean executa_por_micro) {
 		super(nomeArq);
 		// TODO Auto-generated constructor stub
 		
@@ -31,7 +31,10 @@ public class Controlador extends Parser{
 		/**
 		 * IR recebe a primeira instrucao
 		 */
-		Instrucoes.Cabecalho(true);
+		Instrucoes.Cabecalho(executa_por_micro);
+		
+		
+		
 		
 	}	
 	
