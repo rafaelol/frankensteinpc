@@ -3,6 +3,8 @@ package br.ufrj.dcc.arq.controle;
 import br.ufrj.dcc.arq.modelo.Bit;
 import br.ufrj.dcc.arq.modelo.Instrucoes;
 import br.ufrj.dcc.arq.modelo.Memoria;
+import br.ufrj.dcc.arq.modelo.Registrador;
+import br.ufrj.dcc.arq.modelo.Uc;
 import br.ufrj.dcc.arq.parse.Parser;
 
 public class Controlador extends Parser{
@@ -36,8 +38,17 @@ public class Controlador extends Parser{
 		 */
 		Instrucoes.Cabecalho(executa_por_micro);
 		
-		
-		
+		/**
+		 * Loop que executa as instruções do programa.
+		 */
+		percorreVetorParser = Registrador.pc;
+		while(memoria.getMemPos(percorreVetorParser) != 0) {
+			Uc.decodificaEChama(memoria.getMemPos(percorreVetorParser), executa_por_micro);
+			while (executa_por_instrucao) {
+				//espera proximo clique
+			}
+			percorreVetorParser = Registrador.pc;
+		}
 		
 	}	
 	

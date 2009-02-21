@@ -7,6 +7,7 @@ import javax.swing.JFileChooser;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JRadioButtonMenuItem;
 
 import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.parse.Parser;
@@ -37,11 +38,11 @@ public class BarraDeMenu implements ActionListener {
 	
 	private JMenu menuExecutar = new JMenu();
 	
-	private JMenuItem menuExecutaPrograma = new JMenuItem();
+	private JMenuItem menuExecutaPrograma = new JRadioButtonMenuItem();
 	
-	private JMenuItem menuExecutaInstrucao = new JMenuItem();
+	private JMenuItem menuExecutaInstrucao = new JRadioButtonMenuItem();
 	
-	private JMenuItem menuExecutaMicroInstrucao = new JMenuItem();
+	private JMenuItem menuExecutaMicroInstrucao = new JRadioButtonMenuItem();
 
 	// MENU AJUDA
 
@@ -83,16 +84,25 @@ public class BarraDeMenu implements ActionListener {
 		}
 		else if (source == menuExecutaPrograma) {
 			Controlador.executa_por_instrucao = Controlador.executa_por_micro = false;
+			menuExecutaPrograma.setSelected(true);
+			menuExecutaInstrucao.setSelected(false);
+			menuExecutaMicroInstrucao.setSelected(false);
 			System.out.println("Executa Programa Inteiro.");
 		}
 		else if (source == menuExecutaInstrucao) {
 			Controlador.executa_por_instrucao = true;
 			Controlador.executa_por_micro = false;
+			menuExecutaPrograma.setSelected(false);
+			menuExecutaInstrucao.setSelected(true);
+			menuExecutaMicroInstrucao.setSelected(false);
 			System.out.println("Executa Instrucao do Programa.");
 		}
 		else if (source == menuExecutaMicroInstrucao) {
 			Controlador.executa_por_instrucao = false;
 			Controlador.executa_por_micro = true;
+			menuExecutaPrograma.setSelected(false);
+			menuExecutaInstrucao.setSelected(false);
+			menuExecutaMicroInstrucao.setSelected(true);
 			System.out.println("Executa MicroInstrucao do Programa.");
 		}
 	}
