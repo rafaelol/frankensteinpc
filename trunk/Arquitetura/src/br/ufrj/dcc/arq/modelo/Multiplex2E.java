@@ -35,7 +35,7 @@ public class Multiplex2E {
 	 * Atribui 0 aos atributos a, b e s.
 	 * Instancia os Bits dos sinais, atriuindo 0 a todos.
 	 */
-	public Multiplex2E(int v) {
+	public Multiplex2E() {
 		a = b = s = (short)0;
 		for(int i=0; i<QTD_SINAIS; i++)
 			sinal[i] = new Bit((short)0);
