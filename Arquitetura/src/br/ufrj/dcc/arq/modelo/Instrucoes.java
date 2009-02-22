@@ -6,23 +6,25 @@ public class Instrucoes {
 		MemoriaControle.Get_Endereco_REnd_rec_PC();
 		MemoriaControle.REnd_rec_PC();
 		while (executa_por_micro) {
+			System.out.println("aaaaa");
 			//espera proximo clique
 		}
 		
+		System.out.println("teste");
 		MemoriaControle.Get_Endereco_RDados_rec_Inflida();
 		MemoriaControle.RDados_rec_Inflida();
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-		
+		System.out.println("teste");
 		MemoriaControle.Get_Endereco_IR_rec_RDados();
 		MemoriaControle.IR_rec_RDados();
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-		
+		System.out.println("teste");
 		MemoriaControle.UC_rec_IR(executa_por_micro);
-		
+		System.out.println("teste");
 		MemoriaControle.Get_Endereco_PC_rec_PCmais1();
 		MemoriaControle.PC_rec_PCmais1();
 		while (executa_por_micro) {

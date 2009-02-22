@@ -272,8 +272,11 @@ public class MemoriaControle {
 	/* Instrucoes REnd recebe algo */
 	public static void REnd_rec_PC() {
 		Uc.setSinais(REND_REC_PC);
+		System.out.println("Foi depois de 1");
 		MemoriaControle mem = new MemoriaControle();
+		System.out.println("Foi depois de 2");
 		mem.Operar();
+		System.out.println("Foi depois de 3");
 		Registrador.rend = Ula.s;
 	}
 	public static void REnd_rec_R0() {
