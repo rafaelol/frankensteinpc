@@ -38,7 +38,7 @@ public class Multiplex5E {
 	 * Atribui 0 aos atributos a, b, c, d e s.
 	 * Instancia os Bits dos sinais, atriuindo 0 a todos.
 	 */
-	public Multiplex5E(int v) {
+	public Multiplex5E() {
 		a = b = c = d = e = s = (short)0;
 		for(int i =0; i<QTD_SINAIS; i++) {
 			sinais[i] = new Bit((short)0);
