@@ -192,7 +192,6 @@ public class MemoriaControle {
 	public static final short R4_REC_0[] 					= cria_Vetor(NULOV, NULOV, NULOV, Ula.PASSAZERO, NULO, NULO, Uc.G);
 	public static final short R4_REC_SHLR4[] 				= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAR4, Ula.SHLB, Uc.G, NULO, Uc.G);
 	public static final short R4_REC_SHRR4[] 				= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAR4, Ula.SHRB, Uc.G, NULO, Uc.G);
-
 	public static final short RYMENOSR0[] 					= cria_Vetor(NULOV, Multiplex4E.PASSAR0, Multiplex5E.PASSARY, Ula.SUBAB, Uc.I, Uc.C, NULO);
 	public static final short R2MENOSR0[]		 			= cria_Vetor(NULOV, Multiplex4E.PASSAR0, Multiplex5E.PASSAR2, Ula.SUBAB, Uc.E, Uc.C, NULO);
 	public static final short R3MENOSR0[] 					= cria_Vetor(NULOV, Multiplex4E.PASSAR0, Multiplex5E.PASSAR3, Ula.SUBAB, Uc.F, Uc.C, NULO);
@@ -220,6 +219,10 @@ public class MemoriaControle {
 	public static final short R3MENOSRX[] 					= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR3, Ula.SUBAB, Uc.F, Uc.H, NULO);
 	public static final short R4MENOSRX[] 					= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR4, Ula.SUBAB, Uc.G, Uc.H, NULO);
 
+	public static final short RYRECPC[]						= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAPC, Ula.PASSAB, Uc.A, NULO, Uc.I);
+	public static final short PCRECRDADOS[]					= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, NULOV, Ula.PASSAA, Uc.B, NULO, Uc.A);
+	
+	
 	public void Operar() {
 		Multiplex2E mult2 = new Multiplex2E();
 		Multiplex4E mult4 = new Multiplex4E();
@@ -261,6 +264,13 @@ public class MemoriaControle {
 		Registrador.pc = Ula.s;
 	}
 
+	public static void PC_rec_RDados() {
+		Uc.setSinais(PCRECRDADOS);
+		MemoriaControle mem = new MemoriaControle();
+		mem.Operar();
+		Registrador.pc = Ula.s;
+	}
+	
 	/* Instrucoes IR recebe algo */
 	public static void IR_rec_RDados() {
 		Uc.setSinais(IR_REC_RDADOS);
@@ -328,6 +338,14 @@ public class MemoriaControle {
 		mem.Operar();
 		Registrador.ry = Ula.s;
 	}
+	
+	public static void RY_rec_PC() {
+		Uc.setSinais(RYRECPC);
+		MemoriaControle mem = new MemoriaControle();
+		mem.Operar();
+		Registrador.ry = Ula.s;
+	}
+	
 	/* Instrucoes RX recebe algo */
 	public static void RX_rec_RDados() {
 		Uc.setSinais(RX_REC_RDADOS);
@@ -1493,6 +1511,9 @@ public class MemoriaControle {
 	public static short Get_Endereco_PC_rec_PCmais1() {
 		return 211;
 	}
+	public static short Get_Endereco_PC_rec_RDados() {
+		return 213;
+	}
 	/* Instrucoes IR recebe algo */
 	public static short Get_Endereco_IR_rec_RDados() {
 		return 212;
@@ -1525,6 +1546,9 @@ public class MemoriaControle {
 	}
 	public static short Get_Endereco_RY_rec_R1() {
 		return 50;
+	}
+	public static short Get_Endereco_RY_rec_PC() {
+		return 214;
 	}
 	/* Instrucoes RX recebe algo */
 	public static short Get_Endereco_RX_rec_RDados() {
