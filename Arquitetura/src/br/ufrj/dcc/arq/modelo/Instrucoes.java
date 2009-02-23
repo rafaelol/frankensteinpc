@@ -25032,30 +25032,81 @@ public class Instrucoes {
 	/* ================ Instrucoes de Desvio ==================== */
 	
 	public static void brz(boolean executa_por_micro) {
-		
+		if (true) {
+			jmp(executa_por_micro);
+		}
 	}
 
 	public static void brn(boolean executa_por_micro) {
-		
+		if (true) {
+			jmp(executa_por_micro);
+		}
 	}
 
 	public static void bre(boolean executa_por_micro) {
-		
+		if (true) {
+			jmp(executa_por_micro);
+		}
 	}
 
 	public static void brl(boolean executa_por_micro) {
-		
+		if (true) {
+			jmp(executa_por_micro);
+		}
 	}
 
 	public static void brg(boolean executa_por_micro) {
-		
+		if (true) {
+			jmp(executa_por_micro);
+		}		
 	}
 
 	public static void brc(boolean executa_por_micro) {
-		
+		if (true) {
+			jmp(executa_por_micro);
+		}		
 	}
 
-	public static void jmp(boolean executa_por_micro) {
+	public static void jmp(boolean executa_por_micro) {	
+		MemoriaControle.Get_Endereco_RY_rec_PC();
+		MemoriaControle.RY_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		MemoriaControle.Get_Endereco_PC_rec_PCmais1();		
+		MemoriaControle.PC_rec_PCmais1();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 		
+		MemoriaControle.Get_Endereco_REnd_rec_PC();
+		MemoriaControle.REnd_rec_PC();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MemoriaControle.Le();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MemoriaControle.Get_Endereco_RDados_rec_Inflida();
+		MemoriaControle.RDados_rec_Inflida();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MemoriaControle.Get_Endereco_RDados_rec_RDadosmaisRY();
+		MemoriaControle.RDados_rec_RDadosmaisRY();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
+		MemoriaControle.Get_Endereco_PC_rec_RDados();
+		MemoriaControle.PC_rec_RDados();
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
 	}
 }

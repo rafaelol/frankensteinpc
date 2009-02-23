@@ -514,8 +514,52 @@ public class Ula {
 		
 		setarFlagsSinalZeroParidade(s);
 	}
+	
+	/**********************************
+	 *  Realiza a instrucao IncA. Com isso, a saida da Ula sairá com o valor A + 1.
+	 * 
+	 * Altera todas as flags.
+	 */
+	public void inca() {
+		s = (short)((short)a + (short)1);
+		int s2 = a + 1;
+		
+		if( ((a > 0) && (s < 0)) || ((a < 0) && (s > 0)) ) 
+			this.flags[OVERFLOW].setValor((short)1);
+		else
+			this.flags[OVERFLOW].setValor((short)0);
+		
+		if((s2 & 0x00010000) == 0x00010000)
+			this.flags[CARRY].setValor((short)1);
+		else
+			this.flags[CARRY].setValor((short)0);
+		
+		setarFlagsSinalZeroParidade(s);
+	}
 
-	/************** MEtodos Auxiliares *****************
+	/**********************************
+	 *  Realiza a instrucao IncB. Com isso, a saida da Ula sairá com o valor B + 1.
+	 * 
+	 * Altera todas as flags.
+	 */
+	public void incb() {
+		s = (short)((short)b + (short)1);
+		int s2 = b + 1;
+		
+		if( ((b > 0) && (s < 0)) || ((b < 0) && (s > 0)) ) 
+			this.flags[OVERFLOW].setValor((short)1);
+		else
+			this.flags[OVERFLOW].setValor((short)0);
+		
+		if((s2 & 0x00010000) == 0x00010000)
+			this.flags[CARRY].setValor((short)1);
+		else
+			this.flags[CARRY].setValor((short)0);
+		
+		setarFlagsSinalZeroParidade(s);
+	}
+
+	/************** Metodos Auxiliares *****************
 	 ***************************************************
 	 * Seta as flags de sinal e zero, de acordo com valor especificado.
 	 *
@@ -626,6 +670,8 @@ public class Ula {
 		else if(comparaSinais(SHRB)    	 == true) shrB();
 		else if(comparaSinais(AND)    	 == true) and();
 		else if(comparaSinais(OR)     	 == true) or();
+		else if(comparaSinais(INCA)    	 == true) inca();
+		else if(comparaSinais(INCB)    	 == true) incb();
 		else if(comparaSinais(PASSAZERO) == true) passaZero();
 	}
 
