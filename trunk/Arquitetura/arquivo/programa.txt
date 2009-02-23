@@ -1,1 +1,9 @@
-mov<r1,r2>
+		jmp <TESTE>
+		add	<10,r2>
+		add	<20,r3>
+		add	<r1,r2>
+TESTE:	jmp	<TESTE>
+		add	<10,r2>
+		add	<20,r3>
+		add	<r1,r2>
+		jmp <TESTE>

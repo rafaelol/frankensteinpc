@@ -3,6 +3,7 @@ package br.ufrj.dcc.arq.parse;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class Parser {
 	public short Vet_Codigos[] = null;
@@ -21,6 +22,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		Tira_Comentario();
+		ajustaMap();
 		ImprimeLabels();
 		Vet_Codigos = new short[2 * tam_max];
 		Codifica();
@@ -34,6 +36,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		Tira_Comentario();
+		ajustaMap();
 		ImprimeLabels();
 		Vet_Codigos = new short[2 * tam_max];
 		Codifica();
@@ -86,7 +89,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES ADD
+			 * INSTRUCOES ADD
 			 * ***************
 			 */
 			else if (label.equals("ADD")) {
@@ -466,7 +469,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES SUB
+			 * INSTRUCOES SUB
 			 * ***************
 			 */
 			else if (label.equals("SUB")) {
@@ -846,7 +849,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES MOV
+			 * INSTRUCOES MOV
 			 * ***************
 			 */
 			else if (label.equals("MOV")) {
@@ -1226,7 +1229,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES CMP
+			 * INSTRUCOES CMP
 			 * ***************
 			 */
 			else if (label.equals("CMP")) {
@@ -1606,7 +1609,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES AND
+			 * INSTRUCOES AND
 			 * ***************
 			 */
 			else if (label.equals("AND")) {
@@ -1986,7 +1989,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES OR
+			 * INSTRUCOES OR
 			 * ***************
 			 */
 			else if (label.equals("OR")) {
@@ -2366,7 +2369,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES NOT
+			 * INSTRUCOES NOT
 			 * ***************
 			 */
 			else if (label.equals("NOT")) {
@@ -2403,7 +2406,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES NEG
+			 * INSTRUCOES NEG
 			 * ***************
 			 */
 			else if (label.equals("NEG")) {
@@ -2440,7 +2443,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES CLR
+			 * INSTRUCOES CLR
 			 * ***************
 			 */
 			else if (label.equals("CLR")) {
@@ -2477,7 +2480,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES SHL
+			 * INSTRUCOES SHL
 			 * ***************
 			 */
 			else if (label.equals("SHL")) {
@@ -2514,7 +2517,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES SHR
+			 * INSTRUCOES SHR
 			 * ***************
 			 */
 			else if (label.equals("SHR")) {
@@ -2551,7 +2554,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES BRZ
+			 * INSTRUCOES BRZ
 			 * ***************
 			 */
 			else if (label.equals("BRZ")) {
@@ -2562,7 +2565,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES BRN
+			 * INSTRUCOES BRN
 			 * ***************
 			 */
 			else if (label.equals("BRN")) {
@@ -2573,7 +2576,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES BRE
+			 * INSTRUCOES BRE
 			 * ***************
 			 */
 			else if (label.equals("BRE")) {
@@ -2584,7 +2587,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES BRL
+			 * INSTRUCOES BRL
 			 * ***************
 			 */
 			else if (label.equals("BRL")) {
@@ -2595,7 +2598,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES BRG
+			 * INSTRUCOES BRG
 			 * ***************
 			 */
 			else if (label.equals("BRG")) {
@@ -2606,7 +2609,7 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES BRC
+			 * INSTRUCOES BRC
 			 * ***************
 			 */
 			else if (label.equals("BRC")) {
@@ -2617,11 +2620,11 @@ public class Parser {
 			}
 			/*
 			 * ***************
-			 * INSTRUï¿½ï¿½ES JMP
+			 * INSTRUCOES JMP
 			 * ***************
 			 */
 			else if (label.equals("JMP")) {
-				int valor = Verifica_Na_Label(label2, i);
+				int valor = Verifica_Na_Label(label2, (qnt_codigo + 1));
 				Vet_Codigos[qnt_codigo] = 717;
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
@@ -2632,7 +2635,7 @@ public class Parser {
 
 	/* 
 	 * ******************
-	 * Mï¿½todos auxiliares
+	 * Metodos auxiliares
 	 * ******************
 	 */
 
@@ -2687,6 +2690,8 @@ public class Parser {
 
 		j = i;
 
+		label = label.trim();
+		
 		//Pegando segunda parte da instrucao
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) != ' ') break;
@@ -2746,4 +2751,66 @@ public class Parser {
 		return Vet_Codigos;
 	}
 
+
+	void ajustaMap() {
+		String labelzinha;
+		int j, k;
+		int linhasduplas[] = new int[tam_max];
+		int qnt = 0;
+		int adicionar;
+		Iterator itMap = mapLabels.keySet().iterator();
+		Map<Integer, String> mapTemp =  new HashMap<Integer, String>();
+		int valor;
+		Map.Entry mapa;
+		
+		
+		for (int i = 0; i < tam_max; i++) {
+			for (j = 0; j < Vet_Linhas[i].length(); j++) {
+				if (Vet_Linhas[i].charAt(j) == '<') break;
+			}
+			
+			for (k = j; k < Vet_Linhas[i].length(); k++) {
+				if ((Vet_Linhas[i].charAt(k) == ',') || (Vet_Linhas[i].charAt(k) == '>')) break;
+			}
+			
+			labelzinha = ((Vet_Linhas[i].substring(j, k)).trim()).toUpperCase();
+		
+			if (!((labelzinha.equals("R0")) || 
+				(labelzinha.equals("R1")) ||
+				(labelzinha.equals("R2")) ||
+				(labelzinha.equals("R3")) ||
+				(labelzinha.equals("R4")) ||
+				(labelzinha.equals("(R0)")) || 
+				(labelzinha.equals("(R1)")) ||
+				(labelzinha.equals("(R2)")) ||
+				(labelzinha.equals("(R3)")) ||
+				(labelzinha.equals("(R4)")))) {
+				
+				linhasduplas[qnt] = i;
+				qnt++;
+			}
+		}
+				
+		while (itMap.hasNext()) {
+			//Essa linha tá dando erro
+			mapa = (Map.Entry<Integer, String>) itMap.next();
+			
+			dadosDoMap = itMap.next();
+			
+			valor = Integer.parseInt(mapa.getKey().toString());
+			
+			adicionar = 0;
+			
+			for (int i = 0; i < qnt; i++) {
+				if (linhasduplas[i] <= valor) {
+					adicionar++;
+				}
+			}
+			
+			mapTemp.put(valor + adicionar, mapa.getValue().toString());
+		}
+		
+		mapLabels = mapTemp;
+		
+	}
 }
