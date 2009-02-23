@@ -251,11 +251,6 @@ public class MemoriaControle {
 		// Chama memoria com Memoria.setMemPos(Registrador.rend, Registrador.rdados);
 	}
 
-	/* Primeira MicroInstrucao */
-	public static void UC_rec_IR(boolean executa_por_micro) {
-		Uc.decodificaEChama(Registrador.ri, executa_por_micro);
-	}
-
 	/* Instrucoes PC recebe algo */
 	public static void PC_rec_PCmais1() {
 		Uc.setSinais(PC_REC_PCMAIS1);
