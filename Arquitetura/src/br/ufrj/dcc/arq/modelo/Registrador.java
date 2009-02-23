@@ -13,11 +13,9 @@ public class Registrador {
 	public static short rend;
 	public static short ri;
 
-	private int id;
 	private Bit sinal;
 	
 	public Registrador(int c) {
-		this.id = c;
 		this.sinal = new Bit((short)0);
 	}
 	
@@ -29,12 +27,4 @@ public class Registrador {
 		this.sinal = sinal;
 	}
 	
-	public int getId() {
-		return this.id;
-	}
-	
-	public void setId(int id) {
-		this.id = id;
-	}
-			
 }

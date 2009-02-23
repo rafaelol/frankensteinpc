@@ -10,8 +10,7 @@ package br.ufrj.dcc.arq.modelo;
  */
 public class Multiplex2E {
 	public static final int QTD_SINAIS = 1;
-	public static final int INICIO = Uc.L;
-	
+
 	/** Usado para setar o sinal de controle */  
 	public static final int L = 0;
 	

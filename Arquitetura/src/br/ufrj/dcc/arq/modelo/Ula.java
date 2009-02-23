@@ -56,8 +56,6 @@ public class Ula {
 	public static final short[] INCB   		= {0,1,0,0,0,0};
 	public static final short[] PASSAZERO   = {0,1,0,0,0,1};
 	
-	/** Caso seja necessario setar o vetor de sinais da Uc. */
-	public static final int ID = Uc.R;
 	
 	/** Primeiro operando da ULA */
 	private short a;
@@ -505,7 +503,7 @@ public class Ula {
 	}
 	
 	/**********************************
-	 *  Realiza a instrucao Passa Zero. Com isso, a saida da Ula sairá com o valor 0.
+	 *  Realiza a instrucao Passa Zero. Com isso, a saida da Ula sairï¿½ com o valor 0.
 	 * 
 	 * Altera a Zero-Flag, setando com o valor 1.
 	 */
@@ -516,11 +514,11 @@ public class Ula {
 	}
 	
 	/**********************************
-	 *  Realiza a instrucao IncA. Com isso, a saida da Ula sairá com o valor A + 1.
+	 *  Realiza a instrucao IncA. Com isso, a saida da Ula sairï¿½ com o valor A + 1.
 	 * 
 	 * Altera todas as flags.
 	 */
-	public void inca() {
+	public void incA() {
 		s = (short)((short)a + (short)1);
 		int s2 = a + 1;
 		
@@ -538,11 +536,11 @@ public class Ula {
 	}
 
 	/**********************************
-	 *  Realiza a instrucao IncB. Com isso, a saida da Ula sairá com o valor B + 1.
+	 *  Realiza a instrucao IncB. Com isso, a saida da Ula sairï¿½ com o valor B + 1.
 	 * 
 	 * Altera todas as flags.
 	 */
-	public void incb() {
+	public void incB() {
 		s = (short)((short)b + (short)1);
 		int s2 = b + 1;
 		
@@ -670,8 +668,8 @@ public class Ula {
 		else if(comparaSinais(SHRB)    	 == true) shrB();
 		else if(comparaSinais(AND)    	 == true) and();
 		else if(comparaSinais(OR)     	 == true) or();
-		else if(comparaSinais(INCA)    	 == true) inca();
-		else if(comparaSinais(INCB)    	 == true) incb();
+		else if(comparaSinais(INCA)    	 == true) incA();
+		else if(comparaSinais(INCB)    	 == true) incB();
 		else if(comparaSinais(PASSAZERO) == true) passaZero();
 	}
 
