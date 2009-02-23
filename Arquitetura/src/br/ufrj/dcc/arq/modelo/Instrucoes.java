@@ -6,29 +6,27 @@ public class Instrucoes {
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC();
 		proc.memoriacontrole.REnd_rec_PC();
 		while (executa_por_micro) {
-			System.out.println("aaaaa");
 			//espera proximo clique
 		}
 		
-		System.out.println("teste");
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida();
 		proc.memoriacontrole.RDados_rec_Inflida();
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-		System.out.println("teste");
+		
 		proc.memoriacontrole.Get_Endereco_IR_rec_RDados();
 		proc.memoriacontrole.IR_rec_RDados();
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-		System.out.println("teste");
+		
 		//proc.memoriacontrole.UC_rec_IR(executa_por_micro);
 		proc.uc.decodificaEChama(proc.registrador.ri, executa_por_micro, proc);
 		
-		System.out.println("teste");
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1();
 		proc.memoriacontrole.PC_rec_PCmais1();
+		/* Uc.decodificaEChama(Registrador.ri, executa_por_micro); --> Ajeitar e descomentar  */
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
