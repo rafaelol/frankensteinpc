@@ -74,8 +74,6 @@ public class Uc {
 	
 	public void decodificaEChama(int cod, boolean executa_por_micro, Processador proc) {
 		switch(cod) {
-			case   0: { Instrucoes.halt(); break; }
-
 	/* ==================== Instrucoes ADD ==================== */
 			
 			case   1: { Instrucoes.addImedR0(executa_por_micro, proc); break; }
