@@ -40,6 +40,7 @@ public class Controlador extends Parser{
 		// IR recebe a primeira instrucao
 		Instrucoes.Cabecalho(executa_por_micro, proc);
 		
+		System.out.println("Passei aqui");
 		// Executa as instruções do programa.
 		percorreVetorParser = proc.registrador.pc;
 		
@@ -49,7 +50,6 @@ public class Controlador extends Parser{
 			while (executa_por_instrucao) {
 				//espera proximo clique
 			}
-			
 			percorreVetorParser = proc.registrador.pc;
 		}	
 	}	

@@ -272,11 +272,7 @@ public class MemoriaControle {
 	/* Instrucoes REnd recebe algo */
 	public void REnd_rec_PC(Processador proc) {
 		proc.uc.setSinais(REND_REC_PC);
-		System.out.println("Foi depois de 1");
-		 
-		System.out.println("Foi depois de 2");
 		this.Operar(proc);
-		System.out.println("Foi depois de 3");
 		proc.registrador.rend = proc.ula.s;
 	}
 	public void REnd_rec_R0(Processador proc) {

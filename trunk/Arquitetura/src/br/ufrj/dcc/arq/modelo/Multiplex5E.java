@@ -178,7 +178,7 @@ public class Multiplex5E {
 			           proc.uc.sinais[Uc.Q].getValor()
 				  };
 		
-		this.setSinais(vet);
+		proc.mux5.setSinais(vet);
 		
 		if (compara(PASSAR2)) proc.mux5.s = a;
 		if (compara(PASSAR3)) proc.mux5.s = b;

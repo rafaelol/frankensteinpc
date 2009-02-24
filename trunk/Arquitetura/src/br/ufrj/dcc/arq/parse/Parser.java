@@ -22,7 +22,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		Tira_Comentario();
-		ajustaMap();
+		//ajustaMap();
 		ImprimeLabels();
 		Vet_Codigos = new short[2 * tam_max];
 		Codifica();
@@ -36,7 +36,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		Tira_Comentario();
-		ajustaMap();
+		//ajustaMap();
 		ImprimeLabels();
 		Vet_Codigos = new short[2 * tam_max];
 		Codifica();

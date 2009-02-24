@@ -649,9 +649,9 @@ public class Ula {
 						proc.uc.sinais[Uc.W].getValor(),
 				      };
 				
-		this.setSinais(vet);
-		this.a = proc.mux4.s;
-		this.b = proc.mux5.s;
+		proc.ula.setSinais(vet);
+		proc.ula.a = proc.mux4.s;
+		proc.ula.b = proc.mux5.s;
 		
 		if     (comparaSinais(PASSAA)    == true) passaA();
 		else if(comparaSinais(PASSAB) 	 == true) passaB();

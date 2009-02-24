@@ -52,13 +52,13 @@ public class Memoria {
 	}
 	
 	public void opera(Processador proc) {
-		this.sinal = proc.uc.sinais[Uc.X];
+		proc.memoria.sinal = proc.uc.sinais[Uc.X];
 		
 		if(sinal.getValor() == ESC) {
-			this.escreve(proc);
+			proc.memoria.escreve(proc);
 		}
 		else if (sinal.getValor() == LEIT) {
-			this.le(proc);
+			proc.memoria.le(proc);
 		}
 	}
 }
