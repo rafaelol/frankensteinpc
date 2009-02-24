@@ -25097,14 +25097,8 @@ public class Instrucoes {
 			//espera proximo clique
 		}
 		
-		proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
-		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
-		while (executa_por_micro) {
-			//espera proximo clique
-		}
-		
-		proc.memoriacontrole.Get_Endereco_PC_rec_RDados(proc);
-		proc.memoriacontrole.PC_rec_RDados(proc);
+		proc.memoriacontrole.Get_Endereco_PC_rec_RYmaisRDados(proc);
+		proc.memoriacontrole.PC_rec_RYmaisRDados(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}

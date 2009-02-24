@@ -219,8 +219,8 @@ public class MemoriaControle {
 	public static final short R3MENOSRX[] 					= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR3, Ula.SUBAB, Uc.F, Uc.H, NULO);
 	public static final short R4MENOSRX[] 					= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR4, Ula.SUBAB, Uc.G, Uc.H, NULO);
 
-	public static final short RYRECPC[]						= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAPC, Ula.PASSAB, Uc.A, NULO, Uc.I);
-	public static final short PCRECRDADOS[]					= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, NULOV, Ula.PASSAA, Uc.B, NULO, Uc.A);
+	public static final short RY_REC_PC[]					= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAPC, Ula.PASSAB, Uc.A, NULO, Uc.I);
+	public static final short PC_REC_RYMAISRDADOS[]			= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, Multiplex5E.PASSARY, Ula.ADD, Uc.B, Uc.I, Uc.A);
 	
 	
 	public void Operar(Processador proc) {
@@ -254,9 +254,8 @@ public class MemoriaControle {
 		proc.registrador.pc = proc.ula.s;
 	}
 
-	public void PC_rec_RDados(Processador proc) {
-		proc.uc.setSinais(PCRECRDADOS);
-		 
+	public void PC_rec_RYmaisRDados(Processador proc) {
+		proc.uc.setSinais(PC_REC_RYMAISRDADOS);
 		this.Operar(proc);
 		proc.registrador.pc = proc.ula.s;
 	}
@@ -326,7 +325,7 @@ public class MemoriaControle {
 	}
 	
 	public void RY_rec_PC(Processador proc) {
-		proc.uc.setSinais(RYRECPC);
+		proc.uc.setSinais(RY_REC_PC);
 		 
 		this.Operar(proc);
 		proc.registrador.ry = proc.ula.s;
@@ -1497,7 +1496,7 @@ public class MemoriaControle {
 	public short Get_Endereco_PC_rec_PCmais1(Processador proc) {
 		return 211;
 	}
-	public short Get_Endereco_PC_rec_RDados(Processador proc) {
+	public short Get_Endereco_PC_rec_RYmaisRDados(Processador proc) {
 		return 213;
 	}
 	/* Instrucoes IR recebe algo */
