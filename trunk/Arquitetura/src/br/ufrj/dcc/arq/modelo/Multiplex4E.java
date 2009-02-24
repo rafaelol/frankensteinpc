@@ -30,7 +30,7 @@ public class Multiplex4E {
 	/** Recebe valores de RX */
 	public short d;
 	/** Saída */
-	public static short s;
+	public short s;
 	
 	/** Sinais de Controle */
 	public Bit[] sinais = new Bit[QTD_SINAIS];
@@ -150,21 +150,21 @@ public class Multiplex4E {
 	 * com a configuração dos sinais de controle.
 	 */
 	public void opera(Processador proc){
-		this.a = proc.registrador.rdados;
-		this.b = proc.registrador.r0;
-		this.c = proc.registrador.r1;
-		this.d = proc.registrador.rx;
+		proc.mux4.a = proc.registrador.rdados;
+		proc.mux4.b = proc.registrador.r0;
+		proc.mux4.c = proc.registrador.r1;
+		proc.mux4.d = proc.registrador.rx;
 		
 		short vet[] = {proc.uc.sinais[Uc.M].getValor(),
 				       proc.uc.sinais[Uc.N].getValor()
 					  };
 
-		this.setSinais(vet);
+		proc.mux4.setSinais(vet);
 		
-		if (compara(PASSARDADOS)) s = a;
-		if (compara(PASSAR0))     s = b;
-		if (compara(PASSAR1))     s = c;
-		if (compara(PASSARX))     s = d;
+		if (compara(PASSARDADOS)) proc.mux4.s = a;
+		if (compara(PASSAR0))     proc.mux4.s = b;
+		if (compara(PASSAR1))     proc.mux4.s = c;
+		if (compara(PASSARX))     proc.mux4.s = d;
 	}
 	
 	/**********************************

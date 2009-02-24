@@ -27,7 +27,7 @@ public class Multiplex5E {
 	/** Recebe valores de PC */
 	public short e;
 	/** Saida */
-	public static short s;
+	public short s;
 	
 	/** Sinais de controle */
 	public Bit[] sinais = new Bit[QTD_SINAIS];
@@ -167,11 +167,11 @@ public class Multiplex5E {
 	 * com a configuração dos sinais de controle.
 	 */
 	public void opera(Processador proc) {
-		this.a = proc.registrador.r2;
-		this.b = proc.registrador.r3;
-		this.c = proc.registrador.r4;
-		this.d = proc.registrador.ry;
-		this.e = proc.registrador.pc;
+		proc.mux5.a = proc.registrador.r2;
+		proc.mux5.b = proc.registrador.r3;
+		proc.mux5.c = proc.registrador.r4;
+		proc.mux5.d = proc.registrador.ry;
+		proc.mux5.e = proc.registrador.pc;
 		
 		short vet[] = {proc.uc.sinais[Uc.O].getValor(),
 			           proc.uc.sinais[Uc.P].getValor(),
@@ -180,11 +180,11 @@ public class Multiplex5E {
 		
 		this.setSinais(vet);
 		
-		if (compara(PASSAR2)) s = a;
-		if (compara(PASSAR3)) s = b;
-		if (compara(PASSAR4)) s = c;
-		if (compara(PASSARY)) s = d;
-		if (compara(PASSAPC)) s = e;
+		if (compara(PASSAR2)) proc.mux5.s = a;
+		if (compara(PASSAR3)) proc.mux5.s = b;
+		if (compara(PASSAR4)) proc.mux5.s = c;
+		if (compara(PASSARY)) proc.mux5.s = d;
+		if (compara(PASSAPC)) proc.mux5.s = e;
 	}
 	
 	/**********************************

@@ -62,7 +62,7 @@ public class Ula {
 	/** Segundo operando da ULA */
 	private short b;
 	/** Resultado da operacao sobre A e/ou B - Saida da ULA*/
-	public static short s; 
+	public short s; 
 	
 	/** String de sinais de controle */
 	private Bit sinais[] = new Bit[QTD_SINAIS];

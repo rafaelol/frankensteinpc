@@ -23,7 +23,7 @@ public class Multiplex2E {
 	/** Recebe valores da saída da ULA. */ 
 	public short b;
 	/** Saída. */
-	public static short s;
+	public short s;
 	
 	/** Sinais de controle */
 	public Bit[] sinal = new Bit[QTD_SINAIS];
@@ -104,12 +104,12 @@ public class Multiplex2E {
 	 * com a configuração dos sinais de controle.
 	 */
 	public void opera(Processador proc){
-		a = proc.memoria.dadoLido;
-		b = proc.ula.s;
+		proc.mux2.a = proc.memoria.dadoLido;
+		proc.mux2.b = proc.ula.s;
 		short vet[] = {proc.uc.sinais[Uc.L].getValor()};
 		this.setSinal(vet);
 		
-		if (sinal[L].getValor() == 0) s = a;
+		if (sinal[L].getValor() == 0) proc.mux2.s = proc.mux2.a;
 		else s = b;
 	}
 	
