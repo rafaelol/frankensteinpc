@@ -103,10 +103,10 @@ public class Multiplex2E {
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera(){
-		a = Memoria.dadoLido;
-		b = Ula.s;
-		short vet[] = {Uc.sinais[Uc.L].getValor()};
+	public void opera(Processador proc){
+		a = proc.memoria.dadoLido;
+		b = proc.ula.s;
+		short vet[] = {proc.uc.sinais[Uc.L].getValor()};
 		this.setSinal(vet);
 		
 		if (sinal[L].getValor() == 0) s = a;

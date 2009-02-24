@@ -41,7 +41,7 @@ public class Controlador extends Parser{
 		Instrucoes.Cabecalho(executa_por_micro, proc);
 		
 		// Executa as instruções do programa.
-		percorreVetorParser = Registrador.pc;
+		percorreVetorParser = proc.registrador.pc;
 		
 		while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
 			mempos = proc.memoria.getMemPos(percorreVetorParser);
@@ -50,7 +50,7 @@ public class Controlador extends Parser{
 				//espera proximo clique
 			}
 			
-			percorreVetorParser = Registrador.pc;
+			percorreVetorParser = proc.registrador.pc;
 		}	
 	}	
 	

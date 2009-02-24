@@ -639,19 +639,19 @@ public class Ula {
 	 * Decide, de acordo com os sinais de controle da ULA, qual sera a operacao a
 	 * ser realizada sobre os operadores A e B, chamando o metodo correspondente.
 	 */
-	public void opera() {
+	public void opera(Processador proc) {
 		short vet[] = {
-						Uc.sinais[Uc.R].getValor(),
-						Uc.sinais[Uc.S].getValor(),
-						Uc.sinais[Uc.T].getValor(),
-						Uc.sinais[Uc.U].getValor(),
-						Uc.sinais[Uc.V].getValor(),
-						Uc.sinais[Uc.W].getValor(),
+						proc.uc.sinais[Uc.R].getValor(),
+						proc.uc.sinais[Uc.S].getValor(),
+						proc.uc.sinais[Uc.T].getValor(),
+						proc.uc.sinais[Uc.U].getValor(),
+						proc.uc.sinais[Uc.V].getValor(),
+						proc.uc.sinais[Uc.W].getValor(),
 				      };
 				
 		this.setSinais(vet);
-		this.a = Multiplex4E.s;
-		this.b = Multiplex5E.s;
+		this.a = proc.mux4.s;
+		this.b = proc.mux5.s;
 		
 		if     (comparaSinais(PASSAA)    == true) passaA();
 		else if(comparaSinais(PASSAB) 	 == true) passaB();

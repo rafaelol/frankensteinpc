@@ -166,16 +166,16 @@ public class Multiplex5E {
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera() {
-		this.a = Registrador.r2;
-		this.b = Registrador.r3;
-		this.c = Registrador.r4;
-		this.d = Registrador.ry;
-		this.e = Registrador.pc;
+	public void opera(Processador proc) {
+		this.a = proc.registrador.r2;
+		this.b = proc.registrador.r3;
+		this.c = proc.registrador.r4;
+		this.d = proc.registrador.ry;
+		this.e = proc.registrador.pc;
 		
-		short vet[] = {Uc.sinais[Uc.O].getValor(),
-			           Uc.sinais[Uc.P].getValor(),
-			           Uc.sinais[Uc.Q].getValor()
+		short vet[] = {proc.uc.sinais[Uc.O].getValor(),
+			           proc.uc.sinais[Uc.P].getValor(),
+			           proc.uc.sinais[Uc.Q].getValor()
 				  };
 		
 		this.setSinais(vet);

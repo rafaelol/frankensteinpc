@@ -149,14 +149,14 @@ public class Multiplex4E {
 	 * Escolhe qual operando será propagado para a saída de acordo 
 	 * com a configuração dos sinais de controle.
 	 */
-	public void opera(){
-		this.a = Registrador.rdados;
-		this.b = Registrador.r0;
-		this.c = Registrador.r1;
-		this.d = Registrador.rx;
+	public void opera(Processador proc){
+		this.a = proc.registrador.rdados;
+		this.b = proc.registrador.r0;
+		this.c = proc.registrador.r1;
+		this.d = proc.registrador.rx;
 		
-		short vet[] = {Uc.sinais[Uc.M].getValor(),
-				       Uc.sinais[Uc.N].getValor()
+		short vet[] = {proc.uc.sinais[Uc.M].getValor(),
+				       proc.uc.sinais[Uc.N].getValor()
 					  };
 
 		this.setSinais(vet);

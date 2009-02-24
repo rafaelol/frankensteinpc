@@ -1,17 +1,17 @@
 package br.ufrj.dcc.arq.modelo;
 
 public class Registrador {
-	public static short r0;
-	public static short r1;
-	public static short r2;
-	public static short r3;
-	public static short r4;
-	public static short rx;
-	public static short ry;
-	public static short pc;
-	public static short rdados;
-	public static short rend;
-	public static short ri;
+	public short r0;
+	public short r1;
+	public short r2;
+	public short r3;
+	public short r4;
+	public short rx;
+	public short ry;
+	public short pc;
+	public short rdados;
+	public short rend;
+	public short ri;
 
 	private Bit sinal;
 	
