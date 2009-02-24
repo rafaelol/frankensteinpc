@@ -4,8 +4,6 @@ import br.ufrj.dcc.arq.modelo.Bit;
 import br.ufrj.dcc.arq.modelo.Instrucoes;
 import br.ufrj.dcc.arq.modelo.Memoria;
 import br.ufrj.dcc.arq.modelo.Processador;
-import br.ufrj.dcc.arq.modelo.Registrador;
-import br.ufrj.dcc.arq.modelo.Uc;
 import br.ufrj.dcc.arq.parse.Parser;
 
 public class Controlador extends Parser{
@@ -32,7 +30,7 @@ public class Controlador extends Parser{
 		}
 		
 		// Imprime Posicoes de Memoria
-		/* Comentado. Motivo: Verificado que foi colocado corretamente na memória. =)
+		/* Comentado. Motivo: Verificado que foi colocado corretamente na memï¿½ria. =)
 		System.out.println("\nImpressao da Memoria");
 		for(int i =0; i< parser.getVetorParser().length; i++){
 			System.out.print(proc.memoria.getMemPos(i) + " ");
@@ -43,7 +41,7 @@ public class Controlador extends Parser{
 		// IR recebe a primeira instrucao
 		Instrucoes.Cabecalho(executa_por_micro, proc);
 		
-		// Executa as instruções do programa.
+		// Executa as instruï¿½ï¿½es do programa.
 		percorreVetorParser = proc.registrador.pc;
 		
 		while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
