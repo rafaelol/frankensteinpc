@@ -1,10 +1,10 @@
 package br.ufrj.dcc.arq.modelo;
 
 /**
- * Determina o comportamento de um multiplexador 4 X 1 (Duas entradas e uma saída).
- * Passa para a saída ou o valor em RDados, ou em R0, ou em R1, ou em RX.
+ * Determina o comportamento de um multiplexador 4 X 1 (Duas entradas e uma saida).
+ * Passa para a saida ou o valor em RDados, ou em R0, ou em R1, ou em RX.
  * 
- * @author Francisco Viégas Vianna
+ * @author Francisco Viegas Vianna
  *
  */
 public class Multiplex4E {
@@ -15,7 +15,7 @@ public class Multiplex4E {
 	public static final int M = 0;
 	public static final int N = 1;
 
-	/**  Configurações dos sinais do multiplex e as operações correspondentes */
+	/**  Configuracoes dos sinais do multiplex e as operacoes correspondentes */
 	public static final short[] PASSARDADOS = {0,0};
 	public static final short[] PASSAR0     = {0,1};
 	public static final short[] PASSAR1     = {1,0};
@@ -29,7 +29,7 @@ public class Multiplex4E {
 	public short c;
 	/** Recebe valores de RX */
 	public short d;
-	/** Saída */
+	/** Saida */
 	public short s;
 	
 	/** Sinais de Controle */
@@ -64,7 +64,7 @@ public class Multiplex4E {
 	/**********************************
 	 * Setter para o atributo 'sinais'.
 	 * 
-	 * @param v Vetor de short com uma configuração válida para os sinais de controle.
+	 * @param v Vetor de short com uma configuracao valida para os sinais de controle.
 	 */
 	public void setSinais(short[] v) {
 		this.sinais[M].setValor(v[M]);
@@ -83,7 +83,7 @@ public class Multiplex4E {
 	/**********************************
 	 * Setter para o atributo 'a'.
 	 * 
-	 * @param a Valor que será atribuido a 'a'. 
+	 * @param a Valor que sera atribuido a 'a'. 
 	 */
 	public void setA(short a) {
 		this.a = a;
@@ -101,7 +101,7 @@ public class Multiplex4E {
 	/**********************************
 	 * Setter para o atributo 'b'.
 	 * 
-	 * @param a Valor que será atribuido a 'b'. 
+	 * @param a Valor que sera atribuido a 'b'. 
 	 */
 	public void setB(short b) {
 		this.b = b;
@@ -119,7 +119,7 @@ public class Multiplex4E {
 	/**********************************
 	 * Setter para o atributo 'c'.
 	 * 
-	 * @param a Valor que será atribuido a 'c'. 
+	 * @param a Valor que sera atribuido a 'c'. 
 	 */
 	public void setC(short c) {
 		this.c = c;
@@ -137,17 +137,17 @@ public class Multiplex4E {
 	/**********************************
 	 * Setter para o atributo 'd'.
 	 * 
-	 * @param a Valor que será atribuido a 'd'. 
+	 * @param a Valor que sera atribuido a 'd'. 
 	 */
 	public void setD(short d) {
 		this.d = d;
 	}
 	
 	
-	/**************** Funções do Multiplex ****************
+	/**************** Funcoes do Multiplex ****************
 	 ******************************************************
-	 * Escolhe qual operando será propagado para a saída de acordo 
-	 * com a configuração dos sinais de controle.
+	 * Escolhe qual operando sera propagado para a saida de acordo 
+	 * com a configuracao dos sinais de controle.
 	 */
 	public void opera(Processador proc){
 		proc.mux4.a = proc.registrador.rdados;
@@ -161,23 +161,23 @@ public class Multiplex4E {
 
 		proc.mux4.setSinais(vet);
 		
-		if (compara(PASSARDADOS)) proc.mux4.s = a;
-		if (compara(PASSAR0))     proc.mux4.s = b;
-		if (compara(PASSAR1))     proc.mux4.s = c;
-		if (compara(PASSARX))     proc.mux4.s = d;
+		if (compara(PASSARDADOS, proc)) proc.mux4.s = proc.mux4.a;
+		if (compara(PASSAR0, proc))     proc.mux4.s = proc.mux4.b;
+		if (compara(PASSAR1, proc))     proc.mux4.s = proc.mux4.c;
+		if (compara(PASSARX, proc))     proc.mux4.s = proc.mux4.d;
 	}
 	
 	/**********************************
-	 * Compara os valores em sinais com o vetor de sinais fornecido como parâmetro.
+	 * Compara os valores em sinais com o vetor de sinais fornecido como parametro.
 	 * 
-	 * @param v Vetor com uma configuração de sinais de controle.
-	 * @return Valor booleano que indica se o vetor 'sinais' é igual ao atributo fornecido. 
+	 * @param v Vetor com uma configuracao de sinais de controle.
+	 * @return Valor booleano que indica se o vetor 'sinais' e igual ao atributo fornecido. 
 	 */
-	public boolean compara(short[] v) {
+	public boolean compara(short[] v, Processador proc) {
 		boolean ret = true;
 		
 		for(int i = 0; i<QTD_SINAIS; i++) {
-			if(sinais[i].getValor() != v[i]) { ret = false; break; }
+			if(proc.mux4.sinais[i].getValor() != v[i]) { ret = false; break; }
 		}
 		
 		return ret;

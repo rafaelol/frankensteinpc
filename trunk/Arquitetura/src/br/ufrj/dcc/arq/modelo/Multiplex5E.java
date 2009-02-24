@@ -9,7 +9,7 @@ public class Multiplex5E {
 	public static final int P = 1;
 	public static final int Q = 2;
 	
-	/**  Configurações dos sinais do multiplex e as operações correspondentes */
+	/**  Configuracoes dos sinais do multiplex e as operacoes correspondentes */
 	public static final short[] PASSAR2 = {0,0,0};
 	public static final short[] PASSAR3 = {0,0,1};
 	public static final short[] PASSAR4 = {0,1,0};
@@ -62,7 +62,7 @@ public class Multiplex5E {
 	/**********************************
 	 * Setter para o atributo 'sinais'.
 	 * 
-	 * @param v Vetor de short com uma configuração válida para os sinais de controle.
+	 * @param v Vetor de short com uma configuracao valida para os sinais de controle.
 	 */
 	public void setSinais(short[] v) {
 		this.sinais[O].setValor(v[O]);
@@ -82,7 +82,7 @@ public class Multiplex5E {
 	/**********************************
 	 * Setter para o atributo 'a'.
 	 * 
-	 * @param a Valor que será atribuido a 'a'. 
+	 * @param a Valor que sera atribuido a 'a'. 
 	 */
 	public void setA(short a) {
 		this.a = a;
@@ -100,7 +100,7 @@ public class Multiplex5E {
 	/**********************************
 	 * Setter para o atributo 'b'.
 	 * 
-	 * @param a Valor que será atribuido a 'b'. 
+	 * @param a Valor que sera atribuido a 'b'. 
 	 */
 	public void setB(short b) {
 		this.b = b;
@@ -118,7 +118,7 @@ public class Multiplex5E {
 	/**********************************
 	 * Setter para o atributo 'c'.
 	 * 
-	 * @param a Valor que será atribuido a 'c'. 
+	 * @param a Valor que sera atribuido a 'c'. 
 	 */
 	public void setC(short c) {
 		this.c = c;
@@ -136,7 +136,7 @@ public class Multiplex5E {
 	/**********************************
 	 * Setter para o atributo 'd'.
 	 * 
-	 * @param a Valor que será atribuido a 'd'. 
+	 * @param a Valor que sera atribuido a 'd'. 
 	 */
 	public void setD(short d) {
 		this.d = d;
@@ -154,17 +154,17 @@ public class Multiplex5E {
 	/**********************************
 	 * Setter para o atributo 'e'.
 	 * 
-	 * @param a Valor que será atribuido a 'e'. 
+	 * @param a Valor que sera atribuido a 'e'. 
 	 */
 	public void setE(short e) {
 		this.e = e;
 	}
 
 	
-	/**************** Funções do Multiplex ****************
+	/**************** Funcoes do Multiplex ****************
 	 ******************************************************
-	 * Escolhe qual operando será propagado para a saída de acordo 
-	 * com a configuração dos sinais de controle.
+	 * Escolhe qual operando sera propagado para a saida de acordo 
+	 * com a configuracao dos sinais de controle.
 	 */
 	public void opera(Processador proc) {
 		proc.mux5.a = proc.registrador.r2;
@@ -180,24 +180,24 @@ public class Multiplex5E {
 		
 		proc.mux5.setSinais(vet);
 		
-		if (compara(PASSAR2)) proc.mux5.s = a;
-		if (compara(PASSAR3)) proc.mux5.s = b;
-		if (compara(PASSAR4)) proc.mux5.s = c;
-		if (compara(PASSARY)) proc.mux5.s = d;
-		if (compara(PASSAPC)) proc.mux5.s = e;
+		if (compara(PASSAR2, proc)) proc.mux5.s = proc.mux5.a;
+		if (compara(PASSAR3, proc)) proc.mux5.s = proc.mux5.b;
+		if (compara(PASSAR4, proc)) proc.mux5.s = proc.mux5.c;
+		if (compara(PASSARY, proc)) proc.mux5.s = proc.mux5.d;
+		if (compara(PASSAPC, proc)) proc.mux5.s = proc.mux5.e;
 	}
 	
 	/**********************************
-	 * Compara os valores em sinais com o vetor de sinais fornecido como parâmetro.
+	 * Compara os valores em sinais com o vetor de sinais fornecido como parametro.
 	 * 
-	 * @param v Vetor com uma configuração de sinais de controle.
-	 * @return Valor booleano que indica se o vetor 'sinais' é igual ao atributo fornecido. 
+	 * @param v Vetor com uma configuracao de sinais de controle.
+	 * @return Valor booleano que indica se o vetor 'sinais' e igual ao atributo fornecido. 
 	 */
-	public boolean compara(short[] b) {
+	public boolean compara(short[] b, Processador proc) {
 		boolean ret = true;
 		
 		for(int i = 0; i<QTD_SINAIS; i++) {
-			if(sinais[i].getValor() != b[i]) ret = false;
+			if(proc.mux5.sinais[i].getValor() != b[i]) ret = false;
 		}
 		
 		return ret;

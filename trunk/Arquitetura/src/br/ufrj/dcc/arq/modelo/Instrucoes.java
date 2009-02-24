@@ -25032,11 +25032,11 @@ public class Instrucoes {
 	/* ================ Instrucoes de Desvio ==================== */
 	
 	public static void brz(boolean executa_por_micro, Processador proc) {
-		if (true) {
+		if (proc.ula.getFlags()[Ula.ZERO] == 1) {
 			jmp(executa_por_micro, proc);
 		}
 	}
-
+	
 	public static void brn(boolean executa_por_micro, Processador proc) {
 		if (true) {
 			jmp(executa_por_micro, proc);

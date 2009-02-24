@@ -21,7 +21,7 @@ public class Controlador extends Parser{
 		short mempos;
 		proc 		= new Processador();
 		parser 		= new Parser(nomeArq);
-		bitMemoria 	= new Bit((short)0);
+		//bitMemoria 	= new Bit((short)0);
 		
 		// Carrega o programa na memoria
 		for (percorreVetorParser = 0; percorreVetorParser < parser.getVetorParser().length; percorreVetorParser++){
@@ -41,7 +41,7 @@ public class Controlador extends Parser{
 		// IR recebe a primeira instrucao
 		Instrucoes.Cabecalho(executa_por_micro, proc);
 		
-		// Executa as instru��es do programa.
+		// Executa as instrucoes do programa.
 		percorreVetorParser = proc.registrador.pc;
 		
 		while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
@@ -51,6 +51,7 @@ public class Controlador extends Parser{
 				//espera proximo clique
 			}
 			percorreVetorParser = proc.registrador.pc;
+			System.out.println("to aqui");
 		}	
 	}	
 	

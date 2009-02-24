@@ -1,11 +1,11 @@
 package br.ufrj.dcc.arq.modelo;
 
 /**
- * Determina o comportamento de um multiplexador 2 X 1 (Duas entradas e uma saída).
- * Passa para a saída ou o dado lido da memória (Sinal de controle = 0) ou a saída 
+ * Determina o comportamento de um multiplexador 2 X 1 (Duas entradas e uma saida).
+ * Passa para a saida ou o dado lido da memoria (Sinal de controle = 0) ou a saida 
  * da ULA (Sinal de controle = 1).
  * 
- * @author Francisco Viégas Vianna
+ * @author Francisco Viegas Vianna
  *
  */
 public class Multiplex2E {
@@ -14,15 +14,15 @@ public class Multiplex2E {
 	/** Usado para setar o sinal de controle */  
 	public static final int L = 0;
 	
-	/**  Configurações dos sinais do multiplex e as operações correspondentes */
+	/**  Configuracoes dos sinais do multiplex e as operacoes correspondentes */
 	public static final short[] PASSAMEM  = {0};
 	public static final short[] PASSASULA = {1};
 	
-	/** Recebe valores Lidos da memória. */
+	/** Recebe valores Lidos da memoria. */
 	public short a;
-	/** Recebe valores da saída da ULA. */ 
+	/** Recebe valores da saida da ULA. */ 
 	public short b;
-	/** Saída. */
+	/** Saida. */
 	public short s;
 	
 	/** Sinais de controle */
@@ -32,7 +32,7 @@ public class Multiplex2E {
 	/******************** Construtores ********************
 	 ******************************************************
 	 * Atribui 0 aos atributos a, b e s.
-	 * Instancia os Bits dos sinais, atriuindo 0 a todos.
+	 * Instancia os Bits dos sinais, atribuindo 0 a todos.
 	 */
 	public Multiplex2E() {
 		a = b = s = (short)0;
@@ -55,7 +55,7 @@ public class Multiplex2E {
 	/**********************************
 	 * Setter para o atributo 'sinal'.
 	 * 
-	 * @param v Vetor de short com uma configuração válida para os sinais de controle.
+	 * @param v Vetor de short com uma configuracao valida para os sinais de controle.
 	 */
 	public void setSinal(short[] v) {
 		this.sinal[L].setValor(v[L]);
@@ -73,7 +73,7 @@ public class Multiplex2E {
 	/**********************************
 	 * Setter para o atributo 'a'.
 	 * 
-	 * @param a Valor que será atribuido a 'a'. 
+	 * @param a Valor que sera atribuido a 'a'. 
 	 */
 	public void setA(short a) {
 		this.a = a;
@@ -91,17 +91,17 @@ public class Multiplex2E {
 	/**********************************
 	 * Setter para o atributo 'b'.
 	 * 
-	 * @param a Valor que será atribuido a 'b'. 
+	 * @param a Valor que sera atribuido a 'b'. 
 	 */
 	public void setB(short b) {
 		this.b = b;
 	}
 
 	
-	/**************** Funções do Multiplex ****************
+	/**************** Funcoes do Multiplex ****************
 	 ******************************************************
-	 * Escolhe qual operando será propagado para a saída de acordo 
-	 * com a configuração dos sinais de controle.
+	 * Escolhe qual operando sera propagado para a saida de acordo 
+	 * com a configuracao dos sinais de controle.
 	 */
 	public void opera(Processador proc){
 		proc.mux2.a = proc.memoria.dadoLido;
@@ -110,7 +110,7 @@ public class Multiplex2E {
 		proc.mux2.setSinal(vet);
 		
 		if (sinal[L].getValor() == 0) proc.mux2.s = proc.mux2.a;
-		else s = b;
+		else proc.mux4.s = proc.mux4.b;
 	}
 	
 }
