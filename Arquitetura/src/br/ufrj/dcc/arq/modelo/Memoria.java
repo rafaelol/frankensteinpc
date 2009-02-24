@@ -9,7 +9,7 @@ public class Memoria {
 
 	public static final int X = 0;
 	
-	public static short dadoLido;
+	public short dadoLido;
 	
 	private short mem[];
 	private Bit sinal;
