@@ -19,6 +19,10 @@ public class Registrador {
 		this.sinal = new Bit((short)0);
 	}
 	
+	public Registrador() {
+		r0 = r1 = r2 = r3 = r4 = rx = ry = pc = rdados = rend = ri = 0;
+	}
+	
 	public Bit getSinal() {
 		return this.sinal;
 	}

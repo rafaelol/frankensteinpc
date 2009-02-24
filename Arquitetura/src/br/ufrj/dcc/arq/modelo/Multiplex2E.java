@@ -107,7 +107,7 @@ public class Multiplex2E {
 		proc.mux2.a = proc.memoria.dadoLido;
 		proc.mux2.b = proc.ula.s;
 		short vet[] = {proc.uc.sinais[Uc.L].getValor()};
-		this.setSinal(vet);
+		proc.mux2.setSinal(vet);
 		
 		if (sinal[L].getValor() == 0) proc.mux2.s = proc.mux2.a;
 		else s = b;
