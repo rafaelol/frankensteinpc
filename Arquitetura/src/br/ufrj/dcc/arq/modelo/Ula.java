@@ -195,21 +195,21 @@ public class Ula {
 	 *    Overflow se operandos de mesmo sinal e resultado de sinal diferente.
 	 *    Carry se a soma terminar em vai um (propagar um 17o bit)
 	 */
-	public void add() {
-		s = (short)((short)a + (short)b);
-		int s2 = a + b;
+	public void add(Processador proc) {
+		proc.ula.s = (short)((short)proc.ula.a + (short)proc.ula.b);
+		int s2 = proc.ula.a + proc.ula.b;
 		
-		if( ((a > 0) && (b > 0) && (s < 0)) || ((a < 0) && (b < 0) && (s > 0)) ) 
-			this.flags[OVERFLOW].setValor((short)1);
+		if( ((proc.ula.a > 0) && (proc.ula.b > 0) && (proc.ula.s < 0)) || ((proc.ula.a < 0) && (proc.ula.b < 0) && (proc.ula.s > 0)) ) 
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		else
-			this.flags[OVERFLOW].setValor((short)0);
+			proc.ula.flags[OVERFLOW].setValor((short)0);
 		
 		if((s2 & 0x00010000) == 0x00010000)
-			this.flags[CARRY].setValor((short)1);
+			proc.ula.flags[CARRY].setValor((short)1);
 		else
-			this.flags[CARRY].setValor((short)0);
+			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 
 	/**********************************
@@ -220,36 +220,36 @@ public class Ula {
 	 *    Overflow se operandos de sinal diferente e resultado de sinal diferente do minuendo(B).
 	 *    Carry se modulo do minuendo(B) for menor que o modulo do subtrendo(A).
 	 */	
-	public void subAB() {
+	public void subAB(Processador proc) {
 		int op1, op2;
 		
-		s = (short)((short)b - (short)a);
+		proc.ula.s = (short)((short)proc.ula.b - (short)proc.ula.a);
 		
-		if((b < 0) && (a > 0) && (s > 0))
+		if((proc.ula.b < 0) && (proc.ula.a > 0) && (proc.ula.s > 0))
 		{
-			this.flags[OVERFLOW].setValor((short)1);
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		}
 		else
 		{
-			if((b > 0) && (a < 0) && (s < 0))
+			if((proc.ula.b > 0) && (proc.ula.a < 0) && (proc.ula.s < 0))
 			{
-				this.flags[OVERFLOW].setValor((short)1);
+				proc.ula.flags[OVERFLOW].setValor((short)1);
 			}
 			else
 			{
-				this.flags[OVERFLOW].setValor((short)0);
+				proc.ula.flags[OVERFLOW].setValor((short)0);
 			}
 		}
 			
-		if(a < 0) op1 = a * -1; else op1 = a;
-		if(b < 0) op2 = b * -1; else op2 = b;
+		if(proc.ula.a < 0) op1 = proc.ula.a * -1; else op1 = proc.ula.a;
+		if(proc.ula.b < 0) op2 = proc.ula.b * -1; else op2 = proc.ula.b;
 		
 		if(op2 < op1)
-			this.flags[CARRY].setValor((short)1);
+			proc.ula.flags[CARRY].setValor((short)1);
 		else
-			this.flags[CARRY].setValor((short)0);
+			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);	
+		setarFlagsSinalZeroParidade(s, proc);	
 	}
 	
 	/**********************************
@@ -260,50 +260,50 @@ public class Ula {
 	 *    Overflow se operandos de sinal diferente e resultado de sinal diferente do minuendo(A).
 	 *    Carry se modulo do minuendo(A) for menor que o modulo do subtraendo(B).
 	 */	
-	public void subBA() {
+	public void subBA(Processador proc) {
 		int op1, op2;
 		
-		s = (short)((short)a - (short)b);
+		proc.ula.s = (short)((short)proc.ula.a - (short)proc.ula.b);
 		
-		if((a < 0) && (b > 0) && (s > 0))
+		if((proc.ula.a < 0) && (proc.ula.b > 0) && (proc.ula.s > 0))
 		{
-			this.flags[OVERFLOW].setValor((short)1);
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		}
 		else
 		{
-			if((a > 0) && (b < 0) && (s < 0))
+			if((proc.ula.a > 0) && (proc.ula.b < 0) && (proc.ula.s < 0))
 			{
-				this.flags[OVERFLOW].setValor((short)1);
+				proc.ula.flags[OVERFLOW].setValor((short)1);
 			}
 			else
 			{
-				this.flags[OVERFLOW].setValor((short)0);
+				proc.ula.flags[OVERFLOW].setValor((short)0);
 			}
 		}
 		
-		if(a < 0) op1 = a * -1; else op1 = a;
-		if(b < 0) op2 = b * -1; else op2 = b;
+		if(proc.ula.a < 0) op1 = proc.ula.a * -1; else op1 = proc.ula.a;
+		if(proc.ula.b < 0) op2 = proc.ula.b * -1; else op2 = proc.ula.b;
 		
 		if(op1 < op2)
-			this.flags[CARRY].setValor((short)1);
+			proc.ula.flags[CARRY].setValor((short)1);
 		else
-			this.flags[CARRY].setValor((short)0);
+			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);			
+		setarFlagsSinalZeroParidade(s, proc);			
 	}
 
 	/**********************************
 	 * Copia o operando A para a saida.
 	 */
-	public void passaA() {
-		s = a;
+	public void passaA(Processador proc) {
+		proc.ula.s = proc.ula.a;
 	}
 	
 	/**********************************
 	 * Copia o operando B para a saida.
 	 */	
-	public void passaB() {
-		s = b;
+	public void passaB(Processador proc) {
+		proc.ula.s = proc.ula.b;
 	}
 
 	/**********************************
@@ -311,8 +311,8 @@ public class Ula {
 	 * 
 	 * Nao Altera nenhuma das flags.
 	 */
-	public void notA() {	
-		s = (short)(~ (short)a);
+	public void notA(Processador proc) {	
+		proc.ula.s = (short)(~ (short)proc.ula.a);
 	}
 
 	/**********************************
@@ -320,8 +320,8 @@ public class Ula {
 	 * 
 	 * Nao Altera nenhuma das flags.
 	 */
-	public void notB() {	
-		s = (short)(~ (int)b);
+	public void notB(Processador proc) {	
+		proc.ula.s = (short)(~ (int)proc.ula.b);
 	}
 
 	/**********************************
@@ -329,8 +329,8 @@ public class Ula {
 	 * 
 	 * Nao Altera nenhuma das flags.
 	 */
-	public void negA() {
-		s = (short)((short)-1 * a);
+	public void negA(Processador proc) {
+		proc.ula.s = (short)((short)-1 * proc.ula.a);
 	}
 
 	/**********************************
@@ -338,8 +338,8 @@ public class Ula {
 	 * 
 	 * Nao Altera nenhuma das flags.
 	 */
-	public void negB() {
-		s = (short)((short)-1 * b);
+	public void negB(Processador proc) {
+		proc.ula.s = (short)((short)-1 * proc.ula.b);
 	}
 
 	/**********************************
@@ -351,27 +351,27 @@ public class Ula {
 	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */
-	public void shlA() {
-		s = (short)((short)a << 1);
+	public void shlA(Processador proc) {
+		proc.ula.s = (short)((short)proc.ula.a << 1);
 
-		if((a < 0) && (s > 0)) {
-			this.flags[OVERFLOW].setValor((short)1);
+		if((proc.ula.a < 0) && (proc.ula.s > 0)) {
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		}
 		else
 		{
-			if((a > 0) && (s < 0)) {
-				this.flags[OVERFLOW].setValor((short)1);
+			if((proc.ula.a > 0) && (proc.ula.s < 0)) {
+				proc.ula.flags[OVERFLOW].setValor((short)1);
 			}
 			else
 			{
-				this.flags[OVERFLOW].setValor((short)0);
+				proc.ula.flags[OVERFLOW].setValor((short)0);
 			}
 		}
 		
-		if((a & 0x8000) == 0x8000) this.flags[CARRY].setValor((short)1);
-		else this.flags[CARRY].setValor((short)0);
+		if((proc.ula.a & 0x8000) == 0x8000) proc.ula.flags[CARRY].setValor((short)1);
+		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 
 	/**********************************
@@ -383,27 +383,27 @@ public class Ula {
 	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */
-	public void shlB() {
-		s = (short)((short)b << 1);
+	public void shlB(Processador proc) {
+		proc.ula.s = (short)((short)proc.ula.b << 1);
 
-		if((b < 0) && (s > 0)) {
-			this.flags[OVERFLOW].setValor((short)1);
+		if((proc.ula.b < 0) && (proc.ula.s > 0)) {
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		}
 		else
 		{
-			if((b > 0) && (s < 0)) {
-				this.flags[OVERFLOW].setValor((short)1);
+			if((proc.ula.b > 0) && (proc.ula.s < 0)) {
+				proc.ula.flags[OVERFLOW].setValor((short)1);
 			}
 			else
 			{
-				this.flags[OVERFLOW].setValor((short)0);
+				proc.ula.flags[OVERFLOW].setValor((short)0);
 			}
 		}
 		
-		if((b & 0x8000) == 0x8000) this.flags[CARRY].setValor((short)1);
-		else this.flags[CARRY].setValor((short)0);
+		if((proc.ula.b & 0x8000) == 0x8000) proc.ula.flags[CARRY].setValor((short)1);
+		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 
 	/**********************************
@@ -415,27 +415,27 @@ public class Ula {
 	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */	
-	public void shrA(){
-		s = (short)(a >> 1);
+	public void shrA(Processador proc){
+		proc.ula.s = (short)(proc.ula.a >> 1);
 		
-		if((a < 0) && (s > 0)) {
-			this.flags[OVERFLOW].setValor((short)1);
+		if((proc.ula.a < 0) && (proc.ula.s > 0)) {
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		}
 		else
 		{
-			if((a > 0) && (s < 0)) {
-				this.flags[OVERFLOW].setValor((short)1);
+			if((proc.ula.a > 0) && (proc.ula.s < 0)) {
+				proc.ula.flags[OVERFLOW].setValor((short)1);
 			}
 			else
 			{
-				this.flags[OVERFLOW].setValor((short)0);
+				proc.ula.flags[OVERFLOW].setValor((short)0);
 			}
 		}
 		
-		if(a % 2 == 1) this.flags[CARRY].setValor((short)1); 
-		else this.flags[CARRY].setValor((short)0);
+		if(proc.ula.a % 2 == 1) proc.ula.flags[CARRY].setValor((short)1); 
+		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 	
 	/**********************************
@@ -447,27 +447,27 @@ public class Ula {
 	 *    Carry recebe o bit que sobrou apos o deslocamento.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */
-	public void shrB(){
-		s = (short)(b >> 1);
+	public void shrB(Processador proc){
+		proc.ula.s = (short)(proc.ula.b >> 1);
 		
-		if((b < 0) && (s > 0)) {
-			this.flags[OVERFLOW].setValor((short)1);
+		if((proc.ula.b < 0) && (proc.ula.s > 0)) {
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		}
 		else
 		{
-			if((b > 0) && (s < 0)) {
-				this.flags[OVERFLOW].setValor((short)1);
+			if((proc.ula.b > 0) && (proc.ula.s < 0)) {
+				proc.ula.flags[OVERFLOW].setValor((short)1);
 			}
 			else
 			{
-				this.flags[OVERFLOW].setValor((short)0);
+				proc.ula.flags[OVERFLOW].setValor((short)0);
 			}
 		}
 		
-		if(b % 2 == 1) this.flags[CARRY].setValor((short)1); 
-		else this.flags[CARRY].setValor((short)0);
+		if(proc.ula.b % 2 == 1) proc.ula.flags[CARRY].setValor((short)1); 
+		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 
 	/**********************************
@@ -477,13 +477,13 @@ public class Ula {
 	 *    Zera Flags Carry e Overflow.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 */
-	public void and() {
-		s = (short)((short)a & (short)b);
+	public void and(Processador proc) {
+		proc.ula.s = (short)((short)proc.ula.a & (short)proc.ula.b);
 
-		this.flags[CARRY].setValor((short)0);
-		this.flags[OVERFLOW].setValor((short)0);
+		proc.ula.flags[CARRY].setValor((short)0);
+		proc.ula.flags[OVERFLOW].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 
 	/**********************************
@@ -493,13 +493,13 @@ public class Ula {
 	 *   Zera Flags Carry e Overflow.
 	 *   Paridade, Sinal e Zero de acordo com o resultado.
 	 */
-	public void or() {
-		s = (short)((short)a | (short)b);
+	public void or(Processador proc) {
+		proc.ula.s = (short)((short)proc.ula.a | (short)proc.ula.b);
 		
-		this.flags[CARRY].setValor((short)0);
-		this.flags[OVERFLOW].setValor((short)0);
+		proc.ula.flags[CARRY].setValor((short)0);
+		proc.ula.flags[OVERFLOW].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 	
 	/**********************************
@@ -507,10 +507,10 @@ public class Ula {
 	 * 
 	 * Altera a Zero-Flag, setando com o valor 1.
 	 */
-	public void passaZero() {
-		s = (short) 0;
+	public void passaZero(Processador proc) {
+		proc.ula.s = (short) 0;
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 	
 	/**********************************
@@ -518,21 +518,21 @@ public class Ula {
 	 * 
 	 * Altera todas as flags.
 	 */
-	public void incA() {
-		s = (short)((short)a + (short)1);
-		int s2 = a + 1;
+	public void incA(Processador proc) {
+		proc.ula.s = (short)((short)proc.ula.a + (short)1);
+		int s2 = proc.ula.a + 1;
 		
-		if( ((a > 0) && (s < 0)) || ((a < 0) && (s > 0)) ) 
-			this.flags[OVERFLOW].setValor((short)1);
+		if( ((proc.ula.a > 0) && (proc.ula.s < 0)) || ((proc.ula.a < 0) && (proc.ula.s > 0)) ) 
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		else
-			this.flags[OVERFLOW].setValor((short)0);
+			proc.ula.flags[OVERFLOW].setValor((short)0);
 		
 		if((s2 & 0x00010000) == 0x00010000)
-			this.flags[CARRY].setValor((short)1);
+			proc.ula.flags[CARRY].setValor((short)1);
 		else
-			this.flags[CARRY].setValor((short)0);
+			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 
 	/**********************************
@@ -540,21 +540,21 @@ public class Ula {
 	 * 
 	 * Altera todas as flags.
 	 */
-	public void incB() {
-		s = (short)((short)b + (short)1);
-		int s2 = b + 1;
+	public void incB(Processador proc) {
+		proc.ula.s = (short)((short)proc.ula.b + (short)1);
+		int s2 = proc.ula.b + 1;
 		
-		if( ((b > 0) && (s < 0)) || ((b < 0) && (s > 0)) ) 
-			this.flags[OVERFLOW].setValor((short)1);
+		if( ((proc.ula.b > 0) && (proc.ula.s < 0)) || ((proc.ula.b < 0) && (proc.ula.s > 0)) ) 
+			proc.ula.flags[OVERFLOW].setValor((short)1);
 		else
-			this.flags[OVERFLOW].setValor((short)0);
+			proc.ula.flags[OVERFLOW].setValor((short)0);
 		
 		if((s2 & 0x00010000) == 0x00010000)
-			this.flags[CARRY].setValor((short)1);
+			proc.ula.flags[CARRY].setValor((short)1);
 		else
-			this.flags[CARRY].setValor((short)0);
+			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s);
+		setarFlagsSinalZeroParidade(s, proc);
 	}
 
 	/************** Metodos Auxiliares *****************
@@ -564,37 +564,37 @@ public class Ula {
 	 * @param Valor utilzado como referencia para a atribuicao de valores das flags.
 	 *        Tipicamente o resultado de uma das operacoes da ULA.  
 	 */
-	public void setarFlagsSinalZeroParidade(short a) {
+	public void setarFlagsSinalZeroParidade(short a, Processador proc) {
 
 		/* Signal */
-		if(a < 0) {
-			this.flags[SINAL].setValor((short)1);
+		if(proc.ula.a < 0) {
+			proc.ula.flags[SINAL].setValor((short)1);
 		}
 		else {
-			this.flags[SINAL].setValor((short)0);
+			proc.ula.flags[SINAL].setValor((short)0);
 		}
 		
 		/* Zero */
-		if(a == 0) {
-			this.flags[ZERO].setValor((short)1);
+		if(proc.ula.a == 0) {
+			proc.ula.flags[ZERO].setValor((short)1);
 		}
 		else {
-			this.flags[ZERO].setValor((short)0);
+			proc.ula.flags[ZERO].setValor((short)0);
 		}
 		
-		verificaParidade();
+		verificaParidade(proc);
 	}
 	
 	/**********************************
 	 * Verifica se o numero de bits com valor 1 no atributo S eh par.
 	 * Seta a flag de de paridade, caso seja.
 	 */
-	public void verificaParidade() {
+	public void verificaParidade(Processador proc) {
 		int cont = 0;
-		String str = Integer.toBinaryString(s);
+		String str = Integer.toBinaryString(proc.ula.s);
 		String str2 = "";
 		
-		if(s < 0) {
+		if(proc.ula.s < 0) {
 			str2 += str.charAt(0);
 			for(int i=17; i<str.length(); i++) str2 += str.charAt(i);
 		}
@@ -604,14 +604,14 @@ public class Ula {
 			for(int j = 0; j < str.length(); j++) str2 += str.charAt(j);
 		}
 		
-		System.out.println(str2);
+		System.out.println("Verificando paridade:" + str2);
 		
 		for(int i=0; i < str2.length(); i++) {
 			if(str2.charAt(i) == '1') cont ++;
 		}
 		
-		if(cont % 2 == 0) this.flags[PARIDADE].setValor((short)1);
-		else this.flags[PARIDADE].setValor((short)0);
+		if(cont % 2 == 0) proc.ula.flags[PARIDADE].setValor((short)1);
+		else proc.ula.flags[PARIDADE].setValor((short)0);
 	}
 	
 	/**********************************
@@ -653,24 +653,24 @@ public class Ula {
 		proc.ula.a = proc.mux4.s;
 		proc.ula.b = proc.mux5.s;
 		
-		if     (comparaSinais(PASSAA)    == true) passaA();
-		else if(comparaSinais(PASSAB) 	 == true) passaB();
-		else if(comparaSinais(ADD)    	 == true) add();
-		else if(comparaSinais(SUBAB)  	 == true) subAB();
-		else if(comparaSinais(SUBBA)  	 == true) subBA();
-		else if(comparaSinais(NOTA) 	 == true) notA();
-		else if(comparaSinais(NOTB)   	 == true) notB();
-		else if(comparaSinais(NEGA)   	 == true) negA();
-		else if(comparaSinais(NEGB)  	 == true) negB();
-		else if(comparaSinais(SHLA)   	 == true) shlA();
-		else if(comparaSinais(SHLB)   	 == true) shlB();
-		else if(comparaSinais(SHRA)      == true) shrA();
-		else if(comparaSinais(SHRB)    	 == true) shrB();
-		else if(comparaSinais(AND)    	 == true) and();
-		else if(comparaSinais(OR)     	 == true) or();
-		else if(comparaSinais(INCA)    	 == true) incA();
-		else if(comparaSinais(INCB)    	 == true) incB();
-		else if(comparaSinais(PASSAZERO) == true) passaZero();
+		if     (comparaSinais(PASSAA, proc)    	== true) passaA(proc);
+		else if(comparaSinais(PASSAB, proc) 	== true) passaB(proc);
+		else if(comparaSinais(ADD, proc)    	== true) add(proc);
+		else if(comparaSinais(SUBAB, proc)  	== true) subAB(proc);
+		else if(comparaSinais(SUBBA, proc)  	== true) subBA(proc);
+		else if(comparaSinais(NOTA, proc) 	 	== true) notA(proc);
+		else if(comparaSinais(NOTB, proc)   	== true) notB(proc);
+		else if(comparaSinais(NEGA, proc)   	== true) negA(proc);
+		else if(comparaSinais(NEGB, proc)  	 	== true) negB(proc);
+		else if(comparaSinais(SHLA, proc)   	== true) shlA(proc);
+		else if(comparaSinais(SHLB, proc)   	== true) shlB(proc);
+		else if(comparaSinais(SHRA, proc)      	== true) shrA(proc);
+		else if(comparaSinais(SHRB, proc)    	== true) shrB(proc);
+		else if(comparaSinais(AND, proc)    	== true) and(proc);
+		else if(comparaSinais(OR, proc)     	== true) or(proc);
+		else if(comparaSinais(INCA, proc)    	== true) incA(proc);
+		else if(comparaSinais(INCB, proc)    	== true) incB(proc);
+		else if(comparaSinais(PASSAZERO, proc) 	== true) passaZero(proc);
 	}
 
 	/**********************************
@@ -679,9 +679,9 @@ public class Ula {
 	 * @return true, caso seja igual a configuracao testada.
 	 * @retun  false, caso contrario.
 	 */
-	public boolean comparaSinais(short[] p) {
+	public boolean comparaSinais(short[] p, Processador proc) {
 		boolean ret = true;
-		short[] v = getSinais();
+		short[] v = proc.ula.getSinais();
 		
 		for(int i = 0; i<QTD_SINAIS; i++) {	
 			if(v[i] != p[i]) { 
