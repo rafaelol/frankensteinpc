@@ -32,15 +32,17 @@ public class Controlador extends Parser{
 		}
 		
 		// Imprime Posicoes de Memoria
-		System.out.println("\nMemoria");
+		/* Comentado. Motivo: Verificado que foi colocado corretamente na memória. =)
+		System.out.println("\nImpressao da Memoria");
 		for(int i =0; i< parser.getVetorParser().length; i++){
 			System.out.print(proc.memoria.getMemPos(i) + " ");
 		}
+		System.out.println("\nFim da Impressao da Memoria");
+		*/
 		
 		// IR recebe a primeira instrucao
 		Instrucoes.Cabecalho(executa_por_micro, proc);
 		
-		System.out.println("Passei aqui");
 		// Executa as instruções do programa.
 		percorreVetorParser = proc.registrador.pc;
 		
