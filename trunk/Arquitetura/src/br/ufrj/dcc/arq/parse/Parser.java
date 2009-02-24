@@ -3,7 +3,6 @@ package br.ufrj.dcc.arq.parse;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Map.Entry;
 
 public class Parser {
 	public short Vet_Codigos[] = null;
@@ -2792,7 +2791,7 @@ public class Parser {
 		}
 				
 		while (itMap.hasNext()) {
-			//Essa linha tá dando erro
+			//Essa linha tï¿½ dando erro
 			mapa = (Map.Entry<Integer, String>) itMap.next();
 			
 			dadosDoMap = itMap.next();
