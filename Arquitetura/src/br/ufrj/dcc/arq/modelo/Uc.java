@@ -27,7 +27,7 @@ public class Uc {
 	public static final short X = 23;
 	
 	public static int renduc;
-	public static Bit sinais[] = new Bit[MemoriaControle.TAM_CTRL];
+	public Bit sinais[] = new Bit[MemoriaControle.TAM_CTRL];
 
 	/****************************************************/
 	/****************************************************/
@@ -43,7 +43,7 @@ public class Uc {
 	/****************************************************/
 	/****************************************************/
 	
-	public static short[] getSinais() {
+	public short[] getSinais() {
 		short vet[] =  {sinais[A].getValor(), sinais[B].getValor(),	sinais[C].getValor(),
 			    		sinais[D].getValor(), sinais[E].getValor(), sinais[F].getValor(),
 			    		sinais[G].getValor(), sinais[H].getValor(), sinais[I].getValor(),
@@ -57,7 +57,7 @@ public class Uc {
 		return vet;
 	}
 
-	public static void setSinais(short[] v) {
+	public void setSinais(short[] v) {
 		sinais[A].setValor(v[A]); sinais[B].setValor(v[B]); sinais[C].setValor(v[C]);
 		sinais[D].setValor(v[D]); sinais[E].setValor(v[E]); sinais[F].setValor(v[F]);
 		sinais[G].setValor(v[G]); sinais[H].setValor(v[H]); sinais[I].setValor(v[I]);

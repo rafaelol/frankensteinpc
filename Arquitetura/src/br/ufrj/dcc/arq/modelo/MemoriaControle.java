@@ -223,16 +223,11 @@ public class MemoriaControle {
 	public static final short PCRECRDADOS[]					= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, NULOV, Ula.PASSAA, Uc.B, NULO, Uc.A);
 	
 	
-	public void Operar() {
-		Multiplex2E mult2 = new Multiplex2E();
-		Multiplex4E mult4 = new Multiplex4E();
-		Multiplex5E mult5 = new Multiplex5E();
-		Ula ula = new Ula();
-
-		mult2.opera();
-		mult4.opera();
-		mult5.opera();
-		ula.opera();
+	public void Operar(Processador proc) {
+		proc.mux2.opera(proc);
+		proc.mux4.opera(proc);
+		proc.mux5.opera(proc);
+		proc.ula.opera(proc);
 	}
 
 	/*
@@ -241,1904 +236,1904 @@ public class MemoriaControle {
 	 */
 
 	/* Instrucoes Le e Escreve */
-	public static void Le() {
-		Uc.setSinais(LE);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar(); //Acredito que o que vem de Mem do multiplex2E já pega direitinho a posicao da memoria. Se não for, tem que fazer aqui.
+	public void Le(Processador proc) {
+		proc.uc.setSinais(LE);
+		 
+		this.Operar(proc); //Acredito que o que vem de this do multiplex2E já pega direitinho a posicao da thisoria. Se não for, tem que fazer aqui.
 	}
-	public static void Escreve() {
-		Uc.setSinais(ESCREVE);
-		// Chama memoria com Memoria.setMemPos(Registrador.rend, Registrador.rdados);
+	public void Escreve(Processador proc) {
+		proc.uc.setSinais(ESCREVE);
+		// Chama thisoria com thisoria.setthisPos(proc.registrador.rend, proc.registrador.rdados);
 	}
 
 	/* Instrucoes PC recebe algo */
-	public static void PC_rec_PCmais1() {
-		Uc.setSinais(PC_REC_PCMAIS1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.pc = Ula.s;
+	public void PC_rec_PCmais1(Processador proc) {
+		proc.uc.setSinais(PC_REC_PCMAIS1);
+		 
+		this.Operar(proc);
+		proc.registrador.pc = Ula.s;
 	}
 
-	public static void PC_rec_RDados() {
-		Uc.setSinais(PCRECRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.pc = Ula.s;
+	public void PC_rec_RDados(Processador proc) {
+		proc.uc.setSinais(PCRECRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.pc = Ula.s;
 	}
 	
 	/* Instrucoes IR recebe algo */
-	public static void IR_rec_RDados() {
-		Uc.setSinais(IR_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.ri = Ula.s;
+	public void IR_rec_RDados(Processador proc) {
+		proc.uc.setSinais(IR_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.ri = Ula.s;
 	}
 
 	/* Instrucoes REnd recebe algo */
-	public static void REnd_rec_PC() {
-		Uc.setSinais(REND_REC_PC);
+	public void REnd_rec_PC(Processador proc) {
+		proc.uc.setSinais(REND_REC_PC);
 		System.out.println("Foi depois de 1");
-		MemoriaControle mem = new MemoriaControle();
+		 
 		System.out.println("Foi depois de 2");
-		mem.Operar();
+		this.Operar(proc);
 		System.out.println("Foi depois de 3");
-		Registrador.rend = Ula.s;
+		proc.registrador.rend = Ula.s;
 	}
-	public static void REnd_rec_R0() {
-		Uc.setSinais(REND_REC_R0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rend = Ula.s;
+	public void REnd_rec_R0(Processador proc) {
+		proc.uc.setSinais(REND_REC_R0);
+		 
+		this.Operar(proc);
+		proc.registrador.rend = Ula.s;
 	}
-	public static void REnd_rec_R1() {
-		Uc.setSinais(REND_REC_R1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rend = Ula.s;
+	public void REnd_rec_R1(Processador proc) {
+		proc.uc.setSinais(REND_REC_R1);
+		 
+		this.Operar(proc);
+		proc.registrador.rend = Ula.s;
 	}
-	public static void REnd_rec_R2() {
-		Uc.setSinais(REND_REC_R2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rend = Ula.s;
+	public void REnd_rec_R2(Processador proc) {
+		proc.uc.setSinais(REND_REC_R2);
+		 
+		this.Operar(proc);
+		proc.registrador.rend = Ula.s;
 	}
-	public static void REnd_rec_R3() {
-		Uc.setSinais(REND_REC_R3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rend = Ula.s;
+	public void REnd_rec_R3(Processador proc) {
+		proc.uc.setSinais(REND_REC_R3);
+		 
+		this.Operar(proc);
+		proc.registrador.rend = Ula.s;
 	}
-	public static void REnd_rec_R4() {
-		Uc.setSinais(REND_REC_R4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rend = Ula.s;
+	public void REnd_rec_R4(Processador proc) {
+		proc.uc.setSinais(REND_REC_R4);
+		 
+		this.Operar(proc);
+		proc.registrador.rend = Ula.s;
 	}
 	/* Instrucoes RY recebe algo */
-	public static void RY_rec_RDados() {
-		Uc.setSinais(RY_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.ry = Ula.s;
+	public void RY_rec_RDados(Processador proc) {
+		proc.uc.setSinais(RY_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.ry = Ula.s;
 	}
-	public static void RY_rec_R0() {
-		Uc.setSinais(RY_REC_R0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.ry = Ula.s;
+	public void RY_rec_R0(Processador proc) {
+		proc.uc.setSinais(RY_REC_R0);
+		 
+		this.Operar(proc);
+		proc.registrador.ry = Ula.s;
 	}
-	public static void RY_rec_R1() {
-		Uc.setSinais(RY_REC_R1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.ry = Ula.s;
+	public void RY_rec_R1(Processador proc) {
+		proc.uc.setSinais(RY_REC_R1);
+		 
+		this.Operar(proc);
+		proc.registrador.ry = Ula.s;
 	}
 	
-	public static void RY_rec_PC() {
-		Uc.setSinais(RYRECPC);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.ry = Ula.s;
+	public void RY_rec_PC(Processador proc) {
+		proc.uc.setSinais(RYRECPC);
+		 
+		this.Operar(proc);
+		proc.registrador.ry = Ula.s;
 	}
 	
 	/* Instrucoes RX recebe algo */
-	public static void RX_rec_RDados() {
-		Uc.setSinais(RX_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rx = Ula.s;
+	public void RX_rec_RDados(Processador proc) {
+		proc.uc.setSinais(RX_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.rx = Ula.s;
 	}
-	public static void RX_rec_R2() {
-		Uc.setSinais(RX_REC_R2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rx = Ula.s;
+	public void RX_rec_R2(Processador proc) {
+		proc.uc.setSinais(RX_REC_R2);
+		 
+		this.Operar(proc);
+		proc.registrador.rx = Ula.s;
 	}
-	public static void RX_rec_R3() {
-		Uc.setSinais(RX_REC_R3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rx = Ula.s;
+	public void RX_rec_R3(Processador proc) {
+		proc.uc.setSinais(RX_REC_R3);
+		 
+		this.Operar(proc);
+		proc.registrador.rx = Ula.s;
 	}
-	public static void RX_rec_R4() {
-		Uc.setSinais(RX_REC_R4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rx = Ula.s;
+	public void RX_rec_R4(Processador proc) {
+		proc.uc.setSinais(RX_REC_R4);
+		 
+		this.Operar(proc);
+		proc.registrador.rx = Ula.s;
 	}
 	/* Instrucoes RDados recebe algo */
-	public static void RDados_rec_Inflida() {
-		Uc.setSinais(RDADOS_REC_INFLIDA);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_Inflida(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_INFLIDA);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_RDadosmaisRY() {
-		Uc.setSinais(RDADOS_REC_RDADOSMAISRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_RDadosmaisRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_RDADOSMAISRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R0maisRY() {
-		Uc.setSinais(RDADOS_REC_R0MAISRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R0maisRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R0MAISRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R1maisRY() {
-		Uc.setSinais(RDADOS_REC_R1MAISRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R1maisRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R1MAISRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R2maisRX() {
-		Uc.setSinais(RDADOS_REC_R2MAISRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R2maisRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R2MAISRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R3maisRX() {
-		Uc.setSinais(RDADOS_REC_R3MAISRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R3maisRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R3MAISRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R4maisRX() {
-		Uc.setSinais(RDADOS_REC_R4MAISRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R4maisRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R4MAISRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_RYmenosRDados() {
-		Uc.setSinais(RDADOS_REC_RYMENOSRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_RYmenosRDados(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_RYMENOSRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R0menosRY() {
-		Uc.setSinais(RDADOS_REC_R0MENOSRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R0menosRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R0MENOSRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R1menosRY() {
-		Uc.setSinais(RDADOS_REC_R1MENOSRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R1menosRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R1MENOSRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R2menosRX() {
-		Uc.setSinais(RDADOS_REC_R2MENOSRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R2menosRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R2MENOSRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R3menosRX() {
-		Uc.setSinais(RDADOS_REC_R3MENOSRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R3menosRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R3MENOSRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R4menosRX() {
-		Uc.setSinais(RDADOS_REC_R4MENOSRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R4menosRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R4MENOSRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_RY() {
-		Uc.setSinais(RDADOS_REC_RY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_RY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_RY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R0() {
-		Uc.setSinais(RDADOS_REC_R0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R0(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R0);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R1() {
-		Uc.setSinais(RDADOS_REC_R1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R1(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R1);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R2() {
-		Uc.setSinais(RDADOS_REC_R2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R2(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R2);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R3() {
-		Uc.setSinais(RDADOS_REC_R3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R3(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R3);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R4() {
-		Uc.setSinais(RDADOS_REC_R4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R4(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R4);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_RDadosandRY() {
-		Uc.setSinais(RDADOS_REC_RDADOSANDRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_RDadosandRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_RDADOSANDRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R0andRY() {
-		Uc.setSinais(RDADOS_REC_R0ANDRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R0andRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R0ANDRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R1andRY() {
-		Uc.setSinais(RDADOS_REC_R1ANDRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R1andRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R1ANDRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R2andRX() {
-		Uc.setSinais(RDADOS_REC_R2ANDRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R2andRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R2ANDRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R3andRX() {
-		Uc.setSinais(RDADOS_REC_R3ANDRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R3andRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R3ANDRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R4andRX() {
-		Uc.setSinais(RDADOS_REC_R4ANDRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R4andRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R4ANDRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_RDadosorRY() {
-		Uc.setSinais(RDADOS_REC_RDADOSORRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_RDadosorRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_RDADOSORRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R0orRY() {
-		Uc.setSinais(RDADOS_REC_R0ORRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R0orRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R0ORRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R1orRY() {
-		Uc.setSinais(RDADOS_REC_R1ORRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R1orRY(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R1ORRY);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R2orRX() {
-		Uc.setSinais(RDADOS_REC_R2ORRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R2orRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R2ORRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R3orRX() {
-		Uc.setSinais(RDADOS_REC_R3ORRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R3orRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R3ORRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_R4orRX() {
-		Uc.setSinais(RDADOS_REC_R4ORRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_R4orRX(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_R4ORRX);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_notRDados() {
-		Uc.setSinais(RDADOS_REC_NOTRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_notRDados(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_NOTRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_negRDados() {
-		Uc.setSinais(RDADOS_REC_NEGRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_negRDados(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_NEGRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_0() {
-		Uc.setSinais(RDADOS_REC_0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_0(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_0);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_shlRDados() {
-		Uc.setSinais(RDADOS_REC_SHLRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_shlRDados(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_SHLRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
-	public static void RDados_rec_shrRDados() {
-		Uc.setSinais(RDADOS_REC_SHRRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.rdados = Ula.s;
+	public void RDados_rec_shrRDados(Processador proc) {
+		proc.uc.setSinais(RDADOS_REC_SHRRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.rdados = Ula.s;
 	}
 	/* Instrucoes R0 recebe algo */
-	public static void R0_rec_R0andRY() {
-		Uc.setSinais(R0_REC_R0ANDRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0andRY(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ANDRY);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0andR2() {
-		Uc.setSinais(R0_REC_R0ANDR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0andR2(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ANDR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0andR3() {
-		Uc.setSinais(R0_REC_R0ANDR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0andR3(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ANDR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0andR4() {
-		Uc.setSinais(R0_REC_R0ANDR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0andR4(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ANDR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0orRY() {
-		Uc.setSinais(R0_REC_R0ORRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0orRY(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ORRY);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0orR2() {
-		Uc.setSinais(R0_REC_R0ORR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0orR2(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ORR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0orR3() {
-		Uc.setSinais(R0_REC_R0ORR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0orR3(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ORR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0orR4() {
-		Uc.setSinais(R0_REC_R0ORR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0orR4(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0ORR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0maisRY() {
-		Uc.setSinais(R0_REC_R0MAISRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0maisRY(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0MAISRY);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0maisR2() {
-		Uc.setSinais(R0_REC_R0MAISR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0maisR2(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0MAISR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0maisR3() {
-		Uc.setSinais(R0_REC_R0MAISR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0maisR3(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0MAISR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R0maisR4() {
-		Uc.setSinais(R0_REC_R0MAISR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R0maisR4(Processador proc) {
+		proc.uc.setSinais(R0_REC_R0MAISR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_RYmenosR0() {
-		Uc.setSinais(R0_REC_RYMENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_RYmenosR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_RYMENOSR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R2menosR0() {
-		Uc.setSinais(R0_REC_R2MENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R2menosR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_R2MENOSR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R3menosR0() {
-		Uc.setSinais(R0_REC_R3MENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R3menosR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_R3MENOSR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R4menosR0() {
-		Uc.setSinais(R0_REC_R4MENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R4menosR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_R4MENOSR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_RDados() {
-		Uc.setSinais(R0_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_RDados(Processador proc) {
+		proc.uc.setSinais(R0_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R1() {
-		Uc.setSinais(R0_REC_R1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R1(Processador proc) {
+		proc.uc.setSinais(R0_REC_R1);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R2() {
-		Uc.setSinais(R0_REC_R2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R2(Processador proc) {
+		proc.uc.setSinais(R0_REC_R2);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R3() {
-		Uc.setSinais(R0_REC_R3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R3(Processador proc) {
+		proc.uc.setSinais(R0_REC_R3);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_R4() {
-		Uc.setSinais(R0_REC_R4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_R4(Processador proc) {
+		proc.uc.setSinais(R0_REC_R4);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_notR0() {
-		Uc.setSinais(R0_REC_NOTR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_notR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_NOTR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_negR0() {
-		Uc.setSinais(R0_REC_NEGR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_negR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_NEGR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_0() {
-		Uc.setSinais(R0_REC_0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_0(Processador proc) {
+		proc.uc.setSinais(R0_REC_0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_shlR0() {
-		Uc.setSinais(R0_REC_SHLR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_shlR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_SHLR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
-	public static void R0_rec_shrR0() {
-		Uc.setSinais(R0_REC_SHRR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r0 = Ula.s;
+	public void R0_rec_shrR0(Processador proc) {
+		proc.uc.setSinais(R0_REC_SHRR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r0 = Ula.s;
 	}
 	/* Instrucoes R1 recebe algo */
-	public static void R1_rec_R1andRY() {
-		Uc.setSinais(R1_REC_R1ANDRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1andRY(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ANDRY);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1andR2() {
-		Uc.setSinais(R1_REC_R1ANDR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1andR2(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ANDR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1andR3() {
-		Uc.setSinais(R1_REC_R1ANDR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1andR3(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ANDR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1andR4() {
-		Uc.setSinais(R1_REC_R1ANDR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1andR4(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ANDR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1orRY() {
-		Uc.setSinais(R1_REC_R1ORRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1orRY(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ORRY);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1orR2() {
-		Uc.setSinais(R1_REC_R1ORR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1orR2(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ORR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1orR3() {
-		Uc.setSinais(R1_REC_R1ORR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1orR3(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ORR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1orR4() {
-		Uc.setSinais(R1_REC_R1ORR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1orR4(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1ORR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1maisRY() {
-		Uc.setSinais(R1_REC_R1MAISRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1maisRY(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1MAISRY);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1maisR2() {
-		Uc.setSinais(R1_REC_R1MAISR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1maisR2(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1MAISR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1maisR3() {
-		Uc.setSinais(R1_REC_R1MAISR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1maisR3(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1MAISR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R1maisR4() {
-		Uc.setSinais(R1_REC_R1MAISR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R1maisR4(Processador proc) {
+		proc.uc.setSinais(R1_REC_R1MAISR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_RYmenosR1() {
-		Uc.setSinais(R1_REC_RYMENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_RYmenosR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_RYMENOSR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R2menosR1() {
-		Uc.setSinais(R1_REC_R2MENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R2menosR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_R2MENOSR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R3menosR1() {
-		Uc.setSinais(R1_REC_R3MENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R3menosR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_R3MENOSR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R4menosR1() {
-		Uc.setSinais(R1_REC_R4MENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R4menosR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_R4MENOSR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_RDados() {
-		Uc.setSinais(R1_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_RDados(Processador proc) {
+		proc.uc.setSinais(R1_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R0() {
-		Uc.setSinais(R1_REC_R0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R0(Processador proc) {
+		proc.uc.setSinais(R1_REC_R0);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R2() {
-		Uc.setSinais(R1_REC_R2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R2(Processador proc) {
+		proc.uc.setSinais(R1_REC_R2);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R3() {
-		Uc.setSinais(R1_REC_R3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R3(Processador proc) {
+		proc.uc.setSinais(R1_REC_R3);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_R4() {
-		Uc.setSinais(R1_REC_R4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_R4(Processador proc) {
+		proc.uc.setSinais(R1_REC_R4);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_notR1() {
-		Uc.setSinais(R1_REC_NOTR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_notR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_NOTR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_negR1() {
-		Uc.setSinais(R1_REC_NEGR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_negR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_NEGR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_0() {
-		Uc.setSinais(R1_REC_0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_0(Processador proc) {
+		proc.uc.setSinais(R1_REC_0);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_shlR1() {
-		Uc.setSinais(R1_REC_SHLR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_shlR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_SHLR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
-	public static void R1_rec_shrR1() {
-		Uc.setSinais(R1_REC_SHRR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r1 = Ula.s;
+	public void R1_rec_shrR1(Processador proc) {
+		proc.uc.setSinais(R1_REC_SHRR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r1 = Ula.s;
 	}
 	/* Instrucoes R2 recebe algo  */
-	public static void R2_rec_R2andRDados() {
-		Uc.setSinais(R2_REC_R2ANDRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2andRDados(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ANDRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2andR0() {
-		Uc.setSinais(R2_REC_R2ANDR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2andR0(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ANDR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2andR1() {
-		Uc.setSinais(R2_REC_R2ANDR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2andR1(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ANDR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2andRX() {
-		Uc.setSinais(R2_REC_R2ANDRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2andRX(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ANDRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2orRDados() {
-		Uc.setSinais(R2_REC_R2ORRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2orRDados(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ORRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2orR0() {
-		Uc.setSinais(R2_REC_R2ORR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2orR0(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ORR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2orR1() {
-		Uc.setSinais(R2_REC_R2ORR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2orR1(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ORR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2orRX() {
-		Uc.setSinais(R2_REC_R2ORRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2orRX(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2ORRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2maisRDados() {
-		Uc.setSinais(R2_REC_R2MAISRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2maisRDados(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2MAISRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2maisRX() {
-		Uc.setSinais(R2_REC_R2MAISRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2maisRX(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2MAISRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2maisR0() {
-		Uc.setSinais(R2_REC_R2MAISR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2maisR0(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2MAISR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R2maisR1() {
-		Uc.setSinais(R2_REC_R2MAISR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R2maisR1(Processador proc) {
+		proc.uc.setSinais(R2_REC_R2MAISR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_RDadosmenosR2() {
-		Uc.setSinais(R2_REC_RDADOSMENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_RDadosmenosR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_RDADOSMENOSR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_RXmenosR2() {
-		Uc.setSinais(R2_REC_RXMENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_RXmenosR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_RXMENOSR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R0menosR2() {
-		Uc.setSinais(R2_REC_R0MENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R0menosR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_R0MENOSR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R1menosR2() {
-		Uc.setSinais(R2_REC_R1MENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R1menosR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_R1MENOSR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_RDados() {
-		Uc.setSinais(R2_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_RDados(Processador proc) {
+		proc.uc.setSinais(R2_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R0() {
-		Uc.setSinais(R2_REC_R0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R0(Processador proc) {
+		proc.uc.setSinais(R2_REC_R0);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R1() {
-		Uc.setSinais(R2_REC_R1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R1(Processador proc) {
+		proc.uc.setSinais(R2_REC_R1);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R3() {
-		Uc.setSinais(R2_REC_R3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R3(Processador proc) {
+		proc.uc.setSinais(R2_REC_R3);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_R4() {
-		Uc.setSinais(R2_REC_R4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_R4(Processador proc) {
+		proc.uc.setSinais(R2_REC_R4);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_notR2() {
-		Uc.setSinais(R2_REC_NOTR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_notR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_NOTR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_negR2() {
-		Uc.setSinais(R2_REC_NEGR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_negR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_NEGR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_0() {
-		Uc.setSinais(R2_REC_0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_0(Processador proc) {
+		proc.uc.setSinais(R2_REC_0);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_shlR2() {
-		Uc.setSinais(R2_REC_SHLR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_shlR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_SHLR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
-	public static void R2_rec_shrR2() {
-		Uc.setSinais(R2_REC_SHRR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r2 = Ula.s;
+	public void R2_rec_shrR2(Processador proc) {
+		proc.uc.setSinais(R2_REC_SHRR2);
+		 
+		this.Operar(proc);
+		proc.registrador.r2 = Ula.s;
 	}
 	/* Instrucoes R3 recebe algo */
-	public static void R3_rec_R3andRDados() {
-		Uc.setSinais(R3_REC_R3ANDRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3andRDados(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ANDRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3andR0() {
-		Uc.setSinais(R3_REC_R3ANDR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3andR0(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ANDR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3andR1() {
-		Uc.setSinais(R3_REC_R3ANDR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3andR1(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ANDR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3andRX() {
-		Uc.setSinais(R3_REC_R3ANDRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3andRX(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ANDRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3orRDados() {
-		Uc.setSinais(R3_REC_R3ORRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3orRDados(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ORRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3orR0() {
-		Uc.setSinais(R3_REC_R3ORR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3orR0(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ORR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3orR1() {
-		Uc.setSinais(R3_REC_R3ORR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3orR1(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ORR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3orRX() {
-		Uc.setSinais(R3_REC_R3ORRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3orRX(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3ORRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3maisRDados() {
-		Uc.setSinais(R3_REC_R3MAISRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3maisRDados(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3MAISRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3maisRX() {
-		Uc.setSinais(R3_REC_R3MAISRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3maisRX(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3MAISRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3maisR0() {
-		Uc.setSinais(R3_REC_R3MAISR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3maisR0(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3MAISR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R3maisR1() {
-		Uc.setSinais(R3_REC_R3MAISR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R3maisR1(Processador proc) {
+		proc.uc.setSinais(R3_REC_R3MAISR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_RDadosmenosR3() {
-		Uc.setSinais(R3_REC_RDADOSMENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_RDadosmenosR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_RDADOSMENOSR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_RXmenosR3() {
-		Uc.setSinais(R3_REC_RXMENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_RXmenosR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_RXMENOSR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R0menosR3() {
-		Uc.setSinais(R3_REC_R0MENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R0menosR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_R0MENOSR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R1menosR3() {
-		Uc.setSinais(R3_REC_R1MENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R1menosR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_R1MENOSR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_RDados() {
-		Uc.setSinais(R3_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_RDados(Processador proc) {
+		proc.uc.setSinais(R3_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R0() {
-		Uc.setSinais(R3_REC_R0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R0(Processador proc) {
+		proc.uc.setSinais(R3_REC_R0);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R1() {
-		Uc.setSinais(R3_REC_R1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R1(Processador proc) {
+		proc.uc.setSinais(R3_REC_R1);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R2() {
-		Uc.setSinais(R3_REC_R2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R2(Processador proc) {
+		proc.uc.setSinais(R3_REC_R2);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_R4() {
-		Uc.setSinais(R3_REC_R4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_R4(Processador proc) {
+		proc.uc.setSinais(R3_REC_R4);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_notR3() {
-		Uc.setSinais(R3_REC_NOTR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_notR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_NOTR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_negR3() {
-		Uc.setSinais(R3_REC_NEGR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_negR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_NEGR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_0() {
-		Uc.setSinais(R3_REC_0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_0(Processador proc) {
+		proc.uc.setSinais(R3_REC_0);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_shlR3() {
-		Uc.setSinais(R3_REC_SHLR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_shlR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_SHLR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
-	public static void R3_rec_shrR3() {
-		Uc.setSinais(R3_REC_SHRR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r3 = Ula.s;
+	public void R3_rec_shrR3(Processador proc) {
+		proc.uc.setSinais(R3_REC_SHRR3);
+		 
+		this.Operar(proc);
+		proc.registrador.r3 = Ula.s;
 	}
 	/* Instrucoes R4 recebe algo */
-	public static void R4_rec_R4andRDados() {
-		Uc.setSinais(R4_REC_R4ANDRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4andRDados(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ANDRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4andR0() {
-		Uc.setSinais(R4_REC_R4ANDR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4andR0(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ANDR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4andR1() {
-		Uc.setSinais(R4_REC_R4ANDR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4andR1(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ANDR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4andRX() {
-		Uc.setSinais(R4_REC_R4ANDRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4andRX(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ANDRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4orRDados() {
-		Uc.setSinais(R4_REC_R4ORRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4orRDados(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ORRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4orR0() {
-		Uc.setSinais(R4_REC_R4ORR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4orR0(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ORR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4orR1() {
-		Uc.setSinais(R4_REC_R4ORR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4orR1(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ORR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4orRX() {
-		Uc.setSinais(R4_REC_R4ORRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4orRX(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4ORRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4maisRDados() {
-		Uc.setSinais(R4_REC_R4MAISRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4maisRDados(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4MAISRDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4maisRX() {
-		Uc.setSinais(R4_REC_R4MAISRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4maisRX(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4MAISRX);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4maisR0() {
-		Uc.setSinais(R4_REC_R4MAISR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4maisR0(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4MAISR0);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R4maisR1() {
-		Uc.setSinais(R4_REC_R4MAISR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R4maisR1(Processador proc) {
+		proc.uc.setSinais(R4_REC_R4MAISR1);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_RDadosmenosR4() {
-		Uc.setSinais(R4_REC_RDADOSMENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_RDadosmenosR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_RDADOSMENOSR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_RXmenosR4() {
-		Uc.setSinais(R4_REC_RXMENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_RXmenosR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_RXMENOSR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R0menosR4() {
-		Uc.setSinais(R4_REC_R0MENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R0menosR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_R0MENOSR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R1menosR4() {
-		Uc.setSinais(R4_REC_R1MENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R1menosR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_R1MENOSR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_RDados() {
-		Uc.setSinais(R4_REC_RDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_RDados(Processador proc) {
+		proc.uc.setSinais(R4_REC_RDADOS);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R0() {
-		Uc.setSinais(R4_REC_R0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R0(Processador proc) {
+		proc.uc.setSinais(R4_REC_R0);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R1() {
-		Uc.setSinais(R4_REC_R1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R1(Processador proc) {
+		proc.uc.setSinais(R4_REC_R1);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R2() {
-		Uc.setSinais(R4_REC_R2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R2(Processador proc) {
+		proc.uc.setSinais(R4_REC_R2);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_R3() {
-		Uc.setSinais(R4_REC_R3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_R3(Processador proc) {
+		proc.uc.setSinais(R4_REC_R3);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_notR4() {
-		Uc.setSinais(R4_REC_NOTR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_notR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_NOTR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_negR4() {
-		Uc.setSinais(R4_REC_NEGR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_negR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_NEGR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_0() {
-		Uc.setSinais(R4_REC_0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_0(Processador proc) {
+		proc.uc.setSinais(R4_REC_0);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_shlR4() {
-		Uc.setSinais(R4_REC_SHLR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_shlR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_SHLR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
-	public static void R4_rec_shrR4() {
-		Uc.setSinais(R4_REC_SHRR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
-		Registrador.r4 = Ula.s;
+	public void R4_rec_shrR4(Processador proc) {
+		proc.uc.setSinais(R4_REC_SHRR4);
+		 
+		this.Operar(proc);
+		proc.registrador.r4 = Ula.s;
 	}
 	/* Instrucoes sem recebe */
-	public static void RYmenosR0() {
-		Uc.setSinais(RYMENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RYmenosR0(Processador proc) {
+		proc.uc.setSinais(RYMENOSR0);
+		 
+		this.Operar(proc);
 	}
-	public static void R2menosR0() {
-		Uc.setSinais(R2MENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R2menosR0(Processador proc) {
+		proc.uc.setSinais(R2MENOSR0);
+		 
+		this.Operar(proc);
 	}
-	public static void R3menosR0() {
-		Uc.setSinais(R3MENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R3menosR0(Processador proc) {
+		proc.uc.setSinais(R3MENOSR0);
+		 
+		this.Operar(proc);
 	}
-	public static void R4menosR0() {
-		Uc.setSinais(R4MENOSR0);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R4menosR0(Processador proc) {
+		proc.uc.setSinais(R4MENOSR0);
+		 
+		this.Operar(proc);
 	}
-	public static void RYmenosR1() {
-		Uc.setSinais(RYMENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RYmenosR1(Processador proc) {
+		proc.uc.setSinais(RYMENOSR1);
+		 
+		this.Operar(proc);
 	}
-	public static void R2menosR1() {
-		Uc.setSinais(R2MENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R2menosR1(Processador proc) {
+		proc.uc.setSinais(R2MENOSR1);
+		 
+		this.Operar(proc);
 	}
-	public static void R3menosR1() {
-		Uc.setSinais(R3MENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R3menosR1(Processador proc) {
+		proc.uc.setSinais(R3MENOSR1);
+		 
+		this.Operar(proc);
 	}
-	public static void R4menosR1() {
-		Uc.setSinais(R4MENOSR1);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R4menosR1(Processador proc) {
+		proc.uc.setSinais(R4MENOSR1);
+		 
+		this.Operar(proc);
 	}
-	public static void RDadosmenosR2() {
-		Uc.setSinais(RDADOSMENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RDadosmenosR2(Processador proc) {
+		proc.uc.setSinais(RDADOSMENOSR2);
+		 
+		this.Operar(proc);
 	}
-	public static void RXmenosR2() {
-		Uc.setSinais(RXMENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RXmenosR2(Processador proc) {
+		proc.uc.setSinais(RXMENOSR2);
+		 
+		this.Operar(proc);
 	}
-	public static void R0menosR2() {
-		Uc.setSinais(R0MENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R0menosR2(Processador proc) {
+		proc.uc.setSinais(R0MENOSR2);
+		 
+		this.Operar(proc);
 	}
-	public static void R1menosR2() {
-		Uc.setSinais(R1MENOSR2);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R1menosR2(Processador proc) {
+		proc.uc.setSinais(R1MENOSR2);
+		 
+		this.Operar(proc);
 	}
-	public static void RDadosmenosR3() {
-		Uc.setSinais(RDADOSMENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RDadosmenosR3(Processador proc) {
+		proc.uc.setSinais(RDADOSMENOSR3);
+		 
+		this.Operar(proc);
 	}
-	public static void RXmenosR3() {
-		Uc.setSinais(RXMENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RXmenosR3(Processador proc) {
+		proc.uc.setSinais(RXMENOSR3);
+		 
+		this.Operar(proc);
 	}
-	public static void R0menosR3() {
-		Uc.setSinais(R0MENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R0menosR3(Processador proc) {
+		proc.uc.setSinais(R0MENOSR3);
+		 
+		this.Operar(proc);
 	}
-	public static void R1menosR3() {
-		Uc.setSinais(R1MENOSR3);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R1menosR3(Processador proc) {
+		proc.uc.setSinais(R1MENOSR3);
+		 
+		this.Operar(proc);
 	}
-	public static void RDadosmenosR4() {
-		Uc.setSinais(RDADOSMENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RDadosmenosR4(Processador proc) {
+		proc.uc.setSinais(RDADOSMENOSR4);
+		 
+		this.Operar(proc);
 	}
-	public static void RXmenosR4() {
-		Uc.setSinais(RXMENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RXmenosR4(Processador proc) {
+		proc.uc.setSinais(RXMENOSR4);
+		 
+		this.Operar(proc);
 	}
-	public static void R0menosR4() {
-		Uc.setSinais(R0MENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R0menosR4(Processador proc) {
+		proc.uc.setSinais(R0MENOSR4);
+		 
+		this.Operar(proc);
 	}
-	public static void R1menosR4() {
-		Uc.setSinais(R1MENOSR4);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R1menosR4(Processador proc) {
+		proc.uc.setSinais(R1MENOSR4);
+		 
+		this.Operar(proc);
 	}
-	public static void RYmenosRDados() {
-		Uc.setSinais(RYMENOSRDADOS);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void RYmenosRDados(Processador proc) {
+		proc.uc.setSinais(RYMENOSRDADOS);
+		 
+		this.Operar(proc);
 	}
-	public static void R0menosRY() {
-		Uc.setSinais(R0MENOSRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R0menosRY(Processador proc) {
+		proc.uc.setSinais(R0MENOSRY);
+		 
+		this.Operar(proc);
 	}
-	public static void R1menosRY() {
-		Uc.setSinais(R1MENOSRY);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R1menosRY(Processador proc) {
+		proc.uc.setSinais(R1MENOSRY);
+		 
+		this.Operar(proc);
 	}
-	public static void R2menosRX() {
-		Uc.setSinais(R2MENOSRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R2menosRX(Processador proc) {
+		proc.uc.setSinais(R2MENOSRX);
+		 
+		this.Operar(proc);
 	}
-	public static void R3menosRX() {
-		Uc.setSinais(R3MENOSRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R3menosRX(Processador proc) {
+		proc.uc.setSinais(R3MENOSRX);
+		 
+		this.Operar(proc);
 	}
-	public static void R4menosRX() {
-		Uc.setSinais(R4MENOSRX);
-		MemoriaControle mem = new MemoriaControle();
-		mem.Operar();
+	public void R4menosRX(Processador proc) {
+		proc.uc.setSinais(R4MENOSRX);
+		 
+		this.Operar(proc);
 	}
 	/*****************
 	 * Instruções GET 
 	 *****************/
 	/* Instrucoes PC recebe algo */
-	public static short Get_Endereco_PC_rec_PCmais1() {
+	public static short Get_Endereco_PC_rec_PCmais1(Processador proc) {
 		return 211;
 	}
-	public static short Get_Endereco_PC_rec_RDados() {
+	public static short Get_Endereco_PC_rec_RDados(Processador proc) {
 		return 213;
 	}
 	/* Instrucoes IR recebe algo */
-	public static short Get_Endereco_IR_rec_RDados() {
+	public static short Get_Endereco_IR_rec_RDados(Processador proc) {
 		return 212;
 	}
 	/* Instrucoes REnd recebe algo */
-	public static short Get_Endereco_REnd_rec_PC() {
+	public static short Get_Endereco_REnd_rec_PC(Processador proc) {
 		return 0;
 	}
-	public static short Get_Endereco_REnd_rec_R0() {
+	public static short Get_Endereco_REnd_rec_R0(Processador proc) {
 		return 1;
 	}
-	public static short Get_Endereco_REnd_rec_R1() {
+	public static short Get_Endereco_REnd_rec_R1(Processador proc) {
 		return 2;
 	}
-	public static short Get_Endereco_REnd_rec_R2() {
+	public static short Get_Endereco_REnd_rec_R2(Processador proc) {
 		return 3;
 	}
-	public static short Get_Endereco_REnd_rec_R3() {
+	public static short Get_Endereco_REnd_rec_R3(Processador proc) {
 		return 4;
 	}
-	public static short Get_Endereco_REnd_rec_R4() {
+	public static short Get_Endereco_REnd_rec_R4(Processador proc) {
 		return 5;
 	}
 	/* Instrucoes RY recebe algo */
-	public static short Get_Endereco_RY_rec_RDados() {
+	public static short Get_Endereco_RY_rec_RDados(Processador proc) {
 		return 48;
 	}
-	public static short Get_Endereco_RY_rec_R0() {
+	public static short Get_Endereco_RY_rec_R0(Processador proc) {
 		return 49;
 	}
-	public static short Get_Endereco_RY_rec_R1() {
+	public static short Get_Endereco_RY_rec_R1(Processador proc) {
 		return 50;
 	}
-	public static short Get_Endereco_RY_rec_PC() {
+	public static short Get_Endereco_RY_rec_PC(Processador proc) {
 		return 214;
 	}
 	/* Instrucoes RX recebe algo */
-	public static short Get_Endereco_RX_rec_RDados() {
+	public static short Get_Endereco_RX_rec_RDados(Processador proc) {
 		return 51;
 	}
-	public static short Get_Endereco_RX_rec_R2() {
+	public static short Get_Endereco_RX_rec_R2(Processador proc) {
 		return 52;
 	}
-	public static short Get_Endereco_RX_rec_R3() {
+	public static short Get_Endereco_RX_rec_R3(Processador proc) {
 		return 53;
 	}
-	public static short Get_Endereco_RX_rec_R4() {
+	public static short Get_Endereco_RX_rec_R4(Processador proc) {
 		return 54;
 	}
 	/* Instrucoes RDados recebe algo */
-	public static short Get_Endereco_RDados_rec_Inflida() {
+	public static short Get_Endereco_RDados_rec_Inflida(Processador proc) {
 		return 6;
 	}
-	public static short Get_Endereco_RDados_rec_RDadosmaisRY() {
+	public static short Get_Endereco_RDados_rec_RDadosmaisRY(Processador proc) {
 		return 7;
 	}
-	public static short Get_Endereco_RDados_rec_R0maisRY() {
+	public static short Get_Endereco_RDados_rec_R0maisRY(Processador proc) {
 		return 8;
 	}
-	public static short Get_Endereco_RDados_rec_R1maisRY() {
+	public static short Get_Endereco_RDados_rec_R1maisRY(Processador proc) {
 		return 9;
 	}
-	public static short Get_Endereco_RDados_rec_R2maisRX() {
+	public static short Get_Endereco_RDados_rec_R2maisRX(Processador proc) {
 		return 10;
 	}
-	public static short Get_Endereco_RDados_rec_R3maisRX() {
+	public static short Get_Endereco_RDados_rec_R3maisRX(Processador proc) {
 		return 11;
 	}
-	public static short Get_Endereco_RDados_rec_R4maisRX() {
+	public static short Get_Endereco_RDados_rec_R4maisRX(Processador proc) {
 		return 12;
 	}
-	public static short Get_Endereco_RDados_rec_RYmenosRDados() {
+	public static short Get_Endereco_RDados_rec_RYmenosRDados(Processador proc) {
 		return 13;
 	}
-	public static short Get_Endereco_RDados_rec_R0menosRY() {
+	public static short Get_Endereco_RDados_rec_R0menosRY(Processador proc) {
 		return 14;
 	}
-	public static short Get_Endereco_RDados_rec_R1menosRY() {
+	public static short Get_Endereco_RDados_rec_R1menosRY(Processador proc) {
 		return 15;
 	}
-	public static short Get_Endereco_RDados_rec_R2menosRX() {
+	public static short Get_Endereco_RDados_rec_R2menosRX(Processador proc) {
 		return 16;
 	}
-	public static short Get_Endereco_RDados_rec_R3menosRX() {
+	public static short Get_Endereco_RDados_rec_R3menosRX(Processador proc) {
 		return 17;
 	}
-	public static short Get_Endereco_RDados_rec_R4menosRX() {
+	public static short Get_Endereco_RDados_rec_R4menosRX(Processador proc) {
 		return 18;
 	}
-	public static short Get_Endereco_RDados_rec_RY() {
+	public static short Get_Endereco_RDados_rec_RY(Processador proc) {
 		return 19;
 	}
-	public static short Get_Endereco_RDados_rec_R0() {
+	public static short Get_Endereco_RDados_rec_R0(Processador proc) {
 		return 20;
 	}
-	public static short Get_Endereco_RDados_rec_R1() {
+	public static short Get_Endereco_RDados_rec_R1(Processador proc) {
 		return 21;
 	}
-	public static short Get_Endereco_RDados_rec_R2() {
+	public static short Get_Endereco_RDados_rec_R2(Processador proc) {
 		return 22;
 	}
-	public static short Get_Endereco_RDados_rec_R3() {
+	public static short Get_Endereco_RDados_rec_R3(Processador proc) {
 		return 23;
 	}
-	public static short Get_Endereco_RDados_rec_R4() {
+	public static short Get_Endereco_RDados_rec_R4(Processador proc) {
 		return 24;
 	}
-	public static short Get_Endereco_RDados_rec_RDadosandRY() {
+	public static short Get_Endereco_RDados_rec_RDadosandRY(Processador proc) {
 		return 31;
 	}
-	public static short Get_Endereco_RDados_rec_R0andRY() {
+	public static short Get_Endereco_RDados_rec_R0andRY(Processador proc) {
 		return 32;
 	}
-	public static short Get_Endereco_RDados_rec_R1andRY() {
+	public static short Get_Endereco_RDados_rec_R1andRY(Processador proc) {
 		return 33;
 	}
-	public static short Get_Endereco_RDados_rec_R2andRX() {
+	public static short Get_Endereco_RDados_rec_R2andRX(Processador proc) {
 		return 34;
 	}
-	public static short Get_Endereco_RDados_rec_R3andRX() {
+	public static short Get_Endereco_RDados_rec_R3andRX(Processador proc) {
 		return 35;
 	}
-	public static short Get_Endereco_RDados_rec_R4andRX() {
+	public static short Get_Endereco_RDados_rec_R4andRX(Processador proc) {
 		return 36;
 	}
-	public static short Get_Endereco_RDados_rec_RDadosorRY() {
+	public static short Get_Endereco_RDados_rec_RDadosorRY(Processador proc) {
 		return 37;
 	}
-	public static short Get_Endereco_RDados_rec_R0orRY() {
+	public static short Get_Endereco_RDados_rec_R0orRY(Processador proc) {
 		return 38;
 	}
-	public static short Get_Endereco_RDados_rec_R1orRY() {
+	public static short Get_Endereco_RDados_rec_R1orRY(Processador proc) {
 		return 39;
 	}
-	public static short Get_Endereco_RDados_rec_R2orRX() {
+	public static short Get_Endereco_RDados_rec_R2orRX(Processador proc) {
 		return 40;
 	}
-	public static short Get_Endereco_RDados_rec_R3orRX() {
+	public static short Get_Endereco_RDados_rec_R3orRX(Processador proc) {
 		return 41;
 	}
-	public static short Get_Endereco_RDados_rec_R4orRX() {
+	public static short Get_Endereco_RDados_rec_R4orRX(Processador proc) {
 		return 42;
 	}
-	public static short Get_Endereco_RDados_rec_notRDados() {
+	public static short Get_Endereco_RDados_rec_notRDados(Processador proc) {
 		return 43;
 	}
-	public static short Get_Endereco_RDados_rec_negRDados() {
+	public static short Get_Endereco_RDados_rec_negRDados(Processador proc) {
 		return 44;
 	}
-	public static short Get_Endereco_RDados_rec_0() {
+	public static short Get_Endereco_RDados_rec_0(Processador proc) {
 		return 45;
 	}
-	public static short Get_Endereco_RDados_rec_shlRDados() {
+	public static short Get_Endereco_RDados_rec_shlRDados(Processador proc) {
 		return 46;
 	}
-	public static short Get_Endereco_RDados_rec_shrRDados() {
+	public static short Get_Endereco_RDados_rec_shrRDados(Processador proc) {
 		return 47;
 	}
 	/* Instrucoes R0 recebe algo */
-	public static short Get_Endereco_R0_rec_R0andRY() {
+	public static short Get_Endereco_R0_rec_R0andRY(Processador proc) {
 		return 68;
 	}
-	public static short Get_Endereco_R0_rec_R0andR2() {
+	public static short Get_Endereco_R0_rec_R0andR2(Processador proc) {
 		return 69;
 	}
-	public static short Get_Endereco_R0_rec_R0andR3() {
+	public static short Get_Endereco_R0_rec_R0andR3(Processador proc) {
 		return 70;
 	}
-	public static short Get_Endereco_R0_rec_R0andR4() {
+	public static short Get_Endereco_R0_rec_R0andR4(Processador proc) {
 		return 71;
 	}
-	public static short Get_Endereco_R0_rec_R0orRY() {
+	public static short Get_Endereco_R0_rec_R0orRY(Processador proc) {
 		return 72;
 	}
-	public static short Get_Endereco_R0_rec_R0orR2() {
+	public static short Get_Endereco_R0_rec_R0orR2(Processador proc) {
 		return 73;
 	}
-	public static short Get_Endereco_R0_rec_R0orR3() {
+	public static short Get_Endereco_R0_rec_R0orR3(Processador proc) {
 		return 74;
 	}
-	public static short Get_Endereco_R0_rec_R0orR4() {
+	public static short Get_Endereco_R0_rec_R0orR4(Processador proc) {
 		return 75;
 	}
-	public static short Get_Endereco_R0_rec_R0maisRY() {
+	public static short Get_Endereco_R0_rec_R0maisRY(Processador proc) {
 		return 55;
 	}
-	public static short Get_Endereco_R0_rec_R0maisR2() {
+	public static short Get_Endereco_R0_rec_R0maisR2(Processador proc) {
 		return 56;
 	}
-	public static short Get_Endereco_R0_rec_R0maisR3() {
+	public static short Get_Endereco_R0_rec_R0maisR3(Processador proc) {
 		return 57;
 	}
-	public static short Get_Endereco_R0_rec_R0maisR4() {
+	public static short Get_Endereco_R0_rec_R0maisR4(Processador proc) {
 		return 58;
 	}
-	public static short Get_Endereco_R0_rec_RYmenosR0() {
+	public static short Get_Endereco_R0_rec_RYmenosR0(Processador proc) {
 		return 59;
 	}
-	public static short Get_Endereco_R0_rec_R2menosR0() {
+	public static short Get_Endereco_R0_rec_R2menosR0(Processador proc) {
 		return 60;
 	}
-	public static short Get_Endereco_R0_rec_R3menosR0() {
+	public static short Get_Endereco_R0_rec_R3menosR0(Processador proc) {
 		return 61;
 	}
-	public static short Get_Endereco_R0_rec_R4menosR0() {
+	public static short Get_Endereco_R0_rec_R4menosR0(Processador proc) {
 		return 62;
 	}
-	public static short Get_Endereco_R0_rec_RDados() {
+	public static short Get_Endereco_R0_rec_RDados(Processador proc) {
 		return 63;
 	}
-	public static short Get_Endereco_R0_rec_R1() {
+	public static short Get_Endereco_R0_rec_R1(Processador proc) {
 		return 64;
 	}
-	public static short Get_Endereco_R0_rec_R2() {
+	public static short Get_Endereco_R0_rec_R2(Processador proc) {
 		return 65;
 	}
-	public static short Get_Endereco_R0_rec_R3() {
+	public static short Get_Endereco_R0_rec_R3(Processador proc) {
 		return 66;
 	}
-	public static short Get_Endereco_R0_rec_R4() {
+	public static short Get_Endereco_R0_rec_R4(Processador proc) {
 		return 67;
 	}
-	public static short Get_Endereco_R0_rec_notR0() {
+	public static short Get_Endereco_R0_rec_notR0(Processador proc) {
 		return 76;
 	}
-	public static short Get_Endereco_R0_rec_negR0() {
+	public static short Get_Endereco_R0_rec_negR0(Processador proc) {
 		return 77;
 	}
-	public static short Get_Endereco_R0_rec_0() {
+	public static short Get_Endereco_R0_rec_0(Processador proc) {
 		return 78;
 	}
-	public static short Get_Endereco_R0_rec_shlR0() {
+	public static short Get_Endereco_R0_rec_shlR0(Processador proc) {
 		return 79;
 	}
-	public static short Get_Endereco_R0_rec_shrR0() {
+	public static short Get_Endereco_R0_rec_shrR0(Processador proc) {
 		return 80;
 	}
 	/* Instrucoes R1 recebe algo */
-	public static short Get_Endereco_R1_rec_R1andRY() {
+	public static short Get_Endereco_R1_rec_R1andRY(Processador proc) {
 		return 94;
 	}
-	public static short Get_Endereco_R1_rec_R1andR2() {
+	public static short Get_Endereco_R1_rec_R1andR2(Processador proc) {
 		return 95;
 	}
-	public static short Get_Endereco_R1_rec_R1andR3() {
+	public static short Get_Endereco_R1_rec_R1andR3(Processador proc) {
 		return 96;
 	}
-	public static short Get_Endereco_R1_rec_R1andR4() {
+	public static short Get_Endereco_R1_rec_R1andR4(Processador proc) {
 		return 97;
 	}
-	public static short Get_Endereco_R1_rec_R1orRY() {
+	public static short Get_Endereco_R1_rec_R1orRY(Processador proc) {
 		return 98;
 	}
-	public static short Get_Endereco_R1_rec_R1orR2() {
+	public static short Get_Endereco_R1_rec_R1orR2(Processador proc) {
 		return 99;
 	}
-	public static short Get_Endereco_R1_rec_R1orR3() {
+	public static short Get_Endereco_R1_rec_R1orR3(Processador proc) {
 		return 100;
 	}
-	public static short Get_Endereco_R1_rec_R1orR4() {
+	public static short Get_Endereco_R1_rec_R1orR4(Processador proc) {
 		return 101;
 	}
-	public static short Get_Endereco_R1_rec_R1maisRY() {
+	public static short Get_Endereco_R1_rec_R1maisRY(Processador proc) {
 		return 81;
 	}
-	public static short Get_Endereco_R1_rec_R1maisR2() {
+	public static short Get_Endereco_R1_rec_R1maisR2(Processador proc) {
 		return 82;
 	}
-	public static short Get_Endereco_R1_rec_R1maisR3() {
+	public static short Get_Endereco_R1_rec_R1maisR3(Processador proc) {
 		return 83;
 	}
-	public static short Get_Endereco_R1_rec_R1maisR4() {
+	public static short Get_Endereco_R1_rec_R1maisR4(Processador proc) {
 		return 84;
 	}
-	public static short Get_Endereco_R1_rec_RYmenosR1() {
+	public static short Get_Endereco_R1_rec_RYmenosR1(Processador proc) {
 		return 85;
 	}
-	public static short Get_Endereco_R1_rec_R2menosR1() {
+	public static short Get_Endereco_R1_rec_R2menosR1(Processador proc) {
 		return 86;
 	}
-	public static short Get_Endereco_R1_rec_R3menosR1() {
+	public static short Get_Endereco_R1_rec_R3menosR1(Processador proc) {
 		return 87;
 	}
-	public static short Get_Endereco_R1_rec_R4menosR1() {
+	public static short Get_Endereco_R1_rec_R4menosR1(Processador proc) {
 		return 88;
 	}
-	public static short Get_Endereco_R1_rec_RDados() {
+	public static short Get_Endereco_R1_rec_RDados(Processador proc) {
 		return 89;
 	}
-	public static short Get_Endereco_R1_rec_R0() {
+	public static short Get_Endereco_R1_rec_R0(Processador proc) {
 		return 90;
 	}
-	public static short Get_Endereco_R1_rec_R2() {
+	public static short Get_Endereco_R1_rec_R2(Processador proc) {
 		return 91;
 	}
-	public static short Get_Endereco_R1_rec_R3() {
+	public static short Get_Endereco_R1_rec_R3(Processador proc) {
 		return 92;
 	}
-	public static short Get_Endereco_R1_rec_R4() {
+	public static short Get_Endereco_R1_rec_R4(Processador proc) {
 		return 93;
 	}
-	public static short Get_Endereco_R1_rec_notR1() {
+	public static short Get_Endereco_R1_rec_notR1(Processador proc) {
 		return 102;
 	}
-	public static short Get_Endereco_R1_rec_negR1() {
+	public static short Get_Endereco_R1_rec_negR1(Processador proc) {
 		return 103;
 	}
-	public static short Get_Endereco_R1_rec_0() {
+	public static short Get_Endereco_R1_rec_0(Processador proc) {
 		return 104;
 	}
-	public static short Get_Endereco_R1_rec_shlR1() {
+	public static short Get_Endereco_R1_rec_shlR1(Processador proc) {
 		return 105;
 	}
-	public static short Get_Endereco_R1_rec_shrR1() {
+	public static short Get_Endereco_R1_rec_shrR1(Processador proc) {
 		return 106;
 	}
 	/* Instrucoes R2 recebe algo  */
-	public static short Get_Endereco_R2_rec_R2andRDados() {
+	public static short Get_Endereco_R2_rec_R2andRDados(Processador proc) {
 		return 120;
 	}
-	public static short Get_Endereco_R2_rec_R2andR0() {
+	public static short Get_Endereco_R2_rec_R2andR0(Processador proc) {
 		return 121;
 	}
-	public static short Get_Endereco_R2_rec_R2andR1() {
+	public static short Get_Endereco_R2_rec_R2andR1(Processador proc) {
 		return 122;
 	}
-	public static short Get_Endereco_R2_rec_R2andRX() {
+	public static short Get_Endereco_R2_rec_R2andRX(Processador proc) {
 		return 123;
 	}
-	public static short Get_Endereco_R2_rec_R2orRDados() {
+	public static short Get_Endereco_R2_rec_R2orRDados(Processador proc) {
 		return 124;
 	}
-	public static short Get_Endereco_R2_rec_R2orR0() {
+	public static short Get_Endereco_R2_rec_R2orR0(Processador proc) {
 		return 125;
 	}
-	public static short Get_Endereco_R2_rec_R2orR1() {
+	public static short Get_Endereco_R2_rec_R2orR1(Processador proc) {
 		return 126;
 	}
-	public static short Get_Endereco_R2_rec_R2orRX() {
+	public static short Get_Endereco_R2_rec_R2orRX(Processador proc) {
 		return 127;
 	}
-	public static short Get_Endereco_R2_rec_R2maisRDados() {
+	public static short Get_Endereco_R2_rec_R2maisRDados(Processador proc) {
 		return 107;
 	}
-	public static short Get_Endereco_R2_rec_R2maisRX() {
+	public static short Get_Endereco_R2_rec_R2maisRX(Processador proc) {
 		return 108;
 	}
-	public static short Get_Endereco_R2_rec_R2maisR0() {
+	public static short Get_Endereco_R2_rec_R2maisR0(Processador proc) {
 		return 109;
 	}
-	public static short Get_Endereco_R2_rec_R2maisR1() {
+	public static short Get_Endereco_R2_rec_R2maisR1(Processador proc) {
 		return 110;
 	}
-	public static short Get_Endereco_R2_rec_RDadosmenosR2() {
+	public static short Get_Endereco_R2_rec_RDadosmenosR2(Processador proc) {
 		return 111;
 	}
-	public static short Get_Endereco_R2_rec_RXmenosR2() {
+	public static short Get_Endereco_R2_rec_RXmenosR2(Processador proc) {
 		return 112;
 	}
-	public static short Get_Endereco_R2_rec_R0menosR2() {
+	public static short Get_Endereco_R2_rec_R0menosR2(Processador proc) {
 		return 113;
 	}
-	public static short Get_Endereco_R2_rec_R1menosR2() {
+	public static short Get_Endereco_R2_rec_R1menosR2(Processador proc) {
 		return 114;
 	}
-	public static short Get_Endereco_R2_rec_RDados() {
+	public static short Get_Endereco_R2_rec_RDados(Processador proc) {
 		return 115;
 	}
-	public static short Get_Endereco_R2_rec_R0() {
+	public static short Get_Endereco_R2_rec_R0(Processador proc) {
 		return 116;
 	}
-	public static short Get_Endereco_R2_rec_R1() {
+	public static short Get_Endereco_R2_rec_R1(Processador proc) {
 		return 117;
 	}
-	public static short Get_Endereco_R2_rec_R3() {
+	public static short Get_Endereco_R2_rec_R3(Processador proc) {
 		return 118;
 	}
-	public static short Get_Endereco_R2_rec_R4() {
+	public static short Get_Endereco_R2_rec_R4(Processador proc) {
 		return 119;
 	}
-	public static short Get_Endereco_R2_rec_notR2() {
+	public static short Get_Endereco_R2_rec_notR2(Processador proc) {
 		return 128;
 	}
-	public static short Get_Endereco_R2_rec_negR2() {
+	public static short Get_Endereco_R2_rec_negR2(Processador proc) {
 		return 129;
 	}
-	public static short Get_Endereco_R2_rec_0() {
+	public static short Get_Endereco_R2_rec_0(Processador proc) {
 		return 130;
 	}
-	public static short Get_Endereco_R2_rec_shlR2() {
+	public static short Get_Endereco_R2_rec_shlR2(Processador proc) {
 		return 131;
 	}
-	public static short Get_Endereco_R2_rec_shrR2() {
+	public static short Get_Endereco_R2_rec_shrR2(Processador proc) {
 		return 132;
 	}
 	/* Instrucoes R3 recebe algo */
-	public static short Get_Endereco_R3_rec_R3andRDados() {
+	public static short Get_Endereco_R3_rec_R3andRDados(Processador proc) {
 		return 146;
 	}
-	public static short Get_Endereco_R3_rec_R3andR0() {
+	public static short Get_Endereco_R3_rec_R3andR0(Processador proc) {
 		return 147;
 	}
-	public static short Get_Endereco_R3_rec_R3andR1() {
+	public static short Get_Endereco_R3_rec_R3andR1(Processador proc) {
 		return 148;
 	}
-	public static short Get_Endereco_R3_rec_R3andRX() {
+	public static short Get_Endereco_R3_rec_R3andRX(Processador proc) {
 		return 149;
 	}
-	public static short Get_Endereco_R3_rec_R3orRDados() {
+	public static short Get_Endereco_R3_rec_R3orRDados(Processador proc) {
 		return 150;
 	}
-	public static short Get_Endereco_R3_rec_R3orR0() {
+	public static short Get_Endereco_R3_rec_R3orR0(Processador proc) {
 		return 151;
 	}
-	public static short Get_Endereco_R3_rec_R3orR1() {
+	public static short Get_Endereco_R3_rec_R3orR1(Processador proc) {
 		return 152;
 	}
-	public static short Get_Endereco_R3_rec_R3orRX() {
+	public static short Get_Endereco_R3_rec_R3orRX(Processador proc) {
 		return 153;
 	}
-	public static short Get_Endereco_R3_rec_R3maisRDados() {
+	public static short Get_Endereco_R3_rec_R3maisRDados(Processador proc) {
 		return 133;
 	}
-	public static short Get_Endereco_R3_rec_R3maisRX() {
+	public static short Get_Endereco_R3_rec_R3maisRX(Processador proc) {
 		return 134;
 	}
-	public static short Get_Endereco_R3_rec_R3maisR0() {
+	public static short Get_Endereco_R3_rec_R3maisR0(Processador proc) {
 		return 135;
 	}
-	public static short Get_Endereco_R3_rec_R3maisR1() {
+	public static short Get_Endereco_R3_rec_R3maisR1(Processador proc) {
 		return 136;
 	}
-	public static short Get_Endereco_R3_rec_RDadosmenosR3() {
+	public static short Get_Endereco_R3_rec_RDadosmenosR3(Processador proc) {
 		return 137;
 	}
-	public static short Get_Endereco_R3_rec_RXmenosR3() {
+	public static short Get_Endereco_R3_rec_RXmenosR3(Processador proc) {
 		return 138;
 	}
-	public static short Get_Endereco_R3_rec_R0menosR3() {
+	public static short Get_Endereco_R3_rec_R0menosR3(Processador proc) {
 		return 139;
 	}
-	public static short Get_Endereco_R3_rec_R1menosR3() {
+	public static short Get_Endereco_R3_rec_R1menosR3(Processador proc) {
 		return 140;
 	}
-	public static short Get_Endereco_R3_rec_RDados() {
+	public static short Get_Endereco_R3_rec_RDados(Processador proc) {
 		return 141;
 	}
-	public static short Get_Endereco_R3_rec_R0() {
+	public static short Get_Endereco_R3_rec_R0(Processador proc) {
 		return 142;
 	}
-	public static short Get_Endereco_R3_rec_R1() {
+	public static short Get_Endereco_R3_rec_R1(Processador proc) {
 		return 143;
 	}
-	public static short Get_Endereco_R3_rec_R2() {
+	public static short Get_Endereco_R3_rec_R2(Processador proc) {
 		return 144;
 	}
-	public static short Get_Endereco_R3_rec_R4() {
+	public static short Get_Endereco_R3_rec_R4(Processador proc) {
 		return 145;
 	}
-	public static short Get_Endereco_R3_rec_notR3() {
+	public static short Get_Endereco_R3_rec_notR3(Processador proc) {
 		return 154;
 	}
-	public static short Get_Endereco_R3_rec_negR3() {
+	public static short Get_Endereco_R3_rec_negR3(Processador proc) {
 		return 155;
 	}
-	public static short Get_Endereco_R3_rec_0() {
+	public static short Get_Endereco_R3_rec_0(Processador proc) {
 		return 156;
 	}
-	public static short Get_Endereco_R3_rec_shlR3() {
+	public static short Get_Endereco_R3_rec_shlR3(Processador proc) {
 		return 157;
 	}
-	public static short Get_Endereco_R3_rec_shrR3() {
+	public static short Get_Endereco_R3_rec_shrR3(Processador proc) {
 		return 158;
 	}
 	/* Instrucoes R4 recebe algo */
-	public static short Get_Endereco_R4_rec_R4andRDados() {
+	public static short Get_Endereco_R4_rec_R4andRDados(Processador proc) {
 		return 172;
 	}
-	public static short Get_Endereco_R4_rec_R4andR0() {
+	public static short Get_Endereco_R4_rec_R4andR0(Processador proc) {
 		return 173;
 	}
-	public static short Get_Endereco_R4_rec_R4andR1() {
+	public static short Get_Endereco_R4_rec_R4andR1(Processador proc) {
 		return 174;
 	}
-	public static short Get_Endereco_R4_rec_R4andRX() {
+	public static short Get_Endereco_R4_rec_R4andRX(Processador proc) {
 		return 175;
 	}
-	public static short Get_Endereco_R4_rec_R4orRDados() {
+	public static short Get_Endereco_R4_rec_R4orRDados(Processador proc) {
 		return 176;
 	}
-	public static short Get_Endereco_R4_rec_R4orR0() {
+	public static short Get_Endereco_R4_rec_R4orR0(Processador proc) {
 		return 177;
 	}
-	public static short Get_Endereco_R4_rec_R4orR1() {
+	public static short Get_Endereco_R4_rec_R4orR1(Processador proc) {
 		return 178;
 	}
-	public static short Get_Endereco_R4_rec_R4orRX() {
+	public static short Get_Endereco_R4_rec_R4orRX(Processador proc) {
 		return 179;
 	}
-	public static short Get_Endereco_R4_rec_R4maisRDados() {
+	public static short Get_Endereco_R4_rec_R4maisRDados(Processador proc) {
 		return 159;
 	}
-	public static short Get_Endereco_R4_rec_R4maisRX() {
+	public static short Get_Endereco_R4_rec_R4maisRX(Processador proc) {
 		return 160;
 	}
-	public static short Get_Endereco_R4_rec_R4maisR0() {
+	public static short Get_Endereco_R4_rec_R4maisR0(Processador proc) {
 		return 161;
 	}
-	public static short Get_Endereco_R4_rec_R4maisR1() {
+	public static short Get_Endereco_R4_rec_R4maisR1(Processador proc) {
 		return 162;
 	}
-	public static short Get_Endereco_R4_rec_RDadosmenosR4() {
+	public static short Get_Endereco_R4_rec_RDadosmenosR4(Processador proc) {
 		return 163;
 	}
-	public static short Get_Endereco_R4_rec_RXmenosR4() {
+	public static short Get_Endereco_R4_rec_RXmenosR4(Processador proc) {
 		return 164;
 	}
-	public static short Get_Endereco_R4_rec_R0menosR4() {
+	public static short Get_Endereco_R4_rec_R0menosR4(Processador proc) {
 		return 165;
 	}
-	public static short Get_Endereco_R4_rec_R1menosR4() {
+	public static short Get_Endereco_R4_rec_R1menosR4(Processador proc) {
 		return 166;
 	}
-	public static short Get_Endereco_R4_rec_RDados() {
+	public static short Get_Endereco_R4_rec_RDados(Processador proc) {
 		return 167;
 	}
-	public static short Get_Endereco_R4_rec_R0() {
+	public static short Get_Endereco_R4_rec_R0(Processador proc) {
 		return 168;
 	}
-	public static short Get_Endereco_R4_rec_R1() {
+	public static short Get_Endereco_R4_rec_R1(Processador proc) {
 		return 169;
 	}
-	public static short Get_Endereco_R4_rec_R2() {
+	public static short Get_Endereco_R4_rec_R2(Processador proc) {
 		return 170;
 	}
-	public static short Get_Endereco_R4_rec_R3() {
+	public static short Get_Endereco_R4_rec_R3(Processador proc) {
 		return 171;
 	}
-	public static short Get_Endereco_R4_rec_notR4() {
+	public static short Get_Endereco_R4_rec_notR4(Processador proc) {
 		return 180;
 	}
-	public static short Get_Endereco_R4_rec_negR4() {
+	public static short Get_Endereco_R4_rec_negR4(Processador proc) {
 		return 181;
 	}
-	public static short Get_Endereco_R4_rec_0() {
+	public static short Get_Endereco_R4_rec_0(Processador proc) {
 		return 182;
 	}
-	public static short Get_Endereco_R4_rec_shlR4() {
+	public static short Get_Endereco_R4_rec_shlR4(Processador proc) {
 		return 183;
 	}
-	public static short Get_Endereco_R4_rec_shrR4() {
+	public static short Get_Endereco_R4_rec_shrR4(Processador proc) {
 		return 184;
 	}
 	/* Instrucoes sem recebe */
-	public static short Get_Endereco_RYmenosR0() {
+	public static short Get_Endereco_RYmenosR0(Processador proc) {
 		return 185;
 	}
-	public static short Get_Endereco_R2menosR0() {
+	public static short Get_Endereco_R2menosR0(Processador proc) {
 		return 186;
 	}
-	public static short Get_Endereco_R3menosR0() {
+	public static short Get_Endereco_R3menosR0(Processador proc) {
 		return 187;
 	}
-	public static short Get_Endereco_R4menosR0() {
+	public static short Get_Endereco_R4menosR0(Processador proc) {
 		return 188;
 	}
-	public static short Get_Endereco_RYmenosR1() {
+	public static short Get_Endereco_RYmenosR1(Processador proc) {
 		return 189;
 	}
-	public static short Get_Endereco_R2menosR1() {
+	public static short Get_Endereco_R2menosR1(Processador proc) {
 		return 190;
 	}
-	public static short Get_Endereco_R3menosR1() {
+	public static short Get_Endereco_R3menosR1(Processador proc) {
 		return 191;
 	}
-	public static short Get_Endereco_R4menosR1() {
+	public static short Get_Endereco_R4menosR1(Processador proc) {
 		return 192;
 	}
-	public static short Get_Endereco_RDadosmenosR2() {
+	public static short Get_Endereco_RDadosmenosR2(Processador proc) {
 		return 193;
 	}
-	public static short Get_Endereco_RXmenosR2() {
+	public static short Get_Endereco_RXmenosR2(Processador proc) {
 		return 194;
 	}
-	public static short Get_Endereco_R0menosR2() {
+	public static short Get_Endereco_R0menosR2(Processador proc) {
 		return 195;
 	}
-	public static short Get_Endereco_R1menosR2() {
+	public static short Get_Endereco_R1menosR2(Processador proc) {
 		return 196;
 	}
-	public static short Get_Endereco_RDadosmenosR3() {
+	public static short Get_Endereco_RDadosmenosR3(Processador proc) {
 		return 197;
 	}
-	public static short Get_Endereco_RXmenosR3() {
+	public static short Get_Endereco_RXmenosR3(Processador proc) {
 		return 198;
 	}
-	public static short Get_Endereco_R0menosR3() {
+	public static short Get_Endereco_R0menosR3(Processador proc) {
 		return 199;
 	}
-	public static short Get_Endereco_R1menosR3() {
+	public static short Get_Endereco_R1menosR3(Processador proc) {
 		return 200;
 	}
-	public static short Get_Endereco_RDadosmenosR4() {
+	public static short Get_Endereco_RDadosmenosR4(Processador proc) {
 		return 201;
 	}
-	public static short Get_Endereco_RXmenosR4() {
+	public static short Get_Endereco_RXmenosR4(Processador proc) {
 		return 202;
 	}
-	public static short Get_Endereco_R0menosR4() {
+	public static short Get_Endereco_R0menosR4(Processador proc) {
 		return 203;
 	}
-	public static short Get_Endereco_R1menosR4() {
+	public static short Get_Endereco_R1menosR4(Processador proc) {
 		return 204;
 	}
-	public static short Get_Endereco_RYmenosRDados() {
+	public static short Get_Endereco_RYmenosRDados(Processador proc) {
 		return 205;
 	}
-	public static short Get_Endereco_R0menosRY() {
+	public static short Get_Endereco_R0menosRY(Processador proc) {
 		return 206;
 	}
-	public static short Get_Endereco_R1menosRY() {
+	public static short Get_Endereco_R1menosRY(Processador proc) {
 		return 207;
 	}
-	public static short Get_Endereco_R2menosRX() {
+	public static short Get_Endereco_R2menosRX(Processador proc) {
 		return 208;
 	}
-	public static short Get_Endereco_R3menosRX() {
+	public static short Get_Endereco_R3menosRX(Processador proc) {
 		return 209;
 	}
-	public static short Get_Endereco_R4menosRX() {
+	public static short Get_Endereco_R4menosRX(Processador proc) {
 		return 210;
 	}
 

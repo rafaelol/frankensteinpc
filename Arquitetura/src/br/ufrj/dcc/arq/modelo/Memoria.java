@@ -43,22 +43,22 @@ public class Memoria {
 
 	/** ======================================= */
 
-	public void escreve() {
-		this.mem[Registrador.rend] = Registrador.rdados;
+	public void escreve(Processador proc) {
+		proc.memoria.mem[proc.registrador.rend] = proc.registrador.rdados;
 	}
 	
-	public void le() {
-		dadoLido = this.mem[Registrador.rend];
+	public void le(Processador proc) {
+		proc.memoria.dadoLido = proc.memoria.mem[proc.registrador.rend];
 	}
 	
-	public void opera() {
-		this.sinal = Uc.sinais[Uc.X];
+	public void opera(Processador proc) {
+		this.sinal = proc.uc.sinais[Uc.X];
 		
 		if(sinal.getValor() == ESC) {
-			this.escreve();
+			this.escreve(proc);
 		}
 		else if (sinal.getValor() == LEIT) {
-			this.le();
+			this.le(proc);
 		}
 	}
 }
