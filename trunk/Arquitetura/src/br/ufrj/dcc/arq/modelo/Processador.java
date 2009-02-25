@@ -2,6 +2,8 @@ package br.ufrj.dcc.arq.modelo;
 
 public class Processador {
 	
+	public boolean executa_programa;
+	
 	public static final int QTD_REGS = 7;
 	
 	public static final int R0 = 0;
@@ -40,6 +42,8 @@ public class Processador {
 		mux4 				= new Multiplex4E();
 		mux5				= new Multiplex5E();
 		memoriacontrole 	= new MemoriaControle();
+		
+		executa_programa 	= true;
 
 		/*
 		pc     		= new Registrador(Uc.A);

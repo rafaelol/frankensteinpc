@@ -8,7 +8,7 @@ public class MemoriaControle {
 
 	/* ORDEM: MUX2, MUX4, MUX5, ULA, OP1, OP2, RDEST */
 
-	public static final short LE[]							= cria_Vetor(Multiplex2E.PASSAMEM, NULOV, NULOV, NULOV, Uc.J, Uc.X, Uc.B);
+	public static final short LE[]							= cria_Vetor(Multiplex2E.PASSAMEM, NULOV, NULOV, NULOV, Uc.J, NULO, Uc.B);
 	public static final short ESCREVE[]						= cria_Vetor(NULOV, NULOV, NULOV, NULOV, Uc.B, Uc.J, Uc.X);
 
 	public static final short PC_REC_PCMAIS1[] 				= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAPC, Ula.INCB, NULO, Uc.A, Uc.A);
@@ -26,7 +26,7 @@ public class MemoriaControle {
 	public static final short RX_REC_R2[] 					= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAR2, Ula.PASSAB, Uc.E, NULO, Uc.H);
 	public static final short RX_REC_R3[] 					= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAR3, Ula.PASSAB, Uc.F, NULO, Uc.H);
 	public static final short RX_REC_R4[] 					= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAR4, Ula.PASSAB, Uc.G, NULO, Uc.H);
-	public static final short RDADOS_REC_INFLIDA[] 			= cria_Vetor(Multiplex2E.PASSAMEM, NULOV, NULOV, NULOV,Uc.X, NULO, Uc.B);
+	public static final short RDADOS_REC_INFLIDA[] 			= cria_Vetor(Multiplex2E.PASSAMEM, NULOV, NULOV, NULOV, NULO, NULO, Uc.B);
 	public static final short RDADOS_REC_RDADOSMAISRY[] 	= cria_Vetor(Multiplex2E.PASSASULA,Multiplex4E.PASSARDADOS, Multiplex5E.PASSARY, Ula.ADD, Uc.B, Uc.I, Uc.B);
 	public static final short RDADOS_REC_R0MAISRY[] 		= cria_Vetor(Multiplex2E.PASSASULA, Multiplex4E.PASSAR0, Multiplex5E.PASSARY, Ula.ADD, Uc.C, Uc.I, Uc.B);
 	public static final short RDADOS_REC_R1MAISRY[] 		= cria_Vetor(Multiplex2E.PASSASULA, Multiplex4E.PASSAR1, Multiplex5E.PASSARY, Ula.ADD, Uc.D, Uc.I, Uc.B);
@@ -122,10 +122,10 @@ public class MemoriaControle {
 	public static final short R2_REC_R2ORR0[] 				= cria_Vetor(NULOV, Multiplex4E.PASSAR0, Multiplex5E.PASSAR2, Ula.OR, Uc.E, Uc.C, Uc.E);
 	public static final short R2_REC_R2ORR1[] 				= cria_Vetor(NULOV, Multiplex4E.PASSAR1, Multiplex5E.PASSAR2, Ula.OR, Uc.E, Uc.D, Uc.E);
 	public static final short R2_REC_R2ORRX[] 				= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR2, Ula.OR, Uc.E, Uc.H, Uc.E);
-	public static final short R2_REC_R2MAISRDADOS[] 		= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, Multiplex5E.PASSAR2, Ula.AND, Uc.E, Uc.B, Uc.E);
-	public static final short R2_REC_R2MAISRX[] 			= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR2, Ula.AND, Uc.E, Uc.H, Uc.E);
-	public static final short R2_REC_R2MAISR0[] 			= cria_Vetor(NULOV, Multiplex4E.PASSAR0, Multiplex5E.PASSAR2, Ula.AND, Uc.E, Uc.C, Uc.E);
-	public static final short R2_REC_R2MAISR1[] 			= cria_Vetor(NULOV, Multiplex4E.PASSAR1, Multiplex5E.PASSAR2, Ula.AND, Uc.E, Uc.D, Uc.E);
+	public static final short R2_REC_R2MAISRDADOS[] 		= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, Multiplex5E.PASSAR2, Ula.ADD, Uc.E, Uc.B, Uc.E);
+	public static final short R2_REC_R2MAISRX[] 			= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR2, Ula.ADD, Uc.E, Uc.H, Uc.E);
+	public static final short R2_REC_R2MAISR0[] 			= cria_Vetor(NULOV, Multiplex4E.PASSAR0, Multiplex5E.PASSAR2, Ula.ADD, Uc.E, Uc.C, Uc.E);
+	public static final short R2_REC_R2MAISR1[] 			= cria_Vetor(NULOV, Multiplex4E.PASSAR1, Multiplex5E.PASSAR2, Ula.ADD, Uc.E, Uc.D, Uc.E);
 	public static final short R2_REC_RDADOSMENOSR2[] 		= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, Multiplex5E.PASSAR2, Ula.SUBBA, Uc.B, Uc.E, Uc.E);
 	public static final short R2_REC_RXMENOSR2[] 			= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR2, Ula.SUBBA, Uc.H, Uc.E, Uc.E);
 	public static final short R2_REC_R0MENOSR2[]			= cria_Vetor(NULOV, Multiplex4E.PASSAR0, Multiplex5E.PASSAR2, Ula.SUBBA, Uc.C, Uc.E, Uc.E);
@@ -224,6 +224,7 @@ public class MemoriaControle {
 	
 	
 	public void Operar(Processador proc) {
+		proc.memoria.opera(proc);
 		proc.mux2.opera(proc);
 		proc.mux4.opera(proc);
 		proc.mux5.opera(proc);
@@ -237,13 +238,13 @@ public class MemoriaControle {
 
 	/* Instrucoes Le e Escreve */
 	public void Le(Processador proc) {
-		proc.uc.setSinais(LE);
-		 
-		this.Operar(proc); //Acredito que o que vem de this do multiplex2E já pega direitinho a posicao da thisoria. Se não for, tem que fazer aqui.
+		proc.uc.setSinais(LE);		 
+		this.Operar(proc); 
 	}
+	
 	public void Escreve(Processador proc) {
 		proc.uc.setSinais(ESCREVE);
-		// Chama thisoria com thisoria.setthisPos(proc.registrador.rend, proc.registrador.rdados);
+		this.Operar(proc);
 	}
 
 	/* Instrucoes PC recebe algo */
@@ -359,9 +360,8 @@ public class MemoriaControle {
 	/* Instrucoes RDados recebe algo */
 	public void RDados_rec_Inflida(Processador proc) {
 		proc.uc.setSinais(RDADOS_REC_INFLIDA);
-		 
 		this.Operar(proc);
-		proc.registrador.rdados = proc.ula.s;
+		proc.registrador.rdados = proc.mux2.s;
 	}
 	public void RDados_rec_RDadosmaisRY(Processador proc) {
 		proc.uc.setSinais(RDADOS_REC_RDADOSMAISRY);

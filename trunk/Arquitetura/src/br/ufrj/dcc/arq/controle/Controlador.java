@@ -30,7 +30,7 @@ public class Controlador extends Parser{
 		}
 		
 		// Imprime Posicoes de Memoria
-		/* Comentado. Motivo: Verificado que foi colocado corretamente na mem�ria. =)
+		/* Comentado. Motivo: Verificado que foi colocado corretamente na memoria. =)
 		System.out.println("\nImpressao da Memoria");
 		for(int i =0; i< parser.getVetorParser().length; i++){
 			System.out.print(proc.memoria.getMemPos(i) + " ");
@@ -38,21 +38,47 @@ public class Controlador extends Parser{
 		System.out.println("\nFim da Impressao da Memoria");
 		*/
 		
-		// IR recebe a primeira instrucao
-		Instrucoes.Cabecalho(executa_por_micro, proc);
+		// IR recebe a primeira instrucao -> Isso vai morrer
+		//Instrucoes.Cabecalho(executa_por_micro, proc);
 		
 		// Executa as instrucoes do programa.
-		percorreVetorParser = proc.registrador.pc;
+		System.out.println("PC = " + proc.registrador.pc);
+		proc.registrador.r0 = 50;
+		proc.registrador.r1 = 51;
+		proc.registrador.r2 = 52;
+		proc.registrador.r3 = 53;
+		proc.registrador.r4 = 54;
+		proc.memoria.setMemPos(50, (short)1);
+		proc.memoria.setMemPos(51, (short)1);
+		proc.memoria.setMemPos(52, (short)1);
+		proc.memoria.setMemPos(53, (short)1);
+		proc.memoria.setMemPos(54, (short)1);
+		System.out.println("POSICAO 50 = " + proc.memoria.getMemPos(50));
+		System.out.println("POSICAO 51 = " + proc.memoria.getMemPos(51));
+		System.out.println("POSICAO 52 = " + proc.memoria.getMemPos(52));
+		System.out.println("POSICAO 53 = " + proc.memoria.getMemPos(53));
+		System.out.println("POSICAO 54 = " + proc.memoria.getMemPos(54));
 		
-		while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
-			mempos = proc.memoria.getMemPos(percorreVetorParser);
+		while(proc.executa_programa) {
+		//while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
+			mempos = proc.memoria.getMemPos(proc.registrador.pc);
 			proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
 			while (executa_por_instrucao) {
 				//espera proximo clique
 			}
-			percorreVetorParser = proc.registrador.pc;
-			System.out.println("to aqui");
-		}	
+		}
+		
+		System.out.println("R0 = " + proc.registrador.r0);
+		System.out.println("R1 = " + proc.registrador.r1);
+		System.out.println("R2 = " + proc.registrador.r2);
+		System.out.println("R3 = " + proc.registrador.r3);
+		System.out.println("R4 = " + proc.registrador.r4);
+		System.out.println("PC = " + proc.registrador.pc);
+		System.out.println("POSICAO 50 = " + proc.memoria.getMemPos(50));
+		System.out.println("POSICAO 51 = " + proc.memoria.getMemPos(51));
+		System.out.println("POSICAO 52 = " + proc.memoria.getMemPos(52));
+		System.out.println("POSICAO 53 = " + proc.memoria.getMemPos(53));
+		System.out.println("POSICAO 54 = " + proc.memoria.getMemPos(54));
 	}	
 	
 	public Controlador(String vetProg[], int tamanho) {
