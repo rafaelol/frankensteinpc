@@ -3,6 +3,7 @@ package br.ufrj.dcc.arq.controle;
 import br.ufrj.dcc.arq.modelo.Bit;
 import br.ufrj.dcc.arq.modelo.Memoria;
 import br.ufrj.dcc.arq.modelo.Processador;
+import br.ufrj.dcc.arq.modelo.Ula;
 import br.ufrj.dcc.arq.parse.Parser;
 
 public class Controlador extends Parser{
@@ -37,11 +38,6 @@ public class Controlador extends Parser{
 		System.out.println("\nFim da Impressao da Memoria");
 		*/
 		
-		// IR recebe a primeira instrucao -> Isso vai morrer
-		//Instrucoes.Cabecalho(executa_por_micro, proc);
-		
-		// Executa as instrucoes do programa.
-		System.out.println("PC = " + proc.registrador.pc);
 		/*
 		proc.registrador.r0 = 1;
 		proc.registrador.r1 = 0;
@@ -65,24 +61,42 @@ public class Controlador extends Parser{
 		while(proc.executa_programa) {
 		//while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
 			mempos = proc.memoria.getMemPos(proc.registrador.pc);
-			System.out.println("PC = " + proc.registrador.pc);
 			proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
 			while (executa_por_instrucao) {
 				//espera proximo clique
 			}
+			System.out.println("**********************************");
+			System.out.println("Impressao de Registradores e Flags");
+			System.out.println("**********************************");
+			System.out.println("R0 = " + proc.registrador.r0);
+			System.out.println("R1 = " + proc.registrador.r1);
+			System.out.println("R2 = " + proc.registrador.r2);
+			System.out.println("R3 = " + proc.registrador.r3);
+			System.out.println("R4 = " + proc.registrador.r4);
+			System.out.println("PC = " + proc.registrador.pc);
+			System.out.println("RDADOS = " + proc.registrador.rdados);
+			System.out.println("REND = " + proc.registrador.rend);
+			System.out.println("RI = " + proc.registrador.ri);
+			System.out.println("RX = " + proc.registrador.rx);
+			System.out.println("RY = " + proc.registrador.ry);
+			System.out.println("\n");
+			System.out.println("Flag CARRY    = " + proc.ula.getFlags()[Ula.CARRY]);
+			System.out.println("Flag OVERFLOW = " + proc.ula.getFlags()[Ula.OVERFLOW]);
+			System.out.println("Flag PARIDADE = " + proc.ula.getFlags()[Ula.PARIDADE]);
+			System.out.println("Flag SINAL    = " + proc.ula.getFlags()[Ula.SINAL]);
+			System.out.println("Flag ZERO     = " + proc.ula.getFlags()[Ula.ZERO]);
+			System.out.println("****************");
+			System.out.println("Fim da Impressao");
+			System.out.println("****************");
 		}
 		
-		System.out.println("R0 = " + proc.registrador.r0);
-		System.out.println("R1 = " + proc.registrador.r1);
-		System.out.println("R2 = " + proc.registrador.r2);
-		System.out.println("R3 = " + proc.registrador.r3);
-		System.out.println("R4 = " + proc.registrador.r4);
-		System.out.println("PC = " + proc.registrador.pc);
+		/*
 		System.out.println("POSICAO 50 = " + proc.memoria.getMemPos(50));
 		System.out.println("POSICAO 51 = " + proc.memoria.getMemPos(51));
 		System.out.println("POSICAO 52 = " + proc.memoria.getMemPos(52));
 		System.out.println("POSICAO 53 = " + proc.memoria.getMemPos(53));
 		System.out.println("POSICAO 54 = " + proc.memoria.getMemPos(54));
+		*/
 	}	
 	
 	public Controlador(String vetProg[], int tamanho) {
