@@ -1,7 +1,6 @@
 package br.ufrj.dcc.arq.controle;
 
 import br.ufrj.dcc.arq.modelo.Bit;
-import br.ufrj.dcc.arq.modelo.Instrucoes;
 import br.ufrj.dcc.arq.modelo.Memoria;
 import br.ufrj.dcc.arq.modelo.Processador;
 import br.ufrj.dcc.arq.parse.Parser;
