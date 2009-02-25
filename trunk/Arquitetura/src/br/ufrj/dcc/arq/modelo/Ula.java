@@ -604,7 +604,7 @@ public class Ula {
 			for(int j = 0; j < str.length(); j++) str2 += str.charAt(j);
 		}
 		
-		System.out.println("Verificando paridade:" + str2);
+		//System.out.println("Verificando paridade:" + str2);
 		
 		for(int i=0; i < str2.length(); i++) {
 			if(str2.charAt(i) == '1') cont ++;

@@ -39,7 +39,7 @@ public class MemoriaControle {
 	public static final short RDADOS_REC_R2MENOSRX[] 		= cria_Vetor(Multiplex2E.PASSASULA, Multiplex4E.PASSARX, Multiplex5E.PASSAR2, Ula.SUBAB, Uc.E, Uc.H, Uc.B);
 	public static final short RDADOS_REC_R3MENOSRX[] 		= cria_Vetor(Multiplex2E.PASSASULA, Multiplex4E.PASSARX, Multiplex5E.PASSAR3, Ula.SUBAB, Uc.F, Uc.H, Uc.B);
 	public static final short RDADOS_REC_R4MENOSRX[] 		= cria_Vetor(Multiplex2E.PASSASULA, Multiplex4E.PASSARX, Multiplex5E.PASSAR4, Ula.SUBAB, Uc.G, Uc.H, Uc.B);
-	public static final short RDADOS_REC_RY[] 				= cria_Vetor(Multiplex2E.PASSASULA, NULOV, Multiplex5E.PASSARY, Ula.PASSAA, Uc.I, NULO, Uc.B);
+	public static final short RDADOS_REC_RY[] 				= cria_Vetor(Multiplex2E.PASSASULA, NULOV, Multiplex5E.PASSARY, Ula.PASSAB, Uc.I, NULO, Uc.B);
 	public static final short RDADOS_REC_R0[] 				= cria_Vetor(Multiplex2E.PASSASULA, Multiplex4E.PASSAR0, NULOV, Ula.PASSAA, Uc.C, NULO, Uc.B);
 	public static final short RDADOS_REC_R1[] 				= cria_Vetor(Multiplex2E.PASSASULA, Multiplex4E.PASSAR1, NULOV, Ula.PASSAA, Uc.D, NULO, Uc.B);
 	public static final short RDADOS_REC_R2[] 				= cria_Vetor(Multiplex2E.PASSASULA, NULOV, Multiplex5E.PASSAR2, Ula.PASSAB, Uc.E, NULO, Uc.B);

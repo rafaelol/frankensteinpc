@@ -21,7 +21,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		Tira_Comentario();
-		//ajustaMap();
+		ajustaMap();
 		ImprimeLabels();
 		Vet_Codigos = new short[2 * tam_max];
 		Codifica();
@@ -35,7 +35,7 @@ public class Parser {
 		ImprimeLabels();
 		RemoveLabels();
 		Tira_Comentario();
-		//ajustaMap();
+		ajustaMap();
 		ImprimeLabels();
 		Vet_Codigos = new short[2 * tam_max];
 		Codifica();
@@ -2758,38 +2758,28 @@ public class Parser {
 
 
 	void ajustaMap() {
-		String labelzinha;
-		int j, k;
 		int linhasduplas[] = new int[tam_max];
 		int qnt = 0;
 		int adicionar;
-		Iterator itMap = mapLabels.keySet().iterator();
+		Iterator itMap = mapLabels.entrySet().iterator();
 		Map<Integer, String> mapTemp =  new HashMap<Integer, String>();
 		int valor;
 		Map.Entry mapa;
 		
 		
 		for (int i = 0; i < tam_max; i++) {
-			for (j = 0; j < Vet_Linhas[i].length(); j++) {
-				if (Vet_Linhas[i].charAt(j) == '<') break;
-			}
+			Separa_Linha(i);
 			
-			for (k = j; k < Vet_Linhas[i].length(); k++) {
-				if ((Vet_Linhas[i].charAt(k) == ',') || (Vet_Linhas[i].charAt(k) == '>')) break;
-			}
-			
-			labelzinha = ((Vet_Linhas[i].substring(j, k)).trim()).toUpperCase();
-		
-			if (!((labelzinha.equals("R0")) || 
-				(labelzinha.equals("R1")) ||
-				(labelzinha.equals("R2")) ||
-				(labelzinha.equals("R3")) ||
-				(labelzinha.equals("R4")) ||
-				(labelzinha.equals("(R0)")) || 
-				(labelzinha.equals("(R1)")) ||
-				(labelzinha.equals("(R2)")) ||
-				(labelzinha.equals("(R3)")) ||
-				(labelzinha.equals("(R4)")))) {
+			if (!((label2.equals("R0")) || 
+				(label2.equals("R1")) ||
+				(label2.equals("R2")) ||
+				(label2.equals("R3")) ||
+				(label2.equals("R4")) ||
+				(label2.equals("(R0)")) || 
+				(label2.equals("(R1)")) ||
+				(label2.equals("(R2)")) ||
+				(label2.equals("(R3)")) ||
+				(label2.equals("(R4)")))) {
 				
 				linhasduplas[qnt] = i;
 				qnt++;
@@ -2797,17 +2787,14 @@ public class Parser {
 		}
 				
 		while (itMap.hasNext()) {
-			//Essa linha t� dando erro
 			mapa = (Map.Entry<Integer, String>) itMap.next();
-			
-			dadosDoMap = itMap.next();
 			
 			valor = Integer.parseInt(mapa.getKey().toString());
 			
 			adicionar = 0;
 			
 			for (int i = 0; i < qnt; i++) {
-				if (linhasduplas[i] <= valor) {
+				if (linhasduplas[i] < valor) {
 					adicionar++;
 				}
 			}

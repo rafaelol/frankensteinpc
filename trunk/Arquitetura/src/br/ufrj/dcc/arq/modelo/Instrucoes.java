@@ -42,8 +42,15 @@ public class Instrucoes {
 
 	/* ==================== Instrucoes ADD ==================== */
 
-	public static void addImedR0(boolean executa_por_micro, Processador proc) {
+	public static void addImedR0(boolean executa_por_micro, Processador proc) {		
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -82,6 +89,13 @@ public class Instrucoes {
 
 	public static void addImedR1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -120,6 +134,13 @@ public class Instrucoes {
 
 	public static void addImedR2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -152,6 +173,13 @@ public class Instrucoes {
 
 	public static void addImedR3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -184,6 +212,13 @@ public class Instrucoes {
 
 	public static void addImedR4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -216,6 +251,13 @@ public class Instrucoes {
 
 	public static void addImedER0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -276,6 +318,13 @@ public class Instrucoes {
 
 	public static void addImedER1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -336,6 +385,13 @@ public class Instrucoes {
 
 	public static void addImedER2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -396,6 +452,13 @@ public class Instrucoes {
 
 	public static void addImedER3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -456,6 +519,13 @@ public class Instrucoes {
 
 	public static void addImedER4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4332,6 +4402,13 @@ public class Instrucoes {
 	/* ==================== Instruções SUB ==================== */
 	public static void subImedR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4370,6 +4447,13 @@ public class Instrucoes {
 
 	public static void subImedR1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4408,6 +4492,13 @@ public class Instrucoes {
 
 	public static void subImedR2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4440,6 +4531,13 @@ public class Instrucoes {
 
 	public static void subImedR3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+	
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4472,6 +4570,13 @@ public class Instrucoes {
 
 	public static void subImedR4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4504,6 +4609,13 @@ public class Instrucoes {
 
 	public static void subImedER0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4564,6 +4676,13 @@ public class Instrucoes {
 
 	public static void subImedER1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4624,6 +4743,13 @@ public class Instrucoes {
 
 	public static void subImedER2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4684,6 +4810,13 @@ public class Instrucoes {
 
 	public static void subImedER3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -4744,6 +4877,13 @@ public class Instrucoes {
 
 	public static void subImedER4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8608,10 +8748,17 @@ public class Instrucoes {
 			//espera proximo clique
 		}
 	}	
-	/* ==================== Instruções MOV ==================== */
+	/* ==================== Instrucoes MOV ==================== */
 
 	public static void movImedR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8645,6 +8792,13 @@ public class Instrucoes {
 
 	public static void movImedR1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8677,6 +8831,13 @@ public class Instrucoes {
 
 	public static void movImedR2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8709,6 +8870,13 @@ public class Instrucoes {
 
 	public static void movImedR3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8741,6 +8909,13 @@ public class Instrucoes {
 
 	public static void movImedR4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8773,52 +8948,68 @@ public class Instrucoes {
 
 	public static void movImedER0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		//System.out.println("PC = " + proc.registrador.pc);
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-
+		//System.out.println("REND = " + proc.registrador.rend);
+		
 		proc.memoriacontrole.Le(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-
+		//System.out.println("DADOLIDO = " + proc.memoria.dadoLido);
+		
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);		
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
+		//System.out.println("RDADOS = " + proc.registrador.rdados);
 
 		proc.memoriacontrole.Get_Endereco_RY_rec_RDados(proc);
 		proc.memoriacontrole.RY_rec_RDados(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-
+		//System.out.println("RY = " + proc.registrador.ry);
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-
+		//System.out.println("REND = " + proc.registrador.rend);
+		
 		proc.memoriacontrole.Le(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
+		//System.out.println("DADO LIDO = " + proc.memoria.dadoLido);
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);		
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
+		//System.out.println("RDADOS = " + proc.registrador.rdados);
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc);
 		proc.memoriacontrole.RDados_rec_RY(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
-
+		//System.out.println("RDADOS = " + proc.registrador.rdados);
+		
 		proc.memoriacontrole.Escreve(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -8833,6 +9024,13 @@ public class Instrucoes {
 
 	public static void movImedER1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8893,6 +9091,13 @@ public class Instrucoes {
 
 	public static void movImedER2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -8953,6 +9158,13 @@ public class Instrucoes {
 
 	public static void movImedER3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -9013,6 +9225,13 @@ public class Instrucoes {
 
 	public static void movImedER4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11657,10 +11876,17 @@ public class Instrucoes {
 		}
 	}
 
-	/* ==================== Instruções CMP ==================== */
+	/* ==================== Instrucoes CMP ==================== */
 
 	public static void cmpImedR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11699,6 +11925,13 @@ public class Instrucoes {
 
 	public static void cmpImedR1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11737,6 +11970,13 @@ public class Instrucoes {
 
 	public static void cmpImedR2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11769,6 +12009,13 @@ public class Instrucoes {
 
 	public static void cmpImedR3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11801,6 +12048,13 @@ public class Instrucoes {
 
 	public static void cmpImedR4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11833,6 +12087,13 @@ public class Instrucoes {
 
 	public static void cmpImedER0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11893,6 +12154,13 @@ public class Instrucoes {
 
 	public static void cmpImedER1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -11953,6 +12221,13 @@ public class Instrucoes {
 
 	public static void cmpImedER2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -12013,6 +12288,13 @@ public class Instrucoes {
 
 	public static void cmpImedER3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -12073,6 +12355,13 @@ public class Instrucoes {
 
 	public static void cmpImedER4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -15937,10 +16226,17 @@ public class Instrucoes {
 			//espera proximo clique
 		}
 	}
-	/* ==================== Instruções AND ==================== */
+	/* ==================== Instrucoes AND ==================== */
 
 	public static void andImedR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -15979,6 +16275,13 @@ public class Instrucoes {
 
 	public static void andImedR1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16017,6 +16320,13 @@ public class Instrucoes {
 
 	public static void andImedR2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16049,6 +16359,13 @@ public class Instrucoes {
 
 	public static void andImedR3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16081,6 +16398,13 @@ public class Instrucoes {
 
 	public static void andImedR4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16113,6 +16437,13 @@ public class Instrucoes {
 
 	public static void andImedER0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16173,6 +16504,13 @@ public class Instrucoes {
 
 	public static void andImedER1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16233,6 +16571,13 @@ public class Instrucoes {
 
 	public static void andImedER2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16293,6 +16638,13 @@ public class Instrucoes {
 
 	public static void andImedER3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -16353,6 +16705,13 @@ public class Instrucoes {
 
 	public static void andImedER4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20216,10 +20575,17 @@ public class Instrucoes {
 		}
 	}
 
-	/* ==================== Instruções OR ===================== */
+	/* ==================== Instrucoes OR ===================== */
 
 	public static void orImedR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20258,6 +20624,13 @@ public class Instrucoes {
 
 	public static void orImedR1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20296,6 +20669,13 @@ public class Instrucoes {
 
 	public static void orImedR2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20328,6 +20708,13 @@ public class Instrucoes {
 
 	public static void orImedR3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20360,6 +20747,13 @@ public class Instrucoes {
 
 	public static void orImedR4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20392,6 +20786,13 @@ public class Instrucoes {
 
 	public static void orImedER0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20452,6 +20853,13 @@ public class Instrucoes {
 
 	public static void orImedER1(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20512,6 +20920,13 @@ public class Instrucoes {
 
 	public static void orImedER2(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20572,6 +20987,13 @@ public class Instrucoes {
 
 	public static void orImedER3(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -20632,6 +21054,13 @@ public class Instrucoes {
 
 	public static void orImedER4(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
+		
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		while (executa_por_micro) {
@@ -24495,7 +24924,7 @@ public class Instrucoes {
 		}
 	}
 
-	/* ==================== Instruções NOT ==================== */
+	/* ==================== Instrucoes NOT ==================== */
 
 	public static void notR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
@@ -24757,7 +25186,7 @@ public class Instrucoes {
 		}
 	}
 
-	/* ==================== Instruções NEG ==================== */
+	/* ==================== Instrucoes NEG ==================== */
 
 	public static void negR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
@@ -25019,7 +25448,7 @@ public class Instrucoes {
 		}
 	}
 
-	/* ==================== Instruções CLR ==================== */
+	/* ==================== Instrucoes CLR ==================== */
 
 	public static void clrR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
@@ -25226,7 +25655,7 @@ public class Instrucoes {
 		}
 	}
 
-	/* ==================== Instruções SHL ==================== */
+	/* ==================== Instrucoes SHL ==================== */
 
 	public static void shlR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
@@ -25488,7 +25917,7 @@ public class Instrucoes {
 		}
 	}
 
-	/* ==================== Instruções SHR ==================== */
+	/* ==================== Instrucoes SHR ==================== */
 
 	public static void shrR0(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
@@ -25826,6 +26255,12 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_RYmaisRDados(proc);
 		proc.memoriacontrole.PC_rec_RYmaisRDados(proc);
+		while (executa_por_micro) {
+			//espera proximo clique
+		}
+
+		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);		
+		proc.memoriacontrole.PC_rec_PCmais1(proc);
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
