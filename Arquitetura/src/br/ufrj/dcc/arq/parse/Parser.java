@@ -108,7 +108,7 @@ public class Parser {
 					else if (label3.equals("R4")) {
 						Vet_Codigos[qnt_codigo] = 15;
 					}
-					else if (label3.equals("R0")) {
+					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 36;
 					}
 					else if (label3.equals("(R1)")) {
@@ -175,7 +175,7 @@ public class Parser {
 					else if (label3.equals("(R0)")) {
 						Vet_Codigos[qnt_codigo] = 46;
 					}
-					else if (label3.equals("R1)")) {
+					else if (label3.equals("(R1)")) {
 						Vet_Codigos[qnt_codigo] = 47;
 					}
 					else if (label3.equals("(R2)")) {
@@ -2677,27 +2677,31 @@ public class Parser {
 
 		//Pegando primeira parte da instrucao
 		for (i = 0; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) == ' ' || Vet_Linhas[linha].charAt(i) == '<') break;
+			if (Vet_Linhas[linha].charAt(i) == '<') break;
 		}
 
 		label = Vet_Linhas[linha].substring(0, i);
 		j = i;
 
+/*
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == '<') break;
 		}
 
 		j = i;
-
+*/
+		
 		label = label.trim();
 		
 		//Pegando segunda parte da instrucao
+		/*
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) != ' ') break;
 		}
 
 		j = i;
-
+*/
+		
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == ',' || Vet_Linhas[linha].charAt(i) == '>') break;
 		}
@@ -2707,12 +2711,14 @@ public class Parser {
 		}
 		j = i;
 
+/*
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) != ' ') break;
 		}
 
 		j = i;
-
+*/
+		
 		//Pegando terceira parte da instrucao
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == '>') break;

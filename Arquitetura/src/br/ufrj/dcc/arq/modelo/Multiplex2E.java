@@ -109,8 +109,12 @@ public class Multiplex2E {
 		short vet[] = {proc.uc.sinais[Uc.L].getValor()};
 		proc.mux2.setSinal(vet);
 		
-		if (sinal[L].getValor() == 0) proc.mux2.s = proc.mux2.a;
-		else proc.mux4.s = proc.mux4.b;
+		if (sinal[L].getValor() == Multiplex2E.PASSAMEM[0]) {
+			proc.mux2.s = proc.mux2.a;
+		}
+		else if (sinal[L].getValor() == Multiplex2E.PASSASULA[0]) {
+			proc.mux2.s = proc.mux2.b;
+		}
 	}
 	
 }

@@ -44,20 +44,24 @@ public class Memoria {
 	/** ======================================= */
 
 	public void escreve(Processador proc) {
+		/*
+		System.out.println("ESCREVI!");
+		System.out.println("REND = " + proc.registrador.rend);
+		System.out.println("RDADOS = " + proc.registrador.rdados);
+		*/
 		proc.memoria.mem[proc.registrador.rend] = proc.registrador.rdados;
 	}
 	
 	public void le(Processador proc) {
-		proc.memoria.dadoLido = proc.memoria.mem[proc.registrador.rend];
+		this.dadoLido = proc.memoria.mem[proc.registrador.rend];
 	}
 	
 	public void opera(Processador proc) {
 		proc.memoria.sinal = proc.uc.sinais[Uc.X];
-		
-		if(sinal.getValor() == ESC) {
+		if(proc.memoria.sinal.getValor() == ESC) {
 			proc.memoria.escreve(proc);
 		}
-		else if (sinal.getValor() == LEIT) {
+		else if (proc.memoria.sinal.getValor() == LEIT) {
 			proc.memoria.le(proc);
 		}
 	}
