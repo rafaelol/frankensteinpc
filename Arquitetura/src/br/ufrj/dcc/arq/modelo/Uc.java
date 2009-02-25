@@ -850,7 +850,7 @@ public class Uc {
 		case 714: { Instrucoes.brl(executa_por_micro, proc); break; }
 		case 715: { Instrucoes.brg(executa_por_micro, proc); break; }
 		case 716: { Instrucoes.brc(executa_por_micro, proc); break; }
-		case 717: { Instrucoes.jmp(executa_por_micro, proc); break; }
+		case 717: { Instrucoes.jmp(executa_por_micro, proc, true); break; }
 		}
 	}
 }

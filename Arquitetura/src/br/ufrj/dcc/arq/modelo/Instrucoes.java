@@ -26184,46 +26184,50 @@ public class Instrucoes {
 	public static void brz(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
 		if (proc.ula.getFlags()[Ula.ZERO] == 1) {
-			jmp(executa_por_micro, proc);
+			jmp(executa_por_micro, proc, false);
 		}
 	}
 
 	public static void brn(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
-		if (true) {
-			jmp(executa_por_micro, proc);
+		if (proc.ula.getFlags()[Ula.SINAL] == 1) {
+			jmp(executa_por_micro, proc, false);
 		}
 	}
 
 	public static void bre(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
-		if (true) {
-			jmp(executa_por_micro, proc);
+		if (proc.ula.getFlags()[Ula.ZERO] == 1) {
+			jmp(executa_por_micro, proc, false);
 		}
 	}
 
 	public static void brl(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
-		if (true) {
-			jmp(executa_por_micro, proc);
+		if (proc.ula.getFlags()[Ula.SINAL] != proc.ula.getFlags()[Ula.OVERFLOW]) {
+			jmp(executa_por_micro, proc, false);
 		}
 	}
 
 	public static void brg(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
-		if (true) {
-			jmp(executa_por_micro, proc);
+		if (proc.ula.getFlags()[Ula.SINAL] == proc.ula.getFlags()[Ula.OVERFLOW] && proc.ula.getFlags()[Ula.ZERO] == 0) {
+			jmp(executa_por_micro, proc, false);
 		}		
 	}
 
 	public static void brc(boolean executa_por_micro, Processador proc) {
 		Cabecalho(executa_por_micro, proc);
-		if (true) {
-			jmp(executa_por_micro, proc);
+		if (proc.ula.getFlags()[Ula.CARRY] == 1) {
+			jmp(executa_por_micro, proc, false);
 		}		
 	}
 
-	public static void jmp(boolean executa_por_micro, Processador proc) {	
+	public static void jmp(boolean executa_por_micro, Processador proc, boolean executa_cabecalho) {	
+		if (executa_cabecalho) {
+			Cabecalho(executa_por_micro, proc);
+		}
+		
 		proc.memoriacontrole.Get_Endereco_RY_rec_PC(proc);
 		proc.memoriacontrole.RY_rec_PC(proc);
 		while (executa_por_micro) {

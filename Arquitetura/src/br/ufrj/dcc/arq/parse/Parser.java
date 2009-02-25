@@ -2736,6 +2736,7 @@ public class Parser {
 		for (int i = 0; i < 2 * tam_max; i++) {
 			System.out.print(Vet_Codigos[i] + " ");
 		}
+		System.out.println(" ");
 	}
 
 	void PassaPraMaiuscula() {
