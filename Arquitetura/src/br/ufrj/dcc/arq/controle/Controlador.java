@@ -43,8 +43,9 @@ public class Controlador extends Parser{
 		
 		// Executa as instrucoes do programa.
 		System.out.println("PC = " + proc.registrador.pc);
-		proc.registrador.r0 = 50;
-		proc.registrador.r1 = 51;
+		/*
+		proc.registrador.r0 = 1;
+		proc.registrador.r1 = 0;
 		proc.registrador.r2 = 52;
 		proc.registrador.r3 = 53;
 		proc.registrador.r4 = 54;
@@ -53,15 +54,19 @@ public class Controlador extends Parser{
 		proc.memoria.setMemPos(52, (short)1);
 		proc.memoria.setMemPos(53, (short)1);
 		proc.memoria.setMemPos(54, (short)1);
+		*/
+		/*
 		System.out.println("POSICAO 50 = " + proc.memoria.getMemPos(50));
 		System.out.println("POSICAO 51 = " + proc.memoria.getMemPos(51));
 		System.out.println("POSICAO 52 = " + proc.memoria.getMemPos(52));
 		System.out.println("POSICAO 53 = " + proc.memoria.getMemPos(53));
 		System.out.println("POSICAO 54 = " + proc.memoria.getMemPos(54));
+		*/
 		
 		while(proc.executa_programa) {
 		//while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
 			mempos = proc.memoria.getMemPos(proc.registrador.pc);
+			System.out.println("PC = " + proc.registrador.pc);
 			proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
 			while (executa_por_instrucao) {
 				//espera proximo clique
