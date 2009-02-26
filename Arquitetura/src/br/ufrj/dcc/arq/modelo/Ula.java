@@ -209,7 +209,7 @@ public class Ula {
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/**********************************
@@ -249,7 +249,7 @@ public class Ula {
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);	
+		setarFlagsSinalZeroParidade(proc);	
 	}
 	
 	/**********************************
@@ -289,7 +289,7 @@ public class Ula {
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);			
+		setarFlagsSinalZeroParidade(proc);			
 	}
 
 	/**********************************
@@ -371,7 +371,7 @@ public class Ula {
 		if((proc.ula.a & 0x8000) == 0x8000) proc.ula.flags[CARRY].setValor((short)1);
 		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/**********************************
@@ -403,7 +403,7 @@ public class Ula {
 		if((proc.ula.b & 0x8000) == 0x8000) proc.ula.flags[CARRY].setValor((short)1);
 		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/**********************************
@@ -435,7 +435,7 @@ public class Ula {
 		if(proc.ula.a % 2 == 1) proc.ula.flags[CARRY].setValor((short)1); 
 		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 	
 	/**********************************
@@ -467,7 +467,7 @@ public class Ula {
 		if(proc.ula.b % 2 == 1) proc.ula.flags[CARRY].setValor((short)1); 
 		else proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/**********************************
@@ -483,7 +483,7 @@ public class Ula {
 		proc.ula.flags[CARRY].setValor((short)0);
 		proc.ula.flags[OVERFLOW].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/**********************************
@@ -499,7 +499,7 @@ public class Ula {
 		proc.ula.flags[CARRY].setValor((short)0);
 		proc.ula.flags[OVERFLOW].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 	
 	/**********************************
@@ -510,7 +510,7 @@ public class Ula {
 	public void passaZero(Processador proc) {
 		proc.ula.s = (short) 0;
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 	
 	/**********************************
@@ -532,7 +532,7 @@ public class Ula {
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/**********************************
@@ -554,7 +554,7 @@ public class Ula {
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
 		
-		setarFlagsSinalZeroParidade(s, proc);
+		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/************** Metodos Auxiliares *****************
@@ -564,10 +564,10 @@ public class Ula {
 	 * @param Valor utilzado como referencia para a atribuicao de valores das flags.
 	 *        Tipicamente o resultado de uma das operacoes da ULA.  
 	 */
-	public void setarFlagsSinalZeroParidade(short a, Processador proc) {
-
+	public void setarFlagsSinalZeroParidade(Processador proc) {
+		System.out.println("############" + proc.ula.s + "############");
 		/* Signal */
-		if(proc.ula.a < 0) {
+		if(proc.ula.s < 0) {
 			proc.ula.flags[SINAL].setValor((short)1);
 		}
 		else {
@@ -575,7 +575,7 @@ public class Ula {
 		}
 		
 		/* Zero */
-		if(proc.ula.a == 0) {
+		if(proc.ula.s == 0) {
 			proc.ula.flags[ZERO].setValor((short)1);
 		}
 		else {
