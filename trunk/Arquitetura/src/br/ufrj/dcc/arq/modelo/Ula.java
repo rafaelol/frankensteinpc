@@ -514,47 +514,27 @@ public class Ula {
 	}
 	
 	/**********************************
-	 *  Realiza a instrucao IncA. Com isso, a saida da Ula sair� com o valor A + 1.
+	 *  Realiza a instrucao IncA. Com isso, a saida da Ula saira com o valor A + 1.
 	 * 
 	 * Altera todas as flags.
 	 */
 	public void incA(Processador proc) {
 		proc.ula.s = (short)((short)proc.ula.a + (short)1);
-		int s2 = proc.ula.a + 1;
 		
 		if( ((proc.ula.a > 0) && (proc.ula.s < 0)) || ((proc.ula.a < 0) && (proc.ula.s > 0)) ) 
 			proc.ula.flags[OVERFLOW].setValor((short)1);
-		else
-			proc.ula.flags[OVERFLOW].setValor((short)0);
-		
-		if((s2 & 0x00010000) == 0x00010000)
-			proc.ula.flags[CARRY].setValor((short)1);
-		else
-			proc.ula.flags[CARRY].setValor((short)0);
-		
-		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/**********************************
-	 *  Realiza a instrucao IncB. Com isso, a saida da Ula sair� com o valor B + 1.
+	 *  Realiza a instrucao IncB. Com isso, a saida da Ula saira com o valor B + 1.
 	 * 
 	 * Altera todas as flags.
 	 */
 	public void incB(Processador proc) {
 		proc.ula.s = (short)((short)proc.ula.b + (short)1);
-		int s2 = proc.ula.b + 1;
 		
 		if( ((proc.ula.b > 0) && (proc.ula.s < 0)) || ((proc.ula.b < 0) && (proc.ula.s > 0)) ) 
 			proc.ula.flags[OVERFLOW].setValor((short)1);
-		else
-			proc.ula.flags[OVERFLOW].setValor((short)0);
-		
-		if((s2 & 0x00010000) == 0x00010000)
-			proc.ula.flags[CARRY].setValor((short)1);
-		else
-			proc.ula.flags[CARRY].setValor((short)0);
-		
-		setarFlagsSinalZeroParidade(proc);
 	}
 
 	/************** Metodos Auxiliares *****************
@@ -565,7 +545,6 @@ public class Ula {
 	 *        Tipicamente o resultado de uma das operacoes da ULA.  
 	 */
 	public void setarFlagsSinalZeroParidade(Processador proc) {
-		System.out.println("############" + proc.ula.s + "############");
 		/* Signal */
 		if(proc.ula.s < 0) {
 			proc.ula.flags[SINAL].setValor((short)1);
