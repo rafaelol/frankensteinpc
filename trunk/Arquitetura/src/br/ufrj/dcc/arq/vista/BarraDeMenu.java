@@ -10,7 +10,6 @@ import javax.swing.JMenuItem;
 import javax.swing.JRadioButtonMenuItem;
 
 import br.ufrj.dcc.arq.controle.Controlador;
-import br.ufrj.dcc.arq.parse.Parser;
 
 public class BarraDeMenu implements ActionListener {
 
@@ -68,6 +67,11 @@ public class BarraDeMenu implements ActionListener {
 			   
 			System.out.println("Arquivo selecionado: " + escolhePrograma.getSelectedFile().toString());
 			Controlador controlador = new Controlador(escolhePrograma.getSelectedFile().toString());
+			Controlador.executa_por_micro = false;
+			Controlador.executa_por_instrucao = false;
+			
+			Comecar.colocarNaMemoria();
+			
 			//Parser parser = new Parser(escolhePrograma.getSelectedFile().toString());
 		}
 		else if (source == menuFazerPrograma) {

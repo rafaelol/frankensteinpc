@@ -1,96 +1,136 @@
 package br.ufrj.dcc.arq.vista;
 
-import java.awt.Button;
-import java.awt.Container;
-import java.awt.TextArea;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.Color;
+import java.awt.List;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+
+import br.ufrj.dcc.arq.controle.Controlador;
 
 
-public class Comecar extends JFrame implements ActionListener{
+public class Comecar extends JFrame{
 	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	
 	public static JanelaPrincipal janela = null;
 	
-	static PainelPrincipal painel = null;
+	static PainelPrincipal painelFundo = null;
 	
-	private JPanel painelBotoes = new JPanel();
-	Button botao1 = new Button("Botao 1");
-	Button botao2 = new Button("Botao 2");
-	TextArea area = new TextArea("Arquitetura");
+	public static JPanel painelMemoria = null;
+	
+	public static JPanel painelMemoriaControl = null;
+	
+	public static JPanel painelEsquerdo = null;
+	
+	public static List listaMemoria = new List();
+	
+	public static List listaMemoriaControl = new List();	
 	
 	/**
 	 * Construtor da Classe. Cria uma nova janela e coloca o Menu e a imagem do
 	 * Menu.
 	 */
-	/**
-	 * 
-	 */
+	
 	public Comecar() {
 		
-		JanelaPrincipal.ProgramaLargura = 1010;
-		JanelaPrincipal.ProgramaAltura = 800;
+		JanelaPrincipal.ProgramaLargura = 1000;
+		
+		JanelaPrincipal.ProgramaAltura = 640;
 
 		BarraDeMenu menu = new BarraDeMenu();
-
-		if (painel == null) {
-			painel = new PainelPrincipal();
+		
+		JScrollPane scrollTextAreaControl = new JScrollPane(listaMemoriaControl);
+		
+		Color corMemoriaControl = new Color(255,255,255);
+		
+		JScrollPane scrollTextArea = new JScrollPane(listaMemoria);
+		
+		Color corMemoria = new Color(198,255,198);
+		
+		if (painelFundo == null) {
+			painelFundo = new PainelPrincipal();
 		}
 		
 		if (janela == null) {
 			janela = new JanelaPrincipal();
 		}
 
+		if (painelMemoria == null) {
+			painelMemoria = new JPanel();
+		}
+		
+		if (painelMemoriaControl == null) {
+			painelMemoriaControl = new JPanel();
+		}
+		
+		if (painelEsquerdo == null) {
+			painelEsquerdo = new JPanel();
+		}
+		
+		painelFundo.setBounds(195, 0, 1000, 730);
+		painelMemoria.setBounds(215, 255, 197, 230);
+		painelMemoria.setBackground(corMemoria);
+		painelMemoriaControl.setBounds(842, 300, 0, 110);
+		painelMemoriaControl.setBackground(corMemoriaControl);
+		
+		painelEsquerdo.setBounds(0, 0, 195, 730);
+		
 		/*Inicia as STRINGS das flags para pintar*/
 		
 		PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
 		
-		/*Criando Grid - Container - para colocar os botões*/
-		Container cp = getContentPane();
-		cp.setLayout(null);
-		botao1.setBounds(0,100,140,20);
-		botao1.addActionListener(this);
-		cp.add(botao1);
 		
-		botao2.setBounds(200,200,100,20);
-		botao2.addActionListener(this);
-		cp.add(botao2);		
+		/*
+		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
+		 */
+		listaMemoria.add("Memoria vazia !");
 		
-		area.setBounds(810,367,156,140);
-		cp.add(area);
+		painelMemoria.setLayout(null);
+		listaMemoria.setBackground(corMemoria);
+		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		scrollTextArea.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollTextArea.setBounds(0,0,197,230);
+		painelMemoria.add(scrollTextArea);
 		
-		painelBotoes.add(cp);
-		painelBotoes.setBounds(0, 0, cp.WIDTH, cp.HEIGHT);
+		listaMemoria.setFocusable(true);
+
+		/*
+		 * Lista que ficara na memoria de controle
+		 */
 		
+		painelMemoriaControl.setLayout(null);
+		listaMemoriaControl.setBackground(corMemoriaControl);
+		scrollTextAreaControl.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		scrollTextAreaControl.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollTextAreaControl.setBounds(0,0,0,106);
+		painelMemoriaControl.add(scrollTextAreaControl);
 		
-		janela.add(painelBotoes);
-		janela.add(painel);
+		listaMemoriaControl.setFocusable(true);
+		
+		/*
+		 * Seta a janela
+		 */
+		janela.setLayout(null);
+		janela.add(painelMemoria);
+		janela.add(painelMemoriaControl);
+		janela.add(painelEsquerdo);
+		janela.add(painelFundo);
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		janela.setJMenuBar(menu.getBarraMenu());// Coloca o Menu na Janela
 		janela.setVisible(true);		
 	}
 	
-	/**
-	 * Executa as funcoes para cada Botao.
-	 */
-	public void actionPerformed(ActionEvent evt) {
-		Object source = evt.getSource();
-
-		if (source == botao1) {
-			System.out.println("Botao 1 foi clicado.");
-			PainelPrincipal.a = "1";
-			painel.repaint();
+	public static void colocarNaMemoria(){	
+		
+		listaMemoria.removeAll();
+		for(int cont = 0; cont < Controlador.parser.getVetorParser().length - 1; cont++){
+			listaMemoria.add(Integer.toString(cont + 1) + ". " + String.valueOf(Controlador.parser.getVetorParser()[cont]));
 		}
-		else if (source == botao2) {
-			System.out.println("Botao 2 foi clicado.");
-			PainelPrincipal.a = "0";
-			painel.repaint();
-		}
+		listaMemoria.select(0);
 	}
 }

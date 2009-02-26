@@ -32,49 +32,49 @@ public class PainelPrincipal extends Component{
 		
 		/*Registradores do Mux A*/
 		
-		grafico.drawString(l, 216, 70);
-		grafico.drawString(c, 325, 48);
-		grafico.drawString(d, 410, 48);
-		grafico.drawString(h, 490, 48);
+		grafico.drawString(l, 172, 56);
+		grafico.drawString(c, 260, 40);
+		grafico.drawString(d, 327, 40);
+		grafico.drawString(h, 390, 40);
 		
 		/*Registradores do Mux B*/
-		grafico.drawString(e, 607, 48);
-		grafico.drawString(f, 690, 48);
-		grafico.drawString(g, 774, 48);
-		grafico.drawString(i, 855, 48);
+		grafico.drawString(e, 486, 40);
+		grafico.drawString(f, 550, 40);
+		grafico.drawString(g, 618, 40);
+		grafico.drawString(i, 683, 40);
 		
 		/*PC e RDados*/
 		
-		grafico.drawString(a, 943, 133);
-		grafico.drawString(b, 197, 166);
+		grafico.drawString(a, 753, 108);
+		grafico.drawString(b, 157, 134);
 		
 		/*Mux A*/
 		
-		grafico.drawString(m, 476, 250);
-		grafico.drawString(n, 476, 276);
+		grafico.drawString(m, 379, 200);
+		grafico.drawString(n, 379, 222);
 		
 		/*Mux B*/
 		
-		grafico.drawString(o, 812, 250);
-		grafico.drawString(p, 812, 276);
-		grafico.drawString(q, 812, 302);
+		grafico.drawString(o, 648, 202);
+		grafico.drawString(p, 648, 222);
+		grafico.drawString(q, 648, 244);
 		
 		/*ULA*/
 		
-		grafico.drawString(r, 376, 390);
-		grafico.drawString(s, 376, 418);
-		grafico.drawString(t, 376, 445);
-		grafico.drawString(u, 376, 472);
-		grafico.drawString(v, 376, 498);
-		grafico.drawString(w, 376, 524);
+		grafico.drawString(r, 300, 315);
+		grafico.drawString(s, 300, 336);
+		grafico.drawString(t, 300, 357);
+		grafico.drawString(u, 300, 378);
+		grafico.drawString(v, 300, 399);
+		grafico.drawString(w, 300, 420);
 		
 		/*IR*/
 		
-		grafico.drawString(k, 888, 700);
+		grafico.drawString(k, 710, 563);
 		
 		/*REnd e Memoria*/
 		
-		grafico.drawString(j, 252, 670);
-		grafico.drawString(x, 47, 662);
+		grafico.drawString(j, 201, 538);
+		grafico.drawString(x, 37, 530);
 	}
 }

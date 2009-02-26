@@ -1,6 +1,7 @@
 package br.ufrj.dcc.arq.vista;
 
 import java.awt.Dimension;
+import java.awt.List;
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
@@ -9,7 +10,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 
 import br.ufrj.dcc.arq.parse.ArquivoTexto;
 
@@ -22,7 +22,7 @@ public class Instrucoes extends JFrame implements WindowListener{
 	
 	private static final long serialVersionUID = 1L;
 	
-	public static JTextArea areaTexto;
+	public static List areaTexto;
 	
 	private final int JanelaLargura = 450;
 
@@ -35,17 +35,21 @@ public class Instrucoes extends JFrame implements WindowListener{
 	private JScrollPane scrollTextArea;
 	
 	private ArquivoTexto arquivoLido;
+	
+	private int contador;
 
 	public Instrucoes (){
 		
-//		 Variavel para saber o tamanho da janela
+		/*
+		 * Variavel para saber o tamanho da janela
+		 */
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
 		Dimension tamanhoPrograma = new Dimension(JanelaLargura, JanelaAltura);
 		
 		titulo = new JLabel("As Instruções seguem abaixo:");
 		
-		areaTexto = new JTextArea();
+		areaTexto = new List();
 		
 		painel = new JPanel();
 		
@@ -53,31 +57,28 @@ public class Instrucoes extends JFrame implements WindowListener{
 		
 		painel.setLayout(null);
 		
-		//Adiciona item no painel
+		/*
+		 * Adiciona item no painel
+		 */
 		titulo.setBounds(130, 10, 500, 20);
 		painel.add(titulo);
 		
 		try {
 			arquivoLido = new ArquivoTexto("./arquivo/instrucoes.txt");
-
+			contador = 0;
 			while (arquivoLido.maisLinhas()) {
 				
 				/*Nao pega linha vazia*/
 				if (!(arquivoLido.getLinha().equals(""))){
-					areaTexto.append(arquivoLido.getLinha());
-					areaTexto.append("\n");
+					areaTexto.add(Integer.toString(contador) + ". " + arquivoLido.getLinha());
 				}
+				contador++;
 			}
-
 		} catch (Exception e) {
 			System.out.println("Erro no metodo LerArquivo!");
 		}
 		
-		//areaTexto.setLineWrap(true);
-		//scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
-		areaTexto.setEnabled(false);
-		areaTexto.setAlignmentY(1);
 		scrollTextArea.setBounds(48,40,350,370);
 		painel.add(scrollTextArea);
 		
