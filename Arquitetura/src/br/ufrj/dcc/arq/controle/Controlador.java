@@ -11,7 +11,7 @@ public class Controlador{
 	public static boolean executa_por_micro;
 	public static boolean executa_por_instrucao;
 	Processador proc;
-	Parser parser;
+	public static Parser parser;
 	Bit bitMemoria;
 	int percorreVetorParser;
 	

@@ -23,8 +23,8 @@ public class JanelaPrincipal extends JFrame implements WindowListener {
 	Dimension tamanhoPrograma = new Dimension(ProgramaLargura, ProgramaAltura);
 
 	/**
-	 * Construtor da Classe. Nela sao definidas todos os par�metros que a janela
-	 * do programa ter�.
+	 * Construtor da Classe. Nela sao definidas todos os parametros que a janela
+	 * do programa tera.
 	 * 
 	 */
 	public JanelaPrincipal() {
