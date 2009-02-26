@@ -10,7 +10,7 @@ public class Parser {
 
 	private static Object dadosDoMap;
 	Map<Integer, String> mapLabels =  new HashMap<Integer, String>();
-	String Vet_Linhas[] = null;
+	public static String Vet_Linhas[] = null;
 	String label, label2, label3;
 	int tam_max;
 	int i;
