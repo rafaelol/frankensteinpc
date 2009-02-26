@@ -6,7 +6,7 @@ import br.ufrj.dcc.arq.modelo.Processador;
 import br.ufrj.dcc.arq.modelo.Ula;
 import br.ufrj.dcc.arq.parse.Parser;
 
-public class Controlador extends Parser{
+public class Controlador{
 
 	public static boolean executa_por_micro;
 	public static boolean executa_por_instrucao;
@@ -16,7 +16,6 @@ public class Controlador extends Parser{
 	int percorreVetorParser;
 	
 	public Controlador(String nomeArq) {
-		super(nomeArq);
 		// TODO Auto-generated constructor stub
 		short mempos;
 		proc 		= new Processador();
@@ -100,7 +99,6 @@ public class Controlador extends Parser{
 	}	
 	
 	public Controlador(String vetProg[], int tamanho) {
-		super(vetProg, tamanho);
 		Parser parser = new Parser(vetProg,tamanho);
 		Memoria memoria = new Memoria();
 	}
