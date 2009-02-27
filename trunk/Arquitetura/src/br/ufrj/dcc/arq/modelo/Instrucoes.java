@@ -1,10 +1,17 @@
 package br.ufrj.dcc.arq.modelo;
 
-public class Instrucoes {
+import br.ufrj.dcc.arq.vista.Comecar;
 
+public class Instrucoes {
+	
+	public static String nomeMicroInstrucao = null;
+	
 	public static void Cabecalho(boolean executa_por_micro, Processador proc){
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
+		
+		nomeMicroInstrucao = "REND_REC_PC";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
@@ -13,12 +20,18 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
+		
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Get_Endereco_IR_rec_RDados(proc);
 		proc.memoriacontrole.IR_rec_RDados(proc);
+		
+		nomeMicroInstrucao = "IR_REC_RDADOS";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
@@ -47,35 +60,52 @@ public class Instrucoes {
 		
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
+		
+		nomeMicroInstrucao = "IR_REC_RDADOS";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 		
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
+		
+		nomeMicroInstrucao = "IR_REC_RDADOS";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
+		
+		nomeMicroInstrucao = "IR_REC_RDADOS";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
+		
+		nomeMicroInstrucao = "IR_REC_RDADOS";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Get_Endereco_RY_rec_RDados(proc);
 		proc.memoriacontrole.RY_rec_RDados(proc);
+		
+		nomeMicroInstrucao = "IR_REC_RDADOS";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc);
 		proc.memoriacontrole.R0_rec_R0maisRY(proc);
+		
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
