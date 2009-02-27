@@ -251,7 +251,7 @@ public class Comecar extends JFrame implements ActionListener{
 		JLabel statusTitulo = new JLabel("Status: ");
 		statusTitulo.setBounds(0, 0, 100, 100);
 		painelControle.add(statusTitulo);
-		status = new JLabel("Esperando ...");
+		status = new JLabel("Carregue um Programa");
 		status.setFont(new java.awt.Font("Tahoma", Font.PLAIN, 12));
 		status.setBounds(0, 0, 100, 100);
 		painelControle.add(status);
