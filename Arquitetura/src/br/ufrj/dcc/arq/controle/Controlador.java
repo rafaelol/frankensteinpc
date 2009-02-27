@@ -189,6 +189,9 @@ public class Controlador extends Thread {
 			try {
 				
 				while(proc.executa_programa) {
+					
+					Comecar.status.setText("Pronto");
+					
 					mempos = proc.memoria.getMemPos(proc.registrador.pc);	
 					Comecar.listaMemoria.select(Comecar.retornarIndexListMemoria(String.valueOf(mempos)));
 					proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
@@ -222,13 +225,17 @@ public class Controlador extends Thread {
 					
 					while (executa_por_instrucao) {// interrompe a thread
 						sleep(1000 / 80);
+						Comecar.status.setText("Esperando ...");
+						System.out.println("Passando na thread.........");
 					}
 					
 					if (Comecar.cliqueProximoPasso){
 						executa_por_instrucao = true;
-					}
-					
+					}					
 				}
+				Comecar.proximoPasso.setText("Iniciar");
+				Comecar.finalizar.setEnabled(false);
+				Comecar.status.setText("Pronto");
 			} catch (Exception e) {
 				System.out.println("Erro na Thread Controlador");
 			}

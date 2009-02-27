@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.List;
+import java.awt.ScrollPane;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -41,7 +42,7 @@ public class Comecar extends JFrame implements ActionListener{
 	
 	public static List listaMemoria = new List();
 	
-	public static List listaMemoriaControl = new List();
+	public static List listaMemoriaControl = new List(7,false);
 	
 	public static List listaPrograma = new List();
 	
@@ -69,8 +70,6 @@ public class Comecar extends JFrame implements ActionListener{
 		JanelaPrincipal.ProgramaAltura = 640;
 
 		BarraDeMenu menu = new BarraDeMenu();
-		
-		JScrollPane scrollTextAreaControl = new JScrollPane(listaMemoriaControl);
 		
 		Color corMemoriaControl = new Color(255,255,255);
 		
@@ -105,10 +104,14 @@ public class Comecar extends JFrame implements ActionListener{
 		}
 		
 		painelFundo.setBounds(195, 0, 1000, 730);
+		
 		painelMemoria.setBounds(215, 255, 197, 230);
+		
 		painelMemoria.setBackground(corMemoria);
-		painelMemoriaControl.setBounds(842, 300, 0, 110);
-		painelMemoriaControl.setBackground(corMemoriaControl);
+		
+		painelMemoriaControl.setBounds(842, 300, 20, 100);
+		
+		painelMemoriaControl.setBackground(Color.black);
 		
 		painelPrograma.setBounds(10, 290, 175, 300);
 		
@@ -202,14 +205,15 @@ public class Comecar extends JFrame implements ActionListener{
 		 * Lista que ficara na memoria de controle
 		 */
 		
+		colocarNoListMemoriaControle();
+		
 		painelMemoriaControl.setLayout(null);
 		listaMemoriaControl.setBackground(corMemoriaControl);
-		scrollTextAreaControl.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
-		scrollTextAreaControl.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-		scrollTextAreaControl.setBounds(0,0,0,106);
-		painelMemoriaControl.add(scrollTextAreaControl);
+		listaMemoriaControl.setBounds(3,0,122,108);
+		listaMemoriaControl.setFocusable(false);
+		painelMemoriaControl.add(listaMemoriaControl);
+	
 		
-		listaMemoriaControl.setFocusable(true);
 		
 		/*
 		 * Lista que ficara no Programa
@@ -224,9 +228,7 @@ public class Comecar extends JFrame implements ActionListener{
 		/*
 		 * Painel Controle
 		 */
-		
-
-		
+	
 		painelControle.setLayout(new FlowLayout(FlowLayout.CENTER,250,10));
 		proximoPasso = new JButton("Iniciar");
 		proximoPasso.setEnabled(false);
@@ -294,6 +296,221 @@ public class Comecar extends JFrame implements ActionListener{
 		}
 	}
 	
+	public static void colocarNoListMemoriaControle(){
+		listaMemoriaControl.setFont(new java.awt.Font("Tahoma", Font.PLAIN, 9));
+		listaMemoriaControl.add("PC_REC_PCMAIS1"); 
+		listaMemoriaControl.add("IR_REC_RDADOS"); 
+		listaMemoriaControl.add("REND_REC_PC"); 
+		listaMemoriaControl.add("REND_REC_R0"); 
+		listaMemoriaControl.add("REND_REC_R1"); 
+		listaMemoriaControl.add("REND_REC_R2"); 
+		listaMemoriaControl.add("REND_REC_R3"); 
+		listaMemoriaControl.add("REND_REC_R4"); 
+		listaMemoriaControl.add("RY_REC_RDADOS");
+		listaMemoriaControl.add("RY_REC_R0"); 
+		listaMemoriaControl.add("RY_REC_R1"); 
+		listaMemoriaControl.add("RX_REC_RDADOS"); 
+		listaMemoriaControl.add("RX_REC_R2"); 
+		listaMemoriaControl.add("RX_REC_R3"); 
+		listaMemoriaControl.add("RX_REC_R4"); 
+		listaMemoriaControl.add("RDADOS_REC_INFLIDA"); 
+		listaMemoriaControl.add("RDADOS_REC_RDADOSMAISRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R0MAISRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R1MAISRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R2MAISRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R3MAISRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R4MAISRX"); 
+		listaMemoriaControl.add("RDADOS_REC_RYMENOSRDADOS"); 
+		listaMemoriaControl.add("RDADOS_REC_R0MENOSRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R1MENOSRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R2MENOSRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R3MENOSRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R4MENOSRX"); 
+		listaMemoriaControl.add("RDADOS_REC_RY"); 
+		listaMemoriaControl.add("RDADOS_REC_R0"); 
+		listaMemoriaControl.add("RDADOS_REC_R1"); 
+		listaMemoriaControl.add("RDADOS_REC_R2"); 
+		listaMemoriaControl.add("RDADOS_REC_R3"); 
+		listaMemoriaControl.add("RDADOS_REC_R4"); 
+		listaMemoriaControl.add("RDADOS_REC_RDADOSANDRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R0ANDRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R1ANDRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R2ANDRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R3ANDRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R4ANDRX"); 
+		listaMemoriaControl.add("RDADOS_REC_RDADOSORRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R0ORRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R1ORRY"); 
+		listaMemoriaControl.add("RDADOS_REC_R2ORRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R3ORRX"); 
+		listaMemoriaControl.add("RDADOS_REC_R4ORRX"); 
+		listaMemoriaControl.add("RDADOS_REC_NOTRDADOS"); 
+		listaMemoriaControl.add("RDADOS_REC_NEGRDADOS"); 
+		listaMemoriaControl.add("RDADOS_REC_0"); 
+		listaMemoriaControl.add("RDADOS_REC_SHLRDADOS"); 
+		listaMemoriaControl.add("RDADOS_REC_SHRRDADOS"); 
+		listaMemoriaControl.add("R0_REC_R0ANDRY"); 
+		listaMemoriaControl.add("R0_REC_R0ANDR2"); 
+		listaMemoriaControl.add("R0_REC_R0ANDR3");
+		listaMemoriaControl.add("R0_REC_R0ANDR4"); 
+		listaMemoriaControl.add("R0_REC_R0ORRY"); 
+		listaMemoriaControl.add("R0_REC_R0ORR2"); 
+		listaMemoriaControl.add("R0_REC_R0ORR3"); 
+		listaMemoriaControl.add("R0_REC_R0ORR4"); 
+		listaMemoriaControl.add("R0_REC_R0MAISRY"); 
+		listaMemoriaControl.add("R0_REC_R0MAISR2"); 
+		listaMemoriaControl.add("R0_REC_R0MAISR3"); 
+		listaMemoriaControl.add("R0_REC_R0MAISR4"); 
+		listaMemoriaControl.add("R0_REC_RYMENOSR0"); 
+		listaMemoriaControl.add("R0_REC_R2MENOSR0"); 
+		listaMemoriaControl.add("R0_REC_R3MENOSR0"); 
+		listaMemoriaControl.add("R0_REC_R4MENOSR0"); 
+		listaMemoriaControl.add("R0_REC_RDADOS"); 
+		listaMemoriaControl.add("R0_REC_R1"); 
+		listaMemoriaControl.add("R0_REC_R2"); 
+		listaMemoriaControl.add("R0_REC_R3"); 
+		listaMemoriaControl.add("R0_REC_R4"); 
+		listaMemoriaControl.add("R0_REC_NOTR0"); 
+		listaMemoriaControl.add("R0_REC_NEGR0"); 
+		listaMemoriaControl.add("R0_REC_0"); 
+		listaMemoriaControl.add("R0_REC_SHLR0"); 
+		listaMemoriaControl.add("R0_REC_SHRR0"); 
+		listaMemoriaControl.add("R1_REC_R1ANDRY"); 
+		listaMemoriaControl.add("R1_REC_R1ANDR2"); 
+		listaMemoriaControl.add("R1_REC_R1ANDR3"); 
+		listaMemoriaControl.add("R1_REC_R1ANDR4"); 
+		listaMemoriaControl.add("R1_REC_R1ORRY"); 
+		listaMemoriaControl.add("R1_REC_R1ORR2"); 
+		listaMemoriaControl.add("R1_REC_R1ORR3"); 
+		listaMemoriaControl.add("R1_REC_R1ORR4"); 
+		listaMemoriaControl.add("R1_REC_R1MAISRY"); 
+		listaMemoriaControl.add("R1_REC_R1MAISR2"); 
+		listaMemoriaControl.add("R1_REC_R1MAISR3"); 
+		listaMemoriaControl.add("R1_REC_R1MAISR4"); 
+		listaMemoriaControl.add("R1_REC_RYMENOSR1"); 
+		listaMemoriaControl.add("R1_REC_R2MENOSR1"); 
+		listaMemoriaControl.add("R1_REC_R3MENOSR1"); 
+		listaMemoriaControl.add("R1_REC_R4MENOSR1"); 
+		listaMemoriaControl.add("R1_REC_RDADOS"); 
+		listaMemoriaControl.add("R1_REC_R0"); 
+		listaMemoriaControl.add("R1_REC_R2"); 
+		listaMemoriaControl.add("R1_REC_R3"); 
+		listaMemoriaControl.add("R1_REC_R4"); 
+		listaMemoriaControl.add("R1_REC_NOTR1"); 
+		listaMemoriaControl.add("R1_REC_NEGR1"); 
+		listaMemoriaControl.add("R1_REC_0"); 
+		listaMemoriaControl.add("R1_REC_SHLR1"); 
+		listaMemoriaControl.add("R1_REC_SHRR1"); 
+		listaMemoriaControl.add("R2_REC_R2ANDRDADOS");
+		listaMemoriaControl.add("R2_REC_R2ANDR0"); 
+		listaMemoriaControl.add("R2_REC_R2ANDR1"); 
+		listaMemoriaControl.add("R2_REC_R2ANDRX");
+		listaMemoriaControl.add("R2_REC_R2ORRDADOS"); 
+		listaMemoriaControl.add("R2_REC_R2ORR0"); 
+		listaMemoriaControl.add("R2_REC_R2ORR1"); 
+		listaMemoriaControl.add("R2_REC_R2ORRX"); 
+		listaMemoriaControl.add("R2_REC_R2MAISRDADOS"); 
+		listaMemoriaControl.add("R2_REC_R2MAISRX"); 
+		listaMemoriaControl.add("R2_REC_R2MAISR0"); 
+		listaMemoriaControl.add("R2_REC_R2MAISR1"); 
+		listaMemoriaControl.add("R2_REC_RDADOSMENOSR2"); 
+		listaMemoriaControl.add("R2_REC_RXMENOSR2"); 
+		listaMemoriaControl.add("R2_REC_R0MENOSR2");
+		listaMemoriaControl.add("R2_REC_R1MENOSR2"); 
+		listaMemoriaControl.add("R2_REC_RDADOS"); 
+		listaMemoriaControl.add("R2_REC_R0"); 
+		listaMemoriaControl.add("R2_REC_R1"); 
+		listaMemoriaControl.add("R2_REC_R3");
+		listaMemoriaControl.add("R2_REC_R4"); 
+		listaMemoriaControl.add("R2_REC_NOTR2"); 
+		listaMemoriaControl.add("R2_REC_NEGR2"); 
+		listaMemoriaControl.add("R2_REC_0"); 
+		listaMemoriaControl.add("R2_REC_SHLR2"); 
+		listaMemoriaControl.add("R2_REC_SHRR2"); 
+		listaMemoriaControl.add("R3_REC_R3ANDRDADOS"); 
+		listaMemoriaControl.add("R3_REC_R3ANDR0"); 
+		listaMemoriaControl.add("R3_REC_R3ANDR1"); 
+		listaMemoriaControl.add("R3_REC_R3ANDRX"); 
+		listaMemoriaControl.add("R3_REC_R3ORRDADOS"); 
+		listaMemoriaControl.add("R3_REC_R3ORR0"); 
+		listaMemoriaControl.add("R3_REC_R3ORR1"); 
+		listaMemoriaControl.add("R3_REC_R3ORRX"); 
+		listaMemoriaControl.add("R3_REC_R3MAISRDADOS"); 
+		listaMemoriaControl.add("R3_REC_R3MAISRX"); 
+		listaMemoriaControl.add("R3_REC_R3MAISR0"); 
+		listaMemoriaControl.add("R3_REC_R3MAISR1"); 
+		listaMemoriaControl.add("R3_REC_RDADOSMENOSR3"); 
+		listaMemoriaControl.add("R3_REC_RXMENOSR3"); 
+		listaMemoriaControl.add("R3_REC_R0MENOSR3"); 
+		listaMemoriaControl.add("R3_REC_R1MENOSR3"); 
+		listaMemoriaControl.add("R3_REC_RDADOS"); 
+		listaMemoriaControl.add("R3_REC_R0"); 
+		listaMemoriaControl.add("R3_REC_R1"); 
+		listaMemoriaControl.add("R3_REC_R2"); 
+		listaMemoriaControl.add("R3_REC_R4"); 
+		listaMemoriaControl.add("R3_REC_NOTR3"); 
+		listaMemoriaControl.add("R3_REC_NEGR3"); 
+		listaMemoriaControl.add("R3_REC_0"); 
+		listaMemoriaControl.add("R3_REC_SHLR3"); 
+		listaMemoriaControl.add("R3_REC_SHRR3"); 
+		listaMemoriaControl.add("R4_REC_R4ANDRDADOS"); 
+		listaMemoriaControl.add("R4_REC_R4ANDR0"); 
+		listaMemoriaControl.add("R4_REC_R4ANDR1"); 
+		listaMemoriaControl.add("R4_REC_R4ANDRX"); 
+		listaMemoriaControl.add("R4_REC_R4ORRDADOS"); 
+		listaMemoriaControl.add("R4_REC_R4ORR0"); 
+		listaMemoriaControl.add("R4_REC_R4ORR1"); 
+		listaMemoriaControl.add("R4_REC_R4ORRX"); 
+		listaMemoriaControl.add("R4_REC_R4MAISRDADOS"); 
+		listaMemoriaControl.add("R4_REC_R4MAISRX"); 
+		listaMemoriaControl.add("R4_REC_R4MAISR0"); 
+		listaMemoriaControl.add("R4_REC_R4MAISR1"); 
+		listaMemoriaControl.add("R4_REC_RDADOSMENOSR4"); 
+		listaMemoriaControl.add("R4_REC_RXMENOSR4"); 
+		listaMemoriaControl.add("R4_REC_R0MENOSR4"); 
+		listaMemoriaControl.add("R4_REC_R1MENOSR4"); 
+		listaMemoriaControl.add("R4_REC_RDADOS"); 
+		listaMemoriaControl.add("R4_REC_R0"); 
+		listaMemoriaControl.add("R4_REC_R1"); 
+		listaMemoriaControl.add("R4_REC_R2"); 
+		listaMemoriaControl.add("R4_REC_R3"); 
+		listaMemoriaControl.add("R4_REC_NOTR4"); 
+		listaMemoriaControl.add("R4_REC_NEGR4"); 
+		listaMemoriaControl.add("R4_REC_0"); 
+		listaMemoriaControl.add("R4_REC_SHLR4"); 
+		listaMemoriaControl.add("R4_REC_SHRR4"); 
+		listaMemoriaControl.add("RYMENOSR0"); 
+		listaMemoriaControl.add("R2MENOSR0");
+		listaMemoriaControl.add("R3MENOSR0"); 
+		listaMemoriaControl.add("R4MENOSR0"); 
+		listaMemoriaControl.add("RYMENOSR1"); 
+		listaMemoriaControl.add("R2MENOSR1"); 
+		listaMemoriaControl.add("R3MENOSR1"); 
+		listaMemoriaControl.add("R4MENOSR1"); 
+		listaMemoriaControl.add("RDADOSMENOSR2");
+		listaMemoriaControl.add("RXMENOSR2"); 
+		listaMemoriaControl.add("R0MENOSR2");
+		listaMemoriaControl.add("R1MENOSR2"); 
+		listaMemoriaControl.add("RDADOSMENOSR3");
+		listaMemoriaControl.add("RXMENOSR3"); 
+		listaMemoriaControl.add("R0MENOSR3"); 
+		listaMemoriaControl.add("R1MENOSR3"); 
+		listaMemoriaControl.add("RDADOSMENOSR4");
+		listaMemoriaControl.add("RXMENOSR4"); 
+		listaMemoriaControl.add("R0MENOSR4"); 
+		listaMemoriaControl.add("R1MENOSR4"); 
+		listaMemoriaControl.add("RYMENOSRDADOS"); 
+		listaMemoriaControl.add("R0MENOSRY"); 
+		listaMemoriaControl.add("R1MENOSRY"); 
+		listaMemoriaControl.add("R2MENOSRX"); 
+		listaMemoriaControl.add("R3MENOSRX"); 
+		listaMemoriaControl.add("R4MENOSRX"); 
+		listaMemoriaControl.add("RY_REC_PC");
+		listaMemoriaControl.add("PC_REC_RYMAISRDADOS");
+
+		
+	}
+	
 	public static int retornarIndexListMemoria(String item){
 		
 		int indice;
@@ -314,6 +531,21 @@ public class Comecar extends JFrame implements ActionListener{
 		listaPrograma.removeAll();
 		listaPrograma.add("Programa Pronto!");
 		status.setText("Pronto");
+		proximoPasso.setText("Iniciar");
+		finalizar.setEnabled(false);
+		Controlador.executa_por_instrucao = false;
+		Controlador.executa_por_micro = false;
+		cliqueProximoPasso = false;
+		/*
+		 * zera PC no inicio de cada programa.
+		 */
+		PainelPrincipal.pc = "0";
+		
+		/*PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
+		PainelPrincipal.r0 = PainelPrincipal.r1 = PainelPrincipal.r2 = PainelPrincipal.r3 = PainelPrincipal.r4 = PainelPrincipal.rDados = PainelPrincipal.rEnd = PainelPrincipal.ri = PainelPrincipal.rx = PainelPrincipal.ry = "NULO";
+		PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
+		*/
+		painelFundo.repaint();
 	}
 	
 	public void actionPerformed(ActionEvent evt) {
@@ -328,7 +560,7 @@ public class Comecar extends JFrame implements ActionListener{
 				PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
 				
 				if (!modoOperacao.getText().equals("Executar Programa")){
-					proximoPasso.setText("Próximo Passo");
+					proximoPasso.setText("Proximo Passo");
 					finalizar.setEnabled(true);
 				}
 				
@@ -341,14 +573,24 @@ public class Comecar extends JFrame implements ActionListener{
 					controla.start();
 				}
 				
-			}else if(proximoPasso.getText().equals("Próximo Passo")){
+				if(modoOperacao.getText().equals("Executar Instrucao")){
+					Controlador.executa_por_instrucao = true;
+				}
+				if(modoOperacao.getText().equals("Executar MicroInstrucao")){
+					Controlador.executa_por_micro = true;
+				}
+				
+			}else if(proximoPasso.getText().equals("Proximo Passo")){
 				Controlador.executa_por_instrucao = false;
 				cliqueProximoPasso = true;
-			}
+			}			
 		}
 		else if(source == finalizar){
 			proximoPasso.setText("Iniciar");
 			finalizar.setEnabled(false);
+			Controlador.executa_por_instrucao = false;
+			Controlador.executa_por_micro = false;
+			cliqueProximoPasso = false;
 		}
 		
 	}	
