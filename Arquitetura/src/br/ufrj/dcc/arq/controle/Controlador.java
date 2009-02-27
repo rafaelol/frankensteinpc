@@ -62,12 +62,13 @@ public class Controlador{
 		System.out.println("POSICAO 53 = " + proc.memoria.getMemPos(53));
 		System.out.println("POSICAO 54 = " + proc.memoria.getMemPos(54));
 		*/		
-		
 		/*
 		 * O executa_programa fica FALSE quando a instrucao eh HALT.
 		 */
 		while(proc.executa_programa) {
-			mempos = proc.memoria.getMemPos(proc.registrador.pc);
+			mempos = proc.memoria.getMemPos(proc.registrador.pc);	
+			Comecar.listaMemoria.select(Comecar.retornarIndexListMemoria(String.valueOf(mempos)));
+			System.out.println("Numero da linha: " + Comecar.retornarIndexListMemoria("225"));
 			proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
 			while (executa_por_instrucao) {
 				//espera proximo clique
@@ -95,8 +96,6 @@ public class Controlador{
 			System.out.println("****************");
 			System.out.println("Fim da Impressao");
 			System.out.println("****************");
-			
-			//PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
 			RepintaTela(proc);
 		}
 		
