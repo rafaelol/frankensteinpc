@@ -16,9 +16,14 @@ public class PainelPrincipal extends Component{
 	String temp = new String();
 	
 	/*
-	 * Flags
+	 * Sinais
 	 */
 	public static String a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x = new String();
+	
+	/*
+	 * Flags
+	 */
+	public static String zero,sinal,carry,overflow,paridade = new String();
 	
 	/*
 	 * Registradores
@@ -99,7 +104,19 @@ public class PainelPrincipal extends Component{
 		grafico.drawString(j, 201, 538);
 		grafico.drawString(x, 37, 530);
 		
-		grafico.drawString(ri,120,535);
+		grafico.drawString(rEnd,120,535);
 		
+		/*Flags*/
+		
+		grafico.setColor(Color.red);
+		
+		grafico.drawString(zero,483,429);
+		grafico.drawString(sinal,483,445);
+		grafico.drawString(carry,483,461);
+		grafico.drawString(overflow,483,477);
+		grafico.drawString(paridade,483,493);
+		
+		grafico.setColor(Color.black);
+
 	}
 }

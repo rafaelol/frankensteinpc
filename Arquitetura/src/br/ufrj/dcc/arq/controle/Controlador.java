@@ -32,8 +32,8 @@ public class Controlador{
 			//memoria.setMemPos(posicao, valor);
 			proc.memoria.setMemPos(percorreVetorParser, parser.getVetorParser()[percorreVetorParser]);
 		}
-		Comecar.colocarNaMemoria();
 		Comecar.colocarNoListPrograma();
+		Comecar.colocarNaMemoria();
 		// Imprime Posicoes de Memoria
 		/* Comentado. Motivo: Verificado que foi colocado corretamente na memoria. =)
 		System.out.println("\nImpressao da Memoria");
@@ -68,7 +68,7 @@ public class Controlador{
 		while(proc.executa_programa) {
 			mempos = proc.memoria.getMemPos(proc.registrador.pc);	
 			Comecar.listaMemoria.select(Comecar.retornarIndexListMemoria(String.valueOf(mempos)));
-			System.out.println("Numero da linha: " + Comecar.retornarIndexListMemoria("225"));
+			
 			proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
 			while (executa_por_instrucao) {
 				//espera proximo clique
@@ -96,7 +96,7 @@ public class Controlador{
 			System.out.println("****************");
 			System.out.println("Fim da Impressao");
 			System.out.println("****************");
-			RepintaTela(proc);
+			repintaTela(proc);
 		}
 		
 		/*
@@ -113,8 +113,10 @@ public class Controlador{
 		Memoria memoria = new Memoria();
 	}
 	
-	public static void RepintaTela(Processador proc) {
-		// reimprime registradores  
+	public static void repintaTela(Processador proc) {
+		/*
+		 * reimprime registradores
+		 */   
 		PainelPrincipal.r0 = Short.toString(proc.registrador.r0);
 		PainelPrincipal.r1 = Short.toString(proc.registrador.r1);
 		PainelPrincipal.r2 = Short.toString(proc.registrador.r2);
@@ -127,7 +129,9 @@ public class Controlador{
 		PainelPrincipal.ry = Short.toString(proc.registrador.ry);
 		PainelPrincipal.pc = Short.toString(proc.registrador.pc);
 		
-		//reimprime sinais
+		/*
+		 * reimprime sinais
+		 */
 		PainelPrincipal.a = Short.toString(proc.uc.sinais[Uc.A].getValor());
 		PainelPrincipal.b = Short.toString(proc.uc.sinais[Uc.B].getValor());
 		PainelPrincipal.c = Short.toString(proc.uc.sinais[Uc.C].getValor());
@@ -152,6 +156,25 @@ public class Controlador{
 		PainelPrincipal.v = Short.toString(proc.uc.sinais[Uc.V].getValor());
 		PainelPrincipal.w = Short.toString(proc.uc.sinais[Uc.W].getValor());
 		PainelPrincipal.x = Short.toString(proc.uc.sinais[Uc.X].getValor());
+		
+		/*
+		 * reimprime flags
+		 */
+		if(proc.ula.getFlags()[Ula.CARRY] != 0){
+			PainelPrincipal.carry = "x";		
+		}
+		if(proc.ula.getFlags()[Ula.OVERFLOW] != 0){
+			PainelPrincipal.overflow = "x";
+		}
+		if(proc.ula.getFlags()[Ula.PARIDADE] != 0){
+			PainelPrincipal.paridade = "x";
+		}
+		if(proc.ula.getFlags()[Ula.SINAL] != 0){
+			PainelPrincipal.sinal = "x";
+		}
+		if(proc.ula.getFlags()[Ula.ZERO] != 0){
+			PainelPrincipal.zero = "x";
+		}
 		
 		//reimprime flags
 		Comecar.painelFundo.repaint();
