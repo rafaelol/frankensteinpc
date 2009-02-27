@@ -5,12 +5,14 @@ import br.ufrj.dcc.arq.modelo.Memoria;
 import br.ufrj.dcc.arq.modelo.Processador;
 import br.ufrj.dcc.arq.modelo.Ula;
 import br.ufrj.dcc.arq.parse.Parser;
+import br.ufrj.dcc.arq.vista.Comecar;
+import br.ufrj.dcc.arq.vista.PainelPrincipal;
 
 public class Controlador{
 
 	public static boolean executa_por_micro;
 	public static boolean executa_por_instrucao;
-	Processador proc;
+	public static Processador proc;
 	public static Parser parser;
 	Bit bitMemoria;
 	int percorreVetorParser;
@@ -21,13 +23,16 @@ public class Controlador{
 		proc 		= new Processador();
 		parser 		= new Parser(nomeArq);
 		//bitMemoria 	= new Bit((short)0);
-		
-		// Carrega o programa na memoria
+
+		/*
+		 * Carrega o programa na memoria
+		 */ 
 		for (percorreVetorParser = 0; percorreVetorParser < parser.getVetorParser().length; percorreVetorParser++){
 			//memoria.setMemPos(posicao, valor);
 			proc.memoria.setMemPos(percorreVetorParser, parser.getVetorParser()[percorreVetorParser]);
 		}
-		
+		Comecar.colocarNaMemoria();
+		Comecar.colocarNoListPrograma();
 		// Imprime Posicoes de Memoria
 		/* Comentado. Motivo: Verificado que foi colocado corretamente na memoria. =)
 		System.out.println("\nImpressao da Memoria");
@@ -55,10 +60,12 @@ public class Controlador{
 		System.out.println("POSICAO 52 = " + proc.memoria.getMemPos(52));
 		System.out.println("POSICAO 53 = " + proc.memoria.getMemPos(53));
 		System.out.println("POSICAO 54 = " + proc.memoria.getMemPos(54));
-		*/
+		*/		
 		
+		/*
+		 * O executa_programa fica FALSE quando a instrucao eh HALT.
+		 */
 		while(proc.executa_programa) {
-		//while(proc.memoria.getMemPos(percorreVetorParser) != 0) {
 			mempos = proc.memoria.getMemPos(proc.registrador.pc);
 			proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
 			while (executa_por_instrucao) {
@@ -87,6 +94,10 @@ public class Controlador{
 			System.out.println("****************");
 			System.out.println("Fim da Impressao");
 			System.out.println("****************");
+			
+			//PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
+			PainelPrincipal.r0 = "diogo";
+			Comecar.painelFundo.repaint();
 		}
 		
 		/*

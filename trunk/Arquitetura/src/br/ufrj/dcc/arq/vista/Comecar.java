@@ -1,16 +1,23 @@
 package br.ufrj.dcc.arq.vista;
 
 import java.awt.Color;
+import java.awt.FlowLayout;
 import java.awt.List;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
 import br.ufrj.dcc.arq.controle.Controlador;
+import br.ufrj.dcc.arq.parse.Parser;
 
 
-public class Comecar extends JFrame{
+public class Comecar extends JFrame implements ActionListener{
 	
 	/**
 	 * 
@@ -19,17 +26,27 @@ public class Comecar extends JFrame{
 	
 	public static JanelaPrincipal janela = null;
 	
-	static PainelPrincipal painelFundo = null;
+	public static PainelPrincipal painelFundo = null;
 	
 	public static JPanel painelMemoria = null;
 	
 	public static JPanel painelMemoriaControl = null;
 	
-	public static JPanel painelEsquerdo = null;
+	public static JPanel painelPrograma = null;
+	
+	public static JPanel painelControle = null;
 	
 	public static List listaMemoria = new List();
 	
-	public static List listaMemoriaControl = new List();	
+	public static List listaMemoriaControl = new List();
+	
+	public static List listaPrograma = new List();
+	
+	public static JButton proximoPasso = null;
+	
+	public static JButton finalizar = null;
+	
+	public static JLabel modoOperacao = null;
 	
 	/**
 	 * Construtor da Classe. Cria uma nova janela e coloca o Menu e a imagem do
@@ -52,6 +69,8 @@ public class Comecar extends JFrame{
 		
 		Color corMemoria = new Color(198,255,198);
 		
+		JScrollPane scrollTextPrograma = new JScrollPane(listaPrograma);
+		
 		if (painelFundo == null) {
 			painelFundo = new PainelPrincipal();
 		}
@@ -68,8 +87,12 @@ public class Comecar extends JFrame{
 			painelMemoriaControl = new JPanel();
 		}
 		
-		if (painelEsquerdo == null) {
-			painelEsquerdo = new JPanel();
+		if (painelPrograma == null) {
+			painelPrograma = new JPanel();
+		}
+		
+		if (painelControle == null) {
+			painelControle = new JPanel();
 		}
 		
 		painelFundo.setBounds(195, 0, 1000, 730);
@@ -78,12 +101,20 @@ public class Comecar extends JFrame{
 		painelMemoriaControl.setBounds(842, 300, 0, 110);
 		painelMemoriaControl.setBackground(corMemoriaControl);
 		
-		painelEsquerdo.setBounds(0, 0, 195, 730);
+		painelPrograma.setBounds(10, 290, 175, 300);
 		
-		/*Inicia as STRINGS das flags para pintar*/
+		painelPrograma.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Programa"));
+		
+		painelControle.setBounds(10, 10, 175, 280);
+		
+		painelControle.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Controle"));
+		
+		/*
+		 * Inicia as STRINGS das flags, registradores para pintar
+		 */
 		
 		PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
-		
+		PainelPrincipal.r0 = PainelPrincipal.r1 = PainelPrincipal.r2 = PainelPrincipal.r3 = PainelPrincipal.r4 = PainelPrincipal.pc = PainelPrincipal.rDados = PainelPrincipal.rEnd = PainelPrincipal.ri = PainelPrincipal.rx = PainelPrincipal.ry = "NULO";
 		
 		/*
 		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
@@ -96,7 +127,6 @@ public class Comecar extends JFrame{
 		scrollTextArea.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		scrollTextArea.setBounds(0,0,197,230);
 		painelMemoria.add(scrollTextArea);
-		
 		listaMemoria.setFocusable(true);
 
 		/*
@@ -113,24 +143,86 @@ public class Comecar extends JFrame{
 		listaMemoriaControl.setFocusable(true);
 		
 		/*
+		 * Lista que ficara no Programa
+		 */
+		
+		painelPrograma.setLayout(null);
+		scrollTextPrograma.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		scrollTextPrograma.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollTextPrograma.setBounds(10,20,155,270);
+		painelPrograma.add(scrollTextPrograma);
+		
+		/*
+		 * Painel Controle
+		 */
+		painelControle.setLayout(new FlowLayout(FlowLayout.CENTER,0,10));
+		proximoPasso = new JButton("Iniciar");
+		proximoPasso.setEnabled(false);
+		proximoPasso.addActionListener(this);
+		painelControle.add(proximoPasso);
+		
+		JLabel modoOperacaoTitulo = new JLabel("Modo Operacao: ");
+		modoOperacaoTitulo.setBounds(0, 0, 100, 100);
+		painelControle.add(modoOperacaoTitulo);
+		modoOperacao = new JLabel("Executar Programa");
+		painelControle.add(modoOperacao);
+		
+		finalizar = new JButton("Finalizar");
+		finalizar.addActionListener(this);
+		finalizar.setEnabled(false);
+		painelControle.add(finalizar);
+		
+		/*
 		 * Seta a janela
 		 */
-		janela.setLayout(null);
-		janela.add(painelMemoria);
-		janela.add(painelMemoriaControl);
-		janela.add(painelEsquerdo);
-		janela.add(painelFundo);
+		
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		janela.setJMenuBar(menu.getBarraMenu());// Coloca o Menu na Janela
+
+		janela.setLayout(null);
+		janela.add(painelFundo);
+		janela.add(painelMemoria);
+		janela.add(painelPrograma);
+		janela.add(painelMemoriaControl);
+		janela.add(painelControle);
 		janela.setVisible(true);		
 	}
 	
 	public static void colocarNaMemoria(){	
 		
 		listaMemoria.removeAll();
-		for(int cont = 0; cont < Controlador.parser.getVetorParser().length - 1; cont++){
+		for(int cont = 0; cont < Controlador.parser.getVetorParser().length; cont++){
 			listaMemoria.add(Integer.toString(cont + 1) + ". " + String.valueOf(Controlador.parser.getVetorParser()[cont]));
 		}
 		listaMemoria.select(0);
 	}
+	
+	public static void colocarNoListPrograma(){
+		listaPrograma.removeAll();
+		for (int contador=0; contador < Parser.Vet_Linhas.length; contador++){
+			listaPrograma.add(Parser.Vet_Linhas[contador]);
+		}
+	}
+	
+	public void actionPerformed(ActionEvent evt) {
+		Object source = evt.getSource();
+
+		if (source == proximoPasso) {
+			if (!modoOperacao.getText().equals("Executar Programa")){
+				proximoPasso.setText("Próximo Passo");
+				finalizar.setEnabled(true);
+			}
+			Controlador controlador = new Controlador(BarraDeMenu.escolhePrograma.getSelectedFile().toString());
+			
+			Controlador.executa_por_micro = false;
+			Controlador.executa_por_instrucao = false;
+			
+		}
+		else if(source == finalizar){
+			proximoPasso.setText("Iniciar");
+			finalizar.setEnabled(false);
+		}
+		
+	}
+	
 }
