@@ -226,7 +226,6 @@ public class Controlador extends Thread {
 					while (executa_por_instrucao) {// interrompe a thread
 						sleep(1000 / 80);
 						Comecar.status.setText("Esperando ...");
-						System.out.println("Passando na thread.........");
 					}
 					
 					if (Comecar.cliqueProximoPasso){
