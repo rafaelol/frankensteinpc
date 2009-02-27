@@ -6065,7 +6065,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6153,7 +6153,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6241,7 +6241,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6539,7 +6539,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6627,7 +6627,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6715,7 +6715,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7013,7 +7013,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7101,7 +7101,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7189,7 +7189,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7487,7 +7487,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7575,7 +7575,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7663,7 +7663,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7961,7 +7961,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8049,7 +8049,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8137,7 +8137,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12540,7 +12540,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12647,7 +12647,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12754,7 +12754,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13854,7 +13854,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R0menosR2(proc);
 		proc.memoriacontrole.R2_rec_R0menosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R0MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13891,7 +13891,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R0menosR3(proc);
 		proc.memoriacontrole.R3_rec_R0menosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R0MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13928,7 +13928,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R0menosR4(proc);
 		proc.memoriacontrole.R4_rec_R0menosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R0MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14074,7 +14074,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R1menosR2(proc);
 		proc.memoriacontrole.R2_rec_R1menosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R1MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14112,7 +14112,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R1menosR3(proc);
 		proc.memoriacontrole.R3_rec_R1menosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R1MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14149,7 +14149,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R1menosR4(proc);
 		proc.memoriacontrole.R4_rec_R1menosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R1MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14277,7 +14277,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RXmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14331,7 +14331,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RXmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14385,7 +14385,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RXmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14513,7 +14513,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RXmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14567,7 +14567,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RXmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14621,7 +14621,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RXmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14749,7 +14749,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RXmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14803,7 +14803,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RXmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14857,7 +14857,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RXmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18180,7 +18180,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18268,7 +18268,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18356,7 +18356,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18654,7 +18654,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18742,7 +18742,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18830,7 +18830,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19128,7 +19128,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19216,7 +19216,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19304,7 +19304,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19602,7 +19602,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19690,7 +19690,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19778,7 +19778,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20076,7 +20076,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20164,7 +20164,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20252,7 +20252,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24623,7 +24623,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24730,7 +24730,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24837,7 +24837,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25896,7 +25896,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R0(proc);
 		proc.memoriacontrole.R2_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25933,7 +25933,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R0(proc);
 		proc.memoriacontrole.R3_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25970,7 +25970,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R0(proc);
 		proc.memoriacontrole.R4_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26064,7 +26064,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R1(proc);
 		proc.memoriacontrole.R2_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26101,7 +26101,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R1(proc);
 		proc.memoriacontrole.R3_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26138,7 +26138,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R1(proc);
 		proc.memoriacontrole.R4_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26269,7 +26269,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R2(proc);
 		proc.memoriacontrole.R3_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26306,7 +26306,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R2(proc);
 		proc.memoriacontrole.R4_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26417,7 +26417,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R3(proc);
 		proc.memoriacontrole.R2_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26474,7 +26474,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R3(proc);
 		proc.memoriacontrole.R4_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26585,7 +26585,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R4(proc);
 		proc.memoriacontrole.R2_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -26622,7 +26622,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R4(proc);
 		proc.memoriacontrole.R3_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28661,7 +28661,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28749,7 +28749,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28837,7 +28837,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29101,7 +29101,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29189,7 +29189,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29277,7 +29277,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29541,7 +29541,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29629,7 +29629,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29717,7 +29717,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29981,7 +29981,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30069,7 +30069,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30157,7 +30157,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30421,7 +30421,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30509,7 +30509,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30597,7 +30597,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32903,7 +32903,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33027,7 +33027,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33134,7 +33134,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
 		proc.memoriacontrole.RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33241,7 +33241,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
 		proc.memoriacontrole.RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33348,7 +33348,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
 		proc.memoriacontrole.RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33523,7 +33523,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33714,7 +33714,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33905,7 +33905,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34096,7 +34096,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34287,7 +34287,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34357,7 +34357,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34411,7 +34411,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34448,7 +34448,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R0menosR2(proc);
 		proc.memoriacontrole.R0menosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34485,7 +34485,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R0menosR3(proc);
 		proc.memoriacontrole.R0menosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34522,7 +34522,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R0menosR4(proc);
 		proc.memoriacontrole.R0menosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34576,7 +34576,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34631,7 +34631,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34668,7 +34668,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R1menosR2(proc);
 		proc.memoriacontrole.R1menosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34706,7 +34706,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R1menosR3(proc);
 		proc.memoriacontrole.R1menosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34743,7 +34743,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R1menosR4(proc);
 		proc.memoriacontrole.R1menosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34780,7 +34780,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2menosR0(proc);
 		proc.memoriacontrole.R2menosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34817,7 +34817,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2menosR1(proc);
 		proc.memoriacontrole.R2menosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34871,7 +34871,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR2(proc);
 		proc.memoriacontrole.RXmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34925,7 +34925,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR3(proc);
 		proc.memoriacontrole.RXmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34979,7 +34979,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR4(proc);
 		proc.memoriacontrole.RXmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35016,7 +35016,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3menosR0(proc);
 		proc.memoriacontrole.R3menosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35053,7 +35053,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3menosR1(proc);
 		proc.memoriacontrole.R3menosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35107,7 +35107,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR2(proc);
 		proc.memoriacontrole.RXmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35161,7 +35161,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR3(proc);
 		proc.memoriacontrole.RXmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35215,7 +35215,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR4(proc);
 		proc.memoriacontrole.RXmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35252,7 +35252,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4menosR0(proc);
 		proc.memoriacontrole.R4menosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35289,7 +35289,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4menosR1(proc);
 		proc.memoriacontrole.R4menosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35343,7 +35343,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR2(proc);
 		proc.memoriacontrole.RXmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35397,7 +35397,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR3(proc);
 		proc.memoriacontrole.RXmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35451,7 +35451,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RXmenosR4(proc);
 		proc.memoriacontrole.RXmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35556,7 +35556,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
 		proc.memoriacontrole.R0menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35677,7 +35677,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
 		proc.memoriacontrole.R0menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35798,7 +35798,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
 		proc.memoriacontrole.R0menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35919,7 +35919,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
 		proc.memoriacontrole.R0menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36040,7 +36040,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
 		proc.memoriacontrole.R0menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36161,7 +36161,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
 		proc.memoriacontrole.R1menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36282,7 +36282,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
 		proc.memoriacontrole.R1menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36403,7 +36403,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
 		proc.memoriacontrole.R1menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36524,7 +36524,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
 		proc.memoriacontrole.R1menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36645,7 +36645,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
 		proc.memoriacontrole.R1menosRY(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36766,7 +36766,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
 		proc.memoriacontrole.R2menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36887,7 +36887,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
 		proc.memoriacontrole.R2menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37008,7 +37008,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
 		proc.memoriacontrole.R2menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37129,7 +37129,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
 		proc.memoriacontrole.R2menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37250,7 +37250,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
 		proc.memoriacontrole.R2menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37371,7 +37371,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
 		proc.memoriacontrole.R3menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37492,7 +37492,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
 		proc.memoriacontrole.R3menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37613,7 +37613,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
 		proc.memoriacontrole.R3menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37734,7 +37734,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
 		proc.memoriacontrole.R3menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37855,7 +37855,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
 		proc.memoriacontrole.R3menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37976,7 +37976,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
 		proc.memoriacontrole.R4menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38097,7 +38097,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
 		proc.memoriacontrole.R4menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38218,7 +38218,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
 		proc.memoriacontrole.R4menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38339,7 +38339,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
 		proc.memoriacontrole.R4menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38460,7 +38460,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
 		proc.memoriacontrole.R4menosRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38581,7 +38581,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38686,7 +38686,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38774,7 +38774,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
 		proc.memoriacontrole.RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38862,7 +38862,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
 		proc.memoriacontrole.RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38950,7 +38950,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
 		proc.memoriacontrole.RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39055,7 +39055,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39160,7 +39160,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39248,7 +39248,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
 		proc.memoriacontrole.RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39336,7 +39336,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
 		proc.memoriacontrole.RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39424,7 +39424,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
 		proc.memoriacontrole.RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39529,7 +39529,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39634,7 +39634,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39722,7 +39722,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
 		proc.memoriacontrole.RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39810,7 +39810,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
 		proc.memoriacontrole.RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39898,7 +39898,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
 		proc.memoriacontrole.RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40003,7 +40003,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40108,7 +40108,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40196,7 +40196,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
 		proc.memoriacontrole.RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40284,7 +40284,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
 		proc.memoriacontrole.RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40372,7 +40372,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
 		proc.memoriacontrole.RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40477,7 +40477,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
 		proc.memoriacontrole.RYmenosR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40582,7 +40582,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
 		proc.memoriacontrole.RYmenosR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40670,7 +40670,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
 		proc.memoriacontrole.RDadosmenosR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40758,7 +40758,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
 		proc.memoriacontrole.RDadosmenosR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40846,7 +40846,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
 		proc.memoriacontrole.RDadosmenosR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40951,7 +40951,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41124,7 +41124,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41297,7 +41297,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41469,7 +41469,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41641,7 +41641,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41813,7 +41813,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41934,7 +41934,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42106,7 +42106,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42278,7 +42278,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42450,7 +42450,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42622,7 +42622,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42794,7 +42794,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42915,7 +42915,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43087,7 +43087,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43259,7 +43259,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43431,7 +43431,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43603,7 +43603,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43775,7 +43775,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43896,7 +43896,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44068,7 +44068,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44240,7 +44240,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44412,7 +44412,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44584,7 +44584,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44756,7 +44756,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44877,7 +44877,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
 		proc.memoriacontrole.RYmenosRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45249,7 +45249,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45356,7 +45356,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45463,7 +45463,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46563,7 +46563,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andR0(proc);
 		proc.memoriacontrole.R2_rec_R2andR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46600,7 +46600,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andR0(proc);
 		proc.memoriacontrole.R3_rec_R3andR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46637,7 +46637,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andR0(proc);
 		proc.memoriacontrole.R4_rec_R4andR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46782,7 +46782,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andR1(proc);
 		proc.memoriacontrole.R2_rec_R2andR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46819,7 +46819,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andR1(proc);
 		proc.memoriacontrole.R3_rec_R3andR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46856,7 +46856,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andR1(proc);
 		proc.memoriacontrole.R4_rec_R4andR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46984,7 +46984,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRX(proc);
 		proc.memoriacontrole.R2_rec_R2andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47038,7 +47038,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRX(proc);
 		proc.memoriacontrole.R3_rec_R3andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47092,7 +47092,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRX(proc);
 		proc.memoriacontrole.R4_rec_R4andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47220,7 +47220,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRX(proc);
 		proc.memoriacontrole.R2_rec_R2andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47274,7 +47274,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRX(proc);
 		proc.memoriacontrole.R3_rec_R3andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47328,7 +47328,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRX(proc);
 		proc.memoriacontrole.R4_rec_R4andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47456,7 +47456,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRX(proc);
 		proc.memoriacontrole.R2_rec_R2andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47510,7 +47510,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRX(proc);
 		proc.memoriacontrole.R3_rec_R3andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47564,7 +47564,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRX(proc);
 		proc.memoriacontrole.R4_rec_R4andRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50887,7 +50887,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50975,7 +50975,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51063,7 +51063,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51361,7 +51361,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51449,7 +51449,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51537,7 +51537,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51835,7 +51835,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51923,7 +51923,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52011,7 +52011,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52309,7 +52309,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52397,7 +52397,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52485,7 +52485,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52783,7 +52783,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52871,7 +52871,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52959,7 +52959,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57363,7 +57363,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57470,7 +57470,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57577,7 +57577,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58677,7 +58677,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orR0(proc);
 		proc.memoriacontrole.R2_rec_R2orR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58714,7 +58714,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orR0(proc);
 		proc.memoriacontrole.R3_rec_R3orR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58751,7 +58751,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orR0(proc);
 		proc.memoriacontrole.R4_rec_R4orR0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58896,7 +58896,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orR1(proc);
 		proc.memoriacontrole.R2_rec_R2orR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58933,7 +58933,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orR1(proc);
 		proc.memoriacontrole.R3_rec_R3orR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58970,7 +58970,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orR1(proc);
 		proc.memoriacontrole.R4_rec_R4orR1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59098,7 +59098,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc);
 		proc.memoriacontrole.R2_rec_R2orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59152,7 +59152,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc);
 		proc.memoriacontrole.R3_rec_R3orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59206,7 +59206,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc);
 		proc.memoriacontrole.R4_rec_R4orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59334,7 +59334,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc);
 		proc.memoriacontrole.R2_rec_R2orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59388,7 +59388,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc);
 		proc.memoriacontrole.R3_rec_R3orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59442,7 +59442,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc);
 		proc.memoriacontrole.R4_rec_R4orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59570,7 +59570,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc);
 		proc.memoriacontrole.R2_rec_R2orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59624,7 +59624,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc);
 		proc.memoriacontrole.R3_rec_R3orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59678,7 +59678,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc);
 		proc.memoriacontrole.R4_rec_R4orRX(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63001,7 +63001,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63089,7 +63089,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63177,7 +63177,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63475,7 +63475,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63563,7 +63563,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63651,7 +63651,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63949,7 +63949,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64037,7 +64037,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64125,7 +64125,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64423,7 +64423,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64511,7 +64511,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64599,7 +64599,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64897,7 +64897,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64985,7 +64985,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65073,7 +65073,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69233,7 +69233,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_notR2(proc);
 		proc.memoriacontrole.R2_rec_notR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_NOTR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69270,7 +69270,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_notR3(proc);
 		proc.memoriacontrole.R3_rec_notR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_NOTR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69307,7 +69307,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_notR4(proc);
 		proc.memoriacontrole.R4_rec_notR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_NOTR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69940,7 +69940,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_negR2(proc);
 		proc.memoriacontrole.R2_rec_negR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_NEGR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69977,7 +69977,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_negR3(proc);
 		proc.memoriacontrole.R3_rec_negR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_NEGR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70014,7 +70014,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_negR4(proc);
 		proc.memoriacontrole.R4_rec_negR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_NEGR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70647,7 +70647,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_0(proc);
 		proc.memoriacontrole.R2_rec_0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70684,7 +70684,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_0(proc);
 		proc.memoriacontrole.R3_rec_0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70721,7 +70721,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_0(proc);
 		proc.memoriacontrole.R4_rec_0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71184,7 +71184,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_shlR2(proc);
 		proc.memoriacontrole.R2_rec_shlR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_SHLR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71221,7 +71221,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_shlR3(proc);
 		proc.memoriacontrole.R3_rec_shlR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_SHLR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71258,7 +71258,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_shlR4(proc);
 		proc.memoriacontrole.R4_rec_shlR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_SHLR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71891,7 +71891,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R2_rec_shrR2(proc);
 		proc.memoriacontrole.R2_rec_shrR2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_SHRR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71928,7 +71928,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R3_rec_shrR3(proc);
 		proc.memoriacontrole.R3_rec_shrR3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_SHRR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71965,7 +71965,7 @@ public class Instrucoes extends Thread {
 		Cabecalho(proc);
 		proc.memoriacontrole.Get_Endereco_R4_rec_shrR4(proc);
 		proc.memoriacontrole.R4_rec_shrR4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_SHRR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72569,7 +72569,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_RY_rec_PC(proc);
 		proc.memoriacontrole.RY_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RY_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72655,7 +72655,7 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_RYmaisRDados(proc);
 		proc.memoriacontrole.PC_rec_RYmaisRDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_RYMAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
