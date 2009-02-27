@@ -1,2 +1,2 @@
-mov<1,r3>
+mov<1,r0>
 halt

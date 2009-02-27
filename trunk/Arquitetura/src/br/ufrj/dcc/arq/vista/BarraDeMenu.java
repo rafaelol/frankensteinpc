@@ -87,6 +87,7 @@ public class BarraDeMenu implements ActionListener {
 		}
 		else if (source == menuExecutaPrograma) {
 			Controlador.executa_por_instrucao = Controlador.executa_por_micro = false;
+			Comecar.cliqueProximoPassoInstrucao = Comecar.cliqueProximoPassoMicroInstrucao = false;
 			menuExecutaPrograma.setSelected(true);
 			menuExecutaInstrucao.setSelected(false);
 			menuExecutaMicroInstrucao.setSelected(false);

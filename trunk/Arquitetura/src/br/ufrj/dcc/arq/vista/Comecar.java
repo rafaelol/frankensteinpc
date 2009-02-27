@@ -16,6 +16,7 @@ import javax.swing.JScrollPane;
 
 import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.parse.Parser;
+import br.ufrj.dcc.arq.modelo.Instrucoes;
 
 
 public class Comecar extends JFrame implements ActionListener{
@@ -26,6 +27,8 @@ public class Comecar extends JFrame implements ActionListener{
 	private static final long serialVersionUID = 1L;
 	
 	static Thread controla = null;
+	
+	static Instrucoes instrucao = null;
 	
 	public static JanelaPrincipal janela = null;
 	
@@ -56,6 +59,8 @@ public class Comecar extends JFrame implements ActionListener{
 	public static boolean cliqueMenuComecar = true;
 	
 	public static boolean cliqueProximoPassoInstrucao = false;
+	
+	public static boolean cliqueProximoPassoMicroInstrucao = false;
 	
 	/**
 	 * Construtor da Classe. Cria uma nova janela e coloca o Menu e a imagem do
@@ -157,6 +162,7 @@ public class Comecar extends JFrame implements ActionListener{
 		
 		Controlador.executa_por_micro = false;
 		Controlador.executa_por_instrucao = false;
+		Controlador.executa_por_micro = false;
 		
 		/*
 		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
@@ -554,10 +560,14 @@ public class Comecar extends JFrame implements ActionListener{
 		int indice;
 	
 		for(indice = 0; indice < listaMemoriaControl.getItemCount(); indice++){
-			if (listaMemoriaControl.getItem(indice).equals(Integer.toString(indice) + ". " + item)){
+			if (listaMemoriaControl.getItem(indice).equals(item)){
 				break;
 			}
 		}
+		
+		Controlador.repintaTela(Controlador.proc);
+		
+		
 		if (indice == listaMemoriaControl.getItemCount()){
 			return 0;
 		}else{
@@ -574,6 +584,7 @@ public class Comecar extends JFrame implements ActionListener{
 		Controlador.executa_por_instrucao = false;
 		Controlador.executa_por_micro = false;
 		cliqueProximoPassoInstrucao = false;
+		cliqueProximoPassoMicroInstrucao = false;
 		/*
 		 * zera PC no inicio de cada programa.
 		 */
@@ -604,7 +615,9 @@ public class Comecar extends JFrame implements ActionListener{
 				
 				if(cliqueMenuComecar){
 					controla = new Controlador(BarraDeMenu.escolhePrograma.getSelectedFile().toString());
+					instrucao = new Instrucoes();
 					controla.start();
+					instrucao.start();
 				}
 				else{
 					controla = new Controlador("./arquivo/programa.txt");
@@ -619,8 +632,16 @@ public class Comecar extends JFrame implements ActionListener{
 				}
 				
 			}else if(proximoPasso.getText().equals("Proximo Passo")){
-				Controlador.executa_por_instrucao = false;
-				cliqueProximoPassoInstrucao = true;
+				if(modoOperacao.getText().equals("Executar Instrucao")){
+					Controlador.executa_por_instrucao = false;
+					cliqueProximoPassoInstrucao = true;
+				}
+				if(modoOperacao.getText().equals("Executar MicroInstrucao")){
+					Controlador.executa_por_instrucao = false;
+					cliqueProximoPassoInstrucao = false;
+					Controlador.executa_por_micro = false;
+					cliqueProximoPassoMicroInstrucao = true;
+				}
 			}			
 		}
 		else if(source == finalizar){
@@ -629,6 +650,7 @@ public class Comecar extends JFrame implements ActionListener{
 			Controlador.executa_por_instrucao = false;
 			Controlador.executa_por_micro = false;
 			cliqueProximoPassoInstrucao = false;
+			cliqueProximoPassoMicroInstrucao = false;
 		}
 		
 	}	
