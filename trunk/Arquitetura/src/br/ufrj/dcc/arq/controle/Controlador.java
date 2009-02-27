@@ -9,18 +9,25 @@ import br.ufrj.dcc.arq.parse.Parser;
 import br.ufrj.dcc.arq.vista.Comecar;
 import br.ufrj.dcc.arq.vista.PainelPrincipal;
 
-public class Controlador{
+public class Controlador extends Thread {
 
 	public static boolean executa_por_micro;
+	
 	public static boolean executa_por_instrucao;
+	
 	public static Processador proc;
+	
 	public static Parser parser;
-	Bit bitMemoria;
-	int percorreVetorParser;
+	
+	private Bit bitMemoria;
+	
+	private int percorreVetorParser;
+	
+	private short mempos;
 	
 	public Controlador(String nomeArq) {
 		// TODO Auto-generated constructor stub
-		short mempos;
+		
 		proc 		= new Processador();
 		parser 		= new Parser(nomeArq);
 		//bitMemoria 	= new Bit((short)0);
@@ -65,14 +72,10 @@ public class Controlador{
 		/*
 		 * O executa_programa fica FALSE quando a instrucao eh HALT.
 		 */
-		while(proc.executa_programa) {
+		/*while(proc.executa_programa) {
 			mempos = proc.memoria.getMemPos(proc.registrador.pc);	
 			Comecar.listaMemoria.select(Comecar.retornarIndexListMemoria(String.valueOf(mempos)));
-			
 			proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
-			while (executa_por_instrucao) {
-				//espera proximo clique
-			}
 			System.out.println("**********************************");
 			System.out.println("Impressao de Registradores e Flags");
 			System.out.println("**********************************");
@@ -97,7 +100,10 @@ public class Controlador{
 			System.out.println("Fim da Impressao");
 			System.out.println("****************");
 			repintaTela(proc);
-		}
+			while (executa_por_instrucao) {
+				//espera proximo clique
+			}
+		}*/
 		
 		/*
 		System.out.println("POSICAO 50 = " + proc.memoria.getMemPos(50));
@@ -178,5 +184,53 @@ public class Controlador{
 		
 		//reimprime flags
 		Comecar.painelFundo.repaint();
+	}
+	public synchronized void run() {
+			try {
+				
+				while(proc.executa_programa) {
+					mempos = proc.memoria.getMemPos(proc.registrador.pc);	
+					Comecar.listaMemoria.select(Comecar.retornarIndexListMemoria(String.valueOf(mempos)));
+					proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
+					System.out.println("**********************************");
+					System.out.println("Impressao de Registradores e Flags");
+					System.out.println("**********************************");
+					System.out.println("R0 = " + proc.registrador.r0);
+					System.out.println("R1 = " + proc.registrador.r1);
+					System.out.println("R2 = " + proc.registrador.r2);
+					System.out.println("R3 = " + proc.registrador.r3);
+					System.out.println("R4 = " + proc.registrador.r4);
+					System.out.println("PC = " + proc.registrador.pc);
+					System.out.println("RDADOS = " + proc.registrador.rdados);
+					System.out.println("REND = " + proc.registrador.rend);
+					System.out.println("RI = " + proc.registrador.ri);
+					System.out.println("RX = " + proc.registrador.rx);
+					System.out.println("RY = " + proc.registrador.ry);
+					System.out.println("\n");
+					System.out.println("Flag CARRY    = " + proc.ula.getFlags()[Ula.CARRY]);
+					System.out.println("Flag OVERFLOW = " + proc.ula.getFlags()[Ula.OVERFLOW]);
+					System.out.println("Flag PARIDADE = " + proc.ula.getFlags()[Ula.PARIDADE]);
+					System.out.println("Flag SINAL    = " + proc.ula.getFlags()[Ula.SINAL]);
+					System.out.println("Flag ZERO     = " + proc.ula.getFlags()[Ula.ZERO]);
+					System.out.println("****************");
+					System.out.println("Fim da Impressao");
+					System.out.println("****************");
+					repintaTela(proc);
+					/*while (executa_por_instrucao) {
+						//espera proximo clique
+					}*/
+					
+					while (executa_por_instrucao) {// interrompe a thread
+						sleep(1000 / 80);
+					}
+					
+					if (Comecar.cliqueProximoPasso){
+						executa_por_instrucao = true;
+					}
+					
+				}
+			} catch (Exception e) {
+				System.out.println("Erro na Thread Controlador");
+			}
 	}
 }

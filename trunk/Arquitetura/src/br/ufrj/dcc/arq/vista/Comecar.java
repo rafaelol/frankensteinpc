@@ -25,6 +25,8 @@ public class Comecar extends JFrame implements ActionListener{
 	 */
 	private static final long serialVersionUID = 1L;
 	
+	static Thread controla = null;
+	
 	public static JanelaPrincipal janela = null;
 	
 	public static PainelPrincipal painelFundo = null;
@@ -52,6 +54,8 @@ public class Comecar extends JFrame implements ActionListener{
 	public static JLabel status = null;
 	
 	public static boolean cliqueMenuComecar = true;
+	
+	public static boolean cliqueProximoPasso = false;
 	
 	/**
 	 * Construtor da Classe. Cria uma nova janela e coloca o Menu e a imagem do
@@ -121,6 +125,13 @@ public class Comecar extends JFrame implements ActionListener{
 		PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
 		PainelPrincipal.r0 = PainelPrincipal.r1 = PainelPrincipal.r2 = PainelPrincipal.r3 = PainelPrincipal.r4 = PainelPrincipal.pc = PainelPrincipal.rDados = PainelPrincipal.rEnd = PainelPrincipal.ri = PainelPrincipal.rx = PainelPrincipal.ry = "NULO";
 		PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
+		
+		/*
+		 * Coloca falso nas flags executar por instrucao E executar por microinstrucao
+		 */
+		
+		Controlador.executa_por_micro = false;
+		Controlador.executa_por_instrucao = false;
 		
 		/*
 		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
@@ -309,26 +320,31 @@ public class Comecar extends JFrame implements ActionListener{
 		Object source = evt.getSource();
 
 		if (source == proximoPasso) {
-			/*
-			 * limpa flags
-			 */
-			PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
 			
-			if (!modoOperacao.getText().equals("Executar Programa")){
-				proximoPasso.setText("Próximo Passo");
-				finalizar.setEnabled(true);
+			if(proximoPasso.getText().equals("Iniciar")){
+				/*
+				 * limpa flags
+				 */
+				PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
+				
+				if (!modoOperacao.getText().equals("Executar Programa")){
+					proximoPasso.setText("Próximo Passo");
+					finalizar.setEnabled(true);
+				}
+				
+				if(cliqueMenuComecar){
+					controla = new Controlador(BarraDeMenu.escolhePrograma.getSelectedFile().toString());
+					controla.start();
+				}
+				else{
+					controla = new Controlador("./arquivo/programa.txt");
+					controla.start();
+				}
+				
+			}else if(proximoPasso.getText().equals("Próximo Passo")){
+				Controlador.executa_por_instrucao = false;
+				cliqueProximoPasso = true;
 			}
-			
-			if(cliqueMenuComecar){
-				Controlador controlador = new Controlador(BarraDeMenu.escolhePrograma.getSelectedFile().toString());
-			}
-			else{
-				Controlador controlador = new Controlador("./arquivo/programa.txt");
-			}
-			
-			Controlador.executa_por_micro = false;
-			Controlador.executa_por_instrucao = false;
-			
 		}
 		else if(source == finalizar){
 			proximoPasso.setText("Iniciar");
