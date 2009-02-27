@@ -1,6 +1,8 @@
-MOV<2,R0>
-MOV<20,R1>
-MOV<R1,R2>
-MOV<5,R3>
-ADD<R0,R3>
-HALT
+MOV<10,R0>
+ADD<50,R0>
+MOV<3,r3>
+mov<46,r4>
+mov<3,r2>
+add<r3,r2>
+sub<r0,r4>
+halt
