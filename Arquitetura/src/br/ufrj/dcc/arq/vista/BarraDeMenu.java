@@ -67,6 +67,7 @@ public class BarraDeMenu implements ActionListener {
 			if (escolhePrograma.showOpenDialog(escolhePrograma) != JFileChooser.APPROVE_OPTION)   
 			   return;  
 			
+			Comecar.cliqueMenuComecar = true;
 			Comecar.proximoPasso.setEnabled(true);
 			System.out.println("Arquivo selecionado: " + escolhePrograma.getSelectedFile().toString());
 			
