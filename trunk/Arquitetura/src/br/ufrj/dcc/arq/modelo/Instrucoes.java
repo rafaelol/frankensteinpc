@@ -14185,14 +14185,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14200,7 +14200,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14208,7 +14208,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
 		proc.memoriacontrole.R0_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14216,7 +14216,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14227,14 +14227,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14242,7 +14242,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14250,7 +14250,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
 		proc.memoriacontrole.R1_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14258,7 +14258,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14269,14 +14269,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14284,7 +14284,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14292,7 +14292,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14300,7 +14300,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14311,14 +14311,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14326,7 +14326,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14334,7 +14334,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14342,7 +14342,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14353,14 +14353,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14368,7 +14368,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14376,7 +14376,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14384,7 +14384,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14395,14 +14395,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14410,7 +14410,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14418,7 +14418,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
 		proc.memoriacontrole.R0_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14426,7 +14426,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14437,14 +14437,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14452,7 +14452,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14460,7 +14460,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
 		proc.memoriacontrole.R1_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14468,7 +14468,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14479,14 +14479,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14494,7 +14494,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14502,7 +14502,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
 		proc.memoriacontrole.R2_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14510,7 +14510,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14521,14 +14521,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14536,7 +14536,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14544,7 +14544,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
 		proc.memoriacontrole.R3_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14552,7 +14552,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14563,14 +14563,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14578,7 +14578,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14586,7 +14586,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
 		proc.memoriacontrole.R4_rec_RDados(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14594,7 +14594,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14605,7 +14605,7 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14616,14 +14616,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14631,7 +14631,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14639,14 +14639,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14654,7 +14654,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14665,14 +14665,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14680,7 +14680,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14688,14 +14688,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14703,7 +14703,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14714,14 +14714,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14729,7 +14729,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14737,14 +14737,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14752,7 +14752,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14763,14 +14763,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14778,7 +14778,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14786,14 +14786,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14801,7 +14801,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14812,14 +14812,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14827,7 +14827,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14835,14 +14835,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14850,7 +14850,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14861,7 +14861,7 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14872,14 +14872,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14887,7 +14887,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14895,14 +14895,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14910,7 +14910,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14921,14 +14921,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14936,7 +14936,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14944,14 +14944,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14959,7 +14959,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14970,14 +14970,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14985,7 +14985,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -14993,14 +14993,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15008,7 +15008,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15019,14 +15019,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15034,7 +15034,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15042,14 +15042,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15057,7 +15057,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15068,14 +15068,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15083,7 +15083,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15091,14 +15091,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15106,7 +15106,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15117,7 +15117,7 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15128,14 +15128,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15143,7 +15143,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15151,14 +15151,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15166,7 +15166,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15177,14 +15177,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15192,7 +15192,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15200,14 +15200,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15215,7 +15215,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15226,14 +15226,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15241,7 +15241,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15249,14 +15249,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15264,7 +15264,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15275,14 +15275,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15290,7 +15290,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15298,14 +15298,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15313,7 +15313,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15324,14 +15324,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15339,7 +15339,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15347,14 +15347,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15362,7 +15362,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15373,7 +15373,7 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15384,14 +15384,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15399,7 +15399,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15407,14 +15407,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15422,7 +15422,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15433,14 +15433,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15448,7 +15448,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15456,14 +15456,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15471,7 +15471,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15482,14 +15482,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15497,7 +15497,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15505,14 +15505,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15520,7 +15520,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15531,14 +15531,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15546,7 +15546,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15554,14 +15554,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15569,7 +15569,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15580,14 +15580,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15595,7 +15595,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15603,14 +15603,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}		
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15618,7 +15618,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15629,7 +15629,7 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15643,7 +15643,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15651,14 +15651,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15666,7 +15666,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15690,7 +15690,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15702,7 +15702,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15710,14 +15710,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15725,7 +15725,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15749,7 +15749,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15761,7 +15761,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15769,14 +15769,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15784,7 +15784,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15800,7 +15800,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15812,7 +15812,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15820,14 +15820,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15835,7 +15835,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15851,7 +15851,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15863,7 +15863,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15871,14 +15871,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15886,7 +15886,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15902,7 +15902,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15914,7 +15914,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15922,14 +15922,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15937,7 +15937,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15953,14 +15953,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15968,7 +15968,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15983,7 +15983,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -15991,7 +15991,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16003,7 +16003,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16011,14 +16011,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16026,7 +16026,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16042,14 +16042,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16057,7 +16057,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16072,7 +16072,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16080,7 +16080,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16092,7 +16092,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16100,14 +16100,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16115,7 +16115,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16131,14 +16131,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16146,7 +16146,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16161,7 +16161,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16169,7 +16169,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16181,7 +16181,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16189,14 +16189,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16204,7 +16204,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16220,14 +16220,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16235,7 +16235,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16250,7 +16250,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16258,7 +16258,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16270,7 +16270,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16278,14 +16278,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16293,7 +16293,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16309,14 +16309,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16324,7 +16324,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16339,7 +16339,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16347,7 +16347,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16374,7 +16374,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16401,7 +16401,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16420,7 +16420,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16439,7 +16439,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16458,7 +16458,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16485,7 +16485,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16513,7 +16513,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16532,7 +16532,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16552,7 +16552,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16571,7 +16571,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16590,7 +16590,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16609,7 +16609,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16636,7 +16636,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16663,7 +16663,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16690,7 +16690,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16709,7 +16709,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16728,7 +16728,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16755,7 +16755,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16782,7 +16782,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16809,7 +16809,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16828,7 +16828,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16847,7 +16847,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16874,7 +16874,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16901,7 +16901,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16928,7 +16928,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16939,14 +16939,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16954,7 +16954,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16977,7 +16977,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16985,7 +16985,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -16996,14 +16996,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17011,7 +17011,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17034,7 +17034,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17042,7 +17042,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17053,14 +17053,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17068,7 +17068,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17091,7 +17091,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17099,7 +17099,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17110,14 +17110,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17125,7 +17125,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17148,7 +17148,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17156,7 +17156,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17167,14 +17167,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17182,7 +17182,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17205,7 +17205,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17213,7 +17213,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17224,14 +17224,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17239,7 +17239,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17262,7 +17262,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17270,7 +17270,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17281,14 +17281,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17296,7 +17296,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17319,7 +17319,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17327,7 +17327,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17338,14 +17338,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17353,7 +17353,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17376,7 +17376,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17384,7 +17384,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17395,14 +17395,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17410,7 +17410,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17433,7 +17433,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17441,7 +17441,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17452,14 +17452,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17467,7 +17467,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17490,7 +17490,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17498,7 +17498,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17509,14 +17509,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17524,7 +17524,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17547,7 +17547,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17555,7 +17555,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17566,14 +17566,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17581,7 +17581,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17604,7 +17604,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17612,7 +17612,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17623,14 +17623,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17638,7 +17638,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17661,7 +17661,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17669,7 +17669,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17680,14 +17680,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17695,7 +17695,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17718,7 +17718,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17726,7 +17726,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17737,14 +17737,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17752,7 +17752,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17775,7 +17775,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17783,7 +17783,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17794,14 +17794,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17809,7 +17809,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17832,7 +17832,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17840,7 +17840,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17851,14 +17851,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17866,7 +17866,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17889,7 +17889,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17897,7 +17897,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17908,14 +17908,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17923,7 +17923,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17946,7 +17946,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17954,7 +17954,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17965,14 +17965,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -17980,7 +17980,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18003,7 +18003,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18011,7 +18011,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18022,14 +18022,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18037,7 +18037,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18060,7 +18060,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18068,7 +18068,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18079,14 +18079,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18094,7 +18094,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18117,7 +18117,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18125,7 +18125,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18136,14 +18136,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18151,7 +18151,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18174,7 +18174,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18182,7 +18182,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18193,14 +18193,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18208,7 +18208,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18231,7 +18231,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18239,7 +18239,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18250,14 +18250,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18265,7 +18265,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18288,7 +18288,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18296,7 +18296,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18307,14 +18307,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18322,7 +18322,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18345,7 +18345,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18353,7 +18353,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18364,14 +18364,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18379,7 +18379,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18403,7 +18403,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18414,14 +18414,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18429,7 +18429,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18453,7 +18453,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18464,14 +18464,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18479,7 +18479,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18495,7 +18495,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18506,14 +18506,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18521,7 +18521,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18537,7 +18537,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18548,14 +18548,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18563,7 +18563,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18579,7 +18579,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18590,14 +18590,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18605,7 +18605,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18629,7 +18629,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18640,14 +18640,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18655,7 +18655,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18679,7 +18679,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18690,14 +18690,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18705,7 +18705,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18721,7 +18721,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18732,14 +18732,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18747,7 +18747,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18763,7 +18763,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18774,14 +18774,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18789,7 +18789,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18805,7 +18805,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18816,14 +18816,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18831,7 +18831,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18855,7 +18855,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18866,14 +18866,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18881,7 +18881,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18905,7 +18905,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18916,14 +18916,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18931,7 +18931,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18947,7 +18947,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18958,14 +18958,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18973,7 +18973,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -18989,7 +18989,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19000,14 +19000,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19015,7 +19015,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19031,7 +19031,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19042,14 +19042,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19057,7 +19057,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19081,7 +19081,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19092,14 +19092,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19107,7 +19107,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19131,7 +19131,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19142,14 +19142,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19157,7 +19157,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19173,7 +19173,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19184,14 +19184,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19199,7 +19199,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19215,7 +19215,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19226,14 +19226,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19241,7 +19241,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19257,7 +19257,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19268,14 +19268,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19283,7 +19283,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19307,7 +19307,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19318,14 +19318,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19333,7 +19333,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19357,7 +19357,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19368,14 +19368,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19383,7 +19383,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19399,7 +19399,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19410,14 +19410,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19425,7 +19425,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19441,7 +19441,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19452,14 +19452,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19467,7 +19467,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19483,7 +19483,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19494,14 +19494,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19509,7 +19509,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19532,7 +19532,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19540,7 +19540,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19552,14 +19552,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19567,7 +19567,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19583,14 +19583,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19598,7 +19598,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19613,7 +19613,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19621,7 +19621,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19633,14 +19633,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19648,7 +19648,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19664,14 +19664,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19679,7 +19679,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19694,7 +19694,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19702,7 +19702,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19713,14 +19713,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19728,7 +19728,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19744,14 +19744,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19759,7 +19759,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19774,7 +19774,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19782,7 +19782,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19793,14 +19793,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19808,7 +19808,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19824,14 +19824,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19839,7 +19839,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19854,7 +19854,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19862,7 +19862,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19873,14 +19873,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19888,7 +19888,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19904,14 +19904,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19919,7 +19919,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19934,7 +19934,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19942,7 +19942,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19953,14 +19953,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19968,7 +19968,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19991,7 +19991,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -19999,7 +19999,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20010,14 +20010,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20025,7 +20025,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20041,14 +20041,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20056,7 +20056,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20071,7 +20071,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20079,7 +20079,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20090,14 +20090,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20105,7 +20105,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20121,14 +20121,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20136,7 +20136,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20151,7 +20151,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20159,7 +20159,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20170,14 +20170,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20185,7 +20185,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20201,14 +20201,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20216,7 +20216,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20231,7 +20231,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20239,7 +20239,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20250,14 +20250,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20265,7 +20265,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20281,14 +20281,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20296,7 +20296,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20311,7 +20311,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20319,7 +20319,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20330,14 +20330,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20345,7 +20345,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20361,14 +20361,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20376,7 +20376,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20391,7 +20391,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20399,7 +20399,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20410,14 +20410,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20425,7 +20425,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20448,7 +20448,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20456,7 +20456,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20467,14 +20467,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20482,7 +20482,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20498,14 +20498,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20513,7 +20513,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20528,7 +20528,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20536,7 +20536,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20547,14 +20547,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20562,7 +20562,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20578,14 +20578,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20593,7 +20593,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20608,7 +20608,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20616,7 +20616,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20627,14 +20627,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20642,7 +20642,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20658,14 +20658,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20673,7 +20673,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20688,7 +20688,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20696,7 +20696,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20707,14 +20707,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20722,7 +20722,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20738,14 +20738,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20753,7 +20753,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20768,7 +20768,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20776,7 +20776,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20787,14 +20787,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20802,7 +20802,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20818,14 +20818,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20833,7 +20833,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20848,7 +20848,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20856,7 +20856,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20867,14 +20867,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20882,7 +20882,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20905,7 +20905,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20913,7 +20913,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20924,14 +20924,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20939,7 +20939,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20955,14 +20955,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20970,7 +20970,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20985,7 +20985,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -20993,7 +20993,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21004,14 +21004,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21019,7 +21019,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21035,14 +21035,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21050,7 +21050,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21065,7 +21065,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21073,7 +21073,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21084,14 +21084,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21099,7 +21099,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21115,14 +21115,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21130,7 +21130,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21145,7 +21145,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21153,7 +21153,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21164,14 +21164,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21179,7 +21179,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21195,14 +21195,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21210,7 +21210,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21225,7 +21225,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21233,7 +21233,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21244,14 +21244,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21259,7 +21259,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21275,14 +21275,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21290,7 +21290,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21305,7 +21305,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21313,7 +21313,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21324,14 +21324,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21339,7 +21339,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21362,7 +21362,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21370,7 +21370,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21383,7 +21383,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21391,14 +21391,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21406,7 +21406,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21430,7 +21430,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21442,7 +21442,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21450,14 +21450,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21465,7 +21465,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21489,7 +21489,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21501,7 +21501,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21509,14 +21509,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21524,7 +21524,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21540,7 +21540,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21552,7 +21552,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21560,14 +21560,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21575,7 +21575,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21591,7 +21591,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21603,7 +21603,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21611,14 +21611,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21626,7 +21626,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21642,7 +21642,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21654,7 +21654,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21662,14 +21662,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21677,7 +21677,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21693,14 +21693,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21708,7 +21708,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21723,7 +21723,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21731,7 +21731,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21743,7 +21743,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21751,14 +21751,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21766,7 +21766,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21782,14 +21782,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21797,7 +21797,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21812,7 +21812,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21820,7 +21820,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21832,7 +21832,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21840,14 +21840,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21855,7 +21855,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21871,14 +21871,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21886,7 +21886,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21901,7 +21901,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21909,7 +21909,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21921,7 +21921,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21929,14 +21929,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21944,7 +21944,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21960,14 +21960,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21975,7 +21975,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21990,7 +21990,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -21998,7 +21998,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22010,7 +22010,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22018,14 +22018,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22033,7 +22033,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22049,14 +22049,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22064,7 +22064,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22079,7 +22079,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22087,7 +22087,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22114,7 +22114,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22141,7 +22141,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22160,7 +22160,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22179,7 +22179,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22198,7 +22198,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22225,7 +22225,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22252,7 +22252,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22271,7 +22271,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22290,7 +22290,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22309,7 +22309,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22328,7 +22328,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22347,7 +22347,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22374,7 +22374,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22401,7 +22401,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22428,7 +22428,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22447,7 +22447,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22466,7 +22466,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22493,7 +22493,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22520,7 +22520,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22547,7 +22547,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22566,7 +22566,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22585,7 +22585,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22612,7 +22612,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22639,7 +22639,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22666,7 +22666,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22677,14 +22677,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22692,7 +22692,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22715,7 +22715,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22723,7 +22723,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22734,14 +22734,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22749,7 +22749,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22772,7 +22772,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22780,7 +22780,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22791,14 +22791,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22806,7 +22806,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22829,7 +22829,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22837,7 +22837,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22848,14 +22848,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22863,7 +22863,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22886,7 +22886,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22894,7 +22894,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22905,14 +22905,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22920,7 +22920,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22943,7 +22943,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22951,7 +22951,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22962,14 +22962,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -22977,7 +22977,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23000,7 +23000,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23008,7 +23008,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23019,14 +23019,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23034,7 +23034,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23057,7 +23057,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23065,7 +23065,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23076,14 +23076,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23091,7 +23091,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23114,7 +23114,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23122,7 +23122,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23133,14 +23133,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23148,7 +23148,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23171,7 +23171,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23179,7 +23179,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23190,14 +23190,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23205,7 +23205,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23228,7 +23228,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23236,7 +23236,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23247,14 +23247,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23262,7 +23262,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23285,7 +23285,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23293,7 +23293,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23304,14 +23304,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23319,7 +23319,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23342,7 +23342,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23350,7 +23350,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23361,14 +23361,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23376,7 +23376,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23399,7 +23399,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23407,7 +23407,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23418,14 +23418,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23433,7 +23433,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23456,7 +23456,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23464,7 +23464,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23475,14 +23475,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23490,7 +23490,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23513,7 +23513,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23521,7 +23521,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23532,14 +23532,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23547,7 +23547,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23570,7 +23570,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23578,7 +23578,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23589,14 +23589,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23604,7 +23604,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23627,7 +23627,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23635,7 +23635,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23646,14 +23646,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23661,7 +23661,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23684,7 +23684,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23692,7 +23692,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23703,14 +23703,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23718,7 +23718,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23741,7 +23741,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23749,7 +23749,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23760,14 +23760,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23775,7 +23775,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23798,7 +23798,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23806,7 +23806,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23817,14 +23817,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23832,7 +23832,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23855,7 +23855,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23863,7 +23863,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23874,14 +23874,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23889,7 +23889,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23912,7 +23912,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23920,7 +23920,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23931,14 +23931,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23946,7 +23946,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23969,7 +23969,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23977,7 +23977,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -23988,14 +23988,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24003,7 +24003,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24026,7 +24026,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24034,7 +24034,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24045,14 +24045,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24060,7 +24060,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24083,7 +24083,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24091,7 +24091,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24102,14 +24102,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24117,7 +24117,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24141,7 +24141,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24152,14 +24152,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24167,7 +24167,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24191,7 +24191,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24202,14 +24202,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24217,7 +24217,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24233,7 +24233,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24244,14 +24244,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24259,7 +24259,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24275,7 +24275,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24286,14 +24286,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24301,7 +24301,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24317,7 +24317,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24328,14 +24328,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24343,7 +24343,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24367,7 +24367,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24378,14 +24378,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24393,7 +24393,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24417,7 +24417,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24428,14 +24428,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24443,7 +24443,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24459,7 +24459,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24470,14 +24470,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24485,7 +24485,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24501,7 +24501,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24512,14 +24512,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24527,7 +24527,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24543,7 +24543,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24554,14 +24554,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24569,7 +24569,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24593,7 +24593,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24604,14 +24604,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24619,7 +24619,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24643,7 +24643,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24654,14 +24654,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24669,7 +24669,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24685,7 +24685,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24696,14 +24696,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24711,7 +24711,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24727,7 +24727,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24738,14 +24738,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24753,7 +24753,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24769,7 +24769,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24780,14 +24780,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24795,7 +24795,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24819,7 +24819,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24830,14 +24830,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24845,7 +24845,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24869,7 +24869,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24880,14 +24880,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24895,7 +24895,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24911,7 +24911,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24922,14 +24922,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24937,7 +24937,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24953,7 +24953,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24964,14 +24964,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24979,7 +24979,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -24995,7 +24995,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25006,14 +25006,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25021,7 +25021,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25045,7 +25045,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25056,14 +25056,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25071,7 +25071,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25095,7 +25095,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25106,14 +25106,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25121,7 +25121,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25137,7 +25137,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25148,14 +25148,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25163,7 +25163,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25179,7 +25179,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25190,14 +25190,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25205,7 +25205,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25221,7 +25221,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25232,14 +25232,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25247,7 +25247,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25270,7 +25270,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25278,7 +25278,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25290,14 +25290,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25305,7 +25305,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25321,14 +25321,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25336,7 +25336,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25351,7 +25351,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25359,7 +25359,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25371,14 +25371,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25386,7 +25386,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25402,14 +25402,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25417,7 +25417,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25432,7 +25432,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25440,7 +25440,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25451,14 +25451,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25466,7 +25466,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25482,14 +25482,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25497,7 +25497,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25512,7 +25512,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25520,7 +25520,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25531,14 +25531,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25546,7 +25546,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25562,14 +25562,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25577,7 +25577,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25592,7 +25592,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25600,7 +25600,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25611,14 +25611,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25626,7 +25626,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25642,14 +25642,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25657,7 +25657,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25672,7 +25672,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25680,7 +25680,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25691,14 +25691,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25706,7 +25706,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25729,7 +25729,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25737,7 +25737,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25748,14 +25748,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25763,7 +25763,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25779,14 +25779,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25794,7 +25794,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25809,7 +25809,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25817,7 +25817,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25828,14 +25828,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25843,7 +25843,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25859,14 +25859,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25874,7 +25874,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25889,7 +25889,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25897,7 +25897,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25908,14 +25908,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25923,7 +25923,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25939,14 +25939,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25954,7 +25954,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25969,7 +25969,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25977,7 +25977,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -25988,14 +25988,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26003,7 +26003,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26019,14 +26019,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26034,7 +26034,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26049,7 +26049,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26057,7 +26057,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26068,14 +26068,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26083,7 +26083,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26099,14 +26099,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26114,7 +26114,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26129,7 +26129,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26137,7 +26137,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26148,14 +26148,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26163,7 +26163,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26186,7 +26186,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26194,7 +26194,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26205,14 +26205,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26220,7 +26220,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26236,14 +26236,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26251,7 +26251,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26266,7 +26266,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26274,7 +26274,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26285,14 +26285,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26300,7 +26300,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26316,14 +26316,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26331,7 +26331,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26346,7 +26346,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26354,7 +26354,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26365,14 +26365,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26380,7 +26380,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26396,14 +26396,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26411,7 +26411,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26426,7 +26426,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26434,7 +26434,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26445,14 +26445,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26460,7 +26460,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26476,14 +26476,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26491,7 +26491,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26506,7 +26506,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26514,7 +26514,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26525,14 +26525,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26540,7 +26540,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26556,14 +26556,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26571,7 +26571,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26586,7 +26586,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26594,7 +26594,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26605,14 +26605,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26620,7 +26620,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26643,7 +26643,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26651,7 +26651,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26662,14 +26662,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26677,7 +26677,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26693,14 +26693,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26708,7 +26708,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26723,7 +26723,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26731,7 +26731,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26742,14 +26742,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26757,7 +26757,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26773,14 +26773,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26788,7 +26788,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26803,7 +26803,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26811,7 +26811,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26822,14 +26822,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26837,7 +26837,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26853,14 +26853,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26868,7 +26868,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26883,7 +26883,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26891,7 +26891,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26902,14 +26902,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26917,7 +26917,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26933,14 +26933,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26948,7 +26948,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26963,7 +26963,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26971,7 +26971,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26982,14 +26982,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -26997,7 +26997,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27013,14 +27013,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27028,7 +27028,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27043,7 +27043,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27051,7 +27051,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27062,14 +27062,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27077,7 +27077,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27100,7 +27100,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27108,7 +27108,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27122,7 +27122,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27130,14 +27130,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27145,7 +27145,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27169,7 +27169,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27181,7 +27181,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27189,14 +27189,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27204,7 +27204,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27228,7 +27228,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27240,7 +27240,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27248,14 +27248,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27263,7 +27263,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27279,7 +27279,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27291,7 +27291,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27299,14 +27299,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27314,7 +27314,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27330,7 +27330,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27342,7 +27342,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27350,14 +27350,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27365,7 +27365,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27381,7 +27381,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27393,7 +27393,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27401,14 +27401,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27416,7 +27416,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27432,14 +27432,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27447,7 +27447,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27462,7 +27462,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27470,7 +27470,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27482,7 +27482,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27490,14 +27490,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27505,7 +27505,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27521,14 +27521,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27536,7 +27536,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27551,7 +27551,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27559,7 +27559,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27571,7 +27571,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27579,14 +27579,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27594,7 +27594,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27610,14 +27610,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27625,7 +27625,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27640,7 +27640,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27648,7 +27648,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27660,7 +27660,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27668,14 +27668,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27683,7 +27683,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27699,14 +27699,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27714,7 +27714,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27729,7 +27729,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27737,7 +27737,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27749,7 +27749,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27757,14 +27757,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27772,7 +27772,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27788,14 +27788,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27803,7 +27803,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27818,7 +27818,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27826,7 +27826,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27853,7 +27853,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27880,7 +27880,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27899,7 +27899,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27918,7 +27918,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27937,7 +27937,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27964,7 +27964,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -27991,7 +27991,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28010,7 +28010,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28029,7 +28029,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28048,7 +28048,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28067,7 +28067,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28086,7 +28086,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28113,7 +28113,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28140,7 +28140,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28167,7 +28167,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28186,7 +28186,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28205,7 +28205,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28232,7 +28232,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28259,7 +28259,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28286,7 +28286,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28305,7 +28305,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28324,7 +28324,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28351,7 +28351,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28378,7 +28378,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28405,7 +28405,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28416,14 +28416,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28431,7 +28431,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28454,7 +28454,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28462,7 +28462,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28473,14 +28473,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28488,7 +28488,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28511,7 +28511,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28519,7 +28519,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28530,14 +28530,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28545,7 +28545,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28568,7 +28568,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28576,7 +28576,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28587,14 +28587,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28602,7 +28602,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28625,7 +28625,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28633,7 +28633,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28644,14 +28644,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28659,7 +28659,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28682,7 +28682,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28690,7 +28690,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28701,14 +28701,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28716,7 +28716,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28739,7 +28739,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28747,7 +28747,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28758,14 +28758,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28773,7 +28773,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28796,7 +28796,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28804,7 +28804,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28815,14 +28815,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28830,7 +28830,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28853,7 +28853,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28861,7 +28861,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28872,14 +28872,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28887,7 +28887,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28910,7 +28910,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28918,7 +28918,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28929,14 +28929,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28944,7 +28944,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28967,7 +28967,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28975,7 +28975,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -28986,14 +28986,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29001,7 +29001,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29024,7 +29024,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29032,7 +29032,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29043,14 +29043,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29058,7 +29058,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29081,7 +29081,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29089,7 +29089,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29100,14 +29100,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29115,7 +29115,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29138,7 +29138,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29146,7 +29146,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29157,14 +29157,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29172,7 +29172,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29195,7 +29195,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29203,7 +29203,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29214,14 +29214,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29229,7 +29229,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29252,7 +29252,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29260,7 +29260,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29271,14 +29271,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29286,7 +29286,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29309,7 +29309,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29317,7 +29317,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29328,14 +29328,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29343,7 +29343,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29366,7 +29366,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29374,7 +29374,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29385,14 +29385,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29400,7 +29400,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29423,7 +29423,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29431,7 +29431,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29442,14 +29442,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29457,7 +29457,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29480,7 +29480,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29488,7 +29488,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29499,14 +29499,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29514,7 +29514,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29537,7 +29537,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29545,7 +29545,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29556,14 +29556,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29571,7 +29571,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29594,7 +29594,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29602,7 +29602,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29613,14 +29613,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29628,7 +29628,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29651,7 +29651,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29659,7 +29659,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29670,14 +29670,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29685,7 +29685,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29708,7 +29708,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29716,7 +29716,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29727,14 +29727,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29742,7 +29742,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29765,7 +29765,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29773,7 +29773,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29784,14 +29784,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29799,7 +29799,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29822,7 +29822,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29830,7 +29830,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29841,14 +29841,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29856,7 +29856,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29880,7 +29880,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29891,14 +29891,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29906,7 +29906,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29930,7 +29930,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29941,14 +29941,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29956,7 +29956,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29972,7 +29972,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29983,14 +29983,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -29998,7 +29998,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30014,7 +30014,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30025,14 +30025,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30040,7 +30040,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30056,7 +30056,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30067,14 +30067,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30082,7 +30082,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30106,7 +30106,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30117,14 +30117,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30132,7 +30132,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30156,7 +30156,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30167,14 +30167,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30182,7 +30182,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30198,7 +30198,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30209,14 +30209,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30224,7 +30224,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30240,7 +30240,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30251,14 +30251,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30266,7 +30266,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30282,7 +30282,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30293,14 +30293,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30308,7 +30308,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30332,7 +30332,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30343,14 +30343,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30358,7 +30358,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30382,7 +30382,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30393,14 +30393,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30408,7 +30408,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30424,7 +30424,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30435,14 +30435,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30450,7 +30450,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30466,7 +30466,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30477,14 +30477,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30492,7 +30492,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30508,7 +30508,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30519,14 +30519,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30534,7 +30534,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30558,7 +30558,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30569,14 +30569,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30584,7 +30584,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30608,7 +30608,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30619,14 +30619,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30634,7 +30634,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30650,7 +30650,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30661,14 +30661,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30676,7 +30676,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30692,7 +30692,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30703,14 +30703,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30718,7 +30718,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30734,7 +30734,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30745,14 +30745,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30760,7 +30760,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30784,7 +30784,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30795,14 +30795,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30810,7 +30810,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30834,7 +30834,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30845,14 +30845,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30860,7 +30860,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30876,7 +30876,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30887,14 +30887,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30902,7 +30902,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30918,7 +30918,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30929,14 +30929,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30944,7 +30944,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30960,7 +30960,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30971,14 +30971,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -30986,7 +30986,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31009,7 +31009,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31017,7 +31017,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31029,14 +31029,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31044,7 +31044,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31060,14 +31060,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31075,7 +31075,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31090,7 +31090,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31098,7 +31098,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31110,14 +31110,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31125,7 +31125,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31141,14 +31141,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31156,7 +31156,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31171,7 +31171,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31179,7 +31179,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31190,14 +31190,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31205,7 +31205,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31221,14 +31221,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31236,7 +31236,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31251,7 +31251,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31259,7 +31259,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31270,14 +31270,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31285,7 +31285,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31301,14 +31301,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31316,7 +31316,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31331,7 +31331,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31339,7 +31339,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31350,14 +31350,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31365,7 +31365,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31381,14 +31381,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31396,7 +31396,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31411,7 +31411,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31419,7 +31419,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31430,14 +31430,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31445,7 +31445,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31468,7 +31468,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31476,7 +31476,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31487,14 +31487,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31502,7 +31502,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31518,14 +31518,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31533,7 +31533,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31548,7 +31548,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31556,7 +31556,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31567,14 +31567,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31582,7 +31582,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31598,14 +31598,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31613,7 +31613,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31628,7 +31628,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31636,7 +31636,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31647,14 +31647,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31662,7 +31662,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31678,14 +31678,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31693,7 +31693,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31708,7 +31708,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31716,7 +31716,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31727,14 +31727,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31742,7 +31742,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31758,14 +31758,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31773,7 +31773,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31788,7 +31788,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31796,7 +31796,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31807,14 +31807,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31822,7 +31822,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31838,14 +31838,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31853,7 +31853,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31868,7 +31868,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31876,7 +31876,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31887,14 +31887,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31902,7 +31902,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31925,7 +31925,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31933,7 +31933,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31944,14 +31944,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31959,7 +31959,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31975,14 +31975,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -31990,7 +31990,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32005,7 +32005,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32013,7 +32013,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32024,14 +32024,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32039,7 +32039,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32055,14 +32055,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32070,7 +32070,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32085,7 +32085,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32093,7 +32093,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32104,14 +32104,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32119,7 +32119,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32135,14 +32135,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32150,7 +32150,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32165,7 +32165,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32173,7 +32173,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32184,14 +32184,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32199,7 +32199,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32215,14 +32215,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32230,7 +32230,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32245,7 +32245,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32253,7 +32253,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32264,14 +32264,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32279,7 +32279,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32295,14 +32295,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32310,7 +32310,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32325,7 +32325,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32333,7 +32333,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32344,14 +32344,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32359,7 +32359,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32382,7 +32382,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32390,7 +32390,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32401,14 +32401,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32416,7 +32416,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32432,14 +32432,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32447,7 +32447,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32462,7 +32462,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32470,7 +32470,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32481,14 +32481,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32496,7 +32496,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32512,14 +32512,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32527,7 +32527,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32542,7 +32542,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32550,7 +32550,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32561,14 +32561,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32576,7 +32576,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32592,14 +32592,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32607,7 +32607,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32622,7 +32622,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32630,7 +32630,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32641,14 +32641,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32656,7 +32656,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32672,14 +32672,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32687,7 +32687,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32702,7 +32702,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32710,7 +32710,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32721,14 +32721,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32736,7 +32736,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32752,14 +32752,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32767,7 +32767,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32782,7 +32782,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32790,7 +32790,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32801,14 +32801,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32816,7 +32816,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32839,7 +32839,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32847,7 +32847,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32868,7 +32868,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32887,7 +32887,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32906,7 +32906,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32925,7 +32925,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32944,7 +32944,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32955,14 +32955,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32970,7 +32970,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32985,7 +32985,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -32993,7 +32993,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33004,14 +33004,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33019,7 +33019,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33034,7 +33034,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33042,7 +33042,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33053,14 +33053,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33068,7 +33068,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33083,7 +33083,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33091,7 +33091,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33102,14 +33102,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33117,7 +33117,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33132,7 +33132,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33140,7 +33140,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33151,14 +33151,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33166,7 +33166,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33181,7 +33181,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33189,7 +33189,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33210,7 +33210,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33229,7 +33229,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33248,7 +33248,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33267,7 +33267,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33286,7 +33286,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33297,14 +33297,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33312,7 +33312,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33327,7 +33327,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33335,7 +33335,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33346,14 +33346,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33361,7 +33361,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33376,7 +33376,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33384,7 +33384,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33395,14 +33395,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33410,7 +33410,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33425,7 +33425,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33433,7 +33433,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33444,14 +33444,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33459,7 +33459,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33474,7 +33474,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33482,7 +33482,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33493,14 +33493,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33508,7 +33508,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33523,7 +33523,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33531,7 +33531,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33552,7 +33552,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33571,7 +33571,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33590,7 +33590,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33609,7 +33609,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33628,7 +33628,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33639,14 +33639,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33662,7 +33662,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33673,14 +33673,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33696,7 +33696,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33707,14 +33707,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33730,7 +33730,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33741,14 +33741,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33764,7 +33764,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33775,14 +33775,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33798,7 +33798,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33819,7 +33819,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33838,7 +33838,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33857,7 +33857,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33876,7 +33876,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33895,7 +33895,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33906,14 +33906,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33921,7 +33921,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33936,7 +33936,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33944,7 +33944,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33955,14 +33955,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33970,7 +33970,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33985,7 +33985,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -33993,7 +33993,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34004,14 +34004,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34019,7 +34019,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34034,7 +34034,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34042,7 +34042,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34053,14 +34053,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34068,7 +34068,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34083,7 +34083,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34091,7 +34091,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34102,14 +34102,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34117,7 +34117,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34132,7 +34132,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34140,7 +34140,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34161,7 +34161,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34180,7 +34180,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34199,7 +34199,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34218,7 +34218,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34237,7 +34237,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34248,14 +34248,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R0(proc);
 		proc.memoriacontrole.REnd_rec_R0(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34263,7 +34263,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34278,7 +34278,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34286,7 +34286,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34297,14 +34297,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R1(proc);
 		proc.memoriacontrole.REnd_rec_R1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34312,7 +34312,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34327,7 +34327,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34335,7 +34335,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34346,14 +34346,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R2(proc);
 		proc.memoriacontrole.REnd_rec_R2(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34361,7 +34361,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34376,7 +34376,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34384,7 +34384,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34395,14 +34395,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc);
 		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34410,7 +34410,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34425,7 +34425,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34433,7 +34433,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34444,14 +34444,14 @@ public class Instrucoes {
 		Cabecalho(executa_por_micro, proc);
 		proc.memoriacontrole.Get_Endereco_REnd_rec_R4(proc);
 		proc.memoriacontrole.REnd_rec_R4(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34459,7 +34459,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34474,7 +34474,7 @@ public class Instrucoes {
 		}
 
 		proc.memoriacontrole.Escreve(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34482,7 +34482,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34548,7 +34548,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);		
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34556,14 +34556,14 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34571,7 +34571,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -34587,7 +34587,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);		
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
-		nomeMicroInstrucao = "";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
