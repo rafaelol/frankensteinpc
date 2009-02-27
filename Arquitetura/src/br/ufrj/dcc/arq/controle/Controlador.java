@@ -228,7 +228,7 @@ public class Controlador extends Thread {
 						Comecar.status.setText("Esperando ...");
 					}
 					
-					if (Comecar.cliqueProximoPasso){
+					if (Comecar.cliqueProximoPassoInstrucao){
 						executa_por_instrucao = true;
 					}					
 				}

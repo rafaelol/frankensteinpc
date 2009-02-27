@@ -55,7 +55,7 @@ public class Comecar extends JFrame implements ActionListener{
 	
 	public static boolean cliqueMenuComecar = true;
 	
-	public static boolean cliqueProximoPasso = false;
+	public static boolean cliqueProximoPassoInstrucao = false;
 	
 	/**
 	 * Construtor da Classe. Cria uma nova janela e coloca o Menu e a imagem do
@@ -548,6 +548,22 @@ public class Comecar extends JFrame implements ActionListener{
 			return indice;
 		}		
 	}
+
+	public static int retornarIndexListMemoriaControle(String item){
+		
+		int indice;
+	
+		for(indice = 0; indice < listaMemoriaControl.getItemCount(); indice++){
+			if (listaMemoriaControl.getItem(indice).equals(Integer.toString(indice) + ". " + item)){
+				break;
+			}
+		}
+		if (indice == listaMemoriaControl.getItemCount()){
+			return 0;
+		}else{
+			return indice;
+		}		
+	}
 	
 	public static void zeraMemoriaEPrograma(){
 		listaPrograma.removeAll();
@@ -557,7 +573,7 @@ public class Comecar extends JFrame implements ActionListener{
 		finalizar.setEnabled(false);
 		Controlador.executa_por_instrucao = false;
 		Controlador.executa_por_micro = false;
-		cliqueProximoPasso = false;
+		cliqueProximoPassoInstrucao = false;
 		/*
 		 * zera PC no inicio de cada programa.
 		 */
@@ -604,7 +620,7 @@ public class Comecar extends JFrame implements ActionListener{
 				
 			}else if(proximoPasso.getText().equals("Proximo Passo")){
 				Controlador.executa_por_instrucao = false;
-				cliqueProximoPasso = true;
+				cliqueProximoPassoInstrucao = true;
 			}			
 		}
 		else if(source == finalizar){
@@ -612,7 +628,7 @@ public class Comecar extends JFrame implements ActionListener{
 			finalizar.setEnabled(false);
 			Controlador.executa_por_instrucao = false;
 			Controlador.executa_por_micro = false;
-			cliqueProximoPasso = false;
+			cliqueProximoPassoInstrucao = false;
 		}
 		
 	}	

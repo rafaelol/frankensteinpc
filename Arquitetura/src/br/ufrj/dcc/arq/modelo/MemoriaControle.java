@@ -1492,18 +1492,24 @@ public class MemoriaControle {
 	/*****************
 	 * Instruções GET 
 	 *****************/
-	/* Instrucoes PC recebe algo */
+	/*
+	 * Instrucoes PC recebe algo 
+	 */
 	public short Get_Endereco_PC_rec_PCmais1(Processador proc) {
 		return 211;
 	}
 	public short Get_Endereco_PC_rec_RYmaisRDados(Processador proc) {
 		return 213;
 	}
-	/* Instrucoes IR recebe algo */
+	/*
+	 *  Instrucoes IR recebe algo
+	 */ 
 	public short Get_Endereco_IR_rec_RDados(Processador proc) {
 		return 212;
 	}
-	/* Instrucoes REnd recebe algo */
+	 /*
+	  * Instrucoes REnd recebe algo
+	  */ 
 	public short Get_Endereco_REnd_rec_PC(Processador proc) {
 		return 0;
 	}
@@ -1522,7 +1528,9 @@ public class MemoriaControle {
 	public short Get_Endereco_REnd_rec_R4(Processador proc) {
 		return 5;
 	}
-	/* Instrucoes RY recebe algo */
+	 /*
+	  * Instrucoes RY recebe algo
+	  */ 
 	public short Get_Endereco_RY_rec_RDados(Processador proc) {
 		return 48;
 	}
@@ -1535,7 +1543,9 @@ public class MemoriaControle {
 	public short Get_Endereco_RY_rec_PC(Processador proc) {
 		return 214;
 	}
-	/* Instrucoes RX recebe algo */
+	 /*
+	  * Instrucoes RX recebe algo
+	  */ 
 	public short Get_Endereco_RX_rec_RDados(Processador proc) {
 		return 51;
 	}
@@ -1548,7 +1558,9 @@ public class MemoriaControle {
 	public short Get_Endereco_RX_rec_R4(Processador proc) {
 		return 54;
 	}
-	/* Instrucoes RDados recebe algo */
+	 /*
+	  * Instrucoes RDados recebe algo
+	  */ 
 	public short Get_Endereco_RDados_rec_Inflida(Processador proc) {
 		return 6;
 	}
@@ -1657,7 +1669,9 @@ public class MemoriaControle {
 	public short Get_Endereco_RDados_rec_shrRDados(Processador proc) {
 		return 47;
 	}
-	/* Instrucoes R0 recebe algo */
+	 /*
+	  * Instrucoes R0 recebe algo
+	  */ 
 	public short Get_Endereco_R0_rec_R0andRY(Processador proc) {
 		return 68;
 	}
@@ -1736,7 +1750,9 @@ public class MemoriaControle {
 	public short Get_Endereco_R0_rec_shrR0(Processador proc) {
 		return 80;
 	}
-	/* Instrucoes R1 recebe algo */
+	 /*
+	  * Instrucoes R1 recebe algo
+	  */ 
 	public short Get_Endereco_R1_rec_R1andRY(Processador proc) {
 		return 94;
 	}
@@ -1815,7 +1831,9 @@ public class MemoriaControle {
 	public short Get_Endereco_R1_rec_shrR1(Processador proc) {
 		return 106;
 	}
-	/* Instrucoes R2 recebe algo  */
+	 /*
+	  * Instrucoes R2 recebe algo
+	  */  
 	public short Get_Endereco_R2_rec_R2andRDados(Processador proc) {
 		return 120;
 	}
@@ -1894,7 +1912,9 @@ public class MemoriaControle {
 	public short Get_Endereco_R2_rec_shrR2(Processador proc) {
 		return 132;
 	}
-	/* Instrucoes R3 recebe algo */
+	 /*
+	  * Instrucoes R3 recebe algo
+	  */ 
 	public short Get_Endereco_R3_rec_R3andRDados(Processador proc) {
 		return 146;
 	}
@@ -1973,7 +1993,9 @@ public class MemoriaControle {
 	public short Get_Endereco_R3_rec_shrR3(Processador proc) {
 		return 158;
 	}
-	/* Instrucoes R4 recebe algo */
+	 /*
+	  * Instrucoes R4 recebe algo
+	  */ 
 	public short Get_Endereco_R4_rec_R4andRDados(Processador proc) {
 		return 172;
 	}
@@ -2052,7 +2074,9 @@ public class MemoriaControle {
 	public short Get_Endereco_R4_rec_shrR4(Processador proc) {
 		return 184;
 	}
-	/* Instrucoes sem recebe */
+	 /*
+	  * Instrucoes sem recebe
+	  */ 
 	public short Get_Endereco_RYmenosR0(Processador proc) {
 		return 185;
 	}
@@ -2131,7 +2155,6 @@ public class MemoriaControle {
 	public short Get_Endereco_R4menosRX(Processador proc) {
 		return 210;
 	}
-
 
 	private static short[] cria_Vetor(short mux2[], short mux4[], short mux5[], short ula[], short op1, short op2, short rdest) {
 		short vetor[] = new short[TAM_CTRL];
