@@ -61,7 +61,7 @@ public class Instrucoes {
 		proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc);
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
 		
-		nomeMicroInstrucao = "IR_REC_RDADOS";
+		nomeMicroInstrucao = "PC_REC_PCMAIS1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -70,7 +70,7 @@ public class Instrucoes {
 		proc.memoriacontrole.Get_Endereco_REnd_rec_PC(proc);
 		proc.memoriacontrole.REnd_rec_PC(proc);
 		
-		nomeMicroInstrucao = "IR_REC_RDADOS";
+		nomeMicroInstrucao = "REND_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
@@ -78,7 +78,7 @@ public class Instrucoes {
 
 		proc.memoriacontrole.Le(proc);
 		
-		nomeMicroInstrucao = "IR_REC_RDADOS";
+		nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		while (executa_por_micro) {
 			//espera proximo clique
