@@ -4,7 +4,6 @@ import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.List;
-import java.awt.ScrollPane;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -79,6 +78,8 @@ public class Comecar extends JFrame implements ActionListener{
 		
 		JScrollPane scrollTextPrograma = new JScrollPane(listaPrograma);
 		
+		double numAleatorioReg;
+		
 		if (painelFundo == null) {
 			painelFundo = new PainelPrincipal();
 		}
@@ -126,8 +127,29 @@ public class Comecar extends JFrame implements ActionListener{
 		 */
 		
 		PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
-		PainelPrincipal.r0 = PainelPrincipal.r1 = PainelPrincipal.r2 = PainelPrincipal.r3 = PainelPrincipal.r4 = PainelPrincipal.pc = PainelPrincipal.rDados = PainelPrincipal.rEnd = PainelPrincipal.ri = PainelPrincipal.rx = PainelPrincipal.ry = "NULO";
 		PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
+		
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.r0 = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.r1 = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.r2 = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.r3 = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.r4 = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.rDados = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.rEnd = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.ri = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.rx = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 1000*Math.random();
+		PainelPrincipal.ry = Integer.toString((int)numAleatorioReg);
+		PainelPrincipal.pc = "0";
 		
 		/*
 		 * Coloca falso nas flags executar por instrucao E executar por microinstrucao
