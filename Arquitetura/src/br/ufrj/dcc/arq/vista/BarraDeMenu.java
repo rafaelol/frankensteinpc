@@ -22,6 +22,8 @@ public class BarraDeMenu implements ActionListener {
 	private JMenuBar barraMenu = new JMenuBar();
 	
 	public static CriaPrograma clicaNovoPrograma = null;
+	
+	public static JFileChooser escolhePrograma = null;
 
 	// MENU PROGRAMA
 
@@ -60,19 +62,14 @@ public class BarraDeMenu implements ActionListener {
 
 		if (source == menuNovoPrograma) {
 			
-			JFileChooser escolhePrograma = new JFileChooser();  
+			escolhePrograma = new JFileChooser();  
 			escolhePrograma.setFileFilter(new ExtensionFileFilter("Arquivos texto", "txt"));  
 			if (escolhePrograma.showOpenDialog(escolhePrograma) != JFileChooser.APPROVE_OPTION)   
 			   return;  
-			   
+			
+			Comecar.proximoPasso.setEnabled(true);
 			System.out.println("Arquivo selecionado: " + escolhePrograma.getSelectedFile().toString());
-			Controlador controlador = new Controlador(escolhePrograma.getSelectedFile().toString());
-			Controlador.executa_por_micro = false;
-			Controlador.executa_por_instrucao = false;
 			
-			Comecar.colocarNaMemoria();
-			
-			//Parser parser = new Parser(escolhePrograma.getSelectedFile().toString());
 		}
 		else if (source == menuFazerPrograma) {
 			clicaNovoPrograma = new CriaPrograma();
@@ -87,26 +84,30 @@ public class BarraDeMenu implements ActionListener {
 			new Sobre();
 		}
 		else if (source == menuExecutaPrograma) {
-			Controlador.executa_por_instrucao = Controlador.executa_por_micro = false;
+			//Controlador.executa_por_instrucao = Controlador.executa_por_micro = false;
 			menuExecutaPrograma.setSelected(true);
 			menuExecutaInstrucao.setSelected(false);
 			menuExecutaMicroInstrucao.setSelected(false);
+			Comecar.finalizar.setEnabled(false);
+			Comecar.modoOperacao.setText("Executar Programa");
 			System.out.println("Executa Programa Inteiro.");
 		}
 		else if (source == menuExecutaInstrucao) {
-			Controlador.executa_por_instrucao = true;
-			Controlador.executa_por_micro = false;
+			//Controlador.executa_por_instrucao = true;
+			//Controlador.executa_por_micro = false;
 			menuExecutaPrograma.setSelected(false);
 			menuExecutaInstrucao.setSelected(true);
 			menuExecutaMicroInstrucao.setSelected(false);
+			Comecar.modoOperacao.setText("Executar Instrucao");
 			System.out.println("Executa Instrucao do Programa.");
 		}
 		else if (source == menuExecutaMicroInstrucao) {
-			Controlador.executa_por_instrucao = false;
-			Controlador.executa_por_micro = true;
+			//Controlador.executa_por_instrucao = false;
+			//Controlador.executa_por_micro = true;
 			menuExecutaPrograma.setSelected(false);
 			menuExecutaInstrucao.setSelected(false);
 			menuExecutaMicroInstrucao.setSelected(true);
+			Comecar.modoOperacao.setText("Executar MicroInstrucao");
 			System.out.println("Executa MicroInstrucao do Programa.");
 		}
 	}
@@ -188,6 +189,7 @@ public class BarraDeMenu implements ActionListener {
 	private JMenuItem getSubMenuExecutaPrograma() {
 		menuExecutaPrograma.setMnemonic('P');
 		menuExecutaPrograma.setText("Executar Programa");
+		menuExecutaPrograma.setSelected(true);
 		menuExecutaPrograma.addActionListener(this);
 
 		return menuExecutaPrograma;

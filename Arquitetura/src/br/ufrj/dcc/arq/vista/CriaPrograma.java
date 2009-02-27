@@ -10,13 +10,13 @@ import java.awt.event.WindowListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.parse.LerEscreverArquivo;
-import br.ufrj.dcc.arq.parse.Parser;
 
 public class CriaPrograma extends JFrame implements WindowListener, ActionListener{
 
@@ -44,7 +44,9 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 
 	public CriaPrograma (){
 		
-//		 Variavel para saber o tamanho da janela
+		/*
+		 * Variavel para saber o tamanho da janela
+		 */
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
 		Dimension tamanhoPrograma = new Dimension(ProgramaLargura, ProgramaAltura);
@@ -61,7 +63,9 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		
 		painel.setLayout(null);
 		
-		//Adiciona item no painel
+		/*
+		 * Adiciona item no painel
+		 */
 		titulo.setBounds(110, 10, 500, 20);
 		painel.add(titulo);
 		
@@ -74,7 +78,9 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		botaoCarrega.addActionListener(this);
 		painel.add(botaoCarrega);
 		
-		//Mostra a Janela
+		/*
+		 * Mostra a Janela
+		 */
 		add(painel);
 		setSize(tamanhoPrograma);
 		setResizable(false);
@@ -91,13 +97,20 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		if (source == botaoCarrega) {
 			System.out.println(areaTexto.getText());
 			try{
-				arquivoLido = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
-				BarraDeMenu.clicaNovoPrograma = null;
-				Controlador.executa_por_micro = false;
-				Controlador.executa_por_instrucao = false;
-				Controlador controlador = new Controlador("./arquivo/programa.txt");
-				Comecar.colocarNaMemoria();
-				setVisible(false);
+				if(areaTexto.getText().equals("Digite aqui...") || areaTexto.getText().equals("")){
+					JOptionPane.showMessageDialog(null, "Falha ao carregar este programa !\nDigite um programa válido ou feche a janela!", "ERRO", JOptionPane.INFORMATION_MESSAGE);
+				}
+				else{
+					arquivoLido = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
+					BarraDeMenu.clicaNovoPrograma = null;
+					Controlador.executa_por_micro = false;
+					Controlador.executa_por_instrucao = false;
+					Controlador controlador = new Controlador("./arquivo/programa.txt");
+					Comecar.colocarNaMemoria();
+					Comecar.colocarNoListPrograma();
+					Comecar.proximoPasso.setEnabled(true);
+					setVisible(false);
+				}
 			}
 			catch(Exception e){
 				System.out.println("Erro na gravacao do Arquivo - Clique do botao.");
