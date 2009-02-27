@@ -1,2 +1,6 @@
-mov<1,r0>
-halt
+MOV<2,R0>
+MOV<20,R1>
+MOV<R1,R2>
+MOV<5,R3>
+ADD<R0,R3>
+HALT

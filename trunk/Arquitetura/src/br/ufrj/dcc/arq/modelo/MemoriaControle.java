@@ -218,7 +218,6 @@ public class MemoriaControle {
 	public static final short R2MENOSRX[] 					= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR2, Ula.SUBAB, Uc.E, Uc.H, NULO);
 	public static final short R3MENOSRX[] 					= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR3, Ula.SUBAB, Uc.F, Uc.H, NULO);
 	public static final short R4MENOSRX[] 					= cria_Vetor(NULOV, Multiplex4E.PASSARX, Multiplex5E.PASSAR4, Ula.SUBAB, Uc.G, Uc.H, NULO);
-
 	public static final short RY_REC_PC[]					= cria_Vetor(NULOV, NULOV, Multiplex5E.PASSAPC, Ula.PASSAB, Uc.A, NULO, Uc.I);
 	public static final short PC_REC_RYMAISRDADOS[]			= cria_Vetor(NULOV, Multiplex4E.PASSARDADOS, Multiplex5E.PASSARY, Ula.ADD, Uc.B, Uc.I, Uc.A);
 	
