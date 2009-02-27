@@ -194,7 +194,7 @@ public class Controlador extends Thread {
 					
 					mempos = proc.memoria.getMemPos(proc.registrador.pc);	
 					Comecar.listaMemoria.select(Comecar.retornarIndexListMemoria(String.valueOf(mempos)));
-					proc.uc.decodificaEChama(mempos, executa_por_micro, proc);
+					proc.uc.decodificaEChama(mempos, proc);
 					System.out.println("**********************************");
 					System.out.println("Impressao de Registradores e Flags");
 					System.out.println("**********************************");
