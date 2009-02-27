@@ -69,6 +69,7 @@ public class BarraDeMenu implements ActionListener {
 			
 			Comecar.cliqueMenuComecar = true;
 			Comecar.proximoPasso.setEnabled(true);
+			Comecar.zeraMemoriaEPrograma();
 			System.out.println("Arquivo selecionado: " + escolhePrograma.getSelectedFile().toString());
 			
 		}

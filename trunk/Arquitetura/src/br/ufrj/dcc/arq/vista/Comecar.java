@@ -2,6 +2,7 @@ package br.ufrj.dcc.arq.vista;
 
 import java.awt.Color;
 import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -47,6 +48,8 @@ public class Comecar extends JFrame implements ActionListener{
 	public static JButton finalizar = null;
 	
 	public static JLabel modoOperacao = null;
+	
+	public static JLabel status = null;
 	
 	public static boolean cliqueMenuComecar = true;
 	
@@ -117,12 +120,64 @@ public class Comecar extends JFrame implements ActionListener{
 		
 		PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
 		PainelPrincipal.r0 = PainelPrincipal.r1 = PainelPrincipal.r2 = PainelPrincipal.r3 = PainelPrincipal.r4 = PainelPrincipal.pc = PainelPrincipal.rDados = PainelPrincipal.rEnd = PainelPrincipal.ri = PainelPrincipal.rx = PainelPrincipal.ry = "NULO";
+		PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
 		
 		/*
 		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
 		 */
 		listaMemoria.add("Memoria vazia !");
 
+		
+		
+		/*String[] nomeColuna = {"Endereço", "Conteúdo"};
+		Object[][] dados = {
+				{"0","224"},
+				{"0","225"},
+				{"0","226"},
+				{"0","227"},
+				{"0","228"},
+				{"0","229"},
+				{"0","221"},
+				{"0","222"},
+				{"0","223"},
+				{"0","224"},
+				{"0","225"},
+				{"0","226"},
+				{"0","227"},
+				{"0","228"},
+				{"0","229"},
+				{"0","220"},
+				{"0","221"},
+				{"0","222"},
+				{"0","222"},
+				{"0","223"},
+				{"0","224"},
+				{"0","225"},
+				{"0","224"},
+				{"0","224"},
+				{"0","224"}
+			};
+		JTable table = new JTable(dados,nomeColuna);
+		
+		
+		JScrollPane scrollTextArea = new JScrollPane(table);
+		table.setFillsViewportHeight(true);
+		TableColumn column = null;
+		column = table.getColumnModel().getColumn(0);
+		column.setPreferredWidth(15);
+		
+		painelMemoria.setLayout(null);
+		table.setBackground(corMemoria);
+		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		scrollTextArea.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollTextArea.setBounds(0,0,197,230);
+		painelMemoria.add(scrollTextArea);*/
+		
+		
+		
+		listaMemoria.setFocusable(true);		
+		
+		
 		painelMemoria.setLayout(null);
 		listaMemoria.setBackground(corMemoria);
 		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
@@ -158,7 +213,10 @@ public class Comecar extends JFrame implements ActionListener{
 		/*
 		 * Painel Controle
 		 */
-		painelControle.setLayout(new FlowLayout(FlowLayout.CENTER,0,10));
+		
+
+		
+		painelControle.setLayout(new FlowLayout(FlowLayout.CENTER,250,10));
 		proximoPasso = new JButton("Iniciar");
 		proximoPasso.setEnabled(false);
 		proximoPasso.addActionListener(this);
@@ -168,12 +226,23 @@ public class Comecar extends JFrame implements ActionListener{
 		modoOperacaoTitulo.setBounds(0, 0, 100, 100);
 		painelControle.add(modoOperacaoTitulo);
 		modoOperacao = new JLabel("Executar Programa");
+		modoOperacao.setBounds(0, 0, 100, 100);
+		modoOperacao.setFont(new java.awt.Font("Tahoma", Font.PLAIN, 12));
 		painelControle.add(modoOperacao);
 		
 		finalizar = new JButton("Finalizar");
 		finalizar.addActionListener(this);
 		finalizar.setEnabled(false);
 		painelControle.add(finalizar);
+		
+		JLabel statusTitulo = new JLabel("Status: ");
+		statusTitulo.setBounds(0, 0, 100, 100);
+		painelControle.add(statusTitulo);
+		status = new JLabel("Esperando ...");
+		status.setFont(new java.awt.Font("Tahoma", Font.PLAIN, 12));
+		status.setBounds(0, 0, 100, 100);
+		painelControle.add(status);
+		
 		
 		/*
 		 * Seta a janela
@@ -193,11 +262,17 @@ public class Comecar extends JFrame implements ActionListener{
 	}
 	
 	public static void colocarNaMemoria(){	
-		
+		int contadorList;
 		listaMemoria.removeAll();
-		for(int cont = 0; cont < Controlador.parser.getVetorParser().length; cont++){
-			listaMemoria.add(Integer.toString(cont) + ". " + String.valueOf(Controlador.parser.getVetorParser()[cont]));
+		for(contadorList = 0; contadorList < Controlador.parser.getVetorParser().length; contadorList++){
+			listaMemoria.add(Integer.toString(contadorList) + ". " + String.valueOf(Controlador.parser.getVetorParser()[contadorList]));
 		}
+		
+		//fica muito lerdo...
+		/*for(int cont = contadorList; cont < Memoria.TAM_MEM; cont++){
+			listaMemoria.add(Integer.toString(cont) + ". ");
+		}*/
+		
 		listaMemoria.select(0);
 	}
 	
@@ -213,7 +288,7 @@ public class Comecar extends JFrame implements ActionListener{
 		int indice;
 
 		for(indice = 0; indice < listaMemoria.getItemCount(); indice++){
-			if (listaMemoria.getItem(indice).equals(item)){
+			if (listaMemoria.getItem(indice).equals(Integer.toString(indice) + ". " + item)){
 				break;
 			}
 		}
@@ -224,10 +299,21 @@ public class Comecar extends JFrame implements ActionListener{
 		}		
 	}
 	
+	public static void zeraMemoriaEPrograma(){
+		listaPrograma.removeAll();
+		listaPrograma.add("Programa Pronto!");
+		status.setText("Pronto");
+	}
+	
 	public void actionPerformed(ActionEvent evt) {
 		Object source = evt.getSource();
 
 		if (source == proximoPasso) {
+			/*
+			 * limpa flags
+			 */
+			PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
+			
 			if (!modoOperacao.getText().equals("Executar Programa")){
 				proximoPasso.setText("Próximo Passo");
 				finalizar.setEnabled(true);
@@ -239,7 +325,6 @@ public class Comecar extends JFrame implements ActionListener{
 			else{
 				Controlador controlador = new Controlador("./arquivo/programa.txt");
 			}
-			
 			
 			Controlador.executa_por_micro = false;
 			Controlador.executa_por_instrucao = false;

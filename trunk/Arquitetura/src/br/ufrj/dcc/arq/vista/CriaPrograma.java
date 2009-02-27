@@ -106,6 +106,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 					Controlador.executa_por_instrucao = false;
 					Comecar.cliqueMenuComecar = false;
 					Comecar.proximoPasso.setEnabled(true);
+					Comecar.zeraMemoriaEPrograma();
 					setVisible(false);
 				}
 			}
