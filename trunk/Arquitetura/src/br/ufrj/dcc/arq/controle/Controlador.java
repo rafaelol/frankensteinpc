@@ -3,6 +3,7 @@ package br.ufrj.dcc.arq.controle;
 import br.ufrj.dcc.arq.modelo.Bit;
 import br.ufrj.dcc.arq.modelo.Memoria;
 import br.ufrj.dcc.arq.modelo.Processador;
+import br.ufrj.dcc.arq.modelo.Uc;
 import br.ufrj.dcc.arq.modelo.Ula;
 import br.ufrj.dcc.arq.parse.Parser;
 import br.ufrj.dcc.arq.vista.Comecar;
@@ -96,8 +97,7 @@ public class Controlador{
 			System.out.println("****************");
 			
 			//PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
-			PainelPrincipal.r0 = "diogo";
-			Comecar.painelFundo.repaint();
+			RepintaTela(proc);
 		}
 		
 		/*
@@ -112,5 +112,49 @@ public class Controlador{
 	public Controlador(String vetProg[], int tamanho) {
 		Parser parser = new Parser(vetProg,tamanho);
 		Memoria memoria = new Memoria();
+	}
+	
+	public static void RepintaTela(Processador proc) {
+		// reimprime registradores  
+		PainelPrincipal.r0 = Short.toString(proc.registrador.r0);
+		PainelPrincipal.r1 = Short.toString(proc.registrador.r1);
+		PainelPrincipal.r2 = Short.toString(proc.registrador.r2);
+		PainelPrincipal.r3 = Short.toString(proc.registrador.r3);
+		PainelPrincipal.r4 = Short.toString(proc.registrador.r4);
+		PainelPrincipal.rDados = Short.toString(proc.registrador.rdados);
+		PainelPrincipal.rEnd = Short.toString(proc.registrador.rend);
+		PainelPrincipal.ri = Short.toString(proc.registrador.ri);
+		PainelPrincipal.rx = Short.toString(proc.registrador.rx);
+		PainelPrincipal.ry = Short.toString(proc.registrador.ry);
+		PainelPrincipal.pc = Short.toString(proc.registrador.pc);
+		
+		//reimprime sinais
+		PainelPrincipal.a = Short.toString(proc.uc.sinais[Uc.A].getValor());
+		PainelPrincipal.b = Short.toString(proc.uc.sinais[Uc.B].getValor());
+		PainelPrincipal.c = Short.toString(proc.uc.sinais[Uc.C].getValor());
+		PainelPrincipal.d = Short.toString(proc.uc.sinais[Uc.D].getValor());
+		PainelPrincipal.e = Short.toString(proc.uc.sinais[Uc.E].getValor());
+		PainelPrincipal.f = Short.toString(proc.uc.sinais[Uc.F].getValor());
+		PainelPrincipal.g = Short.toString(proc.uc.sinais[Uc.G].getValor());
+		PainelPrincipal.h = Short.toString(proc.uc.sinais[Uc.H].getValor());
+		PainelPrincipal.i = Short.toString(proc.uc.sinais[Uc.I].getValor());
+		PainelPrincipal.j = Short.toString(proc.uc.sinais[Uc.J].getValor());
+		PainelPrincipal.k = Short.toString(proc.uc.sinais[Uc.K].getValor());
+		PainelPrincipal.l = Short.toString(proc.uc.sinais[Uc.L].getValor());
+		PainelPrincipal.m = Short.toString(proc.uc.sinais[Uc.M].getValor());
+		PainelPrincipal.n = Short.toString(proc.uc.sinais[Uc.N].getValor());
+		PainelPrincipal.o = Short.toString(proc.uc.sinais[Uc.O].getValor());
+		PainelPrincipal.p = Short.toString(proc.uc.sinais[Uc.P].getValor());
+		PainelPrincipal.q = Short.toString(proc.uc.sinais[Uc.Q].getValor());
+		PainelPrincipal.r = Short.toString(proc.uc.sinais[Uc.R].getValor());
+		PainelPrincipal.s = Short.toString(proc.uc.sinais[Uc.S].getValor());
+		PainelPrincipal.t = Short.toString(proc.uc.sinais[Uc.T].getValor());
+		PainelPrincipal.u = Short.toString(proc.uc.sinais[Uc.U].getValor());
+		PainelPrincipal.v = Short.toString(proc.uc.sinais[Uc.V].getValor());
+		PainelPrincipal.w = Short.toString(proc.uc.sinais[Uc.W].getValor());
+		PainelPrincipal.x = Short.toString(proc.uc.sinais[Uc.X].getValor());
+		
+		//reimprime flags
+		Comecar.painelFundo.repaint();
 	}
 }

@@ -1,2 +1,5 @@
-mov<2,r2>
+mov <10, r0>
+mov <20, r1>
+mov <30,r2>
+add <r0,r1>
 halt
