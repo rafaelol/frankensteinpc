@@ -102,12 +102,9 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 				}
 				else{
 					arquivoLido = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
-					BarraDeMenu.clicaNovoPrograma = null;
 					Controlador.executa_por_micro = false;
 					Controlador.executa_por_instrucao = false;
-					Controlador controlador = new Controlador("./arquivo/programa.txt");
-					Comecar.colocarNaMemoria();
-					Comecar.colocarNoListPrograma();
+					Comecar.cliqueMenuComecar = false;
 					Comecar.proximoPasso.setEnabled(true);
 					setVisible(false);
 				}
