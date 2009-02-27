@@ -48,6 +48,8 @@ public class Comecar extends JFrame implements ActionListener{
 	
 	public static JLabel modoOperacao = null;
 	
+	public static boolean cliqueMenuComecar = true;
+	
 	/**
 	 * Construtor da Classe. Cria uma nova janela e coloca o Menu e a imagem do
 	 * Menu.
@@ -120,13 +122,14 @@ public class Comecar extends JFrame implements ActionListener{
 		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
 		 */
 		listaMemoria.add("Memoria vazia !");
-		
+
 		painelMemoria.setLayout(null);
 		listaMemoria.setBackground(corMemoria);
 		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		scrollTextArea.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		scrollTextArea.setBounds(0,0,197,230);
 		painelMemoria.add(scrollTextArea);
+		
 		listaMemoria.setFocusable(true);
 
 		/*
@@ -185,14 +188,15 @@ public class Comecar extends JFrame implements ActionListener{
 		janela.add(painelPrograma);
 		janela.add(painelMemoriaControl);
 		janela.add(painelControle);
-		janela.setVisible(true);		
+		janela.setVisible(true);
+		
 	}
 	
 	public static void colocarNaMemoria(){	
 		
 		listaMemoria.removeAll();
 		for(int cont = 0; cont < Controlador.parser.getVetorParser().length; cont++){
-			listaMemoria.add(Integer.toString(cont + 1) + ". " + String.valueOf(Controlador.parser.getVetorParser()[cont]));
+			listaMemoria.add(Integer.toString(cont) + ". " + String.valueOf(Controlador.parser.getVetorParser()[cont]));
 		}
 		listaMemoria.select(0);
 	}
@@ -204,6 +208,22 @@ public class Comecar extends JFrame implements ActionListener{
 		}
 	}
 	
+	public static int retornarIndexListMemoria(String item){
+		
+		int indice;
+
+		for(indice = 0; indice < listaMemoria.getItemCount(); indice++){
+			if (listaMemoria.getItem(indice).equals(item)){
+				break;
+			}
+		}
+		if (indice == listaMemoria.getItemCount()){
+			return 0;
+		}else{
+			return indice;
+		}		
+	}
+	
 	public void actionPerformed(ActionEvent evt) {
 		Object source = evt.getSource();
 
@@ -212,7 +232,14 @@ public class Comecar extends JFrame implements ActionListener{
 				proximoPasso.setText("Próximo Passo");
 				finalizar.setEnabled(true);
 			}
-			Controlador controlador = new Controlador(BarraDeMenu.escolhePrograma.getSelectedFile().toString());
+			
+			if(cliqueMenuComecar){
+				Controlador controlador = new Controlador(BarraDeMenu.escolhePrograma.getSelectedFile().toString());
+			}
+			else{
+				Controlador controlador = new Controlador("./arquivo/programa.txt");
+			}
+			
 			
 			Controlador.executa_por_micro = false;
 			Controlador.executa_por_instrucao = false;
@@ -223,6 +250,5 @@ public class Comecar extends JFrame implements ActionListener{
 			finalizar.setEnabled(false);
 		}
 		
-	}
-	
+	}	
 }
