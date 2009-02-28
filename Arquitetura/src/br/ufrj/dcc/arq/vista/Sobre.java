@@ -36,14 +36,14 @@ public class Sobre extends JFrame implements WindowListener{
 		
 		desenvolvedores = new JLabel("Desenvolvido por: Diogo Borges, Francisco Vianna, Jonas Areas e Rafael Lopes");
 		
-		professor = new JLabel("Professor: Ageu - Período: 2008/2");
+		professor = new JLabel("Professor: Ageu - Periodo: 2008/2");
 		
 		painel = new JPanel();
 		
 		
 		painel.setLayout(null);
 		
-		//Adiciona item no painel
+		//Adiciona Titulo no painel
 		titulo.setBounds(185, 10, 500, 20);
 		painel.add(titulo);
 		

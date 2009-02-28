@@ -2,17 +2,16 @@ package br.ufrj.dcc.arq.vista;
  import java.io.File;  
  import java.util.List;  
    
- /** A simple windows like file filter. */  
+ /**
+  * Filtro do Arquivo
+  */ 
  public class ExtensionFileFilter extends javax.swing.filechooser.FileFilter  
  {  
      String[] extensions;  
      String description;  
    
-     /** 
-      * Creates a file filter with several extensions. 
-      *  
-      * @param descr The filter description. 
-      * @param exts The extensions that the filter supports. 
+     /**  
+      * Cria o filtro do arquivo com varias extensoes  
       */  
      public ExtensionFileFilter(String descr, String... exts)  
      {  

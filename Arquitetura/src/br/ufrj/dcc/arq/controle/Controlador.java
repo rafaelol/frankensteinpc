@@ -10,6 +10,10 @@ import br.ufrj.dcc.arq.parse.Parser;
 import br.ufrj.dcc.arq.vista.Comecar;
 import br.ufrj.dcc.arq.vista.PainelPrincipal;
 
+/***
+ * Classe que faz  ligacao do Modelo com a Vista
+ */
+
 public class Controlador extends Thread {
 
 	public static boolean executa_por_micro;
@@ -30,11 +34,11 @@ public class Controlador extends Thread {
 		proc 		= new Processador();
 		parser 		= new Parser(nomeArq);
 
-		/*
+		/****
 		 * Carrega o programa na memoria
 		 */ 
 		for (percorreVetorParser = 0; percorreVetorParser < parser.getVetorParser().length; percorreVetorParser++){
-			//memoria.setMemPos(posicao, valor);
+
 			proc.memoria.setMemPos(percorreVetorParser, parser.getVetorParser()[percorreVetorParser]);
 		}
 		Comecar.colocarNoListPrograma();
@@ -47,7 +51,7 @@ public class Controlador extends Thread {
 	}
 	
 	public static void repintaTela(Processador proc) {
-		/*
+		/***
 		 * reimprime registradores
 		 */   
 		PainelPrincipal.r0 = Short.toString(proc.registrador.r0);
@@ -62,7 +66,7 @@ public class Controlador extends Thread {
 		PainelPrincipal.ry = Short.toString(proc.registrador.ry);
 		PainelPrincipal.pc = Short.toString(proc.registrador.pc);
 		
-		/*
+		/***
 		 * reimprime sinais
 		 */
 		PainelPrincipal.a = Short.toString(proc.uc.sinais[Uc.A].getValor());
@@ -90,7 +94,7 @@ public class Controlador extends Thread {
 		PainelPrincipal.w = Short.toString(proc.uc.sinais[Uc.W].getValor());
 		PainelPrincipal.x = Short.toString(proc.uc.sinais[Uc.X].getValor());
 		
-		/*
+		/***
 		 * reimprime flags
 		 */
 		if(proc.ula.getFlags()[Ula.CARRY] != 0){
@@ -109,7 +113,9 @@ public class Controlador extends Thread {
 			PainelPrincipal.zero = "x";
 		}
 		
-		//reimprime flags
+		/***
+		 * reimprime flags
+		 */
 		Comecar.painelFundo.repaint();
 	}
 	public synchronized void run() {
@@ -151,9 +157,6 @@ public class Controlador extends Thread {
 					System.out.println("Fim da Impressao");
 					System.out.println("****************");
 					repintaTela(proc);
-					/*while (executa_por_instrucao) {
-						//espera proximo clique
-					}*/
 					
 					while (executa_por_instrucao) {// interrompe a thread
 						sleep(1000 / 80);

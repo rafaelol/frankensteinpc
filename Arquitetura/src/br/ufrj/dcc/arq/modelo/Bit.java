@@ -1,5 +1,9 @@
 package br.ufrj.dcc.arq.modelo;
-
+/**
+ * Classe responsavel pelos Bits da Arquitetura
+ * @author Programa Arquitetura
+ *
+ */
 public class Bit {
 	
 	private short valor;

@@ -22,7 +22,7 @@ import br.ufrj.dcc.arq.parse.Parser;
 public class Comecar extends JFrame implements ActionListener{
 	
 	/**
-	 * 
+	 * Classe responsavel por iniciar a execucao do Programa.
 	 */
 	private static final long serialVersionUID = 1L;
 	
@@ -127,7 +127,7 @@ public class Comecar extends JFrame implements ActionListener{
 		
 		painelControle.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Controle"));
 		
-		/*
+		/**
 		 * Inicia as STRINGS das flags, registradores para pintar
 		 */
 		
@@ -159,7 +159,7 @@ public class Comecar extends JFrame implements ActionListener{
 		PainelPrincipal.rEndUC = Integer.toString((int)numAleatorioReg);
 		PainelPrincipal.pc = "0";
 		
-		/*
+		/**
 		 * Coloca falso nas flags executar por instrucao E executar por microinstrucao
 		 */
 		
@@ -167,11 +167,10 @@ public class Comecar extends JFrame implements ActionListener{
 		Controlador.executa_por_instrucao = false;
 		Controlador.executa_por_micro = false;
 		
-		/*
+		/**
 		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
 		 */
 		
-//		listaMemoria.add("Memoria vazia !");
 		inicializaListMemoria();
 
 		listaMemoria.setFocusable(true);		
@@ -186,7 +185,7 @@ public class Comecar extends JFrame implements ActionListener{
 		
 		listaMemoria.setFocusable(true);
 
-		/*
+		/**
 		 * Lista que ficara na memoria de controle
 		 */
 		
@@ -200,7 +199,7 @@ public class Comecar extends JFrame implements ActionListener{
 	
 		
 		
-		/*
+		/**
 		 * Lista que ficara no Programa
 		 */
 		
@@ -210,7 +209,7 @@ public class Comecar extends JFrame implements ActionListener{
 		scrollTextPrograma.setBounds(10,20,155,270);
 		painelPrograma.add(scrollTextPrograma);
 		
-		/*
+		/**
 		 * Painel Controle
 		 */
 	
@@ -242,12 +241,12 @@ public class Comecar extends JFrame implements ActionListener{
 		painelControle.add(status);
 		
 		
-		/*
+		/**
 		 * Seta a janela
 		 */
 		
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		janela.setJMenuBar(menu.getBarraMenu());// Coloca o Menu na Janela
+		janela.setJMenuBar(menu.getBarraMenu());
 
 		janela.setLayout(null);
 		janela.add(painelFundo);
@@ -261,7 +260,6 @@ public class Comecar extends JFrame implements ActionListener{
 	
 	public static void colocarNaMemoria(){	
 		int contadorList;
-		//listaMemoria.removeAll();
 		
 		for(contadorList = 0; contadorList < Parser.qnt_codigo; contadorList++){
 			listaMemoria.replaceItem(Integer.toString(contadorList) + ". " + String.valueOf(Controlador.parser.getVetorParser()[contadorList]),contadorList);
@@ -554,15 +552,11 @@ public class Comecar extends JFrame implements ActionListener{
 		Controlador.executa_por_micro = false;
 		cliqueProximoPassoInstrucao = false;
 		cliqueProximoPassoMicroInstrucao = false;
-		/*
+		/**
 		 * zera PC no inicio de cada programa.
 		 */
 		PainelPrincipal.pc = "0";
 		
-		/*PainelPrincipal.a = PainelPrincipal.b = PainelPrincipal.c = PainelPrincipal.d = PainelPrincipal.e = PainelPrincipal.f = PainelPrincipal.g = PainelPrincipal.h = PainelPrincipal.i = PainelPrincipal.j = PainelPrincipal.k = PainelPrincipal.l = PainelPrincipal.m = PainelPrincipal.n = PainelPrincipal.o = PainelPrincipal.p = PainelPrincipal.q = PainelPrincipal.r = PainelPrincipal.s = PainelPrincipal.t = PainelPrincipal.u = PainelPrincipal.v = PainelPrincipal.w = PainelPrincipal.x = "0";
-		PainelPrincipal.r0 = PainelPrincipal.r1 = PainelPrincipal.r2 = PainelPrincipal.r3 = PainelPrincipal.r4 = PainelPrincipal.rDados = PainelPrincipal.rEnd = PainelPrincipal.ri = PainelPrincipal.rx = PainelPrincipal.ry = "NULO";
-		PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";
-		*/
 		painelFundo.repaint();
 	}
 	
@@ -572,7 +566,7 @@ public class Comecar extends JFrame implements ActionListener{
 		if (source == proximoPasso) {
 			
 			if(proximoPasso.getText().equals("Iniciar")){
-				/*
+				/**
 				 * limpa flags
 				 */
 				PainelPrincipal.zero = PainelPrincipal.sinal = PainelPrincipal.carry = PainelPrincipal.overflow = PainelPrincipal.paridade = "";

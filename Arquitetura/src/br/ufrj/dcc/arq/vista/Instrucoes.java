@@ -40,14 +40,14 @@ public class Instrucoes extends JFrame implements WindowListener{
 
 	public Instrucoes (){
 		
-		/*
+		/**
 		 * Variavel para saber o tamanho da janela
 		 */
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
 		Dimension tamanhoPrograma = new Dimension(JanelaLargura, JanelaAltura);
 		
-		titulo = new JLabel("As Instruções seguem abaixo:");
+		titulo = new JLabel("As Instrucoes seguem abaixo:");
 		
 		areaTexto = new List();
 		
@@ -57,7 +57,7 @@ public class Instrucoes extends JFrame implements WindowListener{
 		
 		painel.setLayout(null);
 		
-		/*
+		/**
 		 * Adiciona item no painel
 		 */
 		titulo.setBounds(130, 10, 500, 20);
@@ -67,8 +67,7 @@ public class Instrucoes extends JFrame implements WindowListener{
 			arquivoLido = new ArquivoTexto("./arquivo/instrucoes.txt");
 			contador = 0;
 			while (arquivoLido.maisLinhas()) {
-				
-				/*Nao pega linha vazia*/
+
 				if (!(arquivoLido.getLinha().equals(""))){
 					areaTexto.add(Integer.toString(contador) + ". " + arquivoLido.getLinha());
 				}
@@ -82,7 +81,9 @@ public class Instrucoes extends JFrame implements WindowListener{
 		scrollTextArea.setBounds(48,40,350,370);
 		painel.add(scrollTextArea);
 		
-		//Mostra a Janela
+		/**
+		 * Mostra a Janela
+		 */
 		add(painel);
 		setSize(tamanhoPrograma);
 		setResizable(false);

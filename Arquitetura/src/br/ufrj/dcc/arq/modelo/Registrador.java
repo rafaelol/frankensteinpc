@@ -1,5 +1,9 @@
 package br.ufrj.dcc.arq.modelo;
 
+/**
+ * Classe que contem os Registradores da Arquitetura
+ */
+
 public class Registrador {
 	public short r0;
 	public short r1;

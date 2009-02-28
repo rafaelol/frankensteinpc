@@ -4,12 +4,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Classe responsavel por instanciar um arquivo e ler ou escrever no mesmo.
+ */
 public class LerEscreverArquivo{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public ArquivoTexto arqParser;
@@ -22,7 +21,6 @@ public class LerEscreverArquivo{
 
 			while (arqParser.maisLinhas()) {
 				
-				/*Nao pega linha vazia*/
 				if (!(arqParser.getLinha().equals(""))){
 					qtdParser.add(arqParser.getLinha());
 				}

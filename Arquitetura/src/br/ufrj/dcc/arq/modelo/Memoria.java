@@ -1,8 +1,9 @@
 package br.ufrj.dcc.arq.modelo;
 
-import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.vista.Comecar;
-
+/**
+ * Classe onde sera armazenada os dados da memoria
+ */
 public class Memoria {
 	public static final int TAM_MEM = 65536;
 	public static final int LEIT = 0;
@@ -17,8 +18,6 @@ public class Memoria {
 	private short mem[];
 	private Bit sinal;
 	
-	/** ======================================= */
-	
 	public Memoria() {
 		mem = new short[TAM_MEM];
 		sinal = new Bit((short)LEIT);
@@ -26,7 +25,6 @@ public class Memoria {
 		for(int i=0; i< mem.length; i++) mem[i] = 0;
 	}
 
-	/** ======================================= */
 
 	public void setMemPos(int p, short v) {
 		this.mem[p] = v;
@@ -44,14 +42,9 @@ public class Memoria {
 		this.sinal = sinal;
 	}
 
-	/** ======================================= */
 
 	public void escreve(Processador proc) {
-		/*
-		System.out.println("ESCREVI!");
-		System.out.println("REND = " + proc.registrador.rend);
-		System.out.println("RDADOS = " + proc.registrador.rdados);
-		*/
+
 		System.out.println("REND = " + ConverteInt(proc.registrador.rend));
 		proc.memoria.mem[ConverteInt(proc.registrador.rend)] = proc.registrador.rdados;
 		

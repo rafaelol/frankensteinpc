@@ -1,12 +1,17 @@
 package br.ufrj.dcc.arq.modelo;
 
+/***
+ * Classe responsavel pelas MicroInstrucoes da UC
+ */
 public class MemoriaControle {
 	public static final int TAM_END = 6;
 	public static final int TAM_CTRL = 24;
 	public static final short[] NULOV = {-1};
 	public static final short NULO = -1;
 
-	/* ORDEM: MUX2, MUX4, MUX5, ULA, OP1, OP2, RDEST */
+	/**
+	 * ORDEM: MUX2, MUX4, MUX5, ULA, OP1, OP2, RDEST
+	 */ 
 
 	public static final short LE[]							= cria_Vetor(Multiplex2E.PASSAMEM, NULOV, NULOV, NULOV, Uc.J, NULO, Uc.B);
 	public static final short ESCREVE[]						= cria_Vetor(NULOV, NULOV, NULOV, NULOV, Uc.B, Uc.J, Uc.X);
@@ -230,12 +235,14 @@ public class MemoriaControle {
 		proc.ula.opera(proc);
 	}
 
-	/*
+	/**
 	 * NOMENCLATURA DAS MICROINSTRUCOES:
 	 * rec => recebe
 	 */
 
-	/* Instrucoes Le e Escreve */
+	/** 
+	 * Instrucoes Le e Escreve
+	 */
 	public void Le(Processador proc) {
 		proc.uc.setSinais(LE);		 
 		this.Operar(proc); 
@@ -246,7 +253,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 	}
 
-	/* Instrucoes PC recebe algo */
+	/** 
+	 * Instrucoes PC recebe algo
+	 */
 	public void PC_rec_PCmais1(Processador proc) {
 		proc.uc.setSinais(PC_REC_PCMAIS1);
 		 
@@ -260,7 +269,9 @@ public class MemoriaControle {
 		proc.registrador.pc = proc.ula.s;
 	}
 	
-	/* Instrucoes IR recebe algo */
+	/** 
+	 * Instrucoes IR recebe algo
+	 */
 	public void IR_rec_RDados(Processador proc) {
 		proc.uc.setSinais(IR_REC_RDADOS);
 		 
@@ -268,7 +279,9 @@ public class MemoriaControle {
 		proc.registrador.ri = proc.ula.s;
 	}
 
-	/* Instrucoes REnd recebe algo */
+	/** 
+	 * Instrucoes REnd recebe algo
+	 */
 	public void REnd_rec_PC(Processador proc) {
 		proc.uc.setSinais(REND_REC_PC);
 		this.Operar(proc);
@@ -304,7 +317,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.rend = proc.ula.s;
 	}
-	/* Instrucoes RY recebe algo */
+	/** 
+	 * Instrucoes RY recebe algo
+	 */
 	public void RY_rec_RDados(Processador proc) {
 		proc.uc.setSinais(RY_REC_RDADOS);
 		 
@@ -331,7 +346,9 @@ public class MemoriaControle {
 		proc.registrador.ry = proc.ula.s;
 	}
 	
-	/* Instrucoes RX recebe algo */
+	/** 
+	 * Instrucoes RX recebe algo
+	 */
 	public void RX_rec_RDados(Processador proc) {
 		proc.uc.setSinais(RX_REC_RDADOS);
 		 
@@ -356,7 +373,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.rx = proc.ula.s;
 	}
-	/* Instrucoes RDados recebe algo */
+	/** 
+	 * Instrucoes RDados recebe algo
+	 */
 	public void RDados_rec_Inflida(Processador proc) {
 		proc.uc.setSinais(RDADOS_REC_INFLIDA);
 		this.Operar(proc);
@@ -572,7 +591,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.rdados = proc.ula.s;
 	}
-	/* Instrucoes R0 recebe algo */
+	/** 
+	 * Instrucoes R0 recebe algo
+	 */
 	public void R0_rec_R0andRY(Processador proc) {
 		proc.uc.setSinais(R0_REC_R0ANDRY);
 		 
@@ -729,7 +750,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.r0 = proc.ula.s;
 	}
-	/* Instrucoes R1 recebe algo */
+	/** 
+	 * Instrucoes R1 recebe algo
+	 */
 	public void R1_rec_R1andRY(Processador proc) {
 		proc.uc.setSinais(R1_REC_R1ANDRY);
 		 
@@ -886,7 +909,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.r1 = proc.ula.s;
 	}
-	/* Instrucoes R2 recebe algo  */
+	/** 
+	 * Instrucoes R2 recebe algo
+	 */
 	public void R2_rec_R2andRDados(Processador proc) {
 		proc.uc.setSinais(R2_REC_R2ANDRDADOS);
 		 
@@ -1043,7 +1068,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.r2 = proc.ula.s;
 	}
-	/* Instrucoes R3 recebe algo */
+	/** 
+	 * Instrucoes R3 recebe algo
+	 */
 	public void R3_rec_R3andRDados(Processador proc) {
 		proc.uc.setSinais(R3_REC_R3ANDRDADOS);
 		 
@@ -1200,7 +1227,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.r3 = proc.ula.s;
 	}
-	/* Instrucoes R4 recebe algo */
+	/** 
+	 * Instrucoes R4 recebe algo
+	 */
 	public void R4_rec_R4andRDados(Processador proc) {
 		proc.uc.setSinais(R4_REC_R4ANDRDADOS);
 		 
@@ -1357,7 +1386,9 @@ public class MemoriaControle {
 		this.Operar(proc);
 		proc.registrador.r4 = proc.ula.s;
 	}
-	/* Instrucoes sem recebe */
+	/** 
+	 * Instrucoes sem recebe
+	 */
 	public void RYmenosR0(Processador proc) {
 		proc.uc.setSinais(RYMENOSR0);
 		 
@@ -1488,10 +1519,10 @@ public class MemoriaControle {
 		 
 		this.Operar(proc);
 	}
-	/*****************
+	/******************
 	 * Instruções GET 
 	 *****************/
-	/*
+	/**
 	 * Instrucoes PC recebe algo 
 	 */
 	public short Get_Endereco_PC_rec_PCmais1(Processador proc) {
@@ -1500,13 +1531,13 @@ public class MemoriaControle {
 	public short Get_Endereco_PC_rec_RYmaisRDados(Processador proc) {
 		return 213;
 	}
-	/*
+	/**
 	 *  Instrucoes IR recebe algo
 	 */ 
 	public short Get_Endereco_IR_rec_RDados(Processador proc) {
 		return 212;
 	}
-	 /*
+	 /**
 	  * Instrucoes REnd recebe algo
 	  */ 
 	public short Get_Endereco_REnd_rec_PC(Processador proc) {
@@ -1527,7 +1558,7 @@ public class MemoriaControle {
 	public short Get_Endereco_REnd_rec_R4(Processador proc) {
 		return 5;
 	}
-	 /*
+	 /**
 	  * Instrucoes RY recebe algo
 	  */ 
 	public short Get_Endereco_RY_rec_RDados(Processador proc) {
@@ -1542,7 +1573,7 @@ public class MemoriaControle {
 	public short Get_Endereco_RY_rec_PC(Processador proc) {
 		return 214;
 	}
-	 /*
+	 /**
 	  * Instrucoes RX recebe algo
 	  */ 
 	public short Get_Endereco_RX_rec_RDados(Processador proc) {
@@ -1557,7 +1588,7 @@ public class MemoriaControle {
 	public short Get_Endereco_RX_rec_R4(Processador proc) {
 		return 54;
 	}
-	 /*
+	 /**
 	  * Instrucoes RDados recebe algo
 	  */ 
 	public short Get_Endereco_RDados_rec_Inflida(Processador proc) {
@@ -1668,7 +1699,7 @@ public class MemoriaControle {
 	public short Get_Endereco_RDados_rec_shrRDados(Processador proc) {
 		return 47;
 	}
-	 /*
+	 /**
 	  * Instrucoes R0 recebe algo
 	  */ 
 	public short Get_Endereco_R0_rec_R0andRY(Processador proc) {
@@ -1749,7 +1780,7 @@ public class MemoriaControle {
 	public short Get_Endereco_R0_rec_shrR0(Processador proc) {
 		return 80;
 	}
-	 /*
+	 /**
 	  * Instrucoes R1 recebe algo
 	  */ 
 	public short Get_Endereco_R1_rec_R1andRY(Processador proc) {
@@ -1830,7 +1861,7 @@ public class MemoriaControle {
 	public short Get_Endereco_R1_rec_shrR1(Processador proc) {
 		return 106;
 	}
-	 /*
+	 /**
 	  * Instrucoes R2 recebe algo
 	  */  
 	public short Get_Endereco_R2_rec_R2andRDados(Processador proc) {
@@ -1911,7 +1942,7 @@ public class MemoriaControle {
 	public short Get_Endereco_R2_rec_shrR2(Processador proc) {
 		return 132;
 	}
-	 /*
+	 /**
 	  * Instrucoes R3 recebe algo
 	  */ 
 	public short Get_Endereco_R3_rec_R3andRDados(Processador proc) {
@@ -1992,7 +2023,7 @@ public class MemoriaControle {
 	public short Get_Endereco_R3_rec_shrR3(Processador proc) {
 		return 158;
 	}
-	 /*
+	 /**
 	  * Instrucoes R4 recebe algo
 	  */ 
 	public short Get_Endereco_R4_rec_R4andRDados(Processador proc) {
@@ -2073,7 +2104,7 @@ public class MemoriaControle {
 	public short Get_Endereco_R4_rec_shrR4(Processador proc) {
 		return 184;
 	}
-	 /*
+	 /**
 	  * Instrucoes sem recebe
 	  */ 
 	public short Get_Endereco_RYmenosR0(Processador proc) {
@@ -2198,12 +2229,6 @@ public class MemoriaControle {
 			vetor[rdest] = 1;
 		}
 
-		/*
-		for (int i = 0; i < TAM_CTRL; i++) {
-
-			System.out.println("Vetor[" + i + "] = " + vetor[i]);
-		}
-		 */
 		return vetor;
 	}
 
