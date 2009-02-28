@@ -1,6 +1,2 @@
-mov<22,r3>
-mov<4,r2>
-add<55,(r3)>
-mov<5,r2>
-sub<r2,r3>
+add<1,(r3)>
 halt
