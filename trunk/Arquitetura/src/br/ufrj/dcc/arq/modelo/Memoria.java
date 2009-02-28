@@ -71,4 +71,10 @@ public class Memoria {
 			proc.memoria.le(proc);
 		}
 	}
+	
+	public int ConverteInt(short valor) {
+		int numero = ( valor & 0xffff );
+		
+		return numero;
+	}
 }
