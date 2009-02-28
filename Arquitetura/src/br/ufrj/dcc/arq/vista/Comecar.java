@@ -15,9 +15,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
 import br.ufrj.dcc.arq.controle.Controlador;
-import br.ufrj.dcc.arq.parse.Parser;
 import br.ufrj.dcc.arq.modelo.Instrucoes;
-import br.ufrj.dcc.arq.modelo.Memoria;
+import br.ufrj.dcc.arq.parse.Parser;
 
 
 public class Comecar extends JFrame implements ActionListener{
