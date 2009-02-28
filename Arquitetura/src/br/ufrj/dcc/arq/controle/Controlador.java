@@ -99,18 +99,29 @@ public class Controlador extends Thread {
 		 */
 		if(proc.ula.getFlags()[Ula.CARRY] != 0){
 			PainelPrincipal.carry = "x";		
+		}else if(proc.ula.getFlags()[Ula.CARRY] == 0){
+			PainelPrincipal.carry = "";		
 		}
 		if(proc.ula.getFlags()[Ula.OVERFLOW] != 0){
 			PainelPrincipal.overflow = "x";
+		}else if(proc.ula.getFlags()[Ula.OVERFLOW] == 0){
+			PainelPrincipal.overflow = "";
 		}
 		if(proc.ula.getFlags()[Ula.PARIDADE] != 0){
 			PainelPrincipal.paridade = "x";
+		}else if(proc.ula.getFlags()[Ula.PARIDADE] == 0){
+			PainelPrincipal.paridade = "";
 		}
 		if(proc.ula.getFlags()[Ula.SINAL] != 0){
 			PainelPrincipal.sinal = "x";
+		}else if(proc.ula.getFlags()[Ula.SINAL] == 0){
+			PainelPrincipal.sinal = "";
 		}
 		if(proc.ula.getFlags()[Ula.ZERO] != 0){
 			PainelPrincipal.zero = "x";
+		}
+		if(proc.ula.getFlags()[Ula.ZERO] == 0){
+			PainelPrincipal.zero = "";
 		}
 		
 		/***
