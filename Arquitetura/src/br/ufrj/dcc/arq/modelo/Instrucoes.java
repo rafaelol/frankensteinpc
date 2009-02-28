@@ -131,7 +131,8 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Le(proc);
 
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -257,7 +258,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -381,7 +383,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -488,7 +491,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -595,7 +599,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -702,7 +707,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -770,7 +776,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -893,7 +900,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -961,7 +969,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -1084,7 +1093,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -1152,7 +1162,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -1275,13 +1286,14 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
 									sleep(1000 / 80);
 									Comecar.status.setText("Esperando ...");
-									
 								}
 								if (Comecar.cliqueProximoPassoMicroInstrucao){
 									Controlador.executa_por_micro = true;
@@ -1343,7 +1355,9 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -1466,7 +1480,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -1534,7 +1549,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -2789,7 +2805,8 @@ public class Instrucoes extends Thread {
 
 		proc.memoriacontrole.Le(proc);
 		System.out.println("INF LIDA = " + proc.memoria.dadoLido);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -2914,7 +2931,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3035,7 +3053,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3156,7 +3175,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3277,7 +3297,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3398,7 +3419,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3519,7 +3541,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3640,7 +3663,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3761,7 +3785,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -3882,7 +3907,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4003,7 +4029,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4124,7 +4151,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4245,7 +4273,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4366,7 +4395,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4487,7 +4517,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4608,7 +4639,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4729,7 +4761,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4850,7 +4883,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -4971,7 +5005,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5092,7 +5127,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5213,7 +5249,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5334,7 +5371,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5455,7 +5493,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5576,7 +5615,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5697,7 +5737,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5818,7 +5859,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -5923,7 +5965,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6028,7 +6071,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6116,7 +6160,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6204,7 +6249,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6292,7 +6338,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6397,7 +6444,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6502,7 +6550,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6590,7 +6639,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6678,7 +6728,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6766,7 +6817,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6871,7 +6923,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -6976,7 +7029,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7064,7 +7118,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7152,7 +7207,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7240,7 +7296,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7345,7 +7402,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7450,7 +7508,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7538,7 +7597,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7626,7 +7686,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7714,7 +7775,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7819,7 +7881,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -7924,7 +7987,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8012,7 +8076,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8100,7 +8165,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8188,7 +8254,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8310,7 +8377,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8378,7 +8446,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8483,7 +8552,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8551,7 +8621,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8655,7 +8726,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8723,7 +8795,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8827,7 +8900,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8895,7 +8969,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -8999,7 +9074,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9067,7 +9143,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9171,7 +9248,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9292,7 +9370,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9360,7 +9439,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9464,7 +9544,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9532,7 +9613,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9636,7 +9718,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9704,7 +9787,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9808,7 +9892,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9876,7 +9961,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -9980,7 +10066,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10048,7 +10135,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10152,7 +10240,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10273,7 +10362,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10341,7 +10431,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10445,7 +10536,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10513,7 +10605,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10617,7 +10710,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10685,7 +10779,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10789,7 +10884,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10857,7 +10953,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -10961,7 +11058,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11029,7 +11127,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11133,7 +11232,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11254,7 +11354,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11322,7 +11423,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11426,7 +11528,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11494,7 +11597,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11598,7 +11702,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11666,7 +11771,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11770,7 +11876,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11838,7 +11945,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -11942,7 +12050,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12010,7 +12119,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12114,7 +12224,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12255,7 +12366,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12379,7 +12491,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12503,7 +12616,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12610,7 +12724,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12717,7 +12832,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12824,7 +12940,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -12892,7 +13009,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13015,7 +13133,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13083,7 +13202,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13206,7 +13326,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13274,7 +13395,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13397,7 +13519,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13465,7 +13588,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13588,7 +13712,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -13656,7 +13781,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -14908,7 +15034,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15029,7 +15156,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15150,7 +15278,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15271,7 +15400,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15392,7 +15522,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15513,7 +15644,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15634,7 +15766,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15755,7 +15888,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15876,7 +16010,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -15997,7 +16132,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16118,7 +16254,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16239,7 +16376,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16360,7 +16498,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16481,7 +16620,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16602,7 +16742,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16723,7 +16864,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16844,7 +16986,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -16965,7 +17108,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17086,7 +17230,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17207,7 +17352,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17328,7 +17474,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17449,7 +17596,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17570,7 +17718,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17691,7 +17840,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17812,7 +17962,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -17933,7 +18084,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18038,7 +18190,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18143,7 +18296,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18231,7 +18385,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18319,7 +18474,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18407,7 +18563,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18512,7 +18669,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18617,7 +18775,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18705,7 +18864,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18793,7 +18953,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18881,7 +19042,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -18986,7 +19148,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19091,7 +19254,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19179,7 +19343,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19267,7 +19432,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19355,7 +19521,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19460,7 +19627,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19565,7 +19733,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19653,7 +19822,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19741,7 +19911,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19829,7 +20000,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -19934,7 +20106,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20039,7 +20212,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20127,7 +20301,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20215,7 +20390,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20303,7 +20479,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20425,7 +20602,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20493,7 +20671,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20598,7 +20777,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20666,7 +20846,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20770,7 +20951,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20838,7 +21020,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -20942,7 +21125,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21010,7 +21194,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21114,7 +21299,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21182,7 +21368,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21286,7 +21473,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21407,7 +21595,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21475,7 +21664,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21579,7 +21769,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21647,7 +21838,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21751,7 +21943,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21819,7 +22012,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21923,7 +22117,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -21991,7 +22186,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22095,7 +22291,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22163,7 +22360,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22267,7 +22465,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22388,7 +22587,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22456,7 +22656,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22560,7 +22761,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22628,7 +22830,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22732,7 +22935,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22800,7 +23004,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22904,7 +23109,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -22972,7 +23178,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23076,7 +23283,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23144,7 +23352,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23248,7 +23457,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23369,7 +23579,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23437,7 +23648,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23541,7 +23753,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23609,7 +23822,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23713,7 +23927,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23781,7 +23996,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23885,7 +24101,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -23953,7 +24170,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24057,7 +24275,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24125,7 +24344,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24229,7 +24449,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24369,7 +24590,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24473,7 +24695,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24580,7 +24803,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24687,7 +24911,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24794,7 +25019,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24903,7 +25129,8 @@ public class Instrucoes extends Thread {
 		//System.out.println("REND = " + proc.registrador.rend);
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -24975,7 +25202,8 @@ public class Instrucoes extends Thread {
 		//System.out.println("REND = " + proc.registrador.rend);
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25101,7 +25329,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25169,7 +25398,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25292,7 +25522,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25360,7 +25591,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25483,7 +25715,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25551,7 +25784,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25674,7 +25908,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -25742,7 +25977,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28442,7 +28678,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28530,7 +28767,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28618,7 +28856,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28706,7 +28945,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28794,7 +29034,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28882,7 +29123,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -28970,7 +29212,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29058,7 +29301,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29146,7 +29390,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29234,7 +29479,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29322,7 +29568,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29410,7 +29657,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29498,7 +29746,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29586,7 +29835,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29674,7 +29924,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29762,7 +30013,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29850,7 +30102,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -29938,7 +30191,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30026,7 +30280,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30114,7 +30369,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30202,7 +30458,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30290,7 +30547,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30378,7 +30636,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30466,7 +30725,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30554,7 +30814,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30662,7 +30923,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30766,7 +31028,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30870,7 +31133,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -30974,7 +31238,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31078,7 +31343,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31202,7 +31468,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31306,7 +31573,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31410,7 +31678,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31514,7 +31783,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31618,7 +31888,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31742,7 +32013,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31846,7 +32118,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -31950,7 +32223,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32054,7 +32328,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32158,7 +32433,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32282,7 +32558,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32386,7 +32663,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32490,7 +32768,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32594,7 +32873,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32698,7 +32978,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32843,7 +33124,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -32967,7 +33249,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33091,7 +33374,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33198,7 +33482,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33305,7 +33590,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33412,7 +33698,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33480,7 +33767,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33603,7 +33891,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33671,7 +33960,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33794,7 +34084,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33862,7 +34153,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -33985,7 +34277,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34053,7 +34346,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34176,7 +34470,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -34244,7 +34539,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35496,7 +35792,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35617,7 +35914,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35738,7 +36036,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35859,7 +36158,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -35980,7 +36280,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36101,7 +36402,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36222,7 +36524,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36343,7 +36646,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36464,7 +36768,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36585,7 +36890,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36706,7 +37012,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36827,7 +37134,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -36948,7 +37256,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37069,7 +37378,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37190,7 +37500,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37311,7 +37622,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37432,7 +37744,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37553,7 +37866,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37674,7 +37988,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37795,7 +38110,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -37916,7 +38232,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38037,7 +38354,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38158,7 +38476,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38279,7 +38598,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38400,7 +38720,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38521,7 +38842,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38626,7 +38948,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38731,7 +39054,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38819,7 +39143,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38907,7 +39232,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -38995,7 +39321,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39100,7 +39427,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39205,7 +39533,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39293,7 +39622,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39381,7 +39711,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39469,7 +39800,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39574,7 +39906,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39679,7 +40012,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39767,7 +40101,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39855,7 +40190,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -39943,7 +40279,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40048,7 +40385,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40153,7 +40491,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40241,7 +40580,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40329,7 +40669,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40417,7 +40758,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40522,7 +40864,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40627,7 +40970,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40715,7 +41059,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40803,7 +41148,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -40891,7 +41237,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41013,7 +41360,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41081,7 +41429,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41186,7 +41535,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41254,7 +41604,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41358,7 +41709,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41426,7 +41778,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41530,7 +41883,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41598,7 +41952,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41702,7 +42057,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41770,7 +42126,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41874,7 +42231,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -41995,7 +42353,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42063,7 +42422,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42167,7 +42527,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42235,7 +42596,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42339,7 +42701,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42407,7 +42770,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42511,7 +42875,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42579,7 +42944,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42683,7 +43049,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42751,7 +43118,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42855,7 +43223,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -42976,7 +43345,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43044,7 +43414,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43148,7 +43519,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43216,7 +43588,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43320,7 +43693,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43388,7 +43762,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43492,7 +43867,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43560,7 +43936,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43664,7 +44041,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43732,7 +44110,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43836,7 +44215,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -43957,7 +44337,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44025,7 +44406,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44129,7 +44511,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44197,7 +44580,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44301,7 +44685,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44369,7 +44754,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44473,7 +44859,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44541,7 +44928,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44645,7 +45033,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44713,7 +45102,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44817,7 +45207,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -44958,7 +45349,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45082,7 +45474,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45206,7 +45599,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45313,7 +45707,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45420,7 +45815,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45527,7 +45923,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45595,7 +45992,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45718,7 +46116,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45786,7 +46185,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45909,7 +46309,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -45977,7 +46378,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46100,7 +46502,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46168,7 +46571,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46291,7 +46695,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -46359,7 +46764,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47609,7 +48015,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47730,7 +48137,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47851,7 +48259,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -47972,7 +48381,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48093,7 +48503,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48214,7 +48625,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48335,7 +48747,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48456,7 +48869,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48577,7 +48991,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48698,7 +49113,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48819,7 +49235,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -48940,7 +49357,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49061,7 +49479,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49182,7 +49601,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49303,7 +49723,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49424,7 +49845,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49545,7 +49967,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49666,7 +50089,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49787,7 +50211,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -49908,7 +50333,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50029,7 +50455,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50150,7 +50577,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50271,7 +50699,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50392,7 +50821,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50513,7 +50943,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50634,7 +51065,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50739,7 +51171,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50844,7 +51277,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -50932,7 +51366,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51020,7 +51455,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51108,7 +51544,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51213,7 +51650,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51318,7 +51756,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51406,7 +51845,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51494,7 +51934,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51582,7 +52023,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51687,7 +52129,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51792,7 +52235,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51880,7 +52324,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -51968,7 +52413,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52056,7 +52502,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52161,7 +52608,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52266,7 +52714,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52354,7 +52803,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52442,7 +52892,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52530,7 +52981,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52635,7 +53087,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52740,7 +53193,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52828,7 +53282,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -52916,7 +53371,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53004,7 +53460,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53126,7 +53583,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53194,7 +53652,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53299,7 +53758,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53367,7 +53827,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53471,7 +53932,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53539,7 +54001,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53643,7 +54106,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53711,7 +54175,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53815,7 +54280,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53883,7 +54349,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -53987,7 +54454,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54108,7 +54576,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54176,7 +54645,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54280,7 +54750,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54348,7 +54819,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54452,7 +54924,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54520,7 +54993,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54624,7 +55098,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54692,7 +55167,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54796,7 +55272,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54864,7 +55341,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -54968,7 +55446,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55089,7 +55568,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55157,7 +55637,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55261,7 +55742,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55329,7 +55811,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55433,7 +55916,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55501,7 +55985,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55605,7 +56090,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55673,7 +56159,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55777,7 +56264,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55845,7 +56333,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -55949,7 +56438,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56070,7 +56560,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56138,7 +56629,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56242,7 +56734,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56310,7 +56803,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56414,7 +56908,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56482,7 +56977,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56586,7 +57082,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56654,7 +57151,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56758,7 +57256,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56826,7 +57325,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -56930,7 +57430,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57072,7 +57573,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57196,7 +57698,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57320,7 +57823,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57427,7 +57931,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57534,7 +58039,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57641,7 +58147,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57709,7 +58216,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57832,7 +58340,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -57900,7 +58409,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58023,7 +58533,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58091,7 +58602,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58214,7 +58726,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58282,7 +58795,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58405,7 +58919,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -58473,7 +58988,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59723,7 +60239,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59844,7 +60361,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -59965,7 +60483,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60086,7 +60605,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60207,7 +60727,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60328,7 +60849,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60449,7 +60971,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60570,7 +61093,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60691,7 +61215,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60812,7 +61337,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -60933,7 +61459,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61054,7 +61581,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61175,7 +61703,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61296,7 +61825,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61417,7 +61947,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61538,7 +62069,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61659,7 +62191,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61780,7 +62313,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -61901,7 +62435,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62022,7 +62557,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62143,7 +62679,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62264,7 +62801,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62385,7 +62923,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62506,7 +63045,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62627,7 +63167,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62748,7 +63289,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62853,7 +63395,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -62958,7 +63501,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63046,7 +63590,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63134,7 +63679,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63222,7 +63768,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63327,7 +63874,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63432,7 +63980,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63520,7 +64069,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63608,7 +64158,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63696,7 +64247,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63801,7 +64353,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63906,7 +64459,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -63994,7 +64548,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64082,7 +64637,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64170,7 +64726,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64275,7 +64832,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64380,7 +64938,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64468,7 +65027,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64556,7 +65116,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64644,7 +65205,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64749,7 +65311,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64854,7 +65417,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -64942,7 +65506,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65030,7 +65595,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65118,7 +65684,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65240,7 +65807,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65308,7 +65876,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65413,7 +65982,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65481,7 +66051,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65585,7 +66156,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65653,7 +66225,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65757,7 +66330,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65825,7 +66399,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65929,7 +66504,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -65997,7 +66573,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66101,7 +66678,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66222,7 +66800,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66290,7 +66869,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66394,7 +66974,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66462,7 +67043,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66566,7 +67148,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66634,7 +67217,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66738,7 +67322,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66806,7 +67391,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66910,7 +67496,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -66978,7 +67565,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67082,7 +67670,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67203,7 +67792,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67271,7 +67861,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67375,7 +67966,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67443,7 +68035,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67547,7 +68140,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67615,7 +68209,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67719,7 +68314,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67787,7 +68383,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67891,7 +68488,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -67959,7 +68557,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68063,7 +68662,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68184,7 +68784,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68252,7 +68853,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68356,7 +68958,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68424,7 +69027,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68528,7 +69132,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68596,7 +69201,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68700,7 +69306,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68768,7 +69375,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68872,7 +69480,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -68940,7 +69549,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69044,7 +69654,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69352,7 +69963,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69456,7 +70068,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69560,7 +70173,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69664,7 +70278,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -69768,7 +70383,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70059,7 +70675,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70163,7 +70780,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70267,7 +70885,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70371,7 +70990,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70475,7 +71095,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70766,7 +71387,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70836,7 +71458,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70906,7 +71529,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -70976,7 +71600,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71046,7 +71671,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71303,7 +71929,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71407,7 +72034,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71511,7 +72139,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71615,7 +72244,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71719,7 +72349,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72010,7 +72641,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72114,7 +72746,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72218,7 +72851,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72322,7 +72956,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72426,7 +73061,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
@@ -72612,7 +73248,8 @@ public class Instrucoes extends Thread {
 		}
 
 		proc.memoriacontrole.Le(proc);
-		nomeMicroInstrucao = "LE";
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
+				nomeMicroInstrucao = "LE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread

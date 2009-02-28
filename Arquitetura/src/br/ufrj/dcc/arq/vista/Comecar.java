@@ -506,10 +506,14 @@ public class Comecar extends JFrame implements ActionListener{
 	public static int retornarIndexListMemoria(String item){
 		
 		int indice;
-
+		int indiceAtual;
+		
+		indiceAtual = listaMemoria.getSelectedIndex();
+		
 		for(indice = 0; indice < listaMemoria.getItemCount(); indice++){
 			if (listaMemoria.getItem(indice).equals(Integer.toString(indice) + ". " + item)){
-				break;
+				if(indice > indiceAtual)
+					break;
 			}
 		}
 		if (indice == listaMemoria.getItemCount()){
