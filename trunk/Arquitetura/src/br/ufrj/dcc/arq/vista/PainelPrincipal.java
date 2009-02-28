@@ -29,7 +29,7 @@ public class PainelPrincipal extends Component{
 	 * Registradores
 	 */
 	
-	public static String r0,r1,r2,r3,r4,pc,rDados,rEnd,ri,rx,ry;
+	public static String r0,r1,r2,r3,r4,pc,rDados,rEnd,ri,rx,ry,rEndUC;
 	
 	public void paint(Graphics graficoPrincipal) {
 		
@@ -99,12 +99,13 @@ public class PainelPrincipal extends Component{
 		
 		grafico.drawString(ri,630,565);
 		
-		/*REnd e Memoria*/
+		/*REnd, Memoria e REndUC*/
 		
 		grafico.drawString(j, 201, 538);
 		grafico.drawString(x, 37, 530);
 		
 		grafico.drawString(rEnd,120,535);
+		grafico.drawString(rEndUC,605,335);
 		
 		/*Flags*/
 		

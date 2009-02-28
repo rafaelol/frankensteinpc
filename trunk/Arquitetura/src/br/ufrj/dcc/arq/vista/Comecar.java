@@ -155,6 +155,8 @@ public class Comecar extends JFrame implements ActionListener{
 		PainelPrincipal.rx = Integer.toString((int)numAleatorioReg);
 		numAleatorioReg = 1000*Math.random();
 		PainelPrincipal.ry = Integer.toString((int)numAleatorioReg);
+		numAleatorioReg = 210*Math.random();
+		PainelPrincipal.rEndUC = Integer.toString((int)numAleatorioReg);
 		PainelPrincipal.pc = "0";
 		
 		/*
