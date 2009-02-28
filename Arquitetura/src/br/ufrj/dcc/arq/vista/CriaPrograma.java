@@ -98,7 +98,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 			System.out.println(areaTexto.getText());
 			try{
 				if(areaTexto.getText().equals("Digite aqui...") || areaTexto.getText().equals("")){
-					JOptionPane.showMessageDialog(null, "Falha ao carregar este programa !\nDigite um programa válido ou feche a janela!", "ERRO", JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(null, "Falha ao carregar este programa !\nDigite um programa valido ou feche a janela!", "ERRO", JOptionPane.INFORMATION_MESSAGE);
 				}
 				else{
 					arquivoLido = new LerEscreverArquivo(areaTexto.getText(),areaTexto.getText());
