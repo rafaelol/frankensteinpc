@@ -24344,7 +24344,6 @@ public class Instrucoes extends Thread {
 								while (Controlador.executa_por_micro) {// interrompe a thread
 									sleep(1000 / 80);
 									Comecar.status.setText("Esperando ...");
-									System.out.println("PC <- PC + 1");
 								}
 								if (Comecar.cliqueProximoPassoMicroInstrucao){
 									Controlador.executa_por_micro = true;
@@ -24357,13 +24356,12 @@ public class Instrucoes extends Thread {
 		proc.memoriacontrole.REnd_rec_PC(proc);
 
 		nomeMicroInstrucao = "REND_REC_PC";
-		
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 								while (Controlador.executa_por_micro) {// interrompe a thread
 									sleep(1000 / 80);
 									Comecar.status.setText("Esperando ...");
-									System.out.println("Rend <- PC");
-									Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
+									
 								}
 								if (Comecar.cliqueProximoPassoMicroInstrucao){
 									Controlador.executa_por_micro = true;
@@ -24379,7 +24377,6 @@ public class Instrucoes extends Thread {
 								while (Controlador.executa_por_micro) {// interrompe a thread
 									sleep(1000 / 80);
 									Comecar.status.setText("Esperando ...");
-									System.out.println("Le");
 								}
 								if (Comecar.cliqueProximoPassoMicroInstrucao){
 									Controlador.executa_por_micro = true;
@@ -24397,7 +24394,6 @@ public class Instrucoes extends Thread {
 								while (Controlador.executa_por_micro) {// interrompe a thread
 									sleep(1000 / 80);
 									Comecar.status.setText("Esperando ...");
-									System.out.println("Rdados <- InfLida");
 								}
 								if (Comecar.cliqueProximoPassoMicroInstrucao){
 									Controlador.executa_por_micro = true;
@@ -24414,7 +24410,6 @@ public class Instrucoes extends Thread {
 								while (Controlador.executa_por_micro) {// interrompe a thread
 									sleep(1000 / 80);
 									Comecar.status.setText("Esperando ...");
-									System.out.println("r0 <- RDados");
 								}
 								if (Comecar.cliqueProximoPassoMicroInstrucao){
 									Controlador.executa_por_micro = true;
@@ -24431,7 +24426,6 @@ public class Instrucoes extends Thread {
 								while (Controlador.executa_por_micro) {// interrompe a thread
 									sleep(1000 / 80);
 									Comecar.status.setText("Esperando ...");
-									System.out.println("PC <- PC + 1");
 								}
 								if (Comecar.cliqueProximoPassoMicroInstrucao){
 									Controlador.executa_por_micro = true;

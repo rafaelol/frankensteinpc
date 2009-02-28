@@ -17,6 +17,7 @@ import javax.swing.JScrollPane;
 import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.parse.Parser;
 import br.ufrj.dcc.arq.modelo.Instrucoes;
+import br.ufrj.dcc.arq.modelo.Memoria;
 
 
 public class Comecar extends JFrame implements ActionListener{
@@ -167,56 +168,10 @@ public class Comecar extends JFrame implements ActionListener{
 		/*
 		 * Lista que ficara na memoria principal: ira imprimir o getVetorParser
 		 */
-		listaMemoria.add("Memoria vazia !");
+		
+//		listaMemoria.add("Memoria vazia !");
+		inicializaListMemoria();
 
-		
-		
-		/*String[] nomeColuna = {"Endereço", "Conteúdo"};
-		Object[][] dados = {
-				{"0","224"},
-				{"0","225"},
-				{"0","226"},
-				{"0","227"},
-				{"0","228"},
-				{"0","229"},
-				{"0","221"},
-				{"0","222"},
-				{"0","223"},
-				{"0","224"},
-				{"0","225"},
-				{"0","226"},
-				{"0","227"},
-				{"0","228"},
-				{"0","229"},
-				{"0","220"},
-				{"0","221"},
-				{"0","222"},
-				{"0","222"},
-				{"0","223"},
-				{"0","224"},
-				{"0","225"},
-				{"0","224"},
-				{"0","224"},
-				{"0","224"}
-			};
-		JTable table = new JTable(dados,nomeColuna);
-		
-		
-		JScrollPane scrollTextArea = new JScrollPane(table);
-		table.setFillsViewportHeight(true);
-		TableColumn column = null;
-		column = table.getColumnModel().getColumn(0);
-		column.setPreferredWidth(15);
-		
-		painelMemoria.setLayout(null);
-		table.setBackground(corMemoria);
-		scrollTextArea.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
-		scrollTextArea.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-		scrollTextArea.setBounds(0,0,197,230);
-		painelMemoria.add(scrollTextArea);*/
-		
-		
-		
 		listaMemoria.setFocusable(true);		
 		
 		
@@ -304,15 +259,22 @@ public class Comecar extends JFrame implements ActionListener{
 	
 	public static void colocarNaMemoria(){	
 		int contadorList;
-		listaMemoria.removeAll();
-		for(contadorList = 0; contadorList < Controlador.parser.getVetorParser().length; contadorList++){
-			listaMemoria.add(Integer.toString(contadorList) + ". " + String.valueOf(Controlador.parser.getVetorParser()[contadorList]));
+		//listaMemoria.removeAll();
+		
+		for(contadorList = 0; contadorList < Parser.qnt_codigo; contadorList++){
+			listaMemoria.replaceItem(Integer.toString(contadorList) + ". " + String.valueOf(Controlador.parser.getVetorParser()[contadorList]),contadorList);
 		}
 		
-		//fica muito lerdo...
-		/*for(int cont = contadorList; cont < Memoria.TAM_MEM; cont++){
-			listaMemoria.add(Integer.toString(cont) + ". ");
-		}*/
+		listaMemoria.select(0);
+	}
+	
+	public static void inicializaListMemoria(){
+		int contadorList;
+		listaMemoria.removeAll();
+		
+		for(contadorList = 0; contadorList < Memoria.TAM_MEM; contadorList++){
+			listaMemoria.add(Integer.toString(contadorList) + ". 0");
+		}
 		
 		listaMemoria.select(0);
 	}

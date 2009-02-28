@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Parser {
 	public short Vet_Codigos[] = null;
-	public int qnt_codigo = 0;
+	public static int qnt_codigo;
 
 	private static Object dadosDoMap;
 	Map<Integer, String> mapLabels =  new HashMap<Integer, String>();
@@ -16,6 +16,7 @@ public class Parser {
 	int i;
 
 	public Parser(String nomeArq) {
+		qnt_codigo = 0;
 		tam_max = Trata_Arquivo(nomeArq);
 		PassaPraMaiuscula();
 		ImprimeLabels();
