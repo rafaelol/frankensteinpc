@@ -26,6 +26,12 @@ public class PainelPrincipal extends Component{
 	public static String zero,sinal,carry,overflow,paridade = new String();
 	
 	/*
+	 * Sinais de controle UC
+	 */
+	
+	public static String sinaisControleUC = new String();
+	
+	/*
 	 * Registradores
 	 */
 	
@@ -118,6 +124,11 @@ public class PainelPrincipal extends Component{
 		grafico.drawString(paridade,483,493);
 		
 		grafico.setColor(Color.black);
-
+		
+		/*Sinais controle UC*/
+		
+		grafico.setFont(new Font("Arial", Font.BOLD, 8)); // a fonte a ser usada
+		grafico.drawString(sinaisControleUC,620,452);
+		
 	}
 }
