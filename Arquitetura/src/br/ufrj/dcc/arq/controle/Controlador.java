@@ -209,11 +209,11 @@ public class Controlador extends Thread {
 					System.out.println("RI = " + proc.registrador.ri);
 					System.out.println("RX = " + proc.registrador.rx);
 					System.out.println("RY = " + proc.registrador.ry);
-					System.out.println("(R0) = " + proc.memoria.getMemPos(proc.registrador.r0));
-					System.out.println("(R1) = " + proc.memoria.getMemPos(proc.registrador.r1));
-					System.out.println("(R2) = " + proc.memoria.getMemPos(proc.registrador.r2));
-					System.out.println("(R3) = " + proc.memoria.getMemPos(proc.registrador.r3));
-					System.out.println("(R4) = " + proc.memoria.getMemPos(proc.registrador.r4));
+					//System.out.println("(R0) = " + proc.memoria.getMemPos(Memoria.ConverteInt(proc.registrador.r0)));
+					//System.out.println("(R1) = " + proc.memoria.getMemPos(Memoria.ConverteInt(proc.registrador.r1)));
+					//System.out.println("(R2) = " + proc.memoria.getMemPos(Memoria.ConverteInt(proc.registrador.r2)));
+					//System.out.println("(R3) = " + proc.memoria.getMemPos(Memoria.ConverteInt(proc.registrador.r3)));
+					//System.out.println("(R4) = " + proc.memoria.getMemPos(Memoria.ConverteInt(proc.registrador.r4)));
 					System.out.println("\n");
 					System.out.println("Flag CARRY    = " + proc.ula.getFlags()[Ula.CARRY]);
 					System.out.println("Flag OVERFLOW = " + proc.ula.getFlags()[Ula.OVERFLOW]);
