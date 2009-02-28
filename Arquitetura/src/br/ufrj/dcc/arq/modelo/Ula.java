@@ -213,17 +213,17 @@ public class Ula {
 	}
 
 	/**********************************
-	 * Subtrai do operando B o operando A (B-A) e atribui esse valor a saida.
+	 * Subtrai do operando A o operando B (A-B) e atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 *    Overflow se operandos de sinal diferente e resultado de sinal diferente do minuendo(B).
-	 *    Carry se modulo do minuendo(B) for menor que o modulo do subtrendo(A).
+	 *    Carry se modulo do minuendo(A) for menor que o modulo do subtrendo(B).
 	 */	
 	public void subAB(Processador proc) {
 		int op1, op2;
 		
-		proc.ula.s = (short)((short)proc.ula.b - (short)proc.ula.a);
+		proc.ula.s = (short)((short)proc.ula.a - (short)proc.ula.b);
 		
 		if((proc.ula.b < 0) && (proc.ula.a > 0) && (proc.ula.s > 0))
 		{
@@ -244,7 +244,7 @@ public class Ula {
 		if(proc.ula.a < 0) op1 = proc.ula.a * -1; else op1 = proc.ula.a;
 		if(proc.ula.b < 0) op2 = proc.ula.b * -1; else op2 = proc.ula.b;
 		
-		if(op2 < op1)
+		if(op2 > op1)
 			proc.ula.flags[CARRY].setValor((short)1);
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
@@ -253,17 +253,17 @@ public class Ula {
 	}
 	
 	/**********************************
-	 * Subtrai do operando A o operando B (A-B) e atribui esse valor a saida.
+	 * Subtrai do operando B o operando A (B-A) e atribui esse valor a saida.
 	 * 
 	 * Altera todas as flags.
 	 *    Paridade, Sinal e Zero de acordo com o resultado.
 	 *    Overflow se operandos de sinal diferente e resultado de sinal diferente do minuendo(A).
-	 *    Carry se modulo do minuendo(A) for menor que o modulo do subtraendo(B).
+	 *    Carry se modulo do minuendo(B) for menor que o modulo do subtraendo(A).
 	 */	
 	public void subBA(Processador proc) {
 		int op1, op2;
 		
-		proc.ula.s = (short)((short)proc.ula.a - (short)proc.ula.b);
+		proc.ula.s = (short)((short)proc.ula.b - (short)proc.ula.a);
 		
 		if((proc.ula.a < 0) && (proc.ula.b > 0) && (proc.ula.s > 0))
 		{
@@ -284,7 +284,7 @@ public class Ula {
 		if(proc.ula.a < 0) op1 = proc.ula.a * -1; else op1 = proc.ula.a;
 		if(proc.ula.b < 0) op2 = proc.ula.b * -1; else op2 = proc.ula.b;
 		
-		if(op1 < op2)
+		if(op1 > op2)
 			proc.ula.flags[CARRY].setValor((short)1);
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
