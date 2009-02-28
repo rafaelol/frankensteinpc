@@ -1,5 +1,7 @@
 package br.ufrj.dcc.arq.modelo;
 
+import br.ufrj.dcc.arq.vista.PainelPrincipal;
+
 public class Uc {
 	public static final short A = 0;
 	public static final short B = 1;
@@ -67,7 +69,24 @@ public class Uc {
 		sinais[S].setValor(v[S]); sinais[T].setValor(v[T]); sinais[U].setValor(v[U]);
 		sinais[V].setValor(v[V]); sinais[W].setValor(v[W]); sinais[X].setValor(v[X]);
 		
+		pintaSinaisNaTela();
+		
 	}
+	
+	public void pintaSinaisNaTela(){
+		/*
+		 * Aparece na tela
+		 */
+		
+		int cont;
+		
+		PainelPrincipal.sinaisControleUC = "";
+		
+		for(cont = 0; cont < 24; cont++){
+			PainelPrincipal.sinaisControleUC += String.valueOf(sinais[cont].getValor()) + " ";
+		} 
+	}
+
 	
 	
 /* ========================== Operar ======================== */
