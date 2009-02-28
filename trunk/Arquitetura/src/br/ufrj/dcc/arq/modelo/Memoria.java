@@ -52,14 +52,15 @@ public class Memoria {
 		System.out.println("REND = " + proc.registrador.rend);
 		System.out.println("RDADOS = " + proc.registrador.rdados);
 		*/
-		proc.memoria.mem[proc.registrador.rend] = proc.registrador.rdados;
+		System.out.println("REND = " + ConverteInt(proc.registrador.rend));
+		proc.memoria.mem[ConverteInt(proc.registrador.rend)] = proc.registrador.rdados;
 		
-		Comecar.listaMemoria.replaceItem(String.valueOf(proc.registrador.rend)+ ". " + String.valueOf(proc.registrador.rdados),proc.registrador.rend);
+		Comecar.listaMemoria.replaceItem(String.valueOf(ConverteInt(proc.registrador.rend))+ ". " + String.valueOf(proc.registrador.rdados),ConverteInt(proc.registrador.rend));
 		
 	}
 	
 	public void le(Processador proc) {
-		this.dadoLido = proc.memoria.mem[proc.registrador.rend];
+		this.dadoLido = proc.memoria.mem[ConverteInt(proc.registrador.rend)];
 	}
 	
 	public void opera(Processador proc) {
@@ -72,7 +73,7 @@ public class Memoria {
 		}
 	}
 	
-	public int ConverteInt(short valor) {
+	public static int ConverteInt(short valor) {
 		int numero = ( valor & 0xffff );
 		
 		return numero;
