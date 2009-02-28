@@ -1,5 +1,8 @@
 package br.ufrj.dcc.arq.modelo;
 
+import br.ufrj.dcc.arq.controle.Controlador;
+import br.ufrj.dcc.arq.vista.Comecar;
+
 public class Memoria {
 	public static final int TAM_MEM = 65536;
 	public static final int LEIT = 0;
@@ -50,6 +53,9 @@ public class Memoria {
 		System.out.println("RDADOS = " + proc.registrador.rdados);
 		*/
 		proc.memoria.mem[proc.registrador.rend] = proc.registrador.rdados;
+		
+		Comecar.listaMemoria.replaceItem(String.valueOf(proc.registrador.rend)+ ". " + String.valueOf(proc.registrador.rdados),proc.registrador.rend);
+		
 	}
 	
 	public void le(Processador proc) {
