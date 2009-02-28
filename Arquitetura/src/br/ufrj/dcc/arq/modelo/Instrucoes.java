@@ -72,9 +72,6 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-
-		nomeMicroInstrucao = "PC_REC_PCMAIS1";
-		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		//proc.uc.decodificaEChama(proc.registrador.ri, executa_por_micro, proc);
 		//Isso sera desnecessario, visto que nao teremos um gerador de endereco
 
