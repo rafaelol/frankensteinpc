@@ -3537,7 +3537,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -3572,7 +3572,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc));
 		proc.memoriacontrole.RDados_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -3658,7 +3658,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -3693,7 +3693,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc));
 		proc.memoriacontrole.RDados_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -3779,7 +3779,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -3814,7 +3814,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc));
 		proc.memoriacontrole.RDados_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -3900,7 +3900,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -3935,7 +3935,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1maisRY(proc));
 		proc.memoriacontrole.RDados_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4021,7 +4021,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4039,7 +4039,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4056,7 +4056,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R2maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4142,7 +4142,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4160,7 +4160,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4177,7 +4177,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R2maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4263,7 +4263,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4281,7 +4281,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4298,7 +4298,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R2maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4384,7 +4384,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4402,7 +4402,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4419,7 +4419,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R2maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4505,7 +4505,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4523,7 +4523,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4540,7 +4540,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R2maisRX(proc);
 		nomeMicroInstrucao = "R2DADOS_REC_R2_MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4626,7 +4626,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4644,7 +4644,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4661,7 +4661,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R3maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4747,7 +4747,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4765,7 +4765,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4782,7 +4782,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R3maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4868,7 +4868,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -4886,7 +4886,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4903,7 +4903,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R3maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -4989,7 +4989,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5007,7 +5007,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5024,7 +5024,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R3maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MAISX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5110,7 +5110,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5128,7 +5128,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5145,7 +5145,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R3maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5231,7 +5231,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5249,7 +5249,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5266,7 +5266,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R4maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5352,7 +5352,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5370,7 +5370,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5387,7 +5387,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R4maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5473,7 +5473,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5491,7 +5491,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5508,7 +5508,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R4maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5594,7 +5594,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5612,7 +5612,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5629,7 +5629,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R4maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5715,7 +5715,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5733,7 +5733,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5750,7 +5750,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4maisRX(proc));
 		proc.memoriacontrole.RDados_rec_R4maisRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MAISRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5836,7 +5836,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5871,7 +5871,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc));
 		proc.memoriacontrole.R0_rec_R0maisRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -5941,7 +5941,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -5976,7 +5976,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc));
 		proc.memoriacontrole.R1_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6046,7 +6046,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6064,7 +6064,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc));
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6134,7 +6134,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6152,7 +6152,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc));
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6222,7 +6222,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6240,7 +6240,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc));
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6310,7 +6310,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6345,7 +6345,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc));
 		proc.memoriacontrole.R0_rec_R0maisRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6415,7 +6415,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6450,7 +6450,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc));
 		proc.memoriacontrole.R1_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6520,7 +6520,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6538,7 +6538,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc));
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6608,7 +6608,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6626,7 +6626,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc));
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6696,7 +6696,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6714,7 +6714,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc));
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6784,7 +6784,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6819,7 +6819,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc));
 		proc.memoriacontrole.R0_rec_R0maisRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6889,7 +6889,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -6924,7 +6924,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc));
 		proc.memoriacontrole.R1_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -6994,7 +6994,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7012,7 +7012,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc));
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7082,7 +7082,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7100,7 +7100,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc));
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7170,7 +7170,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7188,7 +7188,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc));
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7258,7 +7258,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7293,7 +7293,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc));
 		proc.memoriacontrole.R0_rec_R0maisRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7363,7 +7363,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7398,7 +7398,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc));
 		proc.memoriacontrole.R1_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7468,7 +7468,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7486,7 +7486,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc));
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7556,7 +7556,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7574,7 +7574,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc));
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7644,7 +7644,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7662,7 +7662,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc));
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7732,7 +7732,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7767,7 +7767,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0maisRY(proc));
 		proc.memoriacontrole.R0_rec_R0maisRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7837,7 +7837,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7872,7 +7872,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1maisRY(proc));
 		proc.memoriacontrole.R1_rec_R1maisRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1MAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -7942,7 +7942,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -7960,7 +7960,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2maisRDados(proc));
 		proc.memoriacontrole.R2_rec_R2maisRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -8030,7 +8030,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8048,7 +8048,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3maisRDados(proc));
 		proc.memoriacontrole.R3_rec_R3maisRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -8118,7 +8118,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8136,7 +8136,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4maisRDados(proc));
 		proc.memoriacontrole.R4_rec_R4maisRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4MAISRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -8206,7 +8206,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8241,7 +8241,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -8328,7 +8328,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8396,7 +8396,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8414,7 +8414,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -8501,7 +8501,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8569,7 +8569,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8587,7 +8587,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -8673,7 +8673,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8741,7 +8741,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8759,7 +8759,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -8845,7 +8845,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8913,7 +8913,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -8931,7 +8931,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -9017,7 +9017,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9085,7 +9085,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9103,7 +9103,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -9189,7 +9189,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9224,7 +9224,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -9310,7 +9310,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9378,7 +9378,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9396,7 +9396,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -9482,7 +9482,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9550,7 +9550,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9568,7 +9568,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -9654,7 +9654,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9722,7 +9722,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9740,7 +9740,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -9826,7 +9826,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9894,7 +9894,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -9912,7 +9912,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -9998,7 +9998,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10066,7 +10066,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10084,7 +10084,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -10170,7 +10170,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10205,7 +10205,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -10291,7 +10291,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10359,7 +10359,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10377,7 +10377,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -10463,7 +10463,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10531,7 +10531,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10549,7 +10549,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -10635,7 +10635,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10703,7 +10703,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10721,7 +10721,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -10807,7 +10807,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10875,7 +10875,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -10893,7 +10893,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -10979,7 +10979,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11047,7 +11047,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11065,7 +11065,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -11151,7 +11151,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11186,7 +11186,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -11272,7 +11272,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11340,7 +11340,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11358,7 +11358,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -11444,7 +11444,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11512,7 +11512,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11530,7 +11530,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -11616,7 +11616,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11684,7 +11684,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11702,7 +11702,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -11788,7 +11788,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11856,7 +11856,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -11874,7 +11874,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -11960,7 +11960,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12028,7 +12028,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12046,7 +12046,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -12132,7 +12132,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12167,7 +12167,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosmaisRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosmaisRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSMAISRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -12273,7 +12273,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12308,7 +12308,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -12397,7 +12397,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12432,7 +12432,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -12521,7 +12521,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12539,7 +12539,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -12628,7 +12628,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12646,7 +12646,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -12735,7 +12735,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12753,7 +12753,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -12842,7 +12842,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12910,7 +12910,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -12928,7 +12928,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13033,7 +13033,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13101,7 +13101,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13119,7 +13119,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13224,7 +13224,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13292,7 +13292,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13310,7 +13310,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13415,7 +13415,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13483,7 +13483,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13501,7 +13501,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13606,7 +13606,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13674,7 +13674,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -13692,7 +13692,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13762,7 +13762,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13816,7 +13816,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13853,7 +13853,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR0R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R0menosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R0menosR2(proc));
 		proc.memoriacontrole.R2_rec_R0menosR2(proc);
 		nomeMicroInstrucao = "R2_REC_R0MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13890,7 +13890,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR0R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R0menosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R0menosR3(proc));
 		proc.memoriacontrole.R3_rec_R0menosR3(proc);
 		nomeMicroInstrucao = "R3_REC_R0MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13927,7 +13927,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR0R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R0menosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R0menosR4(proc));
 		proc.memoriacontrole.R4_rec_R0menosR4(proc);
 		nomeMicroInstrucao = "R4_REC_R0MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13964,7 +13964,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR1R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc));
 		proc.memoriacontrole.RY_rec_R1(proc);
 		nomeMicroInstrucao = "RY_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -13981,7 +13981,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14019,7 +14019,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR1R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc));
 		proc.memoriacontrole.RY_rec_R1(proc);
 		nomeMicroInstrucao = "RY_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14036,7 +14036,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14073,7 +14073,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR1R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R1menosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R1menosR2(proc));
 		proc.memoriacontrole.R2_rec_R1menosR2(proc);
 		nomeMicroInstrucao = "R2_REC_R1MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14111,7 +14111,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR1R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R1menosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R1menosR3(proc));
 		proc.memoriacontrole.R3_rec_R1menosR3(proc);
 		nomeMicroInstrucao = "R3_REC_R1MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14148,7 +14148,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR1R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R1menosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R1menosR4(proc));
 		proc.memoriacontrole.R4_rec_R1menosR4(proc);
 		nomeMicroInstrucao = "R4_REC_R1MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14185,7 +14185,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR2R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R2menosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R2menosR0(proc));
 		proc.memoriacontrole.R0_rec_R2menosR0(proc);
 		nomeMicroInstrucao = "R0_REC_R2MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14222,7 +14222,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR2R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R2menosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R2menosR1(proc));
 		proc.memoriacontrole.R1_rec_R2menosR1(proc);
 		nomeMicroInstrucao = "R1_REC_R2MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14259,7 +14259,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR2R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14276,7 +14276,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RXmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14313,7 +14313,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR2R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14330,7 +14330,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RXmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14367,7 +14367,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR2R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14384,7 +14384,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RXmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14421,7 +14421,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR3R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R3menosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R3menosR0(proc));
 		proc.memoriacontrole.R0_rec_R3menosR0(proc);
 		nomeMicroInstrucao = "R0_REC_R3MENOSRO";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14458,7 +14458,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR3R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R3menosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R3menosR1(proc));
 		proc.memoriacontrole.R1_rec_R3menosR1(proc);
 		nomeMicroInstrucao = "R1_REC_R3MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14495,7 +14495,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR3R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14512,7 +14512,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RXmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14549,7 +14549,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR3R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14566,7 +14566,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RXmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14603,7 +14603,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR3R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14620,7 +14620,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RXmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14657,7 +14657,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR4R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R4menosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R4menosR0(proc));
 		proc.memoriacontrole.R0_rec_R4menosR0(proc);
 		nomeMicroInstrucao = "R0_REC_R4MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14694,7 +14694,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR4R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R4menosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R4menosR1(proc));
 		proc.memoriacontrole.R1_rec_R4menosR1(proc);
 		nomeMicroInstrucao = "R1_REC_R4MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14731,7 +14731,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR4R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14748,7 +14748,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RXmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RXmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14785,7 +14785,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR4R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14802,7 +14802,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RXmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RXmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14839,7 +14839,7 @@ public class Instrucoes extends Thread {
 
 	public static void subR4R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14856,7 +14856,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RXmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RXmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -14926,7 +14926,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -14961,7 +14961,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R0menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15047,7 +15047,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15082,7 +15082,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R0menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15168,7 +15168,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15203,7 +15203,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R0menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15289,7 +15289,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15324,7 +15324,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R0menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15410,7 +15410,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15445,7 +15445,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R0menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15531,7 +15531,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15566,7 +15566,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R1menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15652,7 +15652,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15687,7 +15687,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R1menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15773,7 +15773,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15808,7 +15808,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R1menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -15894,7 +15894,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -15929,7 +15929,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R1menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16015,7 +16015,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16050,7 +16050,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1menosRY(proc));
 		proc.memoriacontrole.RDados_rec_R1menosRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16136,7 +16136,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16154,7 +16154,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16171,7 +16171,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R2menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16257,7 +16257,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16275,7 +16275,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16292,7 +16292,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R2menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16378,7 +16378,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16396,7 +16396,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16413,7 +16413,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R2menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16499,7 +16499,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16517,7 +16517,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16534,7 +16534,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R2menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16620,7 +16620,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16638,7 +16638,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16655,7 +16655,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R2menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16741,7 +16741,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16759,7 +16759,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16776,7 +16776,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R3menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16862,7 +16862,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -16880,7 +16880,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16897,7 +16897,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R3menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -16983,7 +16983,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17001,7 +17001,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17018,7 +17018,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R3menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17104,7 +17104,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17122,7 +17122,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17139,7 +17139,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R3menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17225,7 +17225,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17243,7 +17243,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17260,7 +17260,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R3menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17346,7 +17346,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17364,7 +17364,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17381,7 +17381,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R4menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17467,7 +17467,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17485,7 +17485,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17502,7 +17502,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R4menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17588,7 +17588,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17606,7 +17606,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17623,7 +17623,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R4menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17709,7 +17709,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17727,7 +17727,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17744,7 +17744,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R4menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17830,7 +17830,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17848,7 +17848,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17865,7 +17865,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4menosRX(proc));
 		proc.memoriacontrole.RDados_rec_R4menosRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -17951,7 +17951,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -17986,7 +17986,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18056,7 +18056,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18091,7 +18091,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18161,7 +18161,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18179,7 +18179,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18249,7 +18249,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18267,7 +18267,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18337,7 +18337,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18355,7 +18355,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18425,7 +18425,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18460,7 +18460,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18530,7 +18530,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18565,7 +18565,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18635,7 +18635,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18653,7 +18653,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18723,7 +18723,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18741,7 +18741,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18811,7 +18811,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18829,7 +18829,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -18899,7 +18899,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -18934,7 +18934,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19004,7 +19004,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19039,7 +19039,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19109,7 +19109,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19127,7 +19127,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19197,7 +19197,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19215,7 +19215,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19285,7 +19285,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19303,7 +19303,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19373,7 +19373,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19408,7 +19408,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19478,7 +19478,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19513,7 +19513,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19583,7 +19583,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19601,7 +19601,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19671,7 +19671,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19689,7 +19689,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19759,7 +19759,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19777,7 +19777,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19847,7 +19847,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19882,7 +19882,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RYmenosR0(proc));
 		proc.memoriacontrole.R0_rec_RYmenosR0(proc);
 		nomeMicroInstrucao = "R0_REC_RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -19952,7 +19952,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -19987,7 +19987,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RYmenosR1(proc));
 		proc.memoriacontrole.R1_rec_RYmenosR1(proc);
 		nomeMicroInstrucao = "R1_REC_RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20057,7 +20057,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20075,7 +20075,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDadosmenosR2(proc));
 		proc.memoriacontrole.R2_rec_RDadosmenosR2(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20145,7 +20145,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20163,7 +20163,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDadosmenosR3(proc));
 		proc.memoriacontrole.R3_rec_RDadosmenosR3(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20233,7 +20233,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20251,7 +20251,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDadosmenosR4(proc));
 		proc.memoriacontrole.R4_rec_RDadosmenosR4(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20321,7 +20321,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20356,7 +20356,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20443,7 +20443,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20511,7 +20511,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20529,7 +20529,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20616,7 +20616,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20684,7 +20684,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20702,7 +20702,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20788,7 +20788,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20856,7 +20856,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -20874,7 +20874,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -20960,7 +20960,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21028,7 +21028,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21046,7 +21046,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -21132,7 +21132,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21200,7 +21200,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21218,7 +21218,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -21304,7 +21304,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21339,7 +21339,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -21425,7 +21425,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21493,7 +21493,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21511,7 +21511,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -21597,7 +21597,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21665,7 +21665,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21683,7 +21683,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -21769,7 +21769,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21837,7 +21837,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -21855,7 +21855,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -21941,7 +21941,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22009,7 +22009,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22027,7 +22027,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -22113,7 +22113,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22181,7 +22181,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22199,7 +22199,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -22285,7 +22285,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22320,7 +22320,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -22406,7 +22406,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22474,7 +22474,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22492,7 +22492,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -22578,7 +22578,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22646,7 +22646,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22664,7 +22664,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -22750,7 +22750,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22818,7 +22818,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22836,7 +22836,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -22922,7 +22922,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -22990,7 +22990,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23008,7 +23008,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -23094,7 +23094,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23162,7 +23162,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23180,7 +23180,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -23266,7 +23266,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23301,7 +23301,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -23387,7 +23387,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23455,7 +23455,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23473,7 +23473,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -23559,7 +23559,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23627,7 +23627,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23645,7 +23645,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -23731,7 +23731,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23799,7 +23799,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23817,7 +23817,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -23903,7 +23903,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23971,7 +23971,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -23989,7 +23989,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24075,7 +24075,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24143,7 +24143,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24161,7 +24161,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24247,7 +24247,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24282,7 +24282,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RYmenosRDados(proc));
 		proc.memoriacontrole.RDados_rec_RYmenosRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY_MENOS_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24386,7 +24386,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24403,7 +24403,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc));
 		proc.memoriacontrole.R0_rec_RDados(proc);
 		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24491,7 +24491,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24509,7 +24509,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc));
 		proc.memoriacontrole.R1_rec_RDados(proc);
 		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24598,7 +24598,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24616,7 +24616,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc));
 		proc.memoriacontrole.R2_rec_RDados(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24705,7 +24705,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24723,7 +24723,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc));
 		proc.memoriacontrole.R3_rec_RDados(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24812,7 +24812,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24830,7 +24830,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc));
 		proc.memoriacontrole.R4_rec_RDados(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -24922,7 +24922,7 @@ public class Instrucoes extends Thread {
 		}
 		//System.out.println("DADOLIDO = " + proc.memoria.dadoLido);
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -24994,7 +24994,7 @@ public class Instrucoes extends Thread {
 		}
 		//System.out.println("DADO LIDO = " + proc.memoria.dadoLido);
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25013,7 +25013,7 @@ public class Instrucoes extends Thread {
 		}
 		//System.out.println("RDADOS = " + proc.registrador.rdados);
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc));
 		proc.memoriacontrole.RDados_rec_RY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25119,7 +25119,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25187,7 +25187,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25205,7 +25205,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc));
 		proc.memoriacontrole.RDados_rec_RY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25310,7 +25310,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25378,7 +25378,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25396,7 +25396,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc));
 		proc.memoriacontrole.RDados_rec_RY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25501,7 +25501,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25569,7 +25569,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25587,7 +25587,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc));
 		proc.memoriacontrole.RDados_rec_RY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25692,7 +25692,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25760,7 +25760,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -25778,7 +25778,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RY(proc));
 		proc.memoriacontrole.RDados_rec_RY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25851,7 +25851,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR0R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R0(proc));
 		proc.memoriacontrole.R1_rec_R0(proc);
 		nomeMicroInstrucao = "R1_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25889,7 +25889,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR0R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R0(proc));
 		proc.memoriacontrole.R2_rec_R0(proc);
 		nomeMicroInstrucao = "R2_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25926,7 +25926,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR0R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R0(proc));
 		proc.memoriacontrole.R3_rec_R0(proc);
 		nomeMicroInstrucao = "R3_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -25963,7 +25963,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR0R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R0(proc));
 		proc.memoriacontrole.R4_rec_R0(proc);
 		nomeMicroInstrucao = "R4_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26000,7 +26000,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR1R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R1(proc));
 		proc.memoriacontrole.R0_rec_R1(proc);
 		nomeMicroInstrucao = "R0_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26057,7 +26057,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR1R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R1(proc));
 		proc.memoriacontrole.R2_rec_R1(proc);
 		nomeMicroInstrucao = "R2_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26094,7 +26094,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR1R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R1(proc));
 		proc.memoriacontrole.R3_rec_R1(proc);
 		nomeMicroInstrucao = "R3_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26131,7 +26131,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR1R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R1(proc));
 		proc.memoriacontrole.R4_rec_R1(proc);
 		nomeMicroInstrucao = "R4_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26168,7 +26168,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR2R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R2(proc));
 		proc.memoriacontrole.R0_rec_R2(proc);
 		nomeMicroInstrucao = "R0_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26205,7 +26205,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR2R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R2(proc));
 		proc.memoriacontrole.R1_rec_R2(proc);
 		nomeMicroInstrucao = "R1_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26262,7 +26262,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR2R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R2(proc));
 		proc.memoriacontrole.R3_rec_R2(proc);
 		nomeMicroInstrucao = "R3_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26299,7 +26299,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR2R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R2(proc));
 		proc.memoriacontrole.R4_rec_R2(proc);
 		nomeMicroInstrucao = "R4_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26336,7 +26336,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR3R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R3(proc));
 		proc.memoriacontrole.R0_rec_R3(proc);
 		nomeMicroInstrucao = "R0_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26373,7 +26373,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR3R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R3(proc));
 		proc.memoriacontrole.R1_rec_R3(proc);
 		nomeMicroInstrucao = "R1_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26410,7 +26410,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR3R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R3(proc));
 		proc.memoriacontrole.R2_rec_R3(proc);
 		nomeMicroInstrucao = "R2_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26467,7 +26467,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR3R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R3(proc));
 		proc.memoriacontrole.R4_rec_R3(proc);
 		nomeMicroInstrucao = "R4_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26504,7 +26504,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR4R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R4(proc));
 		proc.memoriacontrole.R0_rec_R4(proc);
 		nomeMicroInstrucao = "R0_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26541,7 +26541,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR4R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R4(proc));
 		proc.memoriacontrole.R1_rec_R4(proc);
 		nomeMicroInstrucao = "R1_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26578,7 +26578,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR4R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R4(proc));
 		proc.memoriacontrole.R2_rec_R4(proc);
 		nomeMicroInstrucao = "R2_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26615,7 +26615,7 @@ public class Instrucoes extends Thread {
 
 	public static void movR4R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R4(proc));
 		proc.memoriacontrole.R3_rec_R4(proc);
 		nomeMicroInstrucao = "R3_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26689,7 +26689,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc));
 		proc.memoriacontrole.RDados_rec_R0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26760,7 +26760,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc));
 		proc.memoriacontrole.RDados_rec_R0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26831,7 +26831,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc));
 		proc.memoriacontrole.RDados_rec_R0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26902,7 +26902,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc));
 		proc.memoriacontrole.RDados_rec_R0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -26973,7 +26973,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0(proc));
 		proc.memoriacontrole.RDados_rec_R0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27044,7 +27044,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc));
 		proc.memoriacontrole.RDados_rec_R1(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27115,7 +27115,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc));
 		proc.memoriacontrole.RDados_rec_R1(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27185,7 +27185,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc));
 		proc.memoriacontrole.RDados_rec_R1(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27255,7 +27255,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc));
 		proc.memoriacontrole.RDados_rec_R1(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27325,7 +27325,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1(proc));
 		proc.memoriacontrole.RDados_rec_R1(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27395,7 +27395,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc));
 		proc.memoriacontrole.RDados_rec_R2(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27465,7 +27465,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc));
 		proc.memoriacontrole.RDados_rec_R2(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27535,7 +27535,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc));
 		proc.memoriacontrole.RDados_rec_R2(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27605,7 +27605,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc));
 		proc.memoriacontrole.RDados_rec_R2(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27675,7 +27675,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2(proc));
 		proc.memoriacontrole.RDados_rec_R2(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27745,7 +27745,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc));
 		proc.memoriacontrole.RDados_rec_R3(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27815,7 +27815,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc));
 		proc.memoriacontrole.RDados_rec_R3(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27885,7 +27885,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc));
 		proc.memoriacontrole.RDados_rec_R3(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -27955,7 +27955,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc));
 		proc.memoriacontrole.RDados_rec_R3(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28025,7 +28025,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3(proc));
 		proc.memoriacontrole.RDados_rec_R3(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28095,7 +28095,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc));
 		proc.memoriacontrole.RDados_rec_R4(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28165,7 +28165,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc));
 		proc.memoriacontrole.RDados_rec_R4(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28235,7 +28235,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc));
 		proc.memoriacontrole.RDados_rec_R4(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28305,7 +28305,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc));
 		proc.memoriacontrole.RDados_rec_R4(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28375,7 +28375,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4(proc));
 		proc.memoriacontrole.RDados_rec_R4(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28460,7 +28460,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -28478,7 +28478,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc));
 		proc.memoriacontrole.R0_rec_RDados(proc);
 		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28548,7 +28548,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -28566,7 +28566,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc));
 		proc.memoriacontrole.R1_rec_RDados(proc);
 		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28636,7 +28636,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -28654,7 +28654,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc));
 		proc.memoriacontrole.R2_rec_RDados(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28724,7 +28724,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -28742,7 +28742,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc));
 		proc.memoriacontrole.R3_rec_RDados(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28812,7 +28812,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -28830,7 +28830,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc));
 		proc.memoriacontrole.R4_rec_RDados(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28900,7 +28900,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -28918,7 +28918,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc));
 		proc.memoriacontrole.R0_rec_RDados(proc);
 		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -28988,7 +28988,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29006,7 +29006,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc));
 		proc.memoriacontrole.R1_rec_RDados(proc);
 		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29076,7 +29076,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29094,7 +29094,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc));
 		proc.memoriacontrole.R2_rec_RDados(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29164,7 +29164,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29182,7 +29182,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc));
 		proc.memoriacontrole.R3_rec_RDados(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29252,7 +29252,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29270,7 +29270,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc));
 		proc.memoriacontrole.R4_rec_RDados(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29340,7 +29340,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29358,7 +29358,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc));
 		proc.memoriacontrole.R0_rec_RDados(proc);
 		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29428,7 +29428,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29446,7 +29446,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc));
 		proc.memoriacontrole.R1_rec_RDados(proc);
 		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29516,7 +29516,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29534,7 +29534,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc));
 		proc.memoriacontrole.R2_rec_RDados(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29604,7 +29604,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29622,7 +29622,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc));
 		proc.memoriacontrole.R3_rec_RDados(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29692,7 +29692,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29710,7 +29710,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc));
 		proc.memoriacontrole.R4_rec_RDados(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29780,7 +29780,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29798,7 +29798,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc));
 		proc.memoriacontrole.R0_rec_RDados(proc);
 		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29868,7 +29868,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29886,7 +29886,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc));
 		proc.memoriacontrole.R1_rec_RDados(proc);
 		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -29956,7 +29956,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -29974,7 +29974,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc));
 		proc.memoriacontrole.R2_rec_RDados(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30044,7 +30044,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30062,7 +30062,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc));
 		proc.memoriacontrole.R3_rec_RDados(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30132,7 +30132,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30150,7 +30150,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc));
 		proc.memoriacontrole.R4_rec_RDados(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30220,7 +30220,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30238,7 +30238,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_RDados(proc));
 		proc.memoriacontrole.R0_rec_RDados(proc);
 		nomeMicroInstrucao = "R0_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30308,7 +30308,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30326,7 +30326,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_RDados(proc));
 		proc.memoriacontrole.R1_rec_RDados(proc);
 		nomeMicroInstrucao = "R1_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30396,7 +30396,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30414,7 +30414,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_RDados(proc));
 		proc.memoriacontrole.R2_rec_RDados(proc);
 		nomeMicroInstrucao = "R2_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30484,7 +30484,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30502,7 +30502,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_RDados(proc));
 		proc.memoriacontrole.R3_rec_RDados(proc);
 		nomeMicroInstrucao = "R3_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30572,7 +30572,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30590,7 +30590,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_RDados(proc));
 		proc.memoriacontrole.R4_rec_RDados(proc);
 		nomeMicroInstrucao = "R4_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -30680,7 +30680,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30784,7 +30784,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30888,7 +30888,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -30992,7 +30992,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31096,7 +31096,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31220,7 +31220,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31324,7 +31324,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31428,7 +31428,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31532,7 +31532,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31636,7 +31636,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31760,7 +31760,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31864,7 +31864,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -31968,7 +31968,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32072,7 +32072,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32176,7 +32176,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32300,7 +32300,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32404,7 +32404,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32508,7 +32508,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32612,7 +32612,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32716,7 +32716,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32861,7 +32861,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -32896,7 +32896,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -32985,7 +32985,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33020,7 +33020,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -33109,7 +33109,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33127,7 +33127,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc));
 		proc.memoriacontrole.RDadosmenosR2(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -33216,7 +33216,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33234,7 +33234,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc));
 		proc.memoriacontrole.RDadosmenosR3(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -33323,7 +33323,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33341,7 +33341,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc));
 		proc.memoriacontrole.RDadosmenosR4(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -33430,7 +33430,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33498,7 +33498,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33516,7 +33516,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -33621,7 +33621,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33689,7 +33689,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33707,7 +33707,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -33812,7 +33812,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33880,7 +33880,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -33898,7 +33898,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34003,7 +34003,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -34071,7 +34071,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -34089,7 +34089,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34194,7 +34194,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -34262,7 +34262,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -34280,7 +34280,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34350,7 +34350,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34404,7 +34404,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34441,7 +34441,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR0R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosR2(proc));
 		proc.memoriacontrole.R0menosR2(proc);
 		nomeMicroInstrucao = "R0MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34478,7 +34478,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR0R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosR3(proc));
 		proc.memoriacontrole.R0menosR3(proc);
 		nomeMicroInstrucao = "R0MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34515,7 +34515,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR0R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosR4(proc));
 		proc.memoriacontrole.R0menosR4(proc);
 		nomeMicroInstrucao = "R0MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34552,7 +34552,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR1R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc));
 		proc.memoriacontrole.RY_rec_R1(proc);
 		nomeMicroInstrucao = "RY_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34569,7 +34569,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34607,7 +34607,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR1R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc));
 		proc.memoriacontrole.RY_rec_R1(proc);
 		nomeMicroInstrucao = "RY_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34624,7 +34624,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34661,7 +34661,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR1R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosR2(proc));
 		proc.memoriacontrole.R1menosR2(proc);
 		nomeMicroInstrucao = "R1MENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34699,7 +34699,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR1R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosR3(proc));
 		proc.memoriacontrole.R1menosR3(proc);
 		nomeMicroInstrucao = "R1MENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34736,7 +34736,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR1R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosR4(proc));
 		proc.memoriacontrole.R1menosR4(proc);
 		nomeMicroInstrucao = "R1MENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34773,7 +34773,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR2R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosR0(proc));
 		proc.memoriacontrole.R2menosR0(proc);
 		nomeMicroInstrucao = "R2MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34810,7 +34810,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR2R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosR1(proc));
 		proc.memoriacontrole.R2menosR1(proc);
 		nomeMicroInstrucao = "R2MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34847,7 +34847,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR2R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34864,7 +34864,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR2(proc));
 		proc.memoriacontrole.RXmenosR2(proc);
 		nomeMicroInstrucao = "RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34901,7 +34901,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR2R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34918,7 +34918,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR3(proc));
 		proc.memoriacontrole.RXmenosR3(proc);
 		nomeMicroInstrucao = "RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34955,7 +34955,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR2R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -34972,7 +34972,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR4(proc));
 		proc.memoriacontrole.RXmenosR4(proc);
 		nomeMicroInstrucao = "RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35009,7 +35009,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR3R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosR0(proc));
 		proc.memoriacontrole.R3menosR0(proc);
 		nomeMicroInstrucao = "R3MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35046,7 +35046,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR3R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosR1(proc));
 		proc.memoriacontrole.R3menosR1(proc);
 		nomeMicroInstrucao = "R3MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35083,7 +35083,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR3R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35100,7 +35100,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR2(proc));
 		proc.memoriacontrole.RXmenosR2(proc);
 		nomeMicroInstrucao = "RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35137,7 +35137,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR3R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35154,7 +35154,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR3(proc));
 		proc.memoriacontrole.RXmenosR3(proc);
 		nomeMicroInstrucao = "RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35191,7 +35191,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR3R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35208,7 +35208,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR4(proc));
 		proc.memoriacontrole.RXmenosR4(proc);
 		nomeMicroInstrucao = "RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35245,7 +35245,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR4R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosR0(proc));
 		proc.memoriacontrole.R4menosR0(proc);
 		nomeMicroInstrucao = "R4MENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35282,7 +35282,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR4R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosR1(proc));
 		proc.memoriacontrole.R4menosR1(proc);
 		nomeMicroInstrucao = "R4MENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35319,7 +35319,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR4R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35336,7 +35336,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR2(proc));
 		proc.memoriacontrole.RXmenosR2(proc);
 		nomeMicroInstrucao = "RXMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35373,7 +35373,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR4R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35390,7 +35390,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR3(proc));
 		proc.memoriacontrole.RXmenosR3(proc);
 		nomeMicroInstrucao = "RXMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35427,7 +35427,7 @@ public class Instrucoes extends Thread {
 
 	public static void cmpR4R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35444,7 +35444,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RXmenosR4(proc));
 		proc.memoriacontrole.RXmenosR4(proc);
 		nomeMicroInstrucao = "RXMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35514,7 +35514,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -35549,7 +35549,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc));
 		proc.memoriacontrole.R0menosRY(proc);
 		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35635,7 +35635,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -35670,7 +35670,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc));
 		proc.memoriacontrole.R0menosRY(proc);
 		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35756,7 +35756,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -35791,7 +35791,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc));
 		proc.memoriacontrole.R0menosRY(proc);
 		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35877,7 +35877,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -35912,7 +35912,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc));
 		proc.memoriacontrole.R0menosRY(proc);
 		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -35998,7 +35998,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36033,7 +36033,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0menosRY(proc));
 		proc.memoriacontrole.R0menosRY(proc);
 		nomeMicroInstrucao = "R0MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36119,7 +36119,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36154,7 +36154,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc));
 		proc.memoriacontrole.R1menosRY(proc);
 		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36240,7 +36240,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36275,7 +36275,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc));
 		proc.memoriacontrole.R1menosRY(proc);
 		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36361,7 +36361,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36396,7 +36396,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc));
 		proc.memoriacontrole.R1menosRY(proc);
 		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36482,7 +36482,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36517,7 +36517,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc));
 		proc.memoriacontrole.R1menosRY(proc);
 		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36603,7 +36603,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36638,7 +36638,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1menosRY(proc));
 		proc.memoriacontrole.R1menosRY(proc);
 		nomeMicroInstrucao = "R1MENOSRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36724,7 +36724,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36742,7 +36742,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36759,7 +36759,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc));
 		proc.memoriacontrole.R2menosRX(proc);
 		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36845,7 +36845,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36863,7 +36863,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36880,7 +36880,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc));
 		proc.memoriacontrole.R2menosRX(proc);
 		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -36966,7 +36966,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -36984,7 +36984,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37001,7 +37001,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc));
 		proc.memoriacontrole.R2menosRX(proc);
 		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37087,7 +37087,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37105,7 +37105,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37122,7 +37122,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc));
 		proc.memoriacontrole.R2menosRX(proc);
 		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37208,7 +37208,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37226,7 +37226,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37243,7 +37243,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2menosRX(proc));
 		proc.memoriacontrole.R2menosRX(proc);
 		nomeMicroInstrucao = "R2MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37329,7 +37329,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37347,7 +37347,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37364,7 +37364,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc));
 		proc.memoriacontrole.R3menosRX(proc);
 		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37450,7 +37450,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37468,7 +37468,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37485,7 +37485,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc));
 		proc.memoriacontrole.R3menosRX(proc);
 		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37571,7 +37571,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37589,7 +37589,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37606,7 +37606,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc));
 		proc.memoriacontrole.R3menosRX(proc);
 		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37692,7 +37692,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37710,7 +37710,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37727,7 +37727,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc));
 		proc.memoriacontrole.R3menosRX(proc);
 		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37813,7 +37813,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37831,7 +37831,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37848,7 +37848,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3menosRX(proc));
 		proc.memoriacontrole.R3menosRX(proc);
 		nomeMicroInstrucao = "R3MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37934,7 +37934,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -37952,7 +37952,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -37969,7 +37969,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc));
 		proc.memoriacontrole.R4menosRX(proc);
 		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38055,7 +38055,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38073,7 +38073,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38090,7 +38090,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc));
 		proc.memoriacontrole.R4menosRX(proc);
 		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38176,7 +38176,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38194,7 +38194,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38211,7 +38211,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc));
 		proc.memoriacontrole.R4menosRX(proc);
 		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38297,7 +38297,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38315,7 +38315,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38332,7 +38332,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc));
 		proc.memoriacontrole.R4menosRX(proc);
 		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38418,7 +38418,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38436,7 +38436,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38453,7 +38453,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4menosRX(proc));
 		proc.memoriacontrole.R4menosRX(proc);
 		nomeMicroInstrucao = "R4MENOSRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38539,7 +38539,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38574,7 +38574,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38644,7 +38644,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38679,7 +38679,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38749,7 +38749,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38767,7 +38767,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc));
 		proc.memoriacontrole.RDadosmenosR2(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38837,7 +38837,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38855,7 +38855,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc));
 		proc.memoriacontrole.RDadosmenosR3(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -38925,7 +38925,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -38943,7 +38943,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc));
 		proc.memoriacontrole.RDadosmenosR4(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39013,7 +39013,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39048,7 +39048,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39118,7 +39118,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39153,7 +39153,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39223,7 +39223,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39241,7 +39241,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc));
 		proc.memoriacontrole.RDadosmenosR2(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39311,7 +39311,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39329,7 +39329,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc));
 		proc.memoriacontrole.RDadosmenosR3(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39399,7 +39399,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39417,7 +39417,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc));
 		proc.memoriacontrole.RDadosmenosR4(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39487,7 +39487,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39522,7 +39522,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39592,7 +39592,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39627,7 +39627,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39697,7 +39697,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39715,7 +39715,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc));
 		proc.memoriacontrole.RDadosmenosR2(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39785,7 +39785,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39803,7 +39803,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc));
 		proc.memoriacontrole.RDadosmenosR3(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39873,7 +39873,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39891,7 +39891,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc));
 		proc.memoriacontrole.RDadosmenosR4(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -39961,7 +39961,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -39996,7 +39996,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40066,7 +40066,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40101,7 +40101,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40171,7 +40171,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40189,7 +40189,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc));
 		proc.memoriacontrole.RDadosmenosR2(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40259,7 +40259,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40277,7 +40277,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc));
 		proc.memoriacontrole.RDadosmenosR3(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40347,7 +40347,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40365,7 +40365,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc));
 		proc.memoriacontrole.RDadosmenosR4(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40435,7 +40435,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40470,7 +40470,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR0(proc));
 		proc.memoriacontrole.RYmenosR0(proc);
 		nomeMicroInstrucao = "RYMENOSR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40540,7 +40540,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40575,7 +40575,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosR1(proc));
 		proc.memoriacontrole.RYmenosR1(proc);
 		nomeMicroInstrucao = "RYMENOSR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40645,7 +40645,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40663,7 +40663,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR2(proc));
 		proc.memoriacontrole.RDadosmenosR2(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40733,7 +40733,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40751,7 +40751,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR3(proc));
 		proc.memoriacontrole.RDadosmenosR3(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40821,7 +40821,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40839,7 +40839,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDadosmenosR4(proc));
 		proc.memoriacontrole.RDadosmenosR4(proc);
 		nomeMicroInstrucao = "RDADOSMENOSR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -40909,7 +40909,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -40944,7 +40944,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -41031,7 +41031,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41099,7 +41099,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41117,7 +41117,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -41204,7 +41204,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41272,7 +41272,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41290,7 +41290,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -41376,7 +41376,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41444,7 +41444,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41462,7 +41462,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -41548,7 +41548,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41616,7 +41616,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41634,7 +41634,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -41720,7 +41720,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41788,7 +41788,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41806,7 +41806,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -41892,7 +41892,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -41927,7 +41927,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -42013,7 +42013,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42081,7 +42081,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42099,7 +42099,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -42185,7 +42185,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42253,7 +42253,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42271,7 +42271,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -42357,7 +42357,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42425,7 +42425,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42443,7 +42443,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -42529,7 +42529,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42597,7 +42597,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42615,7 +42615,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -42701,7 +42701,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42769,7 +42769,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42787,7 +42787,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -42873,7 +42873,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -42908,7 +42908,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -42994,7 +42994,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43062,7 +43062,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43080,7 +43080,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -43166,7 +43166,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43234,7 +43234,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43252,7 +43252,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -43338,7 +43338,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43406,7 +43406,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43424,7 +43424,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -43510,7 +43510,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43578,7 +43578,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43596,7 +43596,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -43682,7 +43682,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43750,7 +43750,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43768,7 +43768,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -43854,7 +43854,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -43889,7 +43889,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -43975,7 +43975,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44043,7 +44043,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44061,7 +44061,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -44147,7 +44147,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44215,7 +44215,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44233,7 +44233,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -44319,7 +44319,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44387,7 +44387,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44405,7 +44405,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -44491,7 +44491,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44559,7 +44559,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44577,7 +44577,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -44663,7 +44663,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44731,7 +44731,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44749,7 +44749,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -44835,7 +44835,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -44870,7 +44870,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RYmenosRDados(proc));
 		proc.memoriacontrole.RYmenosRDados(proc);
 		nomeMicroInstrucao = "RYMENOSRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -44976,7 +44976,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45011,7 +45011,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc));
 		proc.memoriacontrole.R0_rec_R0andRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -45100,7 +45100,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45135,7 +45135,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc));
 		proc.memoriacontrole.R1_rec_R1andRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -45224,7 +45224,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45242,7 +45242,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc));
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -45331,7 +45331,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45349,7 +45349,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc));
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -45438,7 +45438,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45456,7 +45456,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc));
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -45545,7 +45545,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45613,7 +45613,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45631,7 +45631,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -45736,7 +45736,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45804,7 +45804,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45822,7 +45822,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -45927,7 +45927,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -45995,7 +45995,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -46013,7 +46013,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -46118,7 +46118,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -46186,7 +46186,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -46204,7 +46204,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -46309,7 +46309,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -46377,7 +46377,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -46395,7 +46395,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -46465,7 +46465,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc));
 		proc.memoriacontrole.R0_rec_R0andRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -46519,7 +46519,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc));
 		proc.memoriacontrole.R1_rec_R1andRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -46556,7 +46556,7 @@ public class Instrucoes extends Thread {
 
 	public static void andR0R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andR0(proc));
 		proc.memoriacontrole.R2_rec_R2andR0(proc);
 		nomeMicroInstrucao = "R2_REC_R2ANDR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -46593,7 +46593,7 @@ public class Instrucoes extends Thread {
 
 	public static void andR0R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andR0(proc));
 		proc.memoriacontrole.R3_rec_R3andR0(proc);
 		nomeMicroInstrucao = "R3_REC_R3ANDR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -48267,7 +48267,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1andRY(proc));
 		proc.memoriacontrole.RDados_rec_R1andRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -48353,7 +48353,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -48388,7 +48388,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1andRY(proc));
 		proc.memoriacontrole.RDados_rec_R1andRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -48509,7 +48509,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1andRY(proc));
 		proc.memoriacontrole.RDados_rec_R1andRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -49840,7 +49840,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3andRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3andRX(proc));
 		proc.memoriacontrole.RDados_rec_R3andRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -49944,7 +49944,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -49961,7 +49961,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3andRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3andRX(proc));
 		proc.memoriacontrole.RDados_rec_R3andRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R3ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50065,7 +50065,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50082,7 +50082,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc));
 		proc.memoriacontrole.RDados_rec_R4andRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50289,7 +50289,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -50307,7 +50307,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50324,7 +50324,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc));
 		proc.memoriacontrole.RDados_rec_R4andRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50410,7 +50410,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -50428,7 +50428,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50445,7 +50445,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc));
 		proc.memoriacontrole.RDados_rec_R4andRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50531,7 +50531,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -50549,7 +50549,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50566,7 +50566,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4andRX(proc));
 		proc.memoriacontrole.RDados_rec_R4andRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ANDRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50652,7 +50652,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -50687,7 +50687,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc));
 		proc.memoriacontrole.R0_rec_R0andRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50757,7 +50757,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -50792,7 +50792,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc));
 		proc.memoriacontrole.R1_rec_R1andRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50862,7 +50862,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -50880,7 +50880,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc));
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -50950,7 +50950,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -50968,7 +50968,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc));
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51038,7 +51038,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51056,7 +51056,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc));
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51126,7 +51126,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51161,7 +51161,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc));
 		proc.memoriacontrole.R0_rec_R0andRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51231,7 +51231,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51266,7 +51266,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc));
 		proc.memoriacontrole.R1_rec_R1andRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51336,7 +51336,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51354,7 +51354,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc));
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51424,7 +51424,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51442,7 +51442,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc));
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51512,7 +51512,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51530,7 +51530,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc));
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51600,7 +51600,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51635,7 +51635,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc));
 		proc.memoriacontrole.R0_rec_R0andRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51705,7 +51705,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51740,7 +51740,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc));
 		proc.memoriacontrole.R1_rec_R1andRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51810,7 +51810,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51828,7 +51828,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc));
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51898,7 +51898,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -51916,7 +51916,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc));
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -51986,7 +51986,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52004,7 +52004,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc));
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52074,7 +52074,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52109,7 +52109,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc));
 		proc.memoriacontrole.R0_rec_R0andRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52179,7 +52179,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52214,7 +52214,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc));
 		proc.memoriacontrole.R1_rec_R1andRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52284,7 +52284,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52302,7 +52302,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc));
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52372,7 +52372,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52390,7 +52390,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc));
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52460,7 +52460,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52478,7 +52478,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc));
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52548,7 +52548,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52583,7 +52583,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0andRY(proc));
 		proc.memoriacontrole.R0_rec_R0andRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52653,7 +52653,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52688,7 +52688,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1andRY(proc));
 		proc.memoriacontrole.R1_rec_R1andRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52758,7 +52758,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52776,7 +52776,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2andRDados(proc));
 		proc.memoriacontrole.R2_rec_R2andRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52846,7 +52846,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52864,7 +52864,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3andRDados(proc));
 		proc.memoriacontrole.R3_rec_R3andRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -52934,7 +52934,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -52952,7 +52952,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4andRDados(proc));
 		proc.memoriacontrole.R4_rec_R4andRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ANDRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -53022,7 +53022,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53057,7 +53057,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -53144,7 +53144,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53212,7 +53212,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53230,7 +53230,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -53317,7 +53317,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53385,7 +53385,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53403,7 +53403,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -53489,7 +53489,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53557,7 +53557,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53575,7 +53575,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -53661,7 +53661,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53729,7 +53729,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53747,7 +53747,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -53833,7 +53833,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53901,7 +53901,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -53919,7 +53919,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -54005,7 +54005,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54040,7 +54040,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -54126,7 +54126,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54194,7 +54194,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54212,7 +54212,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -54298,7 +54298,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54366,7 +54366,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54384,7 +54384,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -54470,7 +54470,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54538,7 +54538,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54556,7 +54556,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -54642,7 +54642,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54710,7 +54710,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54728,7 +54728,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -54814,7 +54814,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54882,7 +54882,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -54900,7 +54900,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -54986,7 +54986,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55021,7 +55021,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -55107,7 +55107,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55175,7 +55175,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55193,7 +55193,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -55279,7 +55279,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55347,7 +55347,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55365,7 +55365,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -55451,7 +55451,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55519,7 +55519,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55537,7 +55537,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -55623,7 +55623,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55691,7 +55691,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55709,7 +55709,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -55795,7 +55795,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55863,7 +55863,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -55881,7 +55881,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -55967,7 +55967,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56002,7 +56002,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -56088,7 +56088,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56156,7 +56156,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56174,7 +56174,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -56260,7 +56260,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56328,7 +56328,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56346,7 +56346,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -56432,7 +56432,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56500,7 +56500,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56518,7 +56518,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -56604,7 +56604,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56672,7 +56672,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56690,7 +56690,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -56776,7 +56776,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56844,7 +56844,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56862,7 +56862,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -56948,7 +56948,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -56983,7 +56983,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosandRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosandRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSANDRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -57090,7 +57090,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57125,7 +57125,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -57214,7 +57214,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57249,7 +57249,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -57338,7 +57338,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57356,7 +57356,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc));
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -57445,7 +57445,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57463,7 +57463,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc));
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -57552,7 +57552,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57570,7 +57570,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc));
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -57659,7 +57659,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57727,7 +57727,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57745,7 +57745,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -57850,7 +57850,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57918,7 +57918,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -57936,7 +57936,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58041,7 +58041,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -58109,7 +58109,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -58127,7 +58127,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58232,7 +58232,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -58300,7 +58300,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -58318,7 +58318,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58423,7 +58423,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -58491,7 +58491,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -58509,7 +58509,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58579,7 +58579,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58633,7 +58633,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58670,7 +58670,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR0R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orR0(proc));
 		proc.memoriacontrole.R2_rec_R2orR0(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58707,7 +58707,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR0R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orR0(proc));
 		proc.memoriacontrole.R3_rec_R3orR0(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58744,7 +58744,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR0R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orR0(proc));
 		proc.memoriacontrole.R4_rec_R4orR0(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58781,7 +58781,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR1R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc));
 		proc.memoriacontrole.RY_rec_R1(proc);
 		nomeMicroInstrucao = "RY_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58798,7 +58798,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58835,7 +58835,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR1R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_R1(proc));
 		proc.memoriacontrole.RY_rec_R1(proc);
 		nomeMicroInstrucao = "RY_REC_R1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58852,7 +58852,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58889,7 +58889,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR1R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orR1(proc));
 		proc.memoriacontrole.R2_rec_R2orR1(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58926,7 +58926,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR1R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orR1(proc));
 		proc.memoriacontrole.R3_rec_R3orR1(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -58963,7 +58963,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR1R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orR1(proc));
 		proc.memoriacontrole.R4_rec_R4orR1(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59000,7 +59000,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR2R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orR2(proc));
 		proc.memoriacontrole.R0_rec_R0orR2(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59037,7 +59037,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR2R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orR2(proc));
 		proc.memoriacontrole.R1_rec_R1orR2(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59074,7 +59074,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR2R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59091,7 +59091,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc));
 		proc.memoriacontrole.R2_rec_R2orRX(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59128,7 +59128,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR2R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59145,7 +59145,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc));
 		proc.memoriacontrole.R3_rec_R3orRX(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59182,7 +59182,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR2R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R2(proc));
 		proc.memoriacontrole.RX_rec_R2(proc);
 		nomeMicroInstrucao = "RX_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59199,7 +59199,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc));
 		proc.memoriacontrole.R4_rec_R4orRX(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59236,7 +59236,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR3R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orR3(proc));
 		proc.memoriacontrole.R0_rec_R0orR3(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59273,7 +59273,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR3R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orR3(proc));
 		proc.memoriacontrole.R1_rec_R1orR3(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59310,7 +59310,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR3R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59327,7 +59327,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc));
 		proc.memoriacontrole.R2_rec_R2orRX(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59364,7 +59364,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR3R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59381,7 +59381,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc));
 		proc.memoriacontrole.R3_rec_R3orRX(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59418,7 +59418,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR3R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R3(proc));
 		proc.memoriacontrole.RX_rec_R3(proc);
 		nomeMicroInstrucao = "RX_REC_R3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59435,7 +59435,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc));
 		proc.memoriacontrole.R4_rec_R4orRX(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59472,7 +59472,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR4R0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orR4(proc));
 		proc.memoriacontrole.R0_rec_R0orR4(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59509,7 +59509,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR4R1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orR4(proc));
 		proc.memoriacontrole.R1_rec_R1orR4(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59546,7 +59546,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR4R2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59563,7 +59563,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRX(proc));
 		proc.memoriacontrole.R2_rec_R2orRX(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59600,7 +59600,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR4R3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59617,7 +59617,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRX(proc));
 		proc.memoriacontrole.R3_rec_R3orRX(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59654,7 +59654,7 @@ public class Instrucoes extends Thread {
 
 	public static void orR4R4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_R4(proc));
 		proc.memoriacontrole.RX_rec_R4(proc);
 		nomeMicroInstrucao = "RX_REC_R4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59671,7 +59671,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRX(proc));
 		proc.memoriacontrole.R4_rec_R4orRX(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59741,7 +59741,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -59776,7 +59776,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc));
 		proc.memoriacontrole.RDados_rec_R0orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59862,7 +59862,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -59897,7 +59897,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc));
 		proc.memoriacontrole.RDados_rec_R0orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -59983,7 +59983,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60018,7 +60018,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc));
 		proc.memoriacontrole.RDados_rec_R0orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60104,7 +60104,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60139,7 +60139,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc));
 		proc.memoriacontrole.RDados_rec_R0orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60225,7 +60225,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60260,7 +60260,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R0orRY(proc));
 		proc.memoriacontrole.RDados_rec_R0orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R0ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60346,7 +60346,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60381,7 +60381,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc));
 		proc.memoriacontrole.RDados_rec_R1orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60467,7 +60467,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60502,7 +60502,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc));
 		proc.memoriacontrole.RDados_rec_R1orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60588,7 +60588,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60623,7 +60623,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc));
 		proc.memoriacontrole.RDados_rec_R1orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60709,7 +60709,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60744,7 +60744,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc));
 		proc.memoriacontrole.RDados_rec_R1orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60830,7 +60830,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60865,7 +60865,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R1orRY(proc));
 		proc.memoriacontrole.RDados_rec_R1orRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60951,7 +60951,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -60969,7 +60969,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -60986,7 +60986,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc));
 		proc.memoriacontrole.RDados_rec_R2orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61072,7 +61072,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61090,7 +61090,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61107,7 +61107,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc));
 		proc.memoriacontrole.RDados_rec_R2orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61193,7 +61193,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61211,7 +61211,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61228,7 +61228,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc));
 		proc.memoriacontrole.RDados_rec_R2orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61314,7 +61314,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61332,7 +61332,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61349,7 +61349,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc));
 		proc.memoriacontrole.RDados_rec_R2orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61435,7 +61435,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61453,7 +61453,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61470,7 +61470,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R2orRX(proc));
 		proc.memoriacontrole.RDados_rec_R2orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R2ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61556,7 +61556,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61574,7 +61574,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61591,7 +61591,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc));
 		proc.memoriacontrole.RDados_rec_R3orRX(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61677,7 +61677,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61695,7 +61695,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61712,7 +61712,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc));
 		proc.memoriacontrole.RDados_rec_R3orRX(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61798,7 +61798,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61816,7 +61816,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61833,7 +61833,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc));
 		proc.memoriacontrole.RDados_rec_R3orRX(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61919,7 +61919,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -61937,7 +61937,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -61954,7 +61954,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc));
 		proc.memoriacontrole.RDados_rec_R3orRX(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62040,7 +62040,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62058,7 +62058,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62075,7 +62075,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R3orRX(proc));
 		proc.memoriacontrole.RDados_rec_R3orRX(proc);
 		nomeMicroInstrucao = "";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62161,7 +62161,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62179,7 +62179,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62196,7 +62196,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc));
 		proc.memoriacontrole.RDados_rec_R4orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62282,7 +62282,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62300,7 +62300,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62317,7 +62317,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc));
 		proc.memoriacontrole.RDados_rec_R4orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62403,7 +62403,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62421,7 +62421,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62438,7 +62438,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc));
 		proc.memoriacontrole.RDados_rec_R4orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62524,7 +62524,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62542,7 +62542,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62559,7 +62559,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc));
 		proc.memoriacontrole.RDados_rec_R4orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62645,7 +62645,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62663,7 +62663,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RX_rec_RDados(proc));
 		proc.memoriacontrole.RX_rec_RDados(proc);
 		nomeMicroInstrucao = "RX_REC_RDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62680,7 +62680,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_R4orRX(proc));
 		proc.memoriacontrole.RDados_rec_R4orRX(proc);
 		nomeMicroInstrucao = "RDADOS_REC_R4ORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62766,7 +62766,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62801,7 +62801,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62871,7 +62871,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62906,7 +62906,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -62976,7 +62976,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -62994,7 +62994,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc));
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63064,7 +63064,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63082,7 +63082,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc));
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63152,7 +63152,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63170,7 +63170,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc));
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63240,7 +63240,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63275,7 +63275,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63345,7 +63345,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63380,7 +63380,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63450,7 +63450,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63468,7 +63468,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc));
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63538,7 +63538,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63556,7 +63556,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc));
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63626,7 +63626,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63644,7 +63644,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc));
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63714,7 +63714,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63749,7 +63749,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63819,7 +63819,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63854,7 +63854,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -63924,7 +63924,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -63942,7 +63942,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc));
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64012,7 +64012,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64030,7 +64030,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc));
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64100,7 +64100,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64118,7 +64118,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc));
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64188,7 +64188,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64223,7 +64223,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64293,7 +64293,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64328,7 +64328,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64398,7 +64398,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64416,7 +64416,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc));
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64486,7 +64486,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64504,7 +64504,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc));
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64574,7 +64574,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64592,7 +64592,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc));
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64662,7 +64662,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64697,7 +64697,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_R0orRY(proc));
 		proc.memoriacontrole.R0_rec_R0orRY(proc);
 		nomeMicroInstrucao = "R0_REC_R0ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64767,7 +64767,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64802,7 +64802,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_R1orRY(proc));
 		proc.memoriacontrole.R1_rec_R1orRY(proc);
 		nomeMicroInstrucao = "R1_REC_R1ORRY";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64872,7 +64872,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64890,7 +64890,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_R2orRDados(proc));
 		proc.memoriacontrole.R2_rec_R2orRDados(proc);
 		nomeMicroInstrucao = "R2_REC_R2ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -64960,7 +64960,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -64978,7 +64978,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_R3orRDados(proc));
 		proc.memoriacontrole.R3_rec_R3orRDados(proc);
 		nomeMicroInstrucao = "R3_REC_R3ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -65048,7 +65048,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65066,7 +65066,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_R4orRDados(proc));
 		proc.memoriacontrole.R4_rec_R4orRDados(proc);
 		nomeMicroInstrucao = "R4_REC_R4ORRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -65136,7 +65136,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65171,7 +65171,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -65258,7 +65258,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65326,7 +65326,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65344,7 +65344,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -65431,7 +65431,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65499,7 +65499,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65517,7 +65517,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -65603,7 +65603,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65671,7 +65671,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65689,7 +65689,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -65775,7 +65775,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65843,7 +65843,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -65861,7 +65861,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -65947,7 +65947,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66015,7 +66015,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66033,7 +66033,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -66119,7 +66119,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66154,7 +66154,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -66240,7 +66240,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66308,7 +66308,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66326,7 +66326,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -66412,7 +66412,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66480,7 +66480,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66498,7 +66498,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -66584,7 +66584,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66652,7 +66652,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66670,7 +66670,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -66756,7 +66756,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66824,7 +66824,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66842,7 +66842,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -66928,7 +66928,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -66996,7 +66996,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67014,7 +67014,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -67100,7 +67100,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67135,7 +67135,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -67221,7 +67221,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67289,7 +67289,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67307,7 +67307,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -67393,7 +67393,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67461,7 +67461,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67479,7 +67479,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -67565,7 +67565,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67633,7 +67633,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67651,7 +67651,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -67737,7 +67737,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67805,7 +67805,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67823,7 +67823,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -67909,7 +67909,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67977,7 +67977,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -67995,7 +67995,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -68081,7 +68081,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68116,7 +68116,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -68202,7 +68202,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68270,7 +68270,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68288,7 +68288,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -68374,7 +68374,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68442,7 +68442,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68460,7 +68460,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -68546,7 +68546,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68614,7 +68614,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68632,7 +68632,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -68718,7 +68718,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68786,7 +68786,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68804,7 +68804,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -68890,7 +68890,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68958,7 +68958,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -68976,7 +68976,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69062,7 +69062,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -69097,7 +69097,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_RDadosorRY(proc));
 		proc.memoriacontrole.RDados_rec_RDadosorRY(proc);
 		nomeMicroInstrucao = "RDADOS_REC_RDADOSORRX";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69152,7 +69152,7 @@ public class Instrucoes extends Thread {
 
 	public static void notR0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_notR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_notR0(proc));
 		proc.memoriacontrole.R0_rec_notR0(proc);
 		nomeMicroInstrucao = "RO_REC_NOTR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69189,7 +69189,7 @@ public class Instrucoes extends Thread {
 
 	public static void notR1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_notR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_notR1(proc));
 		proc.memoriacontrole.R1_rec_notR1(proc);
 		nomeMicroInstrucao = "R1_REC_NOTR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69226,7 +69226,7 @@ public class Instrucoes extends Thread {
 
 	public static void notR2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_notR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_notR2(proc));
 		proc.memoriacontrole.R2_rec_notR2(proc);
 		nomeMicroInstrucao = "R2_REC_NOTR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69263,7 +69263,7 @@ public class Instrucoes extends Thread {
 
 	public static void notR3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_notR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_notR3(proc));
 		proc.memoriacontrole.R3_rec_notR3(proc);
 		nomeMicroInstrucao = "R3_REC_NOTR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69300,7 +69300,7 @@ public class Instrucoes extends Thread {
 
 	public static void notR4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_notR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_notR4(proc));
 		proc.memoriacontrole.R4_rec_notR4(proc);
 		nomeMicroInstrucao = "R4_REC_NOTR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69370,7 +69370,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -69388,7 +69388,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc));
 		proc.memoriacontrole.RDados_rec_notRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NOTRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69474,7 +69474,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -69492,7 +69492,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc));
 		proc.memoriacontrole.RDados_rec_notRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NOTRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69578,7 +69578,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -69596,7 +69596,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc));
 		proc.memoriacontrole.RDados_rec_notRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NOTRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69682,7 +69682,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -69700,7 +69700,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc));
 		proc.memoriacontrole.RDados_rec_notRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NOTRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69786,7 +69786,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -69804,7 +69804,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_notRDados(proc));
 		proc.memoriacontrole.RDados_rec_notRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NOTRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69859,7 +69859,7 @@ public class Instrucoes extends Thread {
 
 	public static void negR0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_negR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_negR0(proc));
 		proc.memoriacontrole.R0_rec_negR0(proc);
 		nomeMicroInstrucao = "R0_REC_NEGR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69896,7 +69896,7 @@ public class Instrucoes extends Thread {
 
 	public static void negR1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_negR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_negR1(proc));
 		proc.memoriacontrole.R1_rec_negR1(proc);
 		nomeMicroInstrucao = "R1_REC_NEGR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69933,7 +69933,7 @@ public class Instrucoes extends Thread {
 
 	public static void negR2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_negR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_negR2(proc));
 		proc.memoriacontrole.R2_rec_negR2(proc);
 		nomeMicroInstrucao = "R2_REC_NEGR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -69970,7 +69970,7 @@ public class Instrucoes extends Thread {
 
 	public static void negR3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_negR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_negR3(proc));
 		proc.memoriacontrole.R3_rec_negR3(proc);
 		nomeMicroInstrucao = "R3_REC_NEGR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70007,7 +70007,7 @@ public class Instrucoes extends Thread {
 
 	public static void negR4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_negR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_negR4(proc));
 		proc.memoriacontrole.R4_rec_negR4(proc);
 		nomeMicroInstrucao = "R4_REC_NEGR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70077,7 +70077,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -70095,7 +70095,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc));
 		proc.memoriacontrole.RDados_rec_negRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NEGRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70181,7 +70181,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -70199,7 +70199,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc));
 		proc.memoriacontrole.RDados_rec_negRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NEGRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70285,7 +70285,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -70303,7 +70303,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc));
 		proc.memoriacontrole.RDados_rec_negRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NEGRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70389,7 +70389,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -70407,7 +70407,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc));
 		proc.memoriacontrole.RDados_rec_negRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NEGRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70493,7 +70493,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -70511,7 +70511,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_negRDados(proc));
 		proc.memoriacontrole.RDados_rec_negRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_NEGRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70566,7 +70566,7 @@ public class Instrucoes extends Thread {
 
 	public static void clrR0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_0(proc));
 		proc.memoriacontrole.R0_rec_0(proc);
 		nomeMicroInstrucao = "R0_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70603,7 +70603,7 @@ public class Instrucoes extends Thread {
 
 	public static void clrR1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_0(proc));
 		proc.memoriacontrole.R1_rec_0(proc);
 		nomeMicroInstrucao = "R1_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70640,7 +70640,7 @@ public class Instrucoes extends Thread {
 
 	public static void clrR2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_0(proc));
 		proc.memoriacontrole.R2_rec_0(proc);
 		nomeMicroInstrucao = "R2_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70677,7 +70677,7 @@ public class Instrucoes extends Thread {
 
 	public static void clrR3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_0(proc));
 		proc.memoriacontrole.R3_rec_0(proc);
 		nomeMicroInstrucao = "R3_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70714,7 +70714,7 @@ public class Instrucoes extends Thread {
 
 	public static void clrR4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_0(proc));
 		proc.memoriacontrole.R4_rec_0(proc);
 		nomeMicroInstrucao = "R4_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70784,7 +70784,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc));
 		proc.memoriacontrole.RDados_rec_0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70854,7 +70854,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc));
 		proc.memoriacontrole.RDados_rec_0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70924,7 +70924,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc));
 		proc.memoriacontrole.RDados_rec_0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -70994,7 +70994,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc));
 		proc.memoriacontrole.RDados_rec_0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71064,7 +71064,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc));
 		proc.memoriacontrole.RDados_rec_0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71103,7 +71103,7 @@ public class Instrucoes extends Thread {
 
 	public static void shlR0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_shlR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_shlR0(proc));
 		proc.memoriacontrole.R0_rec_shlR0(proc);
 		nomeMicroInstrucao = "R0_REC_SHLR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71140,7 +71140,7 @@ public class Instrucoes extends Thread {
 
 	public static void shlR1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_shlR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_shlR1(proc));
 		proc.memoriacontrole.R1_rec_shlR1(proc);
 		nomeMicroInstrucao = "R1_REC_SHLR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71177,7 +71177,7 @@ public class Instrucoes extends Thread {
 
 	public static void shlR2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_shlR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_shlR2(proc));
 		proc.memoriacontrole.R2_rec_shlR2(proc);
 		nomeMicroInstrucao = "R2_REC_SHLR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71214,7 +71214,7 @@ public class Instrucoes extends Thread {
 
 	public static void shlR3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_shlR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_shlR3(proc));
 		proc.memoriacontrole.R3_rec_shlR3(proc);
 		nomeMicroInstrucao = "R3_REC_SHLR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71251,7 +71251,7 @@ public class Instrucoes extends Thread {
 
 	public static void shlR4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_shlR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_shlR4(proc));
 		proc.memoriacontrole.R4_rec_shlR4(proc);
 		nomeMicroInstrucao = "R4_REC_SHLR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71321,7 +71321,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -71339,7 +71339,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc));
 		proc.memoriacontrole.RDados_rec_shlRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHLRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71425,7 +71425,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -71443,7 +71443,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc));
 		proc.memoriacontrole.RDados_rec_shlRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHLRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71529,7 +71529,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -71547,7 +71547,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc));
 		proc.memoriacontrole.RDados_rec_shlRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHLRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71633,7 +71633,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -71651,7 +71651,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc));
 		proc.memoriacontrole.RDados_rec_shlRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHLRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71737,7 +71737,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -71755,7 +71755,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shlRDados(proc));
 		proc.memoriacontrole.RDados_rec_shlRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHLRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71810,7 +71810,7 @@ public class Instrucoes extends Thread {
 
 	public static void shrR0(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_shrR0(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R0_rec_shrR0(proc));
 		proc.memoriacontrole.R0_rec_shrR0(proc);
 		nomeMicroInstrucao = "R0_REC_SHRR0";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71847,7 +71847,7 @@ public class Instrucoes extends Thread {
 
 	public static void shrR1(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_shrR1(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R1_rec_shrR1(proc));
 		proc.memoriacontrole.R1_rec_shrR1(proc);
 		nomeMicroInstrucao = "R1_REC_SHRR1";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71884,7 +71884,7 @@ public class Instrucoes extends Thread {
 
 	public static void shrR2(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_shrR2(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R2_rec_shrR2(proc));
 		proc.memoriacontrole.R2_rec_shrR2(proc);
 		nomeMicroInstrucao = "R2_REC_SHRR2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71921,7 +71921,7 @@ public class Instrucoes extends Thread {
 
 	public static void shrR3(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_shrR3(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R3_rec_shrR3(proc));
 		proc.memoriacontrole.R3_rec_shrR3(proc);
 		nomeMicroInstrucao = "R3_REC_SHRR3";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -71958,7 +71958,7 @@ public class Instrucoes extends Thread {
 
 	public static void shrR4(Processador proc) {
 		Cabecalho(proc);
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_shrR4(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_R4_rec_shrR4(proc));
 		proc.memoriacontrole.R4_rec_shrR4(proc);
 		nomeMicroInstrucao = "R4_REC_SHRR4";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -72028,7 +72028,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -72046,7 +72046,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc));
 		proc.memoriacontrole.RDados_rec_shrRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHRRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -72132,7 +72132,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -72150,7 +72150,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc));
 		proc.memoriacontrole.RDados_rec_shrRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHRRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -72236,7 +72236,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -72254,7 +72254,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc));
 		proc.memoriacontrole.RDados_rec_shrRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHRRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -72340,7 +72340,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -72358,7 +72358,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc));
 		proc.memoriacontrole.RDados_rec_shrRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHRRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -72444,7 +72444,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
@@ -72462,7 +72462,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_shrRDados(proc));
 		proc.memoriacontrole.RDados_rec_shrRDados(proc);
 		nomeMicroInstrucao = "RDADOS_REC_SHRRDADOS";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -72562,7 +72562,7 @@ public class Instrucoes extends Thread {
 			Cabecalho(proc);
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_PC(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RY_rec_PC(proc));
 		proc.memoriacontrole.RY_rec_PC(proc);
 		nomeMicroInstrucao = "RY_REC_PC";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
@@ -72630,7 +72630,7 @@ public class Instrucoes extends Thread {
 							System.out.println("Erro na Thread Instrucoes");
 		}
 
-		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc);
+		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_Inflida(proc));
 		proc.memoriacontrole.RDados_rec_Inflida(proc);
 
 		nomeMicroInstrucao = "RDADOS_REC_INFLIDA";
