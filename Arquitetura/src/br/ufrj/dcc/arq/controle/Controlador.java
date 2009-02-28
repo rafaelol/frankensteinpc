@@ -1,5 +1,7 @@
 package br.ufrj.dcc.arq.controle;
 
+import javax.swing.JOptionPane;
+
 import br.ufrj.dcc.arq.modelo.Bit;
 import br.ufrj.dcc.arq.modelo.Memoria;
 import br.ufrj.dcc.arq.modelo.Processador;
@@ -240,6 +242,7 @@ public class Controlador extends Thread {
 				Comecar.proximoPasso.setText("Iniciar");
 				Comecar.finalizar.setEnabled(false);
 				Comecar.status.setText("Pronto");
+				JOptionPane.showMessageDialog(null, "Fim de Execucao !", "MENSAGEM", JOptionPane.INFORMATION_MESSAGE);
 			} catch (Exception e) {
 				System.out.println("Erro na Thread Controlador");
 			}
