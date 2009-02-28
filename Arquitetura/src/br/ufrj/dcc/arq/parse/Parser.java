@@ -353,7 +353,7 @@ public class Parser {
 						Vet_Codigos[qnt_codigo] = 76;
 					}
 					else if (label3.equals("R1")) {
-						Vet_Codigos[qnt_codigo] = 47;
+						Vet_Codigos[qnt_codigo] = 77;
 					}
 					else if (label3.equals("R2")) {
 						Vet_Codigos[qnt_codigo] = 78;
