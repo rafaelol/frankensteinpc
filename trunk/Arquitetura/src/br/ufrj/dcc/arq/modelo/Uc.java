@@ -2,6 +2,10 @@ package br.ufrj.dcc.arq.modelo;
 
 import br.ufrj.dcc.arq.vista.PainelPrincipal;
 
+/**
+ * Classe responsavel pelo reconhecimento da Instrucao e pela execucao das microinstrucoes.
+ */
+
 public class Uc {
 	public static final short A = 0;
 	public static final short B = 1;
@@ -31,8 +35,6 @@ public class Uc {
 	public static int renduc;
 	public Bit sinais[] = new Bit[MemoriaControle.TAM_CTRL];
 
-	/****************************************************/
-	/****************************************************/
 	
 	public Uc() {
 		for(int i=0; i < MemoriaControle.TAM_CTRL; i++) {
@@ -41,9 +43,6 @@ public class Uc {
 				
 		renduc = 0;
 	}
-	
-	/****************************************************/
-	/****************************************************/
 	
 	public short[] getSinais() {
 		short vet[] =  {sinais[A].getValor(), sinais[B].getValor(),	sinais[C].getValor(),
@@ -74,7 +73,7 @@ public class Uc {
 	}
 	
 	public void pintaSinaisNaTela(){
-		/*
+		/**
 		 * Aparece na tela
 		 */
 		
@@ -211,7 +210,7 @@ public class Uc {
 		case 109: { Instrucoes.addER4ER3(proc); break; }
 		case 110: { Instrucoes.addER4ER4(proc); break; }
 
-		/* ==================== Instruções SUB ==================== */
+		/* ==================== Instrucoes SUB ==================== */
 
 		case 111: { Instrucoes.subImedR0(proc); break; }
 		case 112: { Instrucoes.subImedR1(proc); break; }
@@ -328,7 +327,7 @@ public class Uc {
 		case 219: { Instrucoes.subER4ER3(proc); break; }
 		case 220: { Instrucoes.subER4ER4(proc); break; }
 
-		/* ==================== Instruções MOV ==================== */
+		/* ==================== Instrucoes MOV ==================== */
 
 		case 221: { Instrucoes.movImedR0(proc); break; }
 		case 222: { Instrucoes.movImedR1(proc); break; }
@@ -445,7 +444,7 @@ public class Uc {
 		case 329: { Instrucoes.movER4ER3(proc); break; }
 		case 330: { Instrucoes.movER4ER4(proc); break; }
 
-		/* ==================== Instruções CMP ==================== */
+		/* ==================== Instrucoes CMP ==================== */
 
 		case 331: { Instrucoes.cmpImedR0(proc); break; }
 		case 332: { Instrucoes.cmpImedR1(proc); break; }
@@ -562,7 +561,7 @@ public class Uc {
 		case 439: { Instrucoes.cmpER4ER3(proc); break; }
 		case 440: { Instrucoes.cmpER4ER4(proc); break; }
 
-		/* ==================== Instruções AND ==================== */
+		/* ==================== Instrucoes AND ==================== */
 
 		case 441: { Instrucoes.andImedR0(proc); break; }
 		case 442: { Instrucoes.andImedR1(proc); break; }
@@ -679,7 +678,7 @@ public class Uc {
 		case 549: { Instrucoes.andER4ER3(proc); break; }
 		case 550: { Instrucoes.andER4ER4(proc); break; }
 
-		/* ==================== Instruções OR ===================== */
+		/* ==================== Instrucoes OR ===================== */
 
 		case 551: { Instrucoes.orImedR0(proc); break; }
 		case 552: { Instrucoes.orImedR1(proc); break; }
@@ -796,7 +795,7 @@ public class Uc {
 		case 659: { Instrucoes.orER4ER3(proc); break; }
 		case 660: { Instrucoes.orER4ER4(proc); break; }
 
-		/* ==================== Instruções NOT ==================== */
+		/* ==================== Instrucoes NOT ==================== */
 
 		case 661: { Instrucoes.notR0(proc); break; }
 		case 662: { Instrucoes.notR1(proc); break; }
@@ -809,7 +808,7 @@ public class Uc {
 		case 669: { Instrucoes.notER3(proc); break; }
 		case 670: { Instrucoes.notER4(proc); break; }
 
-		/* ==================== Instruções NEG ===================== */
+		/* ==================== Instrucoes NEG ===================== */
 
 		case 671: { Instrucoes.negR0(proc); break; }
 		case 672: { Instrucoes.negR1(proc); break; }
@@ -822,7 +821,7 @@ public class Uc {
 		case 679: { Instrucoes.negER3(proc); break; }
 		case 680: { Instrucoes.negER4(proc); break; }
 
-		/* ==================== Instruções CLR ===================== */
+		/* ==================== Instrucoes CLR ===================== */
 
 		case 681: { Instrucoes.clrR0(proc); break; }
 		case 682: { Instrucoes.clrR1(proc); break; }
@@ -835,7 +834,7 @@ public class Uc {
 		case 689: { Instrucoes.clrER3(proc); break; }
 		case 690: { Instrucoes.clrER4(proc); break; }
 
-		/* ==================== Instruções SHL ===================== */
+		/* ==================== Instrucoes SHL ===================== */
 
 		case 691: { Instrucoes.shlR0(proc); break; }
 		case 692: { Instrucoes.shlR1(proc); break; }
@@ -848,7 +847,7 @@ public class Uc {
 		case 699: { Instrucoes.shlER3(proc); break; }
 		case 700: { Instrucoes.shlER4(proc); break; }
 
-		/* ==================== Instruções SHR ===================== */
+		/* ==================== Instrucoes SHR ===================== */
 
 		case 701: { Instrucoes.shrR0(proc); break; }
 		case 702: { Instrucoes.shrR1(proc); break; }
@@ -861,7 +860,7 @@ public class Uc {
 		case 709: { Instrucoes.shrER3(proc); break; }
 		case 710: { Instrucoes.shrER4(proc); break; }
 
-		/* ================= Instruções de Desvio ================== */
+		/* ================= Instrucoes de Desvio ================== */
 
 		case 711: { Instrucoes.brz(proc); break; }
 		case 712: { Instrucoes.brn(proc); break; }

@@ -7,7 +7,9 @@ import java.awt.event.WindowListener;
 
 import javax.swing.JFrame;
 
-
+/**
+ * Classe da Janela Principal do Programa
+ */
 public class JanelaPrincipal extends JFrame implements WindowListener {
 	private static final long serialVersionUID = 1L;
 
@@ -23,7 +25,7 @@ public class JanelaPrincipal extends JFrame implements WindowListener {
 	Dimension tamanhoPrograma = new Dimension(ProgramaLargura, ProgramaAltura);
 
 	/**
-	 * Construtor da Classe. Nela sao definidas todos os parametros que a janela
+	 * Construtor da Classe. Nela serao definidas todos os parametros que a janela
 	 * do programa tera.
 	 * 
 	 */

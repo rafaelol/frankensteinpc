@@ -44,7 +44,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 
 	public CriaPrograma (){
 		
-		/*
+		/**
 		 * Variavel para saber o tamanho da janela
 		 */
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -63,7 +63,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		
 		painel.setLayout(null);
 		
-		/*
+		/**
 		 * Adiciona item no painel
 		 */
 		titulo.setBounds(110, 10, 500, 20);
@@ -78,7 +78,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 		botaoCarrega.addActionListener(this);
 		painel.add(botaoCarrega);
 		
-		/*
+		/**
 		 * Mostra a Janela
 		 */
 		add(painel);
@@ -91,7 +91,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	}
 	
 	public void actionPerformed(ActionEvent evt) {
-		// TODO Auto-generated method stub
+		
 		Object source = evt.getSource();
 
 		if (source == botaoCarrega) {

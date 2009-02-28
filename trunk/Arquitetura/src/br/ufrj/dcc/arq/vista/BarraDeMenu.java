@@ -14,7 +14,7 @@ import br.ufrj.dcc.arq.controle.Controlador;
 public class BarraDeMenu implements ActionListener {
 
 	/**
-	 * 
+	 * Classe responsavel por fazer a Barra de Menu na Janela Principal
 	 */
 	
 	private static final long serialVersionUID = 1L;
@@ -255,9 +255,5 @@ public class BarraDeMenu implements ActionListener {
 		menuSobre.addActionListener(this);
 
 		return menuSobre;
-	}
-
-	public static void Pausar() {
-		//Pintar.interromperPintar = true;
 	}
 }

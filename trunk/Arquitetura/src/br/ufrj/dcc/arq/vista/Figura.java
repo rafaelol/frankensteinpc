@@ -5,7 +5,9 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
-
+/**
+ * Classe que criara a Figura
+ */
 public class Figura {
 	private int posicX;
 
@@ -44,7 +46,6 @@ public class Figura {
 	}
 
 	/**
-	 * 
 	 * @return a imagem da Figura carregada.
 	 */
 	public BufferedImage getImagem() {

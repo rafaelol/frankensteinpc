@@ -4,6 +4,10 @@ import br.ufrj.dcc.arq.controle.Controlador;
 import br.ufrj.dcc.arq.vista.Comecar;
 import br.ufrj.dcc.arq.vista.PainelPrincipal;
 
+/**
+ * Classe que contem as instrucoes da Arquitetura
+ */
+
 public class Instrucoes extends Thread {
 
 	public static String nomeMicroInstrucao = null;
@@ -71,16 +75,6 @@ public class Instrucoes extends Thread {
 		} catch (Exception e) {
 			System.out.println("Erro na Thread Instrucoes");
 		}
-
-		//proc.uc.decodificaEChama(proc.registrador.ri, executa_por_micro, proc);
-		//Isso sera desnecessario, visto que nao teremos um gerador de endereco
-
-		//PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
-		//proc.memoriacontrole.PC_rec_PCmais1(proc);
-		/* Uc.decodificaEChama(Registrador.ri, executa_por_micro); --> Ajeitar e descomentar  */
-		//while (executa_por_micro) {
-		//espera proximo clique
-		//}
 	}
 
 	public static void halt(Processador proc) {
@@ -12326,7 +12320,7 @@ public class Instrucoes extends Thread {
 		}
 	}
 
-	/* ==================== Instruções SUB ==================== */
+	/* ==================== Instrucoes SUB ==================== */
 	public static void subImedR0(Processador proc) {
 		Cabecalho(proc);
 

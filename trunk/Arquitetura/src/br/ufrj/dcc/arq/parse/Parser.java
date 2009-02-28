@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+/**
+ * Classe que decodificara o arquivo e transformara em codigo
+ */
 public class Parser {
 	public short Vet_Codigos[] = null;
 	public static int qnt_codigo;
@@ -52,7 +55,9 @@ public class Parser {
 		return arquivoParser.qtdParser.size();
 	}
 
-	/* Primeira parte. Remove as declaracoes de label e coloca num map, depois tira os comentarios */	
+	/**
+	 * Primeira parte. Remove as declaracoes de label e coloca num map, depois tira os comentarios
+	 */
 	void RemoveLabels() {
 		for (i = 0; i < tam_max; i++) {
 			label = new String();
@@ -74,7 +79,9 @@ public class Parser {
 
 	}
 
-	/* Segunda parte. Pega cada declaracao ja sem label e comentario e a codifica */
+	/**
+	 * Segunda parte. Pega cada declaracao ja sem label e comentario e a codifica
+	 */ 
 	void Codifica() {
 		for (i = 0; i < tam_max; i++) {
 			label = label2 = label3 = new String();
@@ -87,7 +94,7 @@ public class Parser {
 			if (label.equals("HALT")) {
 				Vet_Codigos[qnt_codigo] = 0;
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES ADD
 			 * ***************
@@ -413,7 +420,7 @@ public class Parser {
 						Vet_Codigos[qnt_codigo] = 110;
 					}
 				}
-				// Item 3 do meu e-mail de 08/01/2008
+				
 				else {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 1;
@@ -467,7 +474,7 @@ public class Parser {
 					}
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES SUB
 			 * ***************
@@ -793,7 +800,7 @@ public class Parser {
 						Vet_Codigos[qnt_codigo] = 220;
 					}
 				}
-				// Item 3 do meu e-mail de 08/01/2008
+				
 				else {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 111;
@@ -847,7 +854,7 @@ public class Parser {
 					}
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES MOV
 			 * ***************
@@ -1173,7 +1180,7 @@ public class Parser {
 						Vet_Codigos[qnt_codigo] = 330;
 					}
 				}
-				// Item 3 do meu e-mail de 08/01/2008
+				
 				else {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 221;
@@ -1227,7 +1234,7 @@ public class Parser {
 					}
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES CMP
 			 * ***************
@@ -1553,7 +1560,7 @@ public class Parser {
 						Vet_Codigos[qnt_codigo] = 440;
 					}
 				}
-				// Item 3 do meu e-mail de 08/01/2008
+				
 				else {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 331;
@@ -1607,7 +1614,7 @@ public class Parser {
 					}
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES AND
 			 * ***************
@@ -1933,7 +1940,7 @@ public class Parser {
 						Vet_Codigos[qnt_codigo] = 550;
 					}
 				}
-				// Item 3 do meu e-mail de 08/01/2008
+				
 				else {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 441;
@@ -1987,7 +1994,7 @@ public class Parser {
 					}
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES OR
 			 * ***************
@@ -2313,7 +2320,7 @@ public class Parser {
 						Vet_Codigos[qnt_codigo] = 660;
 					}
 				}
-				// Item 3 do meu e-mail de 08/01/2008
+				
 				else {
 					if (label3.equals("R0")) {
 						Vet_Codigos[qnt_codigo] = 551;
@@ -2367,7 +2374,7 @@ public class Parser {
 					}
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES NOT
 			 * ***************
@@ -2404,7 +2411,7 @@ public class Parser {
 					Vet_Codigos[qnt_codigo] = 670;
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES NEG
 			 * ***************
@@ -2441,7 +2448,7 @@ public class Parser {
 					Vet_Codigos[qnt_codigo] = 680;
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES CLR
 			 * ***************
@@ -2478,7 +2485,7 @@ public class Parser {
 					Vet_Codigos[qnt_codigo] = 690;
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES SHL
 			 * ***************
@@ -2515,7 +2522,7 @@ public class Parser {
 					Vet_Codigos[qnt_codigo] = 700;
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES SHR
 			 * ***************
@@ -2552,7 +2559,7 @@ public class Parser {
 					Vet_Codigos[qnt_codigo] = 710;
 				}
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES BRZ
 			 * ***************
@@ -2563,7 +2570,7 @@ public class Parser {
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;			
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES BRN
 			 * ***************
@@ -2574,7 +2581,7 @@ public class Parser {
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES BRE
 			 * ***************
@@ -2585,7 +2592,7 @@ public class Parser {
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES BRL
 			 * ***************
@@ -2596,7 +2603,7 @@ public class Parser {
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES BRG
 			 * ***************
@@ -2607,7 +2614,7 @@ public class Parser {
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES BRC
 			 * ***************
@@ -2618,7 +2625,7 @@ public class Parser {
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
 			}
-			/*
+			/**
 			 * ***************
 			 * INSTRUCOES JMP
 			 * ***************
@@ -2633,7 +2640,7 @@ public class Parser {
 		}
 	}
 
-	/* 
+	/** 
 	 * ******************
 	 * Metodos auxiliares
 	 * ******************
@@ -2676,32 +2683,21 @@ public class Parser {
 	void Separa_Linha(int linha) {
 		int i, j;
 
-		//Pegando primeira parte da instrucao
+		/**
+		 * Pegando primeira parte da instrucao
+		 */
 		for (i = 0; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == '<') break;
 		}
 
 		label = Vet_Linhas[linha].substring(0, i);
 		j = i;
-
-/*
-		for (i = j; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) == '<') break;
-		}
-
-		j = i;
-*/
 		
 		label = label.trim();
 		
-		//Pegando segunda parte da instrucao
-		/*
-		for (i = j; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) != ' ') break;
-		}
-
-		j = i;
-*/
+		/**
+		 * Pegando segunda parte da instrucao
+		 */
 		
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == ',' || Vet_Linhas[linha].charAt(i) == '>') break;
@@ -2711,16 +2707,11 @@ public class Parser {
 			label2 = label2.trim();
 		}
 		j = i;
-
-/*
-		for (i = j; i < Vet_Linhas[linha].length(); i++) {
-			if (Vet_Linhas[linha].charAt(i) != ' ') break;
-		}
-
-		j = i;
-*/
 		
-		//Pegando terceira parte da instrucao
+		/**
+		 * Pegando terceira parte da instrucao
+		 */
+		 
 		for (i = j; i < Vet_Linhas[linha].length(); i++) {
 			if (Vet_Linhas[linha].charAt(i) == '>') break;
 		}

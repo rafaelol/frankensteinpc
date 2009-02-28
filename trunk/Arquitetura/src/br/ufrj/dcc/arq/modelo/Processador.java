@@ -1,5 +1,9 @@
 package br.ufrj.dcc.arq.modelo;
 
+/**
+ * Classe que irah instanciar toda a Arquitetura do Programa
+ */
+
 public class Processador {
 	
 	public boolean executa_programa;
@@ -28,10 +32,6 @@ public class Processador {
 	public Registrador 	rend; /* ----/                                      */
 	public Registrador 	rdados;
 	public Registrador 	regs[] = new Registrador[7];
-
-	
-	/****************************************************/
-	/****************************************************/
 	
 	public Processador() {
 		uc     				= new Uc();
@@ -44,22 +44,6 @@ public class Processador {
 		memoriacontrole 	= new MemoriaControle();
 		
 		executa_programa 	= true;
-
-		/*
-		pc     		= new Registrador(Uc.A);
-		ir     		= new Registrador(Uc.K);
-		rend   		= new Registrador(Uc.J);
-		rdados 		= new Registrador(Uc.B);
-		regs[R0] = new Registrador(Uc.C);
-		regs[R1] = new Registrador(Uc.D);
-		regs[R2] = new Registrador(Uc.E);
-		regs[R3] = new Registrador(Uc.F);
-		regs[R4] = new Registrador(Uc.G);
-		regs[RX] = new Registrador(Uc.H);
-		regs[RY] = new Registrador(Uc.I);
-		*/
 	}
-	
-	/****************************************************/
-	/****************************************************/
+
 }
