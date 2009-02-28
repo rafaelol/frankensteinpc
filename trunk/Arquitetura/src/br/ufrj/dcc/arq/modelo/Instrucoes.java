@@ -15865,8 +15865,8 @@ public class Instrucoes extends Thread {
 	public static void subR1ER2(Processador proc) {
 		Cabecalho(proc);
 		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_REnd_rec_R3(proc));
-		proc.memoriacontrole.REnd_rec_R3(proc);
-		nomeMicroInstrucao = "REND_REC_R3";
+		proc.memoriacontrole.REnd_rec_R2(proc);
+		nomeMicroInstrucao = "REND_REC_R2";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 			while (Controlador.executa_por_micro) {// interrompe a thread
