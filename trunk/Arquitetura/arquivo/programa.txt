@@ -1,19 +1,4 @@
-mov <200, R0>
-mov <201, R1>
-mov <202, R2>
-mov <203, R3>
-mov <204, R4>
-
-mov <100, (R0)>
-mov <100, (R1)>
-mov <100, (R2)>
-mov <100, (R3)>
-mov <100, (R4)>
-
-cmp <10, (R0)>
-cmp <10, (R1)>
-cmp <10, (R2)>
-cmp <10, (R3)>
-cmp <10, (R4)>
+mov<9,r3>
+mov<6,r2>
+or<r3,r2>
 halt
-
