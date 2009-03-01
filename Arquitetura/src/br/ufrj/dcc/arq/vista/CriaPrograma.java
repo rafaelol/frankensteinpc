@@ -40,6 +40,7 @@ public class CriaPrograma extends JFrame implements WindowListener, ActionListen
 	
 	public static JButton botaoCarrega;
 	
+	@SuppressWarnings("unused")
 	private LerEscreverArquivo arquivoLido;
 
 	public CriaPrograma (){

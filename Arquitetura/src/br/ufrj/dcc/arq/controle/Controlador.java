@@ -46,7 +46,9 @@ public class Controlador extends Thread {
 	}	
 	
 	public Controlador(String vetProg[], int tamanho) {
+		@SuppressWarnings("unused")
 		Parser parser = new Parser(vetProg,tamanho);
+		@SuppressWarnings("unused")
 		Memoria memoria = new Memoria();
 	}
 	
