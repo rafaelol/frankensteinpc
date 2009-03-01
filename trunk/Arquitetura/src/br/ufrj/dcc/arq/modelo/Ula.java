@@ -197,14 +197,13 @@ public class Ula {
 	 */
 	public void add(Processador proc) {
 		proc.ula.s = (short)((short)proc.ula.a + (short)proc.ula.b);
-		int s2 = proc.ula.a + proc.ula.b;
 		
 		if( ((proc.ula.a > 0) && (proc.ula.b > 0) && (proc.ula.s < 0)) || ((proc.ula.a < 0) && (proc.ula.b < 0) && (proc.ula.s > 0)) ) 
 			proc.ula.flags[OVERFLOW].setValor((short)1);
 		else
 			proc.ula.flags[OVERFLOW].setValor((short)0);
 		
-		if((s2 & 0x00010000) == 0x00010000)
+		if(verificaCarrySoma(proc.ula.a, proc.ula.b) == true)
 			proc.ula.flags[CARRY].setValor((short)1);
 		else
 			proc.ula.flags[CARRY].setValor((short)0);
@@ -212,6 +211,38 @@ public class Ula {
 		setarFlagsSinalZeroParidade(proc);
 	}
 
+	private boolean verificaCarrySoma(short a, short b) {
+		String s1 = Integer.toBinaryString(a);
+		String s2 = Integer.toBinaryString(b);
+		int carry = 0;
+		
+		/** Ambos os ifs deixam a representação binária dos parâmetros
+		  * Com 16 bits
+		  */
+		if(a >= 0) {
+			while(s1.length() < 16) s1 = "0".concat(s1);
+		} else {
+			s1 = s1.substring(16);
+		}
+		
+		if(b >= 0) {
+			while(s2.length() < 16) s2 = "0".concat(s2);
+		} else {
+			s2 = s2.substring(16);
+		}
+	
+		/** Verificar existência de Carry-out */
+		for(int i = 15; i >= 0; i--) {
+			if(Integer.parseInt(s1.substring(i, i+1)) +  
+			   Integer.parseInt(s2.substring(i, i+1)) + 
+			   carry >= 2) carry = 1;
+			else carry = 0;
+		}
+		
+		if(carry == 1) return true;
+		else return false;
+	}
+	
 	/**********************************
 	 * Subtrai do operando A o operando B (A-B) e atribui esse valor a saida.
 	 * 

@@ -2646,6 +2646,7 @@ public class Parser {
 	 * ******************
 	 */
 
+	@SuppressWarnings("unchecked")
 	int Verifica_Na_Label(String label, int linha) {
 		Iterator itMap = mapLabels.keySet().iterator();
 		int qnt_linhas;
@@ -2750,6 +2751,7 @@ public class Parser {
 	}
 
 
+	@SuppressWarnings("unchecked")
 	void ajustaMap() {
 		int linhasduplas[] = new int[tam_max];
 		int qnt = 0;
