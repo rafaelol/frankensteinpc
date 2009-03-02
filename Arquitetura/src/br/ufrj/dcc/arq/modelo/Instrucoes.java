@@ -71414,6 +71414,22 @@ public class Instrucoes extends Thread {
 			System.out.println("Erro na Thread Instrucoes");
 		}
 
+		proc.memoriacontrole.Escreve(proc);
+		nomeMicroInstrucao = "ESCREVE";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
+		try {				
+			while (Controlador.executa_por_micro) {// interrompe a thread
+				sleep(1000 / 80);
+				Comecar.status.setText("Esperando ...");
+
+			}
+			if (Comecar.cliqueProximoPassoMicroInstrucao){
+				Controlador.executa_por_micro = true;
+			}
+		} catch (Exception e) {
+			System.out.println("Erro na Thread Instrucoes");
+		}
+		
 		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
 		nomeMicroInstrucao = "PC_REC_PCMAIS1";
@@ -71485,6 +71501,22 @@ public class Instrucoes extends Thread {
 			System.out.println("Erro na Thread Instrucoes");
 		}
 
+		proc.memoriacontrole.Escreve(proc);
+		nomeMicroInstrucao = "ESCREVE";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
+		try {				
+			while (Controlador.executa_por_micro) {// interrompe a thread
+				sleep(1000 / 80);
+				Comecar.status.setText("Esperando ...");
+
+			}
+			if (Comecar.cliqueProximoPassoMicroInstrucao){
+				Controlador.executa_por_micro = true;
+			}
+		} catch (Exception e) {
+			System.out.println("Erro na Thread Instrucoes");
+		}
+		
 		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
 		nomeMicroInstrucao = "PC_REC_PCMAIS1";
@@ -71542,6 +71574,22 @@ public class Instrucoes extends Thread {
 		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc));
 		proc.memoriacontrole.RDados_rec_0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_0";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
+		try {				
+			while (Controlador.executa_por_micro) {// interrompe a thread
+				sleep(1000 / 80);
+				Comecar.status.setText("Esperando ...");
+
+			}
+			if (Comecar.cliqueProximoPassoMicroInstrucao){
+				Controlador.executa_por_micro = true;
+			}
+		} catch (Exception e) {
+			System.out.println("Erro na Thread Instrucoes");
+		}
+
+		proc.memoriacontrole.Escreve(proc);
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 			while (Controlador.executa_por_micro) {// interrompe a thread
@@ -71627,6 +71675,22 @@ public class Instrucoes extends Thread {
 			System.out.println("Erro na Thread Instrucoes");
 		}
 
+		proc.memoriacontrole.Escreve(proc);
+		nomeMicroInstrucao = "ESCREVE";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
+		try {				
+			while (Controlador.executa_por_micro) {// interrompe a thread
+				sleep(1000 / 80);
+				Comecar.status.setText("Esperando ...");
+
+			}
+			if (Comecar.cliqueProximoPassoMicroInstrucao){
+				Controlador.executa_por_micro = true;
+			}
+		} catch (Exception e) {
+			System.out.println("Erro na Thread Instrucoes");
+		}
+
 		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_PC_rec_PCmais1(proc));
 		proc.memoriacontrole.PC_rec_PCmais1(proc);
 		nomeMicroInstrucao = "PC_REC_PCMAIS1";
@@ -71684,6 +71748,22 @@ public class Instrucoes extends Thread {
 		PainelPrincipal.rEndUC = String.valueOf(proc.memoriacontrole.Get_Endereco_RDados_rec_0(proc));
 		proc.memoriacontrole.RDados_rec_0(proc);
 		nomeMicroInstrucao = "RDADOS_REC_0";
+		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
+		try {				
+			while (Controlador.executa_por_micro) {// interrompe a thread
+				sleep(1000 / 80);
+				Comecar.status.setText("Esperando ...");
+
+			}
+			if (Comecar.cliqueProximoPassoMicroInstrucao){
+				Controlador.executa_por_micro = true;
+			}
+		} catch (Exception e) {
+			System.out.println("Erro na Thread Instrucoes");
+		}
+
+		proc.memoriacontrole.Escreve(proc);
+		nomeMicroInstrucao = "ESCREVE";
 		Comecar.listaMemoriaControl.select(Comecar.retornarIndexListMemoriaControle(nomeMicroInstrucao));
 		try {				
 			while (Controlador.executa_por_micro) {// interrompe a thread
