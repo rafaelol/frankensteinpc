@@ -273,7 +273,7 @@ public class Comecar extends JFrame implements ActionListener{
 		listaMemoria.removeAll();
 		
 		//for(contadorList = 0; contadorList < Memoria.TAM_MEM; contadorList++){
-		for(contadorList = 0; contadorList < 10000; contadorList++){
+		for(contadorList = 0; contadorList < 1000; contadorList++){
 			listaMemoria.add(Integer.toString(contadorList) + ". 0");
 		}
 		
