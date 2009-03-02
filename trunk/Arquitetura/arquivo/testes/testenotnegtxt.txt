@@ -1,0 +1,49 @@
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <100, (R0)>
+mov <100, (R1)>
+mov <100, (R2)>
+mov <100, (R3)>
+mov <100, (R4)>
+
+not <(r0)>
+not <(r1)>
+not <(r2)>
+not <(r3)>
+not <(r4)>
+
+not <r0>
+not <r1>
+not <r2>
+not <r3>
+not <r4>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <100, (R0)>
+mov <100, (R1)>
+mov <100, (R2)>
+mov <100, (R3)>
+mov <100, (R4)>
+
+neg <(r0)>
+neg <(r1)>
+neg <(r2)>
+neg <(r3)>
+neg <(r4)>
+
+neg <r0>
+neg <r1>
+neg <r2>
+neg <r3>
+neg <r4>
+
+halt

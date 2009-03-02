@@ -1,0 +1,43 @@
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <100, (R0)>
+mov <101, (R1)>
+mov <102, (R2)>
+mov <103, (R3)>
+mov <104, (R4)>
+
+cmp <(R0), R1>
+cmp <(R0), R2>
+cmp <(R0), R3>
+cmp <(R0), R4>
+cmp <(R0), R0>
+
+cmp <(R1), R0>
+cmp <(R1), R2>
+cmp <(R1), R3>
+cmp <(R1), R4>
+cmp <(R1), R1>
+
+cmp <(R2), R0>
+cmp <(R2), R1>
+cmp <(R2), R3>
+cmp <(R2), R4>
+cmp <(R2), R2>
+
+cmp <(R3), R0>
+cmp <(R3), R1>
+cmp <(R3), R2>
+cmp <(R3), R4>
+cmp <(R3), R3>
+
+cmp <(R4), R0>
+cmp <(R4), R1>
+cmp <(R4), R2>
+cmp <(R4), R3>
+cmp <(R4), R4>
+
+halt

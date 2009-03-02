@@ -1,0 +1,85 @@
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <100, (R0)>
+mov <100, (R1)>
+mov <100, (R2)>
+mov <100, (R3)>
+mov <100, (R4)>
+
+mov <10, (R0)>
+mov <10, (R1)>
+mov <10, (R2)>
+mov <10, (R3)>
+mov <10, (R4)>
+
+mov <10, R0>
+mov <10, R1>
+mov <10, R2>
+mov <10, R3>
+mov <10, R4>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <R0, R1>
+mov <R0, R2>
+mov <R0, R3>
+mov <R0, R4>
+mov <R0, R0>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <R1, R0>
+mov <R1, R2>
+mov <R1, R3>
+mov <R1, R4>
+mov <R1, R1>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <R2, R0>
+mov <R2, R1>
+mov <R2, R3>
+mov <R2, R4>
+mov <R2, R2>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <R3, R0>
+mov <R3, R1>
+mov <R3, R2>
+mov <R3, R4>
+mov <R3, R3>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <R4, R0>
+mov <R4, R1>
+mov <R4, R2>
+mov <R4, R3>
+mov <R4, R4>
+
+halt

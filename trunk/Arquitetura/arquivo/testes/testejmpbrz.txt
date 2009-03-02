@@ -1,0 +1,13 @@
+	mov <10, r0>
+	mov <-10,r1>
+	add <r0,r1>
+	jmp <TESTE>
+	add <10,r0>
+	add <10,r0>
+TESTE: 	mov <10, r0>
+	mov <-10,r1>
+	add <r0,r1>
+	jmp <FINAL>
+	add <10,r0>
+	add <10,r0>
+FINAL:	halt	

@@ -1,0 +1,73 @@
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <100, (R0)>
+mov <100, (R1)>
+mov <100, (R2)>
+mov <100, (R3)>
+mov <100, (R4)>
+
+clr <(r0)>
+clr <(r1)>
+clr <(r2)>
+clr <(r3)>
+clr <(r4)>
+
+clr <r0>
+clr <r1>
+clr <r2>
+clr <r3>
+clr <r4>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <100, (R0)>
+mov <100, (R1)>
+mov <100, (R2)>
+mov <100, (R3)>
+mov <100, (R4)>
+
+shl <(r0)>
+shl <(r1)>
+shl <(r2)>
+shl <(r3)>
+shl <(r4)>
+
+shl <r0>
+shl <r1>
+shl <r2>
+shl <r3>
+shl <r4>
+
+mov <200, R0>
+mov <201, R1>
+mov <202, R2>
+mov <203, R3>
+mov <204, R4>
+
+mov <100, (R0)>
+mov <100, (R1)>
+mov <100, (R2)>
+mov <100, (R3)>
+mov <100, (R4)>
+
+shr <(r0)>
+shr <(r1)>
+shr <(r2)>
+shr <(r3)>
+shr <(r4)>
+
+shr <r0>
+shr <r1>
+shr <r2>
+shr <r3>
+shr <r4>
+
+halt
