@@ -73227,12 +73227,18 @@ public class Instrucoes extends Thread {
 		if (proc.ula.getFlags()[Ula.ZERO] == 1) {
 			jmp(proc, false);
 		}
+		else {
+			proc.registrador.pc += 2;
+		}
 	}
 
 	public static void brn(Processador proc) {
 		Cabecalho(proc);
 		if (proc.ula.getFlags()[Ula.SINAL] == 1) {
 			jmp(proc, false);
+		}
+		else {
+			proc.registrador.pc += 2;
 		}
 	}
 
@@ -73241,12 +73247,18 @@ public class Instrucoes extends Thread {
 		if (proc.ula.getFlags()[Ula.ZERO] == 1) {
 			jmp(proc, false);
 		}
+		else {
+			proc.registrador.pc += 2;
+		}
 	}
 
 	public static void brl(Processador proc) {
 		Cabecalho(proc);
 		if (proc.ula.getFlags()[Ula.SINAL] != proc.ula.getFlags()[Ula.OVERFLOW]) {
 			jmp(proc, false);
+		}
+		else {
+			proc.registrador.pc += 2;
 		}
 	}
 
@@ -73255,12 +73267,18 @@ public class Instrucoes extends Thread {
 		if (proc.ula.getFlags()[Ula.SINAL] == proc.ula.getFlags()[Ula.OVERFLOW] && proc.ula.getFlags()[Ula.ZERO] == 0) {
 			jmp(proc, false);
 		}
+		else {
+			proc.registrador.pc += 2;
+		}
 	}
 
 	public static void brc(Processador proc) {
 		Cabecalho(proc);
 		if (proc.ula.getFlags()[Ula.CARRY] == 1) {
 			jmp(proc, false);
+		}
+		else {
+			proc.registrador.pc += 2;
 		}
 	}
 

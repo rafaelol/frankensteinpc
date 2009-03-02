@@ -2565,7 +2565,7 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label.equals("BRZ")) {
-				int valor = Verifica_Na_Label(label2, i);
+				int valor = Verifica_Na_Label(label2, (qnt_codigo + 1));
 				Vet_Codigos[qnt_codigo] = 711;
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;			
@@ -2576,7 +2576,7 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label.equals("BRN")) {
-				int valor = Verifica_Na_Label(label2, i);
+				int valor = Verifica_Na_Label(label2, (qnt_codigo + 1));
 				Vet_Codigos[qnt_codigo] = 712;
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
@@ -2587,7 +2587,7 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label.equals("BRE")) {
-				int valor = Verifica_Na_Label(label2, i);
+				int valor = Verifica_Na_Label(label2, (qnt_codigo + 1));
 				Vet_Codigos[qnt_codigo] = 713;
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
@@ -2598,7 +2598,7 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label.equals("BRL")) {
-				int valor = Verifica_Na_Label(label2, i);
+				int valor = Verifica_Na_Label(label2, (qnt_codigo + 1));
 				Vet_Codigos[qnt_codigo] = 714;
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
@@ -2609,7 +2609,7 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label.equals("BRG")) {
-				int valor = Verifica_Na_Label(label2, i);
+				int valor = Verifica_Na_Label(label2, (qnt_codigo + 1));
 				Vet_Codigos[qnt_codigo] = 715;
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
@@ -2620,7 +2620,7 @@ public class Parser {
 			 * ***************
 			 */
 			else if (label.equals("BRC")) {
-				int valor = Verifica_Na_Label(label2, i);
+				int valor = Verifica_Na_Label(label2, (qnt_codigo + 1));
 				Vet_Codigos[qnt_codigo] = 716;
 				qnt_codigo++;
 				Vet_Codigos[qnt_codigo] = (short) valor;	
