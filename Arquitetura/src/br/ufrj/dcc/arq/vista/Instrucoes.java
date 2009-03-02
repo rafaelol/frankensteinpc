@@ -88,7 +88,7 @@ public class Instrucoes extends JFrame implements WindowListener{
 		setSize(tamanhoPrograma);
 		setResizable(false);
 		setLocation((screenSize.width - JanelaLargura) / 2,(screenSize.height - JanelaAltura) / 2);
-		setTitle("Instruções");
+		setTitle("Instrucoes");
 		setVisible(true);
 		
 	}
